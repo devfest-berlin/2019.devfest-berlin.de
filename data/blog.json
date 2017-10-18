@@ -16,5 +16,14 @@
     "secondaryColor": "#3F51B5",
     "image": "/images/posts/c4p.jpg",
     "brief": "GDG DevFest Berlin 2017 has been announced! It will take place on **November 3-5**. That means it's time to open the *Call for Participation*. Submission deadline is 2017-10-20."
+  },
+  {
+    "id": "tickets-on-sale",
+    "title": "Tickets on sale",
+    "posted": "2017-10-18",
+    "primaryColor": "#00BCD4",
+    "secondaryColor": "#00BCD4",
+    "image": "/images/posts/tickets-on-sale.jpg",
+    "brief": "We are happy to announce that our ticket sale is now open! If you want to be part of our exciting event."
   }
 ]
