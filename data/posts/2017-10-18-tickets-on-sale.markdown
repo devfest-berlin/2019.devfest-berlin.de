@@ -14,7 +14,7 @@ If you want to be part of our exciting event, full of talks about Cloud, Web and
 
 But be aware: __tickets are limited to 120 people and run out fast__.
 
-If you want to be participating in our DevFest as a speaker, please take a look at our CFP:.
+If you want to be participating in our DevFest as a speaker, please take a look at our CFP:
 
 <div class="text-center">
 <a href="https://bit.ly/devfestberlin17cfp" target="_blank" class="style-scope header-content" style="color: white; ">
