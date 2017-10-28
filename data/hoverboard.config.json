@@ -50,6 +50,10 @@
     {
       "route": "team",
       "permalink": "/team/"
+    },
+    {
+      "route": "schedule",
+      "permalink": "/schedule/"
     }
   ],
   "social": [
