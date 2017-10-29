@@ -42,6 +42,7 @@
       }
 
       paper-fab {
+        display: none;
         --paper-fab-iron-icon: {
           color: inherit;
         };
@@ -92,7 +93,7 @@
     </app-indexeddb-mirror>
 
     <paper-scroll-header-panel id="scrollHeaderPanel" no-reveal>
-      <paper-toolbar class="tall">
+      <paper-toolbar>
         <paper-icon-button class="back-button" dialog-dismiss icon="arrow-back"></paper-icon-button>
         <div class="middle fallback-image-wrapper">
           <iron-image class="fallback-image" src="/images/logo-white.png"
@@ -302,10 +303,10 @@
 
         _onNeonAnimationFinish: function () {
           if (this.opened) {
-            Polymer.IronDropdownScrollManager.pushScrollLock(this.$.scrollHeaderPanel);
+            document.body.style.overflow = 'hidden';
             this._finishRenderOpened();
           } else {
-            Polymer.IronDropdownScrollManager.removeScrollLock(this.$.scrollHeaderPanel);
+            document.body.style.overflow = '';
             this._finishRenderClosed();
           }
         },
