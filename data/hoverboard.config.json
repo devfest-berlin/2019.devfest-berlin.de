@@ -54,6 +54,10 @@
     {
       "route": "schedule",
       "permalink": "/schedule/"
+    },
+    {
+      "route": "speakers",
+      "permalink": "/speakers/"
     }
   ],
   "social": [
