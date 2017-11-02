@@ -25,5 +25,14 @@
     "secondaryColor": "#00BCD4",
     "image": "/images/posts/tickets-on-sale.jpg",
     "brief": "We are happy to announce that our ticket sale is now open! If you want to be part of our exciting event."
+  },
+  {
+    "id": "last-minute-information",
+    "title": "Last minute information",
+    "posted": "2017-11-02",
+    "primaryColor": "#3F51B5",
+    "secondaryColor": "#3F51B5",
+    "image": "/images/posts/last_minute_information.jpg",
+    "brief": "To make sure you will have a great time, here are some last minute things you should know before the event."
   }
 ]
