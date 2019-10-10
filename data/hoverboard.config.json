@@ -77,21 +77,22 @@
   ],
   "location": {
     "apiKey": "",
-    "name": "rent24 coworking",
-    "address": "Oberwallstraße 6, 10117 Berlin, Germany",
-    "link": "https://www.rent24.com/en/locations/berlin/oberwallstrasse-6/",
+    "name": "Zalando Headquarter",
+    "address": "Valeska-Gert-Straße 5, 10243 Berlin, Germany    ",
+    "link": "https://corporate.zalando.com/en/company/company",
     "pointer": {
-      "latitude": 52.51381,
-      "longitude": 13.3968672,
+      "latitude": 52.5060805,
+      "longitude": 13.4398406,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": 52.514,
-      "longitude": 13.3968672
+      "latitude": 52.5060805,
+      "longitude": 13.4398406
     },
     "images": [
-      "/images/backgrounds/rent24_1.jpg",
-      "/images/backgrounds/rent24_2.jpg"
+      "/images/backgrounds/zalando_1.png",
+      "/images/backgrounds/zalando_2.png",
+      "/images/backgrounds/zalando_3.png"
     ]
   },
   "gallery": {
