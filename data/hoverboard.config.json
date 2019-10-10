@@ -17,9 +17,9 @@
   },
   "firebase": {
     "name": "DevFest2019",
-    "domain": "staticsitetest-59b90.firebaseapp.com",
-    "database": "https://staticsitetest-59b90.firebaseio.com/",
-    "api": "AIzaSyC8ew6ywjo1CwtrC8mLCkPVNUvHthMm564",
+    "domain": "devfest2019-b5f01.firebaseapp.com",
+    "database": "https://devfest2019-b5f01.firebaseio.com/",
+    "api": "AIzaSyBIk5yCqsC0HMjvF7hvTmSPfDh2qDdSW4s",
     "userSessionsPath": "/userSessions",
     "ratingsPath": "/ratings",
     "indexedDbSession": "hoverboard"
