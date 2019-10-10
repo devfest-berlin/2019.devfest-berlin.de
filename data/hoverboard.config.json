@@ -1,7 +1,7 @@
 {
   "url": "https://2017.devfest-berlin.de/",
-  "startDate": "2017-11-03T14:00:00+02:00",
-  "endDate": "2017-11-05T20:00:00+02:00",
+  "startDate": "2019-11-09T14:00:00+02:00",
+  "endDate": "2019-11-09T20:00:00+02:00",
   "analytics": {
     "prod": null,
     "dev": null
@@ -16,7 +16,7 @@
     "backgroundColor": "#097fb6"
   },
   "firebase": {
-    "name": "StaticSiteTest",
+    "name": "DevFest2019",
     "domain": "staticsitetest-59b90.firebaseapp.com",
     "database": "https://staticsitetest-59b90.firebaseio.com/",
     "api": "AIzaSyC8ew6ywjo1CwtrC8mLCkPVNUvHthMm564",
@@ -36,7 +36,7 @@
       "year": "numeric"
     }
   },
-  "hashtag": "DevFest17",
+  "hashtag": "DevFest19",
   "disqusShortName": null,
   "tweetsSource": "/data/tweets.json",
   "partnershipProposition": null,
