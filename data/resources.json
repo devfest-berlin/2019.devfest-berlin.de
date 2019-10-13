@@ -4,7 +4,7 @@
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "November 9, 2019",
-  "partnershipProposition": "https://bit.ly/dfua17-partners",
+  "partnershipProposition": "TODO",
   "share": "Share",
   "followOur": "Follow our",
   "followUs": "Follow us",
@@ -36,7 +36,27 @@
       "title": "About",
       "links": [
         {
-          "name": "GDG Lviv",
+          "name": "GDG Berlin",
+          "url": "http://lviv.gdg.org.ua/",
+          "newTab": true
+        },
+        {
+          "name": "GDG Berlin Androiud",
+          "url": "http://lviv.gdg.org.ua/",
+          "newTab": true
+        },
+        {
+          "name": "GDG Berlin Go",
+          "url": "http://lviv.gdg.org.ua/",
+          "newTab": true
+        },
+        {
+          "name": "GDG Berlin Cloud",
+          "url": "http://lviv.gdg.org.ua/",
+          "newTab": true
+        },
+        {
+          "name": "Women Techmakers Berlin",
           "url": "http://lviv.gdg.org.ua/",
           "newTab": true
         },
@@ -49,11 +69,6 @@
           "name": "DevFest",
           "url": "https://devfest.withgoogle.com/",
           "newTab": true
-        },
-        {
-          "name": "Meet the Team",
-          "url": "https://devfest.gdg.org.ua/team/",
-          "newTab": true
         }
       ]
     },
@@ -62,22 +77,27 @@
       "links": [
         {
           "name": "2017",
-          "url": "http://gdg-devfest-ua.appspot.com/",
+          "url": "https://2017.devfest-berlin.de/",
           "newTab": true
         },
         {
           "name": "2016",
-          "url": "https://dfua14.firebaseapp.com//",
+          "url": "https://2016.devfest-berlin.de/",
           "newTab": true
         },
         {
           "name": "2015",
-          "url": "https://dfua15.firebaseapp.com/",
+          "url": "https://2015.devfest-berlin.de/",
           "newTab": true
         },
         {
           "name": "2014",
-          "url": "https://dfua16.firebaseapp.com/",
+          "url": "https://2014.devfest-berlin.de/",
+          "newTab": true
+        },
+        {
+          "name": "2013",
+          "url": "https://2013.devfest-berlin.de/",
           "newTab": true
         }
       ]
@@ -85,7 +105,7 @@
     {
       "title": "Event Resources",
       "links": [
-              {
+        {
           "text": "GDG DevFest Berlin 2013",
           "url": "https://2013.devfest-berlin.de",
           "newTab": true
@@ -129,40 +149,40 @@
     "organization": "DevFest",
     "form": "https://bit.ly/2RstTJ8",
     "contacts": [
-      "Organizer Oleh Zasadnyy, [+38 093 486 6460](tel:+380934866460), o.zasadnyy@gdg.org.ua",
-      "Organizer Sofiya Huts, [+38 093 486 1425](tel:+380934861425), s.huts@gdg.org.ua"
+      "Organizer ???, [+??????????](tel:+??????????), ?@?.?",
+      "Organizer ???, [+??????????](tel:+??????????), ?@?.?"
     ]
   },
   "aboutBlock": {
     "title": "About",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG DevFest Ukraine brings together the world class experts in Android, Web and Cloud technologies to Lviv for 2 days of sessions, workshops and showcases.",
+        "description": "DevFest is back to Berlin for the 8th year! Join us for the annual celebration of tech in Berlin",
         "label": "Explore featured session",
         "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
       },
       "howItWas": {
         "description": "Described by many as 'Google I/O of Ukraine', our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
-        "label": "See how it was in 2016",
+        "label": "See how it was in 2017",
         "youtubeId": "TdpbgRgz6eE"
       }
     },
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "900"
+        "number": "?‍"
       },
       "days": {
         "label": "Days",
-        "number": "2"
+        "number": "1"
       },
       "sessions": {
         "label": "Sessions",
-        "number": "50"
+        "number": "?"
       },
       "tracks": {
         "label": "Tracks",
-        "number": "4"
+        "number": "2"
       }
     }
   },
@@ -183,13 +203,6 @@
       "companyName": "Company Name"
     },
     "toast": "We will contact you soon!"
-  },
-  "featuredVideos": {
-    "title": "DFUA'16 featured videos",
-    "callToAction": {
-      "label": "See all videos",
-      "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
-    }
   },
   "blog": {
     "published": "Published",
@@ -222,11 +235,11 @@
     }
   },
   "galleryBlock": {
-    "title": "#dfua16 highlights",
-    "description": "This year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
+    "title": "#DevFest17 highlights",
+    "description": "Last festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
     "callToAction": {
       "label": "See all photos",
-      "link": "https://goo.gl/photos/H8s3CtPexCzkLqSt9"
+      "link": "https://photos.google.com/share/AF1QipPt3NfVu8CRRZdk_Uw19at0lVDUYZcItDwFqootKvmV1ayqpaQOFoLK-jVCTZPMMw?key=VVBGd2xkWkM0ZjY5cEtvb3p2Z0xKSXQwa2xTS0Vn"
     }
   },
   "mapBlock": {
