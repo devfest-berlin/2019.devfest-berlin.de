@@ -1,6 +1,6 @@
 {
   "organizer": {
-    "name": "GDG Lviv",
+    "name": "GDG Berlin",
     "twitter": "gdglviv",
     "blog": "https://medium.com/gdg-lviv",
     "url": "http://lviv.gdg.org.ua/"
@@ -113,13 +113,13 @@
   },
   "location": {
     "label": "Location",
-    "name": "Planeta kino",
-    "city": "Lviv",
-    "short": "Lviv, Ukraine",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
+    "name": "Zalando SE Headquarter",
+    "city": "Berlin",
+    "short": "Berlin, Germany",
+    "address": "Valeska-Gert-Straße 5, 10243 Berlin, Germany",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
+      "latitude": 52.5060805,
+      "longitude": 13.4398406,
       "zoom": 5
     },
     "mapCenter": {
