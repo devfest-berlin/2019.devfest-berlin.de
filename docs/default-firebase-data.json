@@ -40,9 +40,325 @@
       "title": "Partner"
     }
   ],
-  "schedule": {},
-  "sessions": {},
-  "speakers": {},
+  "schedule": {
+    "2019-11-09": {
+      "dateReadable": "November 9",
+      "timeslots": [
+        {
+          "endTime": "09:45",
+          "sessions": [{"items": [1000]}],
+          "startTime": "09:00"
+        },
+        {
+          "endTime": "10:00",
+          "sessions": [
+            {
+              "items": [
+                1001
+              ]
+            }
+          ],
+          "startTime": "09:45"
+        },
+        {
+          "startTime": "10:30",
+          "endTime": "10:55",
+          "sessions": [
+            {"items": [1003]},
+            {"items": [1004]}
+          ]
+        },
+        {
+          "startTime": "11:00",
+          "endTime": "11:25",
+          "sessions": [
+            {"items": [1005]},
+            {"items": [1006]}
+          ]
+        },
+        {
+          "startTime": "11:30",
+          "endTime": "11:55",
+          "sessions": [
+            {"items": [1007]},
+            {"items": [1008]}
+          ]
+        },
+        {
+          "startTime": "12:00",
+          "endTime": "12:25",
+          "sessions": [
+            {"items": [1009]},
+            {"items": [1010]}
+          ]
+        },
+        {
+          "startTime": "12:30",
+          "endTime": "13:30",
+          "sessions": [{"items": [1011]}]
+        },
+        {
+          "startTime": "13:30",
+          "endTime": "13:55",
+          "sessions": [
+            {"items": [1012]},
+            {"items": [1013]}
+          ]
+        },
+        {
+          "startTime": "14:00",
+          "endTime": "14:25",
+          "sessions": [
+            {"items": [1014]},
+            {"items": [1015]}
+          ]
+        },
+        {
+          "startTime": "14:30",
+          "endTime": "14:55",
+          "sessions": [
+            {"items": [1016]},
+            {"items": [1017]}
+          ]
+        },
+        {
+          "startTime": "15:00",
+          "endTime": "15:25",
+          "sessions": [
+            {"items": [1018]},
+            {"items": [1019]}
+          ]
+        },
+        {
+          "startTime": "15:30",
+          "endTime": "15:55",
+          "sessions": [
+            {"items": [1020]},
+            {"items": [1021]}
+          ]
+        },
+        {
+          "startTime": "16:00",
+          "endTime": "16:30",
+          "sessions": [{"items": [1022]}]
+        },
+        {
+          "startTime": "16:30",
+          "endTime": "16:55",
+          "sessions": [
+            {"items": [1023]},
+            {"items": [1024]}
+          ]
+        },
+        {
+          "startTime": "17:00",
+          "endTime": "17:25",
+          "sessions": [
+            {"items": [1025]},
+            {"items": [1026]}
+          ]
+        },
+        {
+          "startTime": "17:30",
+          "endTime": "17:55",
+          "sessions": [
+            {"items": [1027]},
+            {"items": [1028]}
+          ]
+        },
+        {
+          "startTime": "18:00",
+          "endTime": "18:30",
+          "sessions": [
+            {"items": [1031]}
+          ]
+        },
+        {
+          "startTime": "18:30",
+          "endTime": "18:40",
+          "sessions": [
+            {"items": [1032]}
+          ]
+        },
+        {
+          "startTime": "18:40",
+          "endTime": "18:45",
+          "sessions": [
+            {"items": [1033]}
+          ]
+        },
+        {
+          "startTime": "18:45",
+          "endTime": "20:30",
+          "sessions": [
+            {"items": [1034]}
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "title": "1"
+        },
+        {
+          "title": "2"
+        }
+      ]
+    }
+  },
+  "sessions": {
+    "1000": {
+      "title": "Breakfast & Registration",
+      "description" : ""
+    },
+    "1001": {
+      "title": "Opening words",
+      "description" : ""
+    },
+    "1002": {
+      "title": "Keynote",
+      "description" : "",
+      "speakers": [ "dave_cheney" ]
+    },
+    "1003": {
+      "title": "?",
+      "description" : ""
+    },
+    "1004": {
+      "title": "?",
+      "description" : ""
+    },
+    "1005": {
+      "title": "?",
+      "description" : ""
+    },
+    "1006": {
+      "title": "?",
+      "description" : ""
+    },
+    "1007": {
+      "title": "?",
+      "description" : ""
+    },
+    "1008": {
+      "title": "?",
+      "description" : ""
+    },
+    "1009": {
+      "title": "?",
+      "description" : ""
+    },
+    "1010": {
+      "title": "?",
+      "description" : ""
+    },
+    "1011": {
+      "title": "Lunch",
+      "description" : "",
+      "icon" : "lunch",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225"
+    },
+    "1012": {
+      "title": "?",
+      "description" : ""
+    },
+    "1013": {
+      "title": "?",
+      "description" : ""
+    },
+    "1014": {
+      "title": "?",
+      "description" : ""
+    },
+    "1015": {
+      "title": "?",
+      "description" : ""
+    },
+    "1016": {
+      "title": "?",
+      "description" : ""
+    },
+    "1017": {
+      "title": "?",
+      "description" : ""
+    },
+    "1018": {
+      "title": "?",
+      "description" : ""
+    },
+    "1019": {
+      "title": "?",
+      "description" : ""
+    },
+    "1020": {
+      "title": "?",
+      "description" : ""
+    },
+    "1021": {
+      "title": "?",
+      "description" : ""
+    },
+    "1022": {
+      "title": "Coffee & Cake Break",
+      "description" : "",
+      "icon" : "coffee-break",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7"
+    },
+    "1023": {
+      "title": "?",
+      "description" : ""
+    },
+    "1024": {
+      "title": "?",
+      "description" : ""
+    },
+    "1025": {
+      "title": "?",
+      "description" : ""
+    },
+    "1026": {
+      "title": "?",
+      "description" : ""
+    },
+    "1027": {
+      "title": "?",
+      "description" : ""
+    },
+    "1028": {
+      "title": "?",
+      "description" : ""
+    },
+    "1029": {
+      "title": "??",
+      "description" : ""
+    },
+    "1030": {
+      "title": "??",
+      "description" : ""
+    },
+    "1031": {
+      "title": "Closing Keynote",
+      "description" : ""
+    },
+    "1032": {
+      "title": "Closing words",
+      "description" : ""
+    },
+    "1033": {
+      "title": "Group Photos",
+      "description" : ""
+    },
+    "1034": {
+      "title": "Social event",
+      "description" : ""
+    }
+  },
+  "speakers": {
+    "dave_cheney" : {
+      "featured" : true,
+      "name" : "Dave Cheney",
+      "order" : 0
+    }
+  },
   "team": [
     {
       "members": [

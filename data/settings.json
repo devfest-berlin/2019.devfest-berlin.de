@@ -23,6 +23,11 @@
       "label": "Home"
     },
     {
+      "route": "schedule",
+      "permalink": "/schedule/",
+      "label": "Schedule"
+    },
+    {
       "route": "team",
       "permalink": "/team/",
       "label": "Team"
@@ -110,7 +115,7 @@
       "latitude": 48,
       "longitude": 8
     },
-    "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
+    "description": "The new Zalando Headquarters consists of an ensemble of two buildings that form the heart of the company’s new campus in Berlin."
   },
   "mediaQueries": {
     "xs": {
