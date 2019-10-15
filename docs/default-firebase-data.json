@@ -20,38 +20,32 @@
     "test": {},
     "users": {}
   },
-  "partners": [
-    {
-      "logos": [
-        {
-          "order": 0,
-          "logoUrl": "../images/logos/google.svg",
-          "name": "Google",
-          "url": "https://www.google.com.ua/intl/en/about/"
-        },
-        {
-          "order": 1,
-          "logoUrl": "../images/logos/gdg-x.svg",
-          "name": "GDG[x]",
-          "url": "https://github.com/gdg-x"
-        }
-      ],
-      "order": 1,
-      "title": "General Partner"
-    }
-  ],
+  "partners": [{
+    "logos": [{
+        "order": 0,
+        "logoUrl": "../images/logos/google.svg",
+        "name": "Google",
+        "url": "https://www.google.com.ua/intl/en/about/"
+      },
+      {
+        "order": 1,
+        "logoUrl": "../images/logos/gdg-x.svg",
+        "name": "GDG[x]",
+        "url": "https://github.com/gdg-x"
+      }
+    ],
+    "order": 1,
+    "title": "General Partner"
+  }],
   "schedule": {},
   "sessions": {},
   "speakers": {},
-  "team": [
-    {
-      "members": [
-        {
+  "team": [{
+      "members": [{
           "name": "Oleh Zasadnyy",
           "photo": "/images/people/oleh_zasadnyy.jpg",
           "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/oleh_zasadnyy.jpg",
-          "socials": [
-            {
+          "socials": [{
               "icon": "facebook",
               "link": "https://www.facebook.com/oleh.zasadnyy",
               "name": "Facebook"
@@ -74,13 +68,11 @@
           "name": "Sofiya Huts",
           "photo": "/images/people/sofiya_huts.jpg",
           "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fsofiya_huts.jpg?alt=media&token=a911eafb-f709-4af7-b1cb-58a6604b70d1",
-          "socials": [
-            {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/sophie.huts.7",
-              "name": "Facebook"
-            }
-          ],
+          "socials": [{
+            "icon": "facebook",
+            "link": "https://www.facebook.com/sophie.huts.7",
+            "name": "Facebook"
+          }],
           "order": 1,
           "title": "Social and media"
         },
@@ -88,8 +80,7 @@
           "name": "Vitaliy Zasadnyy",
           "photo": "/images/people/vitaliy_zasadnyy.jpg",
           "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fvitaliy_zasadnyy.jpg?alt=media&token=930e05c8-ae43-4628-8d4c-3e8f5193cda3",
-          "socials": [
-            {
+          "socials": [{
               "icon": "linkedin",
               "link": "https://www.linkedin.com/in/zasadnyy",
               "name": "Linkedin"
@@ -112,13 +103,11 @@
           "name": "Marta Maxymiak",
           "photo": "/images/people/marta_maxymiak.jpg",
           "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fmarta_maxymiak.jpg?alt=media&token=6532f039-7f86-4304-8558-dbfbb3ae8d68",
-          "socials": [
-            {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/marta.maxymiak",
-              "name": "Facebook"
-            }
-          ],
+          "socials": [{
+            "icon": "facebook",
+            "link": "https://www.facebook.com/marta.maxymiak",
+            "name": "Facebook"
+          }],
           "order": 3,
           "title": "Party and happiness"
         },
@@ -126,8 +115,7 @@
           "name": "Ostap Andrusiv",
           "photo": "/images/people/ostap_andrusiv.jpg",
           "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/ostap_andrusiv.jpg",
-          "socials": [
-            {
+          "socials": [{
               "icon": "facebook",
               "link": "https://www.facebook.com/ostap.andrusiv",
               "name": "Facebook"
@@ -150,13 +138,11 @@
           "name": "Vasylyna Mytsak",
           "photo": "/images/people/vasylyna_mytsak.jpg",
           "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/vasylyna_mytsak.jpg",
-          "socials": [
-            {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/vasylyna.mytsak",
-              "name": "Facebook"
-            }
-          ],
+          "socials": [{
+            "icon": "facebook",
+            "link": "https://www.facebook.com/vasylyna.mytsak",
+            "name": "Facebook"
+          }],
           "order": 5,
           "title": "Party and happiness"
         },
@@ -164,8 +150,7 @@
           "name": "Volodya Karpliuk",
           "photo": "/images/people/volodya_karpliuk.jpg",
           "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fvolodya_karpliuk.jpg?alt=media&token=aa08d9c9-c42a-435f-8672-c3a004e3aa08",
-          "socials": [
-            {
+          "socials": [{
               "icon": "facebook",
               "link": "https://www.facebook.com/volodya.karpluk",
               "name": "Facebook"
@@ -183,13 +168,11 @@
           "name": "Diana Pinchuk",
           "photo": "/images/people/diana_pinchuk.jpg",
           "photoUrl": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fdiana_pinchuk.jpg?alt=media&token=189d67d1-004f-4a3c-9e0c-13bc992bbaf7",
-          "socials": [
-            {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/diana.pinchuk.9",
-              "name": "Facebook"
-            }
-          ],
+          "socials": [{
+            "icon": "facebook",
+            "link": "https://www.facebook.com/diana.pinchuk.9",
+            "name": "Facebook"
+          }],
           "order": 7,
           "title": "Social and media"
         }
@@ -197,13 +180,11 @@
       "title": "Core Team"
     },
     {
-      "members": [
-        {
+      "members": [{
           "name": "Ihor Dvoretskyi",
           "photo": "/images/people/ihor_dvoretskyi.jpg",
           "photoUrl": "",
-          "socials": [
-            {
+          "socials": [{
               "icon": "facebook",
               "link": "https://www.facebook.com/idvoretskyi",
               "name": "Facebook"
@@ -221,8 +202,7 @@
           "name": "Dmytro Danylyk",
           "photo": "/images/people/dmytro_danylyk.jpg",
           "photoUrl": "",
-          "socials": [
-            {
+          "socials": [{
               "icon": "twitter",
               "link": "https://twitter.com/dmytrodanylyk",
               "name": "Twitter"
@@ -240,49 +220,163 @@
       "title": "Program Committee"
     }
   ],
-  "tickets": [
-    {
-      "available": true,
-      "currency": "€",
-      "ends": "Jun 30",
-      "inDemand": true,
-      "info": "Or first 200 tickets",
-      "name": "Regular Admission",
-      "price": 120,
-      "regular": true,
-      "soldOut": false,
-      "starts": "Feb 7",
-      "url": "https://2event.com/events/1027108"
-    }
-  ],
+  "tickets": [{
+    "available": true,
+    "currency": "€",
+    "ends": "Jun 30",
+    "inDemand": true,
+    "info": "Or first 200 tickets",
+    "name": "Regular Admission",
+    "price": 120,
+    "regular": true,
+    "soldOut": false,
+    "starts": "Feb 7",
+    "url": "https://2event.com/events/1027108"
+  }],
   "triggers": {
     "images": false
   },
   "videos": [],
   "previousSpeakers": {
-    "adrian_kajda": {
-      "bio": "Creator of Fuelio app. Fuelio was his hooby project started in 2012. Three years later the app was aquired by Sygic.",
-      "company": "Sygic",
-      "companyLogo": "https://dfua16.firebaseapp.com//images/logos/sygic.svg",
-      "country": "Poland",
-      "id": "adrian_kajda",
-      "name": "Adrian Kajda",
-      "order": 6,
-      "photoUrl": "https://dfua16.firebaseapp.com//images/people/adrian_kajda.jpg",
+    "jessica_ulyate": {
+      "bio": "South African in Berlin, platform product manager  @hellofreshdev, documentarian, cat lady, food lover, yoga enthusiast, crossfit convert, relaxed runner",
+      "company": "HelloFresh",
+      "companyLogo": "https://media.licdn.com/dms/image/C560BAQFGZ09J3iw9-w/company-logo_400_400/0?e=1579132800&v=beta&t=m7BFJkzyP1iCW7i2AZr3Gw23b-TeB-pQEuSJJ70Asqo",
+      "country": "",
+      "id": "jessica_ulyate",
+      "name": "Jessica Ulyate",
+      "order": 1,
+      "photoUrl": "https://media.licdn.com/dms/image/C4D03AQGvpACfq3qhTQ/profile-displayphoto-shrink_800_800/0?e=1576713600&v=beta&t=G2nq7WkaxKZteLRtcgAF58cVBMN6KSKFK5LaLQO-oBo",
       "sessions": {
-        "2016": [
-          {
-            "presentation": "https://speakerdeck.com/gdglviv/adrian-kajda-fuelio-success-story",
-            "tags": [
-              "Android"
-            ],
-            "title": "Fuelio. Success story",
-            "videoId": "qK7ysoohsaM"
-          }
-        ]
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "Community High-5s",
+          "videoId": ""
+        }]
       },
-      "socials": [],
-      "title": "Product Manager/Developer"
-    }
+      "socials": [{
+          "icon": "twitter",
+          "link": "https://twitter.com/JulyAte",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/jessica-ulyate-10750932",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Product Lead, Platform"
+    },
+    "armagan_amcalar": {
+      "bio": "Software architect, leader, lecturer, public speaker, mentor, entrepreneur, JS evangelist, electronics engineer, guitarist, singer, radio host.",
+      "company": "Wayfair",
+      "companyLogo": "https://media.licdn.com/dms/image/C4E0BAQHHS2RPVTXtRw/company-logo_400_400/0?e=1579132800&v=beta&t=TUSzAC0TZgZhFHpbFEReWUBX-A7l8XDxe24S2nmiomM",
+      "country": "",
+      "id": "armagan_amcalar",
+      "name": "Armagan Amcalar",
+      "order": 2,
+      "photoUrl": "https://media.licdn.com/dms/image/C4E03AQEEdok7D4bitg/profile-displayphoto-shrink_200_200/0?e=1576713600&v=beta&t=eQydwzQBwhOr1HW7qgX5SImp0uCeeNh0ruhKz6jvv-4",
+      "sessions": {
+        "2017": [{
+          "presentation": "https://slides.com/armaganamcalar/jsconfis?source=post_page-----7cf5b0ebf9b4----------------------#/",
+          "tags": [],
+          "title": "Code, Play & Rock'n'Roll: A WebAudio Experiment",
+          "videoId": "_J-zwPE-8W4"
+        }]
+      },
+      "socials": [{
+          "icon": "twitter",
+          "link": "https://twitter.com/dashersw",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/armaganamcalar",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Senior Engineering Manager"
+    },
+    "bjorn_rabenstein": {
+      "bio": "Björn is a Software Engineer at Grafana Labs and a Prometheus developer. Previously, he was a Production Engineer at SoundCloud and a number cruncher for science.",
+      "company": "Grafana Labs",
+      "companyLogo": "https://media.licdn.com/dms/image/C510BAQEUE7lk86CnEQ/company-logo_400_400/0?e=1579132800&v=beta&t=cSGQOzJnz5ZT8JJyo06h0CH5bVo3AUgZsstd-tG9Iyg",
+      "country": "",
+      "id": "bjorn_rabenstein",
+      "name": "Björn Rabenstein",
+      "order": 3,
+      "photoUrl": "https://media.licdn.com/dms/image/C4D03AQH01KHrrOi_PA/profile-displayphoto-shrink_200_200/0?e=1576713600&v=beta&t=rSeIv_J-gPhi-j68MvHq6pakvFOidG1dh8GO4FdfW48",
+      "sessions": {
+        "2017": [{
+          "presentation": "https://docs.google.com/presentation/d/1LYH4epujIfOIkiyS7AA2EzSY9tNeDcGdiAOfVKH-qRo/edit#slide=id.p",
+          "tags": [],
+          "title": "What Does Go Tell Us About Google?",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/björn-rabenstein-75367b57",
+        "name": "LinkedIn"
+      }],
+      "title": "Software Engineer"
+    },
+    "hasan_hosgel": {
+      "bio": "Lead Android Engineer @ MHP - A Porsche Company & co-lead GDG Berlin Android. Interested in innovation, mobile and IT.",
+      "company": "MHP – A Porsche Company",
+      "companyLogo": "https://media.licdn.com/dms/image/C560BAQE2iLhF8rTjQw/company-logo_400_400/0?e=1579132800&v=beta&t=3kk-0HTTeaprWlOoES2c8AegNe7Q6xNNwXhe3nOTm60",
+      "country": "",
+      "id": "hasan_hosgel",
+      "name": "Hasan Hoşgel",
+      "order": 4,
+      "photoUrl": "https://media.licdn.com/dms/image/C4D03AQEN9OCGdcxtpQ/profile-displayphoto-shrink_800_800/0?e=1576713600&v=beta&t=sHHJ7XtO27UGOot_Lyp0Ic_TCjM3-5-EjQxKSaZwVzE",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "Actions on Google",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "twitter",
+        "link": "https://twitter.com/alosdev",
+        "name": "Twitter"
+      }, {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/hosgel",
+        "name": "LinkedIn"
+      }],
+      "title": "Lead Android Engineer"
+    },
+    "ole_bulbuk": {
+      "bio": "Ole is a back end engineer since the nineties. He has been working for many companies big and small and seen many projects fail or succeed. Currently he loves to be part of the vibrant startup life in Berlin while working on a Go back end for OptioPay. In his spare time he is co-leading the Berlin chapter of GDG Golang, enjoys time with his family including two cats and takes part in a broad range of old and new activities from hiking to motor cycling and from meditating to boxing.",
+      "company": "OptioPay Group",
+      "companyLogo": "https://media.licdn.com/dms/image/C4D0BAQGw2isf6GI0Bg/company-logo_400_400/0?e=1579132800&v=beta&t=NGmB-gtlx96ZwEvyc4kYpcdAQK_o2IKwvfv3edLfKiY",
+      "country": "",
+      "id": "ole_bulbuk",
+      "name": "Ole Bulbuk",
+      "order": 5,
+      "photoUrl": "https://media.licdn.com/dms/image/C5603AQEbMC6ztTCxgg/profile-displayphoto-shrink_800_800/0?e=1576713600&v=beta&t=5O1IQ4RAkO_jV66IRWKPRonY-ENe-nS_C3loSqjm9EY",
+      "sessions": {
+        "2017": [{
+          "presentation": "https://gitpitch.com/flowdev/present-go-boxes-lego",
+          "tags": [],
+          "title": "Boxes Versus Lego Bricks in Go Programming",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "twitter",
+        "link": "https://twitter.com/flowdev_org",
+        "name": "Twitter"
+      }, {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/ole-bulbuk-96794170/",
+        "name": "LinkedIn"
+      }],
+      "title": "Senior Software Engineer"
+    },
   }
 }
