@@ -20,183 +20,218 @@
     "test": {},
     "users": {}
   },
-  "partners": [
-    {
-      "logos": [
-        {
-          "order": 0,
-          "logoUrl": "../images/logos/zalando.svg",
-          "name": "Zalando",
-          "url": "https://www.zalando.de/"
-        },
-        {
-          "order": 1,
-          "logoUrl": "../images/logos/google.svg",
-          "name": "Google",
-          "url": "https://www.google.de/"
-        }
-      ],
-      "order": 1,
-      "title": "Partner"
-    }
-  ],
+  "partners": [{
+    "logos": [{
+        "order": 0,
+        "logoUrl": "../images/logos/zalando.svg",
+        "name": "Zalando",
+        "url": "https://www.zalando.de/"
+      },
+      {
+        "order": 1,
+        "logoUrl": "../images/logos/google.svg",
+        "name": "Google",
+        "url": "https://www.google.de/"
+      }
+    ],
+    "order": 1,
+    "title": "Partner"
+  }],
   "schedule": {
     "2019-11-09": {
       "dateReadable": "November 9",
-      "timeslots": [
-        {
+      "timeslots": [{
           "endTime": "09:45",
-          "sessions": [{"items": [1000]}],
+          "sessions": [{
+            "items": [1000]
+          }],
           "startTime": "09:00"
         },
         {
           "endTime": "10:00",
-          "sessions": [
-            {
-              "items": [
-                1001
-              ]
-            }
-          ],
+          "sessions": [{
+            "items": [
+              1001
+            ]
+          }],
           "startTime": "09:45"
         },
         {
           "startTime": "10:30",
           "endTime": "10:55",
-          "sessions": [
-            {"items": [1003]},
-            {"items": [1004]}
+          "sessions": [{
+              "items": [1003]
+            },
+            {
+              "items": [1004]
+            }
           ]
         },
         {
           "startTime": "11:00",
           "endTime": "11:25",
-          "sessions": [
-            {"items": [1005]},
-            {"items": [1006]}
+          "sessions": [{
+              "items": [1005]
+            },
+            {
+              "items": [1006]
+            }
           ]
         },
         {
           "startTime": "11:30",
           "endTime": "11:55",
-          "sessions": [
-            {"items": [1007]},
-            {"items": [1008]}
+          "sessions": [{
+              "items": [1007]
+            },
+            {
+              "items": [1008]
+            }
           ]
         },
         {
           "startTime": "12:00",
           "endTime": "12:25",
-          "sessions": [
-            {"items": [1009]},
-            {"items": [1010]}
+          "sessions": [{
+              "items": [1009]
+            },
+            {
+              "items": [1010]
+            }
           ]
         },
         {
           "startTime": "12:30",
           "endTime": "13:30",
-          "sessions": [{"items": [1011]}]
+          "sessions": [{
+            "items": [1011]
+          }]
         },
         {
           "startTime": "13:30",
           "endTime": "13:55",
-          "sessions": [
-            {"items": [1012]},
-            {"items": [1013]}
+          "sessions": [{
+              "items": [1012]
+            },
+            {
+              "items": [1013]
+            }
           ]
         },
         {
           "startTime": "14:00",
           "endTime": "14:25",
-          "sessions": [
-            {"items": [1014]},
-            {"items": [1015]}
+          "sessions": [{
+              "items": [1014]
+            },
+            {
+              "items": [1015]
+            }
           ]
         },
         {
           "startTime": "14:30",
           "endTime": "14:55",
-          "sessions": [
-            {"items": [1016]},
-            {"items": [1017]}
+          "sessions": [{
+              "items": [1016]
+            },
+            {
+              "items": [1017]
+            }
           ]
         },
         {
           "startTime": "15:00",
           "endTime": "15:25",
-          "sessions": [
-            {"items": [1018]},
-            {"items": [1019]}
+          "sessions": [{
+              "items": [1018]
+            },
+            {
+              "items": [1019]
+            }
           ]
         },
         {
           "startTime": "15:30",
           "endTime": "15:55",
-          "sessions": [
-            {"items": [1020]},
-            {"items": [1021]}
+          "sessions": [{
+              "items": [1020]
+            },
+            {
+              "items": [1021]
+            }
           ]
         },
         {
           "startTime": "16:00",
           "endTime": "16:30",
-          "sessions": [{"items": [1022]}]
+          "sessions": [{
+            "items": [1022]
+          }]
         },
         {
           "startTime": "16:30",
           "endTime": "16:55",
-          "sessions": [
-            {"items": [1023]},
-            {"items": [1024]}
+          "sessions": [{
+              "items": [1023]
+            },
+            {
+              "items": [1024]
+            }
           ]
         },
         {
           "startTime": "17:00",
           "endTime": "17:25",
-          "sessions": [
-            {"items": [1025]},
-            {"items": [1026]}
+          "sessions": [{
+              "items": [1025]
+            },
+            {
+              "items": [1026]
+            }
           ]
         },
         {
           "startTime": "17:30",
           "endTime": "17:55",
-          "sessions": [
-            {"items": [1027]},
-            {"items": [1028]}
+          "sessions": [{
+              "items": [1027]
+            },
+            {
+              "items": [1028]
+            }
           ]
         },
         {
           "startTime": "18:00",
           "endTime": "18:30",
-          "sessions": [
-            {"items": [1031]}
-          ]
+          "sessions": [{
+            "items": [1031]
+          }]
         },
         {
           "startTime": "18:30",
           "endTime": "18:40",
-          "sessions": [
-            {"items": [1032]}
-          ]
+          "sessions": [{
+            "items": [1032]
+          }]
         },
         {
           "startTime": "18:40",
           "endTime": "18:45",
-          "sessions": [
-            {"items": [1033]}
-          ]
+          "sessions": [{
+            "items": [1033]
+          }]
         },
         {
           "startTime": "18:45",
           "endTime": "20:30",
-          "sessions": [
-            {"items": [1034]}
-          ]
+          "sessions": [{
+            "items": [1034]
+          }]
         }
       ],
-      "tracks": [
-        {
+      "tracks": [{
           "title": "1"
         },
         {
@@ -208,227 +243,218 @@
   "sessions": {
     "1000": {
       "title": "Breakfast & Registration",
-      "description" : ""
+      "description": ""
     },
     "1001": {
       "title": "Opening words",
-      "description" : ""
+      "description": ""
     },
     "1002": {
       "title": "Keynote",
-      "description" : "",
-      "speakers": [ "dave_cheney" ]
+      "description": "",
+      "speakers": ["dave_cheney"]
     },
     "1003": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1004": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1005": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1006": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1007": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1008": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1009": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1010": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1011": {
       "title": "Lunch",
-      "description" : "",
-      "icon" : "lunch",
-      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225"
+      "description": "",
+      "icon": "lunch",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225"
     },
     "1012": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1013": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1014": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1015": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1016": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1017": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1018": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1019": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1020": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1021": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1022": {
       "title": "Coffee & Cake Break",
-      "description" : "",
-      "icon" : "coffee-break",
-      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7"
+      "description": "",
+      "icon": "coffee-break",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7"
     },
     "1023": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1024": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1025": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1026": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1027": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1028": {
       "title": "?",
-      "description" : ""
+      "description": ""
     },
     "1029": {
       "title": "??",
-      "description" : ""
+      "description": ""
     },
     "1030": {
       "title": "??",
-      "description" : ""
+      "description": ""
     },
     "1031": {
       "title": "Closing Keynote",
-      "description" : ""
+      "description": ""
     },
     "1032": {
       "title": "Closing words",
-      "description" : ""
+      "description": ""
     },
     "1033": {
       "title": "Group Photos",
-      "description" : ""
+      "description": ""
     },
     "1034": {
       "title": "Social event",
-      "description" : ""
+      "description": ""
     }
   },
   "speakers": {
-    "dave_cheney" : {
-      "featured" : true,
-      "name" : "Dave Cheney",
-      "order" : 0
+    "dave_cheney": {
+      "featured": true,
+      "name": "Dave Cheney",
+      "order": 0
     }
   },
-  "team": [
-    {
-      "members": [
-        {
-          "name": "Oleh Zasadnyy",
-          "photo": "/images/people/oleh_zasadnyy.jpg",
-          "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/oleh_zasadnyy.jpg",
-          "socials": [
-            {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/oleh.zasadnyy",
-              "name": "Facebook"
-            },
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/ozasadnyy",
-              "name": "Twitter"
-            },
-            {
-              "icon": "website",
-              "link": "http://o.zasadnyy.com/",
-              "name": "Blog"
-            }
-          ],
-          "order": 0,
-          "title": "Website and sponsors"
-        }
-      ],
+  "team": [{
+      "members": [{
+        "name": "Oleh Zasadnyy",
+        "photo": "/images/people/oleh_zasadnyy.jpg",
+        "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/oleh_zasadnyy.jpg",
+        "socials": [{
+            "icon": "facebook",
+            "link": "https://www.facebook.com/oleh.zasadnyy",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/ozasadnyy",
+            "name": "Twitter"
+          },
+          {
+            "icon": "website",
+            "link": "http://o.zasadnyy.com/",
+            "name": "Blog"
+          }
+        ],
+        "order": 0,
+        "title": "Website and sponsors"
+      }],
       "title": "Core Team"
     },
     {
-      "members": [
-        {
-          "name": "Ihor Dvoretskyi",
-          "photo": "/images/people/ihor_dvoretskyi.jpg",
-          "photoUrl": "",
-          "socials": [
-            {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/idvoretskyi",
-              "name": "Facebook"
-            },
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/idvoretskyi",
-              "name": "Twitter"
-            }
-          ],
-          "order": 0,
-          "title": "Cloud stream"
-        }
-      ],
+      "members": [{
+        "name": "Ihor Dvoretskyi",
+        "photo": "/images/people/ihor_dvoretskyi.jpg",
+        "photoUrl": "",
+        "socials": [{
+            "icon": "facebook",
+            "link": "https://www.facebook.com/idvoretskyi",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/idvoretskyi",
+            "name": "Twitter"
+          }
+        ],
+        "order": 0,
+        "title": "Cloud stream"
+      }],
       "title": "Program Committee"
     }
   ],
-  "tickets": [
-    {
-      "available": true,
-      "currency": "€",
-      "ends": "Nov 9",
-      "inDemand": true,
-      "info": "All profits from this event will go to \"Plant for the Planet\"",
-      "name": "General Admission",
-      "price": 15,
-      "regular": true,
-      "soldOut": false,
-      "starts": "Oct 6",
-      "url": "https://www.eventbrite.co.uk/e/devfest-berlin-2019-tickets-74971390447"
-    }
-  ],
+  "tickets": [{
+    "available": true,
+    "currency": "€",
+    "ends": "Nov 9",
+    "inDemand": true,
+    "info": "All profits from this event will go to \"Plant for the Planet\"",
+    "name": "General Admission",
+    "price": 15,
+    "regular": true,
+    "soldOut": false,
+    "starts": "Oct 6",
+    "url": "https://www.eventbrite.co.uk/e/devfest-berlin-2019-tickets-74971390447"
+  }],
   "triggers": {
     "images": false
   },
@@ -444,17 +470,14 @@
       "order": 1,
       "photoUrl": "https://media.licdn.com/dms/image/C4D03AQGvpACfq3qhTQ/profile-displayphoto-shrink_800_800/0?e=1576713600&v=beta&t=G2nq7WkaxKZteLRtcgAF58cVBMN6KSKFK5LaLQO-oBo",
       "sessions": {
-        "2017": [
-          {
-            "presentation": "",
-            "tags": [],
-            "title": "Community High-5s",
-            "videoId": ""
-          }
-        ]
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "Community High-5s",
+          "videoId": ""
+        }]
       },
-      "socials": [
-        {
+      "socials": [{
           "icon": "twitter",
           "link": "https://twitter.com/JulyAte",
           "name": "Twitter"
@@ -477,17 +500,14 @@
       "order": 2,
       "photoUrl": "https://media.licdn.com/dms/image/C4E03AQEEdok7D4bitg/profile-displayphoto-shrink_200_200/0?e=1576713600&v=beta&t=eQydwzQBwhOr1HW7qgX5SImp0uCeeNh0ruhKz6jvv-4",
       "sessions": {
-        "2017": [
-          {
-            "presentation": "https://slides.com/armaganamcalar/jsconfis?source=post_page-----7cf5b0ebf9b4----------------------#/",
-            "tags": [],
-            "title": "Code, Play & Rock'n'Roll: A WebAudio Experiment",
-            "videoId": "_J-zwPE-8W4"
-          }
-        ]
+        "2017": [{
+          "presentation": "https://slides.com/armaganamcalar/jsconfis?source=post_page-----7cf5b0ebf9b4----------------------#/",
+          "tags": [],
+          "title": "Code, Play & Rock'n'Roll: A WebAudio Experiment",
+          "videoId": "_J-zwPE-8W4"
+        }]
       },
-      "socials": [
-        {
+      "socials": [{
           "icon": "twitter",
           "link": "https://twitter.com/dashersw",
           "name": "Twitter"
@@ -510,22 +530,18 @@
       "order": 3,
       "photoUrl": "https://media.licdn.com/dms/image/C4D03AQH01KHrrOi_PA/profile-displayphoto-shrink_200_200/0?e=1576713600&v=beta&t=rSeIv_J-gPhi-j68MvHq6pakvFOidG1dh8GO4FdfW48",
       "sessions": {
-        "2017": [
-          {
-            "presentation": "https://docs.google.com/presentation/d/1LYH4epujIfOIkiyS7AA2EzSY9tNeDcGdiAOfVKH-qRo/edit#slide=id.p",
-            "tags": [],
-            "title": "What Does Go Tell Us About Google?",
-            "videoId": ""
-          }
-        ]
+        "2017": [{
+          "presentation": "https://docs.google.com/presentation/d/1LYH4epujIfOIkiyS7AA2EzSY9tNeDcGdiAOfVKH-qRo/edit#slide=id.p",
+          "tags": [],
+          "title": "What Does Go Tell Us About Google?",
+          "videoId": ""
+        }]
       },
-      "socials": [
-        {
-          "icon": "linkedin",
-          "link": "https://www.linkedin.com/in/björn-rabenstein-75367b57",
-          "name": "LinkedIn"
-        }
-      ],
+      "socials": [{
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/björn-rabenstein-75367b57",
+        "name": "LinkedIn"
+      }],
       "title": "Software Engineer"
     },
     "hasan_hosgel": {
@@ -538,17 +554,14 @@
       "order": 4,
       "photoUrl": "https://media.licdn.com/dms/image/C4D03AQEN9OCGdcxtpQ/profile-displayphoto-shrink_800_800/0?e=1576713600&v=beta&t=sHHJ7XtO27UGOot_Lyp0Ic_TCjM3-5-EjQxKSaZwVzE",
       "sessions": {
-        "2017": [
-          {
-            "presentation": "",
-            "tags": [],
-            "title": "Actions on Google",
-            "videoId": ""
-          }
-        ]
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "Actions on Google",
+          "videoId": ""
+        }]
       },
-      "socials": [
-        {
+      "socials": [{
           "icon": "twitter",
           "link": "https://twitter.com/alosdev",
           "name": "Twitter"
@@ -571,17 +584,14 @@
       "order": 5,
       "photoUrl": "https://media.licdn.com/dms/image/C5603AQEbMC6ztTCxgg/profile-displayphoto-shrink_800_800/0?e=1576713600&v=beta&t=5O1IQ4RAkO_jV66IRWKPRonY-ENe-nS_C3loSqjm9EY",
       "sessions": {
-        "2017": [
-          {
-            "presentation": "https://gitpitch.com/flowdev/present-go-boxes-lego",
-            "tags": [],
-            "title": "Boxes Versus Lego Bricks in Go Programming",
-            "videoId": ""
-          }
-        ]
+        "2017": [{
+          "presentation": "https://gitpitch.com/flowdev/present-go-boxes-lego",
+          "tags": [],
+          "title": "Boxes Versus Lego Bricks in Go Programming",
+          "videoId": ""
+        }]
       },
-      "socials": [
-        {
+      "socials": [{
           "icon": "twitter",
           "link": "https://twitter.com/flowdev_org",
           "name": "Twitter"
@@ -593,6 +603,526 @@
         }
       ],
       "title": "Senior Software Engineer"
+    },
+    "stefan_brosteanu": {
+      "bio": "Stefan has been developing with passion for the Android platform for the past 5 years. Avid tinkerer and tech enthusiast, in his spare time, he loves learning new things, experimenting, and jumps at the occasion to teach others the secrets of the Android ecosystem.",
+      "company": "Lateral Inc.",
+      "companyLogo": "https://media.licdn.com/dms/image/C560BAQF6jJ5rPPASNw/company-logo_400_400/0?e=1579737600&v=beta&t=yamF9rVjVkKA0sujC_ccGGZsEpdS_sPj7G1jGr1wgyY",
+      "country": "",
+      "id": "stefan_brosteanu",
+      "name": "Stefan Brosteanu",
+      "order": 6,
+      "photoUrl": "https://media.licdn.com/dms/image/C4E03AQFvOnUHsA24BA/profile-displayphoto-shrink_200_200/0?e=1576713600&v=beta&t=hC60QVBXml1g5PZM1ZRQcJPnORwcTcgcPyX_RklnD-U",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+          "icon": "twitter",
+          "link": "https://twitter.com/stefbrosteanu",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/stefan-brosteanu/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Mobile Developer"
+    },
+    "miquel_beltran": {
+      "bio": "Miquel Beltran is an Android developer based in Berlin, Germany. He worked as a developer for more than ten years in different sectors, and got in Android in 2012 when he started building video player SDKs for streaming apps. Currently he is building native mobile applications for Android (Kotlin) and Flutter, with experience in iOS native app development and cloud serverless solutions with Firebase.",
+      "company": "BELTRAN.WORK",
+      "companyLogo": "",
+      "country": "",
+      "id": "miquel_beltran",
+      "name": "Miquel Beltran",
+      "order": 7,
+      "photoUrl": "https://media.licdn.com/dms/image/C4D03AQH2oq27j3BEWQ/profile-displayphoto-shrink_200_200/0?e=1576713600&v=beta&t=yW34TyuiFdVshYSZ6g6AEt1nQ3mXW9Th8k0p9dTWkP0",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "Mastering Firebase Cloud Messaging",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+          "icon": "twitter",
+          "link": "https://twitter.com/miqubel",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/miquelbeltran/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Freelance Software Developer Consultant: Android, Flutter, iOS, Firebase"
+    },
+    "rene_groschke": {
+      "bio": "",
+      "company": "Gradle Inc.",
+      "companyLogo": "https://media.licdn.com/dms/image/C560BAQEG0DuzGy4bfQ/company-logo_400_400/0?e=1579737600&v=beta&t=eR2I3B7sH0puXn0IMCUJyLIvksVZX_CSGc4eqTV0vJc",
+      "country": "",
+      "id": "rene_groschke",
+      "name": "René Gröschke",
+      "order": 8,
+      "photoUrl": "https://media.licdn.com/dms/image/C5603AQHzUHtGadPAOQ/profile-displayphoto-shrink_200_200/0?e=1576713600&v=beta&t=MwaYTSyeW1wFvcR5ygbH2PigB6e2SsqS6aOiC8gAJQI",
+      "sessions": {
+        "2017": [{
+          "presentation": "https://jlstrater.github.io/intro-groovy-workshop-devfest-berlin-2017/",
+          "tags": [],
+          "title": "Intro to the Groovy Language and Ecosystem",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+          "icon": "twitter",
+          "link": "https://twitter.com/breskeby",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/groeschke/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Senior Software Engineer"
+    },
+    "jatinder_singh": {
+      "bio": "CEO and Founder of 01soft, teaching Yoga since more than 7 Years, practicing Yoga since more than 30 Years.",
+      "company": "01soft",
+      "companyLogo": "",
+      "country": "",
+      "id": "jatinder_singh",
+      "name": "Jatinder Singh",
+      "order": 9,
+      "photoUrl": "https://2017.devfest-berlin.de/images/speakers/jatinder_singh.jpg",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "Yoga Tools @Work",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "twitter",
+        "link": "https://twitter.com/jpsberlin",
+        "name": "Twitter"
+      }],
+      "title": "CEO & Founder"
+    },
+    "mario_bodemann": {
+      "bio": "Software engineer with a huge passion for Android and Kotlin. Enjoying organizing communities for Android and Nintendo Switch 😉 Find me and let's talk.",
+      "company": "Mobimeo, GDG Berlin Android",
+      "companyLogo": "",
+      "country": "",
+      "id": "mario_bodemann",
+      "name": "Mario Bodemann",
+      "order": 10,
+      "photoUrl": "https://media.licdn.com/dms/image/C5103AQGwVI0yKMIU8A/profile-displayphoto-shrink_200_200/0?e=1577318400&v=beta&t=V6QsnmHk-cMXWHXh9Sace7Ihos1DCslvFQrrd5AQdmw",
+      "sessions": {
+        "2017": [{
+          "presentation": "https://docs.google.com/presentation/d/1ByepX6zNVZOTJnMEl01rYhaKvN-TzoeO-B-IwhAsoUs",
+          "tags": [],
+          "title": "Android Things 🛠🤖🛠",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+          "icon": "twitter",
+          "link": "https://twitter.com/mariobodemann",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/mariobodemann/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Senior Android Developer, GDG co - lead"
+    },
+    "ignacio_coloma": {
+      "bio": "Nacho Coloma is Customer Engineer at Google, where he helps companies of all sizes to migrate their systems to Google Cloud Platform. He holds a M.Sc in Computer Science and has more than 15 years of experience designing applications. Nacho is passionate about containers, storage and web technologies.",
+      "company": "Google",
+      "companyLogo": "",
+      "country": "",
+      "id": "ignacio_coloma",
+      "name": "Ignacio Coloma",
+      "order": 11,
+      "photoUrl": "https://media.licdn.com/dms/image/C5603AQEhRs5wk44qnQ/profile-displayphoto-shrink_200_200/0?e=1577318400&v=beta&t=ZFSYcfrwu2kXaoolZH-3s3mUqkeMmPp3N0-M-tqf8Qw",
+      "sessions": {
+        "2017": [{
+          "presentation": "https://docs.google.com/presentation/d/1ByepX6zNVZOTJnMEl01rYhaKvN-TzoeO-B-IwhAsoUs",
+          "tags": [],
+          "title": "Best Practices with Kubernetes",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "twitter",
+        "link": "https://twitter.com/nachocoloma",
+        "name": "Twitter"
+      }],
+      "title": "Customer Engineer"
+    },
+    "jerome_mouton": {
+      "bio": "Jerome is the co-founder and CTO at SnapEngage, a customer engagement and live chat solution. He is also a lead for GDG Berlin and a Google Developer Expert for the Google Cloud Platform. He has been using the Google AppEngine Python since 2008, and AppEngine Java from early 2009.",
+      "company": "SnapEngage",
+      "companyLogo": "",
+      "country": "",
+      "id": "jerome_mouton",
+      "name": "Jerome Mouton",
+      "order": 12,
+      "photoUrl": "",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "Google Cloud Platform in a Practical Way",
+          "videoId": ""
+        }]
+      },
+      "socials": [],
+      "title": "co-founder and CTO"
+    },
+    "tomek_polanski": {
+      "bio": "I’ve been a mobile software developer for over nine years and I’ve enjoyed every second of it. I am passionate about learning new things every single day and I am not afraid to have an open mind for any new idea.",
+      "company": "Groupon",
+      "companyLogo": "",
+      "country": "",
+      "id": "tomek_polanski",
+      "name": "Tomek Polanski",
+      "order": 13,
+      "photoUrl": "",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "From Kotlin to Machine Code",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "twitter",
+        "link": "https: //twitter.com/tpolansk",
+        "name": "Twitter"
+      }],
+      "title": "Android Developer"
+    },
+    "sowmya_guru": {
+      "bio": "Android developer and a life hacker intrigued by both hardware and software.",
+      "company": "Fanmiles GmbH",
+      "companyLogo": "",
+      "country": "",
+      "id": "sowmya_guru",
+      "name": "Sowmya Guru",
+      "order": 14,
+      "photoUrl": "",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "Android Developer Bootcamp",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "twitter",
+        "link": "https://twitter.com/sowmyasguru",
+        "name": "Twitter"
+      }],
+      "title": "Android Developer"
+    },
+    "anna_lena_konig": {
+      "bio": "Product manager for apps, co-organizer of Ladies That UX Berlin, tech enthusiast.",
+      "company": "Evenly",
+      "companyLogo": "",
+      "country": "",
+      "id": "anna_lena_konig",
+      "name": "Anna-Lena König",
+      "order": 15,
+      "photoUrl": "",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "7 Aspects That Improve the UX of Your App",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "twitter",
+        "link": "https://twitter.com/blog_bleistift",
+        "name": "Twitter"
+      }],
+      "title": "Product Manager"
+    },
+    "daniel_meyer": {
+      "bio": "Daniel Meyer is VP Engineering at Camunda. He is active in the open source space since 2010 and is leading the development of Camunda BPM since 2013. Recently he has been driving the development of Zeebe.io Camunda's new distributed workflow engine.",
+      "company": "Camunda",
+      "companyLogo": "",
+      "country": "",
+      "id": "daniel_meyer",
+      "name": "Daniel Meyer",
+      "order": 16,
+      "photoUrl": "",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "Orchestration of Microservices",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "twitter",
+        "link": "https://twitter.com/meyerdan",
+        "name": "Twitter"
+      }],
+      "title": "VP Engineering"
+    },
+    "stefan_anca": {
+      "bio": "In the Berlin startup world for over 5 years, built mobile Apps for half a dozen startups, specialised on Android. As a freelancer, worked for small companies and large corporate clients, always trying to innovate the mobile scene. Currently working for a company builder with a taste of consulting and interested in efficient team processes and motivating people.",
+      "company": "BCG Digital Ventures",
+      "companyLogo": "",
+      "country": "",
+      "id": "stefan_anca",
+      "name": "Stefan Anca",
+      "order": 17,
+      "photoUrl": "",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "Challenges of Forming a New Engineering Team",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "twitter",
+        "link": "https://twitter.com/StefanAnca",
+        "name": "Twitter"
+      }],
+      "title": "Senior Software Engineer"
+    },
+    "tejas_kumar": {
+      "bio": "I've been coding since I was 8. Now, I get paid to do it. :D Part of my fun job at the coolest tech company in Berlin involves solving complex problems related to performance and usability, all while staying trendy in the ever-changing front-end world.",
+      "company": "Contiamo",
+      "companyLogo": "",
+      "country": "",
+      "id": "tejas_kumar",
+      "name": "Tejas Kumar",
+      "order": 18,
+      "photoUrl": "",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "Streams in the Browser and Why You Should Be Excited About Them",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "twitter",
+        "link": "https://twitter.com/tejaskumar_",
+        "name": "Twitter"
+      }],
+      "title": "Senior Front-End Engineer"
+    },
+    "simon_joecks": {
+      "bio": "Simon is a software engineer developing on Android from the first hour, and currently working on consumer Apps for HERE Technologies.",
+      "company": "HERE Technology",
+      "companyLogo": "",
+      "country": "",
+      "id": "simon_joecks",
+      "name": "Simon Joecks",
+      "order": 19,
+      "photoUrl": "",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "Starting From Scratch in 2017",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "twitter",
+        "link": "https://twitter.com/s_joecks",
+        "name": "Twitter"
+      }],
+      "title": "Senior Software Engineer"
+    },
+    "jean_baptiste_clion": {
+      "bio": "Jean-Baptiste Clion (AKA JB) is a senior cloud engineer working with Google Technologies since 2008. Focused on Google Cloud Platform, he is a real GCP enthusiast with couples of years experience on the solution. He was the founder and co-organizer of GDG Basel, Switzerland. Jean-Baptiste worked in various industries such as Defense & Aeronautics, Finance & Consulting. He will be glad to talk to with you about GCP and Google cloud solutions.",
+      "company": "Google Developer Experts",
+      "companyLogo": "",
+      "country": "",
+      "id": "jean_baptiste_clion",
+      "name": "Jean-Baptiste Clion",
+      "order": 20,
+      "photoUrl": "",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "VanillaJS ML for Web Developers",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "twitter",
+        "link": "https://twitter.com/JBaptisteClion",
+        "name": "Twitter"
+      }],
+      "title": "Cloud & ML Architect"
+    },
+    "ronaldo_pace": {
+      "bio": "I change diapers for a living and work on IoT and Android Development on my free time.",
+      "company": "Sensorberg GmbH",
+      "companyLogo": "",
+      "country": "",
+      "id": "ronaldo_pace",
+      "name": "Ronaldo Pace",
+      "order": 21,
+      "photoUrl": "",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "Unpacking the Power of LiveData",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "twitter",
+        "link": "https://twitter.com/ronaldopace",
+        "name": "Twitter"
+      }],
+      "title": "Senior Android Developer"
+    },
+    "kingsley_adio": {
+      "bio": "Eats droids for a living. About 7 years working with the Android platform. Big Kotlin enthusiast. Almost 4 years shipping apps with Kotlin",
+      "company": "HelloFresh SE",
+      "companyLogo": "",
+      "country": "",
+      "id": "kingsley_adio",
+      "name": "Kingsley Adio",
+      "order": 22,
+      "photoUrl": "",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "Let's Tune This Kotlin",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "twitter",
+        "link": "https://twitter.com/kingsleyadio",
+        "name": "Twitter"
+      }],
+      "title": "Senior Android Developer"
+    },
+    "carolyn_stransky": {
+      "bio": "Carolyn Stransky is an American journalist and JavaScript developer based in Berlin. She’s currently working as a technical writer at Contentful and teaching front end development in the evenings at the ReDI School of Digital Integration.",
+      "company": "Contentful",
+      "companyLogo": "",
+      "country": "",
+      "id": "carolyn_stransky",
+      "name": "Carolyn Stransky",
+      "order": 23,
+      "photoUrl": "",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "Self-care: A Primer on Work-life Balance",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "twitter",
+        "link": "https://twitter.com/carolstran",
+        "name": "Twitter"
+      }],
+      "title": "Senior Android Developer"
+    },
+    "maria_markov": {
+      "bio": "Maria attended the University of British Columbia, where she studied physics and computer science. In 2013 she joined Google as a software engineer and spent 4 years on the Search Ads Serving Infrastructure team in Mountain View. She recently transitioned to the Shopping Spam Detection team in Google's Switzerland office.",
+      "company": "Google Switzerland",
+      "companyLogo": "",
+      "country": "",
+      "id": "maria_markov",
+      "name": "Maria Markov",
+      "order": 24,
+      "photoUrl": "",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "An Insider's View into Software at Scale",
+          "videoId": ""
+        }]
+      },
+      "socials": [],
+      "title": "Software Engineer"
+    },
+    "nebojsa_bozic": {
+      "bio": "Software engineer with a huge passion for technology. Practicing programming for more than 12 years and fighting Android since version 1.5 (Donut).",
+      "company": "GDG Berlin Android",
+      "companyLogo": "",
+      "country": "",
+      "id": "nebojsa_bozic",
+      "name": "Nebojša Božić",
+      "order": 25,
+      "photoUrl": "",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "Android Things 🛠🤖🛠",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "twitter",
+        "link": "https://twitter.com/Kursulla",
+        "name": "Twitter"
+      }],
+      "title": "Senior Android Developer"
+    },
+    "jenn_strater": {
+      "bio": "Jenn is an experienced software engineer with a passion for developing and designing applications using new and innovative technologies. She spent the 2016-2017 academic year as a Fulbright Scholar taking graduate level classes and focusing on a research project involving static analysis for the Groovy programming language before joining Zenjob as a senior engineer in June 2017. Her greatest strength is building RESTful APIs, but she has also worked on small teams where she has had roles involving DevOps, NoSQL data stores, front-end, production support, and mobile work.",
+      "company": "Zenjob",
+      "companyLogo": "",
+      "country": "",
+      "id": "jenn_strater",
+      "name": "Jenn Strater",
+      "order": 26,
+      "photoUrl": "",
+      "sessions": {
+        "2017": [{
+          "presentation": "",
+          "tags": [],
+          "title": "Intro to the Groovy Language and Ecosystem",
+          "videoId": ""
+        }]
+      },
+      "socials": [{
+        "icon": "twitter",
+        "link": "https://twitter.com/codeJENNerator",
+        "name": "Twitter"
+      }],
+      "title": "Senior Engineer"
     }
   }
 }
