@@ -14,18 +14,19 @@ function compile(config, polymerJson) {
   }
   return gulp.src([
     ...polymerJson.sources,
-    polymerJson.entrypoint
-  ], {base: '.'})
-    .pipe(gulpif(/\.(html|js|json)$/, nunjucks.compile(metadata, {
+    polymerJson.entrypoint,
+  ], { base: '.' })
+    .pipe(gulpif(/\.(html|js|json|md)$/, nunjucks.compile(metadata, {
       tags: {
         variableStart: '{$',
-        variableEnd: '$}'
-      }
+        variableEnd: '$}',
+      },
     })))
     .pipe(gulpif(/\.(html|js)$/, replace('bower_components', '../bower_components')))
+    .pipe(gulpif(/\.(html|js)$/, replace('node_modules', '../node_modules')))
     .pipe(gulp.dest(config.tempDirectory));
 }
 
 module.exports = {
-  compile: compile
+  compile: compile,
 };
