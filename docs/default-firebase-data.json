@@ -327,10 +327,10 @@
       ],
       "tracks": [
         {
-          "title": "1"
+          "title": "Auditorium"
         },
         {
-          "title": "2"
+          "title": "Glass Hall"
         }
       ]
     }
@@ -497,7 +497,7 @@
         {
           "name": "Natalie Pis",
           "photo": "/images/team/natalie.jpg",
-          "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/oleh_zasadnyy.jpg",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/natalie.jpg",
           "socials": [
             {
               "icon": "twitter",
@@ -510,13 +510,18 @@
         },
         {
           "name": "Ole Bulbuk",
-          "photo": "/images/team/ole.jpeg",
-          "photoUrl": "",
+          "photo": "/images/team/ole_bulbuk.jpg",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/ole_bulbuk.jpg",
           "socials": [
             {
-              "icon": "",
-              "link": "",
-              "name": ""
+              "icon": "twitter",
+              "link": "https://twitter.com/ole108",
+              "name": "Twitter"
+            },
+            {
+              "icon": "github",
+              "link": "https://github.com/ole108",
+              "name": "GitHub"
             }
           ],
           "order": 1,
@@ -524,13 +529,13 @@
         },
         {
           "name": "Anderson Queiroz",
-          "photo": "",
-          "photoUrl": "",
+          "photo": "/images/team/anderson_queiroz.jpg",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
           "socials": [
             {
-              "icon": "",
-              "link": "",
-              "name": ""
+              "icon": "twitter",
+              "link": "https://twitter.com/AinSoph",
+              "name": "Twitter"
             }
           ],
           "order": 2,
@@ -539,7 +544,7 @@
         {
           "name": "Eden",
           "photo": "",
-          "photoUrl": "",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
           "socials": [
             {
               "icon": "",
@@ -553,7 +558,7 @@
         {
           "name": "Dhia Abbassi",
           "photo": "/images/team/dhia_abbassi.jpg",
-          "photoUrl": "",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
           "socials": [
             {
               "icon": "github",
@@ -577,12 +582,12 @@
         {
           "name": "Mario Bodeman",
           "photo": "/images/team/mario_bodemann.jpg",
-          "photoUrl": "",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
           "socials": [
             {
-              "icon": "",
-              "link": "",
-              "name": ""
+              "icon": "twitter",
+              "link": "https://twitter.com/mariobodemann",
+              "name": "Twitter"
             }
           ],
           "order": 5,
@@ -591,26 +596,40 @@
         {
           "name": "Louis Tsai",
           "photo": "",
-          "photoUrl": "",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
           "socials": [
             {
-              "icon": "",
-              "link": "",
-              "name": ""
+              "icon": "twitter",
+              "link": "https://twitter.com/louis993546",
+              "name": "Twitter"
+            },
+            {
+              "icon": "medium",
+              "link": "https://medium.com/@louis993546",
+              "name": "Medium"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/tsaitszho/",
+              "name": "LinkedIn"
             }
           ],
           "order": 6,
           "title": ""
         },
         {
-          "name": "Alisen",
-          "photo": "",
-          "photoUrl": "",
+          "name": "Alişen Erdoğan",
+          "photo": "/images/team/alisen_erdogan.jpg",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
           "socials": [
             {
-              "icon": "",
-              "link": "",
-              "name": ""
+              "icon": "twitter",
+              "link": "https://twitter.com/alisene",
+              "name": "Twitter"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://linkedin.com/in/alisen"
             }
           ],
           "order": 7,
@@ -619,7 +638,7 @@
         {
           "name": "Antonia Pietrus",
           "photo": "",
-          "photoUrl": "",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
           "socials": [
             {
               "icon": "",
@@ -633,7 +652,7 @@
         {
           "name": "Christine Ip",
           "photo": "",
-          "photoUrl": "",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
           "socials": [
             {
               "icon": "",
@@ -647,7 +666,7 @@
         {
           "name": "Fatma Fadhli",
           "photo": "",
-          "photoUrl": "",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
           "socials": [
             {
               "icon": "",
@@ -661,7 +680,7 @@
         {
           "name": "Jaime Flores",
           "photo": "",
-          "photoUrl": "",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
           "socials": [
             {
               "icon": "",
@@ -675,7 +694,7 @@
         {
           "name": "Jatinder Pal Singh",
           "photo": "",
-          "photoUrl": "",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
           "socials": [
             {
               "icon": "",
@@ -689,7 +708,7 @@
         {
           "name": "Marina",
           "photo": "",
-          "photoUrl": "",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
           "socials": [
             {
               "icon": "",
@@ -701,9 +720,33 @@
           "title": ""
         },
         {
+          "name": "Meredith Avery",
+          "photo": "/images/team/meredith_avery.jpg",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/meredithkavery",
+              "name": "Twitter"
+            },
+            {
+              "icon": "github",
+              "link": "https://github.com/quassibly",
+              "name": "GitHub"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/meredithavery/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 19,
+          "title": ""
+        },
+        {
           "name": "Nebojsa",
           "photo": "/images/team/nebojsa_bozic_nebo.jpg",
-          "photoUrl": "",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
           "socials": [
             {
               "icon": "",
@@ -717,7 +760,7 @@
         {
           "name": "Omar",
           "photo": "",
-          "photoUrl": "",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
           "socials": [
             {
               "icon": "",
@@ -731,7 +774,7 @@
         {
           "name": "Ramy Rais",
           "photo": "",
-          "photoUrl": "",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
           "socials": [
             {
               "icon": "",
@@ -745,7 +788,7 @@
         {
           "name": "Sara",
           "photo": "",
-          "photoUrl": "",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
           "socials": [
             {
               "icon": "",
@@ -759,7 +802,7 @@
         {
           "name": "Steph",
           "photo": "",
-          "photoUrl": "",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
           "socials": [
             {
               "icon": "",
