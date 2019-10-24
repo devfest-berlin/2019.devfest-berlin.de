@@ -495,31 +495,283 @@
     {
       "members": [
         {
-          "name": "Oleh Zasadnyy",
-          "photo": "/images/people/oleh_zasadnyy.jpg",
+          "name": "Natalie Pis",
+          "photo": "/images/team/natalie.jpg",
           "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/oleh_zasadnyy.jpg",
           "socials": [
             {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/oleh.zasadnyy",
-              "name": "Facebook"
-            },
-            {
               "icon": "twitter",
-              "link": "https://twitter.com/ozasadnyy",
+              "link": "https://twitter.com/NataliePis",
               "name": "Twitter"
-            },
-            {
-              "icon": "website",
-              "link": "http://o.zasadnyy.com/",
-              "name": "Blog"
             }
           ],
           "order": 0,
-          "title": "Website and sponsors"
+          "title": "Organizer"
+        },
+        {
+          "name": "Ole Bulbuk",
+          "photo": "/images/team/ole.jpeg",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 1,
+          "title": ""
+        },
+        {
+          "name": "Anderson Queiroz",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 2,
+          "title": ""
+        },
+        {
+          "name": "Eden",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 3,
+          "title": ""
+        },
+        {
+          "name": "Dhia Abbassi",
+          "photo": "/images/team/dhia_abbassi.jpg",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "github",
+              "link": "https://github.com/dhiatn",
+              "name": "GitHub"
+            },
+            {
+              "icon": "instagram",
+              "link": "https://www.instagram.com/dhiatn/",
+              "name": "Instagram"
+            },
+            {
+              "icon": "website",
+              "link": "https://dhia.io/",
+              "name": "Website"
+            }
+          ],
+          "order": 4,
+          "title": "Coordinator"
+        },
+        {
+          "name": "Mario Bodeman",
+          "photo": "/images/team/mario_bodemann.jpg",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 5,
+          "title": ""
+        },
+        {
+          "name": "Louis Tsai",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 6,
+          "title": ""
+        },
+        {
+          "name": "Alisen",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 7,
+          "title": ""
+        },
+        {
+          "name": "Antonia Pietrus",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 8,
+          "title": ""
+        },
+        {
+          "name": "Christine Ip",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 9,
+          "title": ""
+        },
+        {
+          "name": "Fatma Fadhli",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 10,
+          "title": ""
+        },
+        {
+          "name": "Jaime Flores",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 11,
+          "title": ""
+        },
+        {
+          "name": "Jatinder Pal Singh",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 12,
+          "title": ""
+        },
+        {
+          "name": "Marina",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 13,
+          "title": ""
+        },
+        {
+          "name": "Nebojsa",
+          "photo": "/images/team/nebojsa_bozic_nebo.jpg",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 14,
+          "title": ""
+        },
+        {
+          "name": "Omar",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 15,
+          "title": ""
+        },
+        {
+          "name": "Ramy Rais",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 16,
+          "title": ""
+        },
+        {
+          "name": "Sara",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 17,
+          "title": ""
+        },
+        {
+          "name": "Steph",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 18,
+          "title": ""
         }
       ],
-      "title": "Core Team"
+      "title": "Organizers & Volunteers"
     },
     {
       "members": [
