@@ -582,7 +582,7 @@
         {
           "name": "Mario Bodeman",
           "photo": "/images/team/mario_bodemann.jpg",
-          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/mario.bodemann.jpg",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/mario_bodemann.jpg",
           "socials": [
             {
               "icon": "twitter",
@@ -595,8 +595,8 @@
         },
         {
           "name": "Louis Tsai",
-          "photo": "",
-          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
+          "photo": "/images/team/louis_tsai.jpg",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/louis_tsai.jpg",
           "socials": [
             {
               "icon": "twitter",
@@ -819,23 +819,44 @@
     {
       "members": [
         {
-          "name": "Ihor Dvoretskyi",
-          "photo": "/images/people/ihor_dvoretskyi.jpg",
+          "name": "TBD",
+          "photo": "",
           "photoUrl": "",
-          "socials": [
-            {
-              "icon": "facebook",
-              "link": "https://www.facebook.com/idvoretskyi",
-              "name": "Facebook"
-            },
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/idvoretskyi",
-              "name": "Twitter"
-            }
-          ],
+          "socials": [],
           "order": 0,
-          "title": "Cloud stream"
+          "title": ""
+        },
+        {
+          "name": "TBD",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [],
+          "order": 0,
+          "title": ""
+        },
+        {
+          "name": "TBD",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [],
+          "order": 0,
+          "title": ""
+        },
+        {
+          "name": "TBD",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [],
+          "order": 0,
+          "title": ""
+        },
+        {
+          "name": "TBD",
+          "photo": "",
+          "photoUrl": "",
+          "socials": [],
+          "order": 0,
+          "title": ""
         }
       ],
       "title": "Program Committee"
