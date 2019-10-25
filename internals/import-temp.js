@@ -288,11 +288,11 @@ initializeFirebase()
 //   .then(() => importNotificationsConfig())
 // .then(() => importPartners())
 //   .then(() => importPreviousSpeakers())
-  // .then(() => importSchedule())
+// .then(() => importSchedule())
 //   .then(() => importSessions())
 // .then(() => importSpeakers())
 .then(() => importTeam())
-// .then(() => importTickets())
+.then(() => importTickets())
 //   .then(() => importVideos())
 
   .then(() => {
