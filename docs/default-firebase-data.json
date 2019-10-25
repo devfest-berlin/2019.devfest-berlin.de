@@ -679,13 +679,28 @@
         },
         {
           "name": "Jaime Flores",
-          "photo": "",
-          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
+          "photo": "/images/team/jamie_flores.jpg",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/jaime_flores.jpg",
           "socials": [
             {
-              "icon": "",
-              "link": "",
-              "name": ""
+              "icon": "twitter",
+              "link": "https://twitter.com/flejz",
+              "name": "Twitter"
+            },
+            {
+              "icon": "github",
+              "link": "https://github.com/flejz",
+              "name": "GitHub"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/flejz",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "meetup",
+              "link": "http://meetup.com/gdgsjc",
+              "name": "GDG São José dos Campos"
             }
           ],
           "order": 11,
