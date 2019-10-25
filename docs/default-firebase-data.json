@@ -861,10 +861,10 @@
   ],
   "tickets": [
     {
-      "available": "true",
+      "available": true,
       "currency": "€",
       "ends": "Nov 9",
-      "inDemand": true,
+      "inDemand": false,
       "info": "Assist underrepresented groups in the GDG community to attend the conference",
       "name": "Diversity Ticket",
       "price": 0,
@@ -877,7 +877,7 @@
       "available": true,
       "currency": "€",
       "ends": "Nov 9",
-      "inDemand": false,
+      "inDemand": true,
       "info": "All profits from this event will go to \"Plant for the Planet\"",
       "name": "General Admission",
       "price": 15,
