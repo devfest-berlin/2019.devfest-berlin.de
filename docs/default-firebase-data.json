@@ -524,8 +524,7 @@
               "name": "GitHub"
             }
           ],
-          "order": 1,
-          "title": ""
+          "order": 1
         },
         {
           "name": "Anderson Queiroz",
@@ -538,8 +537,7 @@
               "name": "Twitter"
             }
           ],
-          "order": 2,
-          "title": ""
+          "order": 2
         },
         {
           "name": "Eden",
@@ -552,8 +550,7 @@
               "name": ""
             }
           ],
-          "order": 3,
-          "title": ""
+          "order": 3
         },
         {
           "name": "Dhia Abbassi",
@@ -590,8 +587,7 @@
               "name": "Twitter"
             }
           ],
-          "order": 5,
-          "title": ""
+          "order": 5
         },
         {
           "name": "Louis Tsai",
@@ -614,8 +610,7 @@
               "name": "LinkedIn"
             }
           ],
-          "order": 6,
-          "title": ""
+          "order": 6
         },
         {
           "name": "Alişen Erdoğan",
@@ -632,8 +627,7 @@
               "link": "https://linkedin.com/in/alisen"
             }
           ],
-          "order": 7,
-          "title": ""
+          "order": 7
         },
         {
           "name": "Antonia Pietrus",
@@ -646,8 +640,7 @@
               "name": ""
             }
           ],
-          "order": 8,
-          "title": ""
+          "order": 8
         },
         {
           "name": "Christine Ip",
@@ -660,8 +653,7 @@
               "name": ""
             }
           ],
-          "order": 9,
-          "title": ""
+          "order": 9
         },
         {
           "name": "Fatma Fadhli",
@@ -674,8 +666,7 @@
               "name": ""
             }
           ],
-          "order": 10,
-          "title": ""
+          "order": 10
         },
         {
           "name": "Jaime Flores",
@@ -703,8 +694,7 @@
               "name": "GDG São José dos Campos"
             }
           ],
-          "order": 11,
-          "title": ""
+          "order": 11
         },
         {
           "name": "Jatinder Pal Singh",
@@ -717,8 +707,7 @@
               "name": ""
             }
           ],
-          "order": 12,
-          "title": ""
+          "order": 12
         },
         {
           "name": "Marina",
@@ -731,8 +720,7 @@
               "name": ""
             }
           ],
-          "order": 13,
-          "title": ""
+          "order": 13
         },
         {
           "name": "Meredith Avery",
@@ -755,8 +743,7 @@
               "name": "LinkedIn"
             }
           ],
-          "order": 19,
-          "title": ""
+          "order": 19
         },
         {
           "name": "Nebojsa",
@@ -769,36 +756,33 @@
               "name": ""
             }
           ],
-          "order": 14,
-          "title": ""
+          "order": 14
         },
         {
-          "name": "Omar",
-          "photo": "",
-          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
+          "name": "Omer Davutoglu",
+          "photo": "/images/team/omer_davutoglu.jpg",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/omer_davutoglu.jpg",
           "socials": [
             {
-              "icon": "",
-              "link": "",
-              "name": ""
+              "icon": "twitter",
+              "link": "https://twitter.com/_3mard",
+              "name": "Twitter"
             }
           ],
-          "order": 15,
-          "title": ""
+          "order": 15
         },
         {
           "name": "Ramy Rais",
-          "photo": "",
-          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/",
+          "photo": "/images/team/ramy_rais.jpg",
+          "photoUrl": "https://devfest-berlin-2019-testing-a.firebaseapp.com/images/team/ramy_rais.jpg",
           "socials": [
             {
-              "icon": "",
-              "link": "",
-              "name": ""
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/ramyrais/",
+              "name": "LinkedIn"
             }
           ],
-          "order": 16,
-          "title": ""
+          "order": 16
         },
         {
           "name": "Sara",
@@ -811,8 +795,7 @@
               "name": ""
             }
           ],
-          "order": 17,
-          "title": ""
+          "order": 17
         },
         {
           "name": "Steph",
@@ -825,8 +808,7 @@
               "name": ""
             }
           ],
-          "order": 18,
-          "title": ""
+          "order": 18
         }
       ],
       "title": "Organizers & Volunteers"
