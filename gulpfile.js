@@ -61,86 +61,86 @@ function build() {
       ` and ${config.tempDirectory} directories...`);
 
     del([config.build.rootDirectory, config.tempDirectory])
-      .then(() => {
-        console.log(`Compiling template...`);
+        .then(() => {
+          console.log(`Compiling template...`);
 
-        const compileStream = template.compile(config, polymerJson)
-          .on('end', () => {
-            polymerProject = new PolymerProject(buildPolymerJson);
-          });
-        return waitFor(compileStream);
-      })
-      .then(() => {
-        console.log(`Polymer building...`);
+          const compileStream = template.compile(config, polymerJson)
+              .on('end', () => {
+                polymerProject = new PolymerProject(buildPolymerJson);
+              });
+          return waitFor(compileStream);
+        })
+        .then(() => {
+          console.log(`Polymer building...`);
 
-        const sourcesHtmlSplitter = new HtmlSplitter();
-        const sourcesStream = polymerProject.sources()
-          .pipe(sourcesHtmlSplitter.split())
+          const sourcesHtmlSplitter = new HtmlSplitter();
+          const sourcesStream = polymerProject.sources()
+              .pipe(sourcesHtmlSplitter.split())
           // .pipe(gulpif(/\.js$/, uglify()))
-          .pipe(gulpif(/\.(html|css)$/, cssSlam()))
-          .pipe(gulpif(/\.html$/, html.minify()))
+              .pipe(gulpif(/\.(html|css)$/, cssSlam()))
+              .pipe(gulpif(/\.html$/, html.minify()))
           // .pipe(gulpif(/\.(png|gif|jpg|svg)$/, images.minify()))
-          .pipe(sourcesHtmlSplitter.rejoin());
+              .pipe(sourcesHtmlSplitter.rejoin());
 
-        const dependenciesHtmlSplitter = new HtmlSplitter();
-        const dependenciesStream = polymerProject.dependencies()
-          .pipe(dependenciesHtmlSplitter.split())
+          const dependenciesHtmlSplitter = new HtmlSplitter();
+          const dependenciesStream = polymerProject.dependencies()
+              .pipe(dependenciesHtmlSplitter.split())
           // Doesn't work for now
           // .pipe(gulpif(/\.js$/, uglify()))
-          .pipe(gulpif(/\.(html|css)$/, cssSlam()))
-          .pipe(gulpif(/\.html$/, html.minify()))
-          .pipe(dependenciesHtmlSplitter.rejoin());
+              .pipe(gulpif(/\.(html|css)$/, cssSlam()))
+              .pipe(gulpif(/\.html$/, html.minify()))
+              .pipe(dependenciesHtmlSplitter.rejoin());
 
-        let buildStream = mergeStream(sourcesStream, dependenciesStream)
-          .once('data', () => {
-            console.log('Analyzing and optimizing...');
+          let buildStream = mergeStream(sourcesStream, dependenciesStream)
+              .once('data', () => {
+                console.log('Analyzing and optimizing...');
+              });
+
+          buildStream = buildStream.pipe(polymerProject.bundler({
+            stripComments: true,
+          }));
+          buildStream = buildStream.pipe(gulp.dest(config.build.rootDirectory));
+          return waitFor(buildStream);
+        })
+        .then(() => {
+          console.log('Generating the Service Worker...');
+
+          return polymerBuild.addServiceWorker({
+            project: polymerProject,
+            buildRoot: prependPath(
+                config.build.rootDirectory,
+                config.tempDirectory
+            )
+                .replace('\\', '/'),
+            bundled: config.build.bundled,
+            swPrecacheConfig,
           });
+        })
+        .then(() => {
+          console.log('Normalizing...');
 
-        buildStream = buildStream.pipe(polymerProject.bundler({
-          stripComments: true,
-        }));
-        buildStream = buildStream.pipe(gulp.dest(config.build.rootDirectory));
-        return waitFor(buildStream);
-      })
-      .then(() => {
-        console.log('Generating the Service Worker...');
+          const normalizeStream = normalize(config)
+              .on('end', () => {
+                del([prependPath(
+                    config.build.rootDirectory,
+                    config.tempDirectory
+                )]);
+              });
 
-        return polymerBuild.addServiceWorker({
-          project: polymerProject,
-          buildRoot: prependPath(
-            config.build.rootDirectory,
-            config.tempDirectory
-          )
-            .replace('\\', '/'),
-          bundled: config.build.bundled,
-          swPrecacheConfig,
-        });
-      })
-      .then(() => {
-        console.log('Normalizing...');
-
-        const normalizeStream = normalize(config)
-          .on('end', () => {
-            del([prependPath(
+          return waitFor(normalizeStream);
+        })
+        .then(() => {
+          return gulp.src(prependPath(
               config.build.rootDirectory,
-              config.tempDirectory
-            )]);
-          });
-
-        return waitFor(normalizeStream);
-      })
-      .then(() => {
-        return gulp.src(prependPath(
-          config.build.rootDirectory,
-          'service-worker.js'
-        ))
-          .pipe(uglify())
-          .pipe(gulp.dest(config.build.rootDirectory));
-      })
-      .then(() => {
-        console.log('Build complete!');
-        resolve();
-      });
+              'service-worker.js'
+          ))
+              .pipe(uglify())
+              .pipe(gulp.dest(config.build.rootDirectory));
+        })
+        .then(() => {
+          console.log('Build complete!');
+          resolve();
+        });
   });
 }
 
@@ -150,14 +150,14 @@ function lint() {
     `src/**/*.{html,js}`,
     'index.html',
   ])
-    .pipe(eslint())
-    .pipe(eslint.format(friendlyFormatter))
-    .pipe(eslint.failAfterError());
+      .pipe(eslint())
+      .pipe(eslint.format(friendlyFormatter))
+      .pipe(eslint.failAfterError());
 }
 
 function deploy() {
   let metadata = {};
-  for (let file of config.templateData) {
+  for (const file of config.templateData) {
     metadata = Object.assign({}, metadata, require(path.join(process.cwd(), file)));
   }
   return run(`firebase use ${metadata.firebase.projectId} && firebase deploy`).exec();
@@ -177,9 +177,9 @@ function reload(done) {
 
 function compileTemplate() {
   return del([config.tempDirectory])
-    .then(() => {
-      return waitFor(template.compile(config, polymerJson));
-    });
+      .then(() => {
+        return waitFor(template.compile(config, polymerJson));
+      });
 }
 
 function copyStatic() {
@@ -189,7 +189,7 @@ function copyStatic() {
   ], {
     base: '.',
   })
-    .pipe(gulp.dest(config.tempDirectory));
+      .pipe(gulp.dest(config.tempDirectory));
 }
 
 function prependPath(pre, to) {
@@ -197,10 +197,10 @@ function prependPath(pre, to) {
 }
 
 function getConfigPath() {
-  const path = process.env.BUILD_ENV ? `config/${process.env.BUILD_ENV}` : 'config/development';
+  const path = 'config/production';
 
   if (!fs.existsSync(`${path}.json`)) {
-    console.error(`ERROR: Config path '${path}' does not exists. Please, add/use production|development.json files.`);
+    console.error(`ERROR: Config path '${path}' does not exists. Please, add/use production.json files.`);
     return null;
   }
 
