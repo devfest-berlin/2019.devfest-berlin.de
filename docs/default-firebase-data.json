@@ -955,12 +955,10 @@
   "triggers": {
     "images": false
   },
-  "videos": [],
   "previousSpeakers": {
     "jessica_ulyate": {
       "bio": "South African in Berlin, platform product manager  @hellofreshdev, documentarian, cat lady, food lover, yoga enthusiast, crossfit convert, relaxed runner",
       "company": "HelloFresh",
-      "companyLogo": "https://media.licdn.com/dms/image/C560BAQFGZ09J3iw9-w/company-logo_400_400/0?e=1579132800&v=beta&t=m7BFJkzyP1iCW7i2AZr3Gw23b-TeB-pQEuSJJ70Asqo",
       "country": "",
       "id": "jessica_ulyate",
       "name": "Jessica Ulyate",
@@ -993,7 +991,6 @@
     "armagan_amcalar": {
       "bio": "Software architect, leader, lecturer, public speaker, mentor, entrepreneur, JS evangelist, electronics engineer, guitarist, singer, radio host.",
       "company": "Wayfair",
-      "companyLogo": "https://media.licdn.com/dms/image/C4E0BAQHHS2RPVTXtRw/company-logo_400_400/0?e=1579132800&v=beta&t=TUSzAC0TZgZhFHpbFEReWUBX-A7l8XDxe24S2nmiomM",
       "country": "",
       "id": "armagan_amcalar",
       "name": "Armagan Amcalar",
@@ -1026,7 +1023,6 @@
     "bjorn_rabenstein": {
       "bio": "Björn is a Software Engineer at Grafana Labs and a Prometheus developer. Previously, he was a Production Engineer at SoundCloud and a number cruncher for science.",
       "company": "Grafana Labs",
-      "companyLogo": "https://media.licdn.com/dms/image/C510BAQEUE7lk86CnEQ/company-logo_400_400/0?e=1579132800&v=beta&t=cSGQOzJnz5ZT8JJyo06h0CH5bVo3AUgZsstd-tG9Iyg",
       "country": "",
       "id": "bjorn_rabenstein",
       "name": "Björn Rabenstein",
@@ -1054,12 +1050,11 @@
     "hasan_hosgel": {
       "bio": "Lead Android Engineer @ MHP - A Porsche Company & co-lead GDG Berlin Android. Interested in innovation, mobile and IT.",
       "company": "MHP – A Porsche Company",
-      "companyLogo": "https://media.licdn.com/dms/image/C560BAQE2iLhF8rTjQw/company-logo_400_400/0?e=1579132800&v=beta&t=3kk-0HTTeaprWlOoES2c8AegNe7Q6xNNwXhe3nOTm60",
       "country": "",
       "id": "hasan_hosgel",
       "name": "Hasan Hoşgel",
       "order": 4,
-      "photoUrl": "https://media.licdn.com/dms/image/C4D03AQEN9OCGdcxtpQ/profile-displayphoto-shrink_800_800/0?e=1576713600&v=beta&t=sHHJ7XtO27UGOot_Lyp0Ic_TCjM3-5-EjQxKSaZwVzE",
+      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/hasan.png",
       "sessions": {
         "2017": [
           {
@@ -1087,7 +1082,6 @@
     "ole_bulbuk": {
       "bio": "Ole is a back end engineer since the nineties. He has been working for many companies big and small and seen many projects fail or succeed. Currently he loves to be part of the vibrant startup life in Berlin while working on a Go back end for OptioPay. In his spare time he is co-leading the Berlin chapter of GDG Golang, enjoys time with his family including two cats and takes part in a broad range of old and new activities from hiking to motor cycling and from meditating to boxing.",
       "company": "OptioPay Group",
-      "companyLogo": "https://media.licdn.com/dms/image/C4D0BAQGw2isf6GI0Bg/company-logo_400_400/0?e=1579132800&v=beta&t=NGmB-gtlx96ZwEvyc4kYpcdAQK_o2IKwvfv3edLfKiY",
       "country": "",
       "id": "ole_bulbuk",
       "name": "Ole Bulbuk",
@@ -1120,7 +1114,6 @@
     "stefan_brosteanu": {
       "bio": "Stefan has been developing with passion for the Android platform for the past 5 years. Avid tinkerer and tech enthusiast, in his spare time, he loves learning new things, experimenting, and jumps at the occasion to teach others the secrets of the Android ecosystem.",
       "company": "Lateral Inc.",
-      "companyLogo": "https://media.licdn.com/dms/image/C560BAQF6jJ5rPPASNw/company-logo_400_400/0?e=1579737600&v=beta&t=yamF9rVjVkKA0sujC_ccGGZsEpdS_sPj7G1jGr1wgyY",
       "country": "",
       "id": "stefan_brosteanu",
       "name": "Stefan Brosteanu",
@@ -1186,7 +1179,6 @@
     "rene_groschke": {
       "bio": "",
       "company": "Gradle Inc.",
-      "companyLogo": "https://media.licdn.com/dms/image/C560BAQEG0DuzGy4bfQ/company-logo_400_400/0?e=1579737600&v=beta&t=eR2I3B7sH0puXn0IMCUJyLIvksVZX_CSGc4eqTV0vJc",
       "country": "",
       "id": "rene_groschke",
       "name": "René Gröschke",
