@@ -1,7 +1,6 @@
 {
   "basepath": "/",
-  "url": "https://devfest-berlin-2019-testing-a.firebaseapp.com/",
-  "analytics": "TODO",
+  "url": "https://localhost:3000/",
   "prefix": "/",
   "firebase": {
     "appId": "1:680045724334:web:466b5fd0b184679207e33f",
@@ -12,5 +11,5 @@
     "storageBucket": "devfest-berlin-2019-testing-a.appspot.com",
     "messagingSenderId": "680045724334"
   },
-  "googleMapApiKey": "TODO"
+  "googleMapApiKey": "You can make your own project and create your own API key"
 }

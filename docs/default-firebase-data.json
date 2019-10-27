@@ -929,19 +929,6 @@
       "available": true,
       "currency": "€",
       "ends": "Nov 9",
-      "inDemand": false,
-      "info": "Assist underrepresented groups in the GDG community to attend the conference",
-      "name": "Diversity Ticket",
-      "price": 0,
-      "regular": false,
-      "soldOut": false,
-      "starts":"Oct 6",
-      "url": "https://forms.gle/ERcWHG3ErNarDja17"
-    },
-    {
-      "available": true,
-      "currency": "€",
-      "ends": "Nov 9",
       "inDemand": true,
       "info": "All profits from this event will go to \"Plant for the Planet\"",
       "name": "General Admission",
@@ -950,6 +937,19 @@
       "soldOut": false,
       "starts": "Oct 6",
       "url": "https://www.eventbrite.co.uk/e/devfest-berlin-2019-tickets-74971390447"
+    },
+    {
+      "available": true,
+      "currency": "€",
+      "ends": "Nov 9",
+      "inDemand": false,
+      "info": "Assist underrepresented groups in the GDG community to attend the conference",
+      "name": "Diversity Ticket",
+      "price": 0,
+      "regular": false,
+      "soldOut": false,
+      "starts":"Oct 6",
+      "url": "https://forms.gle/ERcWHG3ErNarDja17"
     }
   ],
   "triggers": {

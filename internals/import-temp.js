@@ -291,7 +291,7 @@ initializeFirebase()
 // .then(() => importSchedule())
 //   .then(() => importSessions())
 // .then(() => importSpeakers())
-.then(() => importTeam())
+// .then(() => importTeam())
 .then(() => importTickets())
 //   .then(() => importVideos())
 

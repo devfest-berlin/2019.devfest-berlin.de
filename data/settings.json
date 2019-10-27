@@ -114,11 +114,11 @@
     "pointer": {
       "latitude": 52.5060805,
       "longitude": 13.4398406,
-      "zoom": 5
+      "zoom": 9
     },
     "mapCenter": {
-      "latitude": 48,
-      "longitude": 8
+      "latitude": 52.5060805,
+      "longitude": 13.4398406
     },
     "description": "The new Zalando Headquarters consists of an ensemble of two buildings that form the heart of the company’s new campus in Berlin."
   },
