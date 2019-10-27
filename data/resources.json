@@ -129,8 +129,7 @@
     "organization": "DevFest",
     "form": "https://bit.ly/2RstTJ8",
     "contacts": [
-      "Organizer ???, [+??????????](tel:+??????????), ?@?.?",
-      "Organizer ???, [+??????????](tel:+??????????), ?@?.?"
+      "Organizer Natalie Pistunovich, [+??????????](tel:+??????????), ?@?.?"
     ]
   },
   "aboutBlock": {
@@ -142,7 +141,7 @@
         "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
       },
       "howItWas": {
-        "description": "Described by many as 'Google I/O of Ukraine', our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
+        "description": "After a year of hiatus, DevFest is back to Berlin, stronger than ever! 2 years ago we had so much fun, connecting with people, and learning together!",
         "label": "See how it was in 2017",
         "youtubeId": "TdpbgRgz6eE"
       }
@@ -187,13 +186,6 @@
   "blog": {
     "published": "Published",
     "suggested": "Up next"
-  },
-  "latestPostsBlock": {
-    "title": "The latest news",
-    "callToAction": {
-      "label": "View all stories",
-      "link": "/blog/"
-    }
   },
   "speakers": {
     "skills": "Skills",
@@ -276,7 +268,7 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+        "description": "5 GDGs from Berlin, along with support from our partners, join forces and make this year's DevFest possible!",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"
