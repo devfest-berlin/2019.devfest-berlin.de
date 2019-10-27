@@ -105,11 +105,6 @@
       "title": "Event Resources",
       "links": [
         {
-          "name": "Partnership Proposition",
-          "url": "#",
-          "newTab": true
-        },
-        {
           "name": "Call for Papers",
           "url": "https://www.papercall.io/devfest-berlin-2019",
           "newTab": true
