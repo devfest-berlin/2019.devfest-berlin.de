@@ -526,62 +526,74 @@
     "TBD 2": {
       "featured": true,
       "name": "TBD",
-      "order": 2
+      "order": 2,
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
     },
     "TBD 3": {
       "featured": true,
       "name": "TBD",
-      "order": 3
+      "order": 3,
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
     },
     "TBD 4": {
       "featured": false,
       "name": "TBD",
-      "order": 4
+      "order": 4,
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
     },
     "TBD 5": {
       "featured": false,
       "name": "TBD",
-      "order": 5
+      "order": 5,
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
     },
     "TBD 6": {
       "featured": false,
       "name": "TBD",
-      "order": 6
+      "order": 6,
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
     },
     "TBD 7": {
       "featured": false,
       "name": "TBD",
-      "order": 7
+      "order": 7,
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
     },
     "TBD 8": {
       "featured": false,
       "name": "TBD",
-      "order": 8
+      "order": 8,
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
     },
     "TBD 9": {
       "featured": false,
       "name": "TBD",
-      "order": 9
+      "order": 9,
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
     },
     "TBD 10": {
       "featured": false,
       "name": "TBD",
-      "order": 10
+      "order": 10,
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
     },
     "TBD 11": {
       "featured": false,
       "name": "TBD",
-      "order": 11
+      "order": 11,
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
     },
     "TBD 12": {
       "featured": false,
       "name": "TBD",
-      "order": 12
+      "order": 12,
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
     },
     "TBD 13": {
       "featured": false,
       "name": "TBD",
-      "order": 13
+      "order": 13,
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
     }
   },
   "team": [
@@ -1067,7 +1079,7 @@
       "id": "ole_bulbuk",
       "name": "Ole Bulbuk",
       "order": 5,
-      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/ole_bulbuk.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/team/ole_bulbuk.jpg",
       "sessions": {
         "2017": [
           {
@@ -1099,7 +1111,7 @@
       "id": "stefan_brosteanu",
       "name": "Stefan Brosteanu",
       "order": 6,
-      "photoUrl": "stefan_anca.jpg",
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
       "sessions": {
         "2017": [
           {
@@ -1132,7 +1144,7 @@
       "id": "miquel_beltran",
       "name": "Miquel Beltran",
       "order": 7,
-      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/",
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
       "sessions": {
         "2017": [
           {
@@ -1258,7 +1270,7 @@
       "id": "ignacio_coloma",
       "name": "Ignacio Coloma",
       "order": 11,
-      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/",
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
       "sessions": {
         "2017": [
           {
@@ -1286,7 +1298,7 @@
       "id": "jerome_mouton",
       "name": "Jerome Mouton",
       "order": 12,
-      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/",
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
       "sessions": {
         "2017": [
           {
@@ -1308,7 +1320,7 @@
       "id": "tomek_polanski",
       "name": "Tomek Polanski",
       "order": 13,
-      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/",
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
       "sessions": {
         "2017": [
           {
@@ -1364,7 +1376,7 @@
       "id": "anna_lena_konig",
       "name": "Anna-Lena König",
       "order": 15,
-      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/",
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
       "sessions": {
         "2017": [
           {
@@ -1476,7 +1488,7 @@
       "id": "simon_joecks",
       "name": "Simon Joecks",
       "order": 19,
-      "photoUrl": "",
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
       "sessions": {
         "2017": [
           {
@@ -1504,7 +1516,7 @@
       "id": "jean_baptiste_clion",
       "name": "Jean-Baptiste Clion",
       "order": 20,
-      "photoUrl": "",
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
       "sessions": {
         "2017": [
           {
@@ -1560,7 +1572,7 @@
       "id": "kingsley_adio",
       "name": "Kingsley Adio",
       "order": 22,
-      "photoUrl": "",
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
       "sessions": {
         "2017": [
           {
@@ -1588,7 +1600,7 @@
       "id": "carolyn_stransky",
       "name": "Carolyn Stransky",
       "order": 23,
-      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/carolyn_stansky.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/carolyn_stransky.jpg",
       "sessions": {
         "2017": [
           {
@@ -1616,7 +1628,7 @@
       "id": "maria_markov",
       "name": "Maria Markov",
       "order": 24,
-      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/maria_markov.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/maria-markov.jpg",
       "sessions": {
         "2017": [
           {
@@ -1638,7 +1650,7 @@
       "id": "nebojsa_bozic",
       "name": "Nebojša Božić",
       "order": 25,
-      "photoUrl": "",
+      "photoUrl": "https://2019.devfest-berlin.de/images/team/nebojsa_bozic_nebo.jpg",
       "sessions": {
         "2017": [
           {
@@ -1666,7 +1678,7 @@
       "id": "jenn_strater",
       "name": "Jenn Strater",
       "order": 26,
-      "photoUrl": "",
+      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
       "sessions": {
         "2017": [
           {
