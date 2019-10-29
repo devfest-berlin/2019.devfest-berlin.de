@@ -146,11 +146,7 @@
             class="share-facebook"
             icon="hoverboard:facebook"
             share="facebook"
-            on-tap="share"
-            ga-on="click"
-            ga-event-category="social"
-            ga-event-action="share"
-            ga-event-label="facebook">
+            on-tap="share">
           </paper-icon-button>
         </div>
         <div class="share">
@@ -158,11 +154,7 @@
             class="share-twitter"
             icon="hoverboard:twitter"
             share="twitter"
-            on-tap="share"
-            ga-on="click"
-            ga-event-category="social"
-            ga-event-action="share"
-            ga-event-label="twitter">
+            on-tap="share">
           </paper-icon-button>
         </div>
       </div>
@@ -175,11 +167,7 @@
           <li>
             <a href="{$ socFollow.url $}"
                 target="_blank"
-                rel="noopener noreferrer"
-                ga-on="click"
-                ga-event-category="social"
-                ga-event-action="follow"
-                ga-event-label="{$ socFollow.name $}">
+                rel="noopener noreferrer">
               <paper-icon-button icon="hoverboard:{$ socFollow.name $}"></paper-icon-button>
             </a>
           </li>

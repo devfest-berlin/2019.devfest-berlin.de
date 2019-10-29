@@ -47,10 +47,6 @@
           class="sign-in-button"
           on-tap="_signIn"
           provider-url="{$ provider.url $}"
-          ga-on="click"
-          ga-event-category="attendees"
-          ga-event-action="sign-in"
-          ga-event-label="signIn dialog - {$ provider.name $}"
           flex
         >
           <iron-icon class="icon-{$ provider.name $}" icon="hoverboard:{$ provider.name $}"></iron-icon>
@@ -69,10 +65,6 @@
           <paper-button
             class="merge-button"
             on-tap="_mergeAccounts"
-            ga-on="click"
-            ga-event-category="attendees"
-            ga-event-action="merge account"
-            ga-event-label$="signIn merge account dialog -[[providerCompanyName]]"
             primary
           >
           <span>{$ signInDialog.signInToContinue.part1 $} [[providerCompanyName]]</span>
