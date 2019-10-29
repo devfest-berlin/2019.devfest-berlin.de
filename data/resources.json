@@ -103,11 +103,6 @@
       "title": "Event Resources",
       "links": [
         {
-          "name": "Call for Papers",
-          "url": "https://www.papercall.io/devfest-berlin-2019",
-          "newTab": true
-        },
-        {
           "name": "FAQs",
           "url": "/faq/",
           "newTab": false
