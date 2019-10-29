@@ -1,8 +1,8 @@
 {
   "organizer": {
-    "name": "GDG Berlin",
-    "twitter": "GDGberlin",
-    "url": "https://www.meetup.com/gdg-berlin/"
+    "name": "WTM Berlin",
+    "twitter": "wtm_berlin",
+    "url": "https://www.meetup.com/Women-Techmakers-Berlin/"
   },
   "startDate": "2019-11-09T09:00:00+01:00",
   "endDate": "2019-11-09T20:30:00+01:00",
@@ -40,7 +40,7 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "Join the commuity, learn new things!",
+      "description": "Join the commuity, learn new things, child care included!",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"
@@ -57,8 +57,8 @@
     },
     "speakers": {
       "title": "Speakers",
-      "metaDescription": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
-      "description": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
+      "metaDescription": "Hear from the community leaders, who are building the future of Berlin's tech. Check back often as we add more speakers!",
+      "description": "Hear from the community leaders, who are building the future of Berlin's tech. Check back often as we add more speakers!",
       "background": {
         "color": "#FFF"
       },
@@ -107,7 +107,7 @@
   },
   "location": {
     "label": "Location",
-    "name": "Zalando SE Headquarter",
+    "name": "Zalando SE Headquarters",
     "city": "Berlin",
     "short": "Berlin, Germany",
     "address": "Valeska-Gert-Straße 5, 10243 Berlin, Germany",
@@ -120,7 +120,7 @@
       "latitude": 52.5060805,
       "longitude": 13.4398406
     },
-    "description": "Zalando BHQ-X is the new geadquarters of Zalando, consists of an ensemble of two buildings that form the heart of the company’s new campus in Berlin."
+    "description": "Zalando BHQ-X is the new headquarters of Zalando SE, consists of an ensemble of two buildings that form the heart of the company’s new campus in Berlin."
   },
   "mediaQueries": {
     "xs": {
@@ -142,11 +142,11 @@
     "follow": [
       {
         "name": "meetup",
-        "url": "https://www.meetup.com/gdg-berlin/"
+        "url": "https://www.meetup.com/Women-Techmakers-Berlin//"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/GDGBerlin"
+        "url": "https://twitter.com/wtm_berlin"
       }
     ],
     "share": [
