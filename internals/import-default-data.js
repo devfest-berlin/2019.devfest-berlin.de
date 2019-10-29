@@ -140,29 +140,6 @@ const importGallery = () => {
     });
 };
 
-const importBlog = () => {
-  const blog = data.blog;
-  if (!Object.keys(blog).length) {
-    return false;
-  }
-  console.log('\tImporting blog...');
-
-  const batch = firestore.batch();
-
-  Object.keys(blog).forEach((docId) => {
-    batch.set(
-      firestore.collection('blog').doc(docId),
-      blog[docId],
-    );
-  });
-
-  return batch.commit()
-    .then(results => {
-      console.log('\tImported data for', results.length, 'blog posts');
-      return results;
-    });
-};
-
 const importVideos = () => {
   const docs = data.videos;
   if (!Object.keys(docs).length) {
@@ -283,7 +260,6 @@ const importNotificationsConfig = async () => {
 };
 
 initializeFirebase()
-  .then(() => importBlog())
   .then(() => importGallery())
   .then(() => importNotificationsConfig())
   .then(() => importPartners())

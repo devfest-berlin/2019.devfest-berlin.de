@@ -4,13 +4,11 @@
   "image": "images/social-share.png",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "November 9, 2019",
-  "partnershipProposition": "TODO",
   "share": "Share",
-  "followOur": "Follow our",
   "followUs": "Follow us",
-  "partnershipResources": "Partnership Resources",
   "eventResources": "Event Resources",
   "buyTicket": "Buy ticket",
+  "applyTicket": "Apply",
   "signIn": "Sign in",
   "signOut": "Sign out",
   "viewHighlights": "View Highlights",
@@ -142,7 +140,7 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "?‍"
+        "number": "250+‍"
       },
       "days": {
         "label": "Days",
@@ -150,7 +148,7 @@
       },
       "sessions": {
         "label": "Sessions",
-        "number": "?"
+        "number": "26"
       },
       "tracks": {
         "label": "Tracks",

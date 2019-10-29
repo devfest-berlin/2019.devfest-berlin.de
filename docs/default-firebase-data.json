@@ -486,9 +486,26 @@
   },
   "speakers": {
     "dave_cheney": {
+      "bio": "",
+      "company": "",
+      "companyLogo": "",
+      "copanyLogoUrl": "",
+      "country": "",
       "featured": true,
       "name": "Dave Cheney",
-      "order": 0
+      "photo": "",
+      "photoUrl": "",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/davecheney",
+          "name": "Twitter"
+        }
+      ],
+      "order": 0,
+      "title": ""
     },
     "TBD 1": {
       "featured": false,
