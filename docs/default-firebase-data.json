@@ -493,8 +493,8 @@
       "country": "",
       "featured": true,
       "name": "Dave Cheney",
-      "photo": "",
-      "photoUrl": "",
+      "photo": "/images/speakers/dave_cheney.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/dave_cheney.jpg",
       "pronouns": "",
       "shortBio": "",
       "socials": [
