@@ -63,11 +63,6 @@ in `hoverboard-app.html`
     data-route="home"
     data-path="pages/home-page.html"
   ></home-page>
-  <blog-page
-    data-route="blog"
-    data-path="pages/blog-page.html"
-    route="[[subroute]]"
-  ></blog-page>
   <speakers-page
     data-route="speakers"
     data-path="pages/speakers-page.html"

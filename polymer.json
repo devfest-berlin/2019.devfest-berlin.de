@@ -2,10 +2,7 @@
   "entrypoint": "index.html",
   "shell": "src/hoverboard-app.html",
   "fragments": [
-    "src/pages/blog-list-page.html",
-    "src/pages/blog-page.html",
     "src/pages/home-page.html",
-    "src/pages/post-page.html",
     "src/pages/schedule-page.html",
     "src/pages/speakers-page.html",
     "src/pages/previous-speakers-page.html",
@@ -33,14 +30,24 @@
     "node_modules/redux/dist/redux.min.js"
   ],
   "lint": {
-    "rules": ["polymer-2"]
+    "rules": [
+      "polymer-2"
+    ]
   },
-  "builds": [{
-    "bundle": true,
-    "insertPrefetchLinks": true,
-    "addServiceWorker": true,
-    "js": {"minify": true},
-    "css": {"minify": true},
-    "html": {"minify": true}
-  }]
+  "builds": [
+    {
+      "bundle": true,
+      "insertPrefetchLinks": true,
+      "addServiceWorker": true,
+      "js": {
+        "minify": true
+      },
+      "css": {
+        "minify": true
+      },
+      "html": {
+        "minify": true
+      }
+    }
+  ]
 }

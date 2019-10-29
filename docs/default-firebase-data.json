@@ -507,23 +507,34 @@
       "order": 0,
       "title": ""
     },
-    "TBD 1": {
-      "featured": false,
-      "name": "TBD",
-      "order": 1
+    "ela_krief": {
+      "bio": "Ela Krief is an independent Business consultant. She facilitated the rapid growth of teams, interviewed hundreds and hired dozens. She led client-facing teams in several tech companies. Her focus is on whitespace planning, customer success and retention, operational excellence, change management and implementing an unbiased hiring scheme. One of her passions is to support women in their career path and story as career growth consultant, and mentor. ",
+      "company": "",
+      "companyLogo": "",
+      "copanyLogoUrl": "",
+      "country": "",
+      "featured": true,
+      "name": "Ela Krief",
+      "photo": "/images/speakers/ela_krief.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ela_krief.jpg",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [],
+      "order": 1,
+      "title": ""
     },
     "TBD 2": {
-      "featured": false,
+      "featured": true,
       "name": "TBD",
       "order": 2
     },
     "TBD 3": {
-      "featured": false,
+      "featured": true,
       "name": "TBD",
       "order": 3
     },
     "TBD 4": {
-      "featured": false,
+      "featured": true,
       "name": "TBD",
       "order": 4
     },
@@ -587,8 +598,7 @@
               "name": "Twitter"
             }
           ],
-          "order": 0,
-          "title": "Organizer"
+          "order": 0
         },
         {
           "name": "Ole Bulbuk",
@@ -624,7 +634,7 @@
         {
           "name": "Eden",
           "photo": "",
-          "photoUrl": "https://2019.devfest-berlin.de/images/team/",
+          "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
           "socials": [
             {
               "icon": "",
@@ -655,8 +665,7 @@
               "name": "Website"
             }
           ],
-          "order": 4,
-          "title": "Coordinator"
+          "order": 4
         },
         {
           "name": "Mario Bodeman",
@@ -714,7 +723,7 @@
         {
           "name": "Antonia Pietrus",
           "photo": "",
-          "photoUrl": "https://2019.devfest-berlin.de/images/team/",
+          "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
           "socials": [
             {
               "icon": "",
@@ -727,7 +736,7 @@
         {
           "name": "Christine Ip",
           "photo": "",
-          "photoUrl": "https://2019.devfest-berlin.de/images/team/",
+          "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
           "socials": [
             {
               "icon": "",
@@ -740,7 +749,7 @@
         {
           "name": "Fatma Fadhli",
           "photo": "",
-          "photoUrl": "https://2019.devfest-berlin.de/images/team/",
+          "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
           "socials": [
             {
               "icon": "",
@@ -781,7 +790,7 @@
         {
           "name": "Jatinder Pal Singh",
           "photo": "",
-          "photoUrl": "https://2019.devfest-berlin.de/images/team/",
+          "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
           "socials": [
             {
               "icon": "",
@@ -794,7 +803,7 @@
         {
           "name": "Marina",
           "photo": "",
-          "photoUrl": "https://2019.devfest-berlin.de/images/team/",
+          "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
           "socials": [
             {
               "icon": "",
@@ -869,7 +878,7 @@
         {
           "name": "Sara",
           "photo": "",
-          "photoUrl": "https://2019.devfest-berlin.de/images/team/",
+          "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
           "socials": [
             {
               "icon": "",
@@ -882,7 +891,7 @@
         {
           "name": "Steph",
           "photo": "",
-          "photoUrl": "https://2019.devfest-berlin.de/images/team/",
+          "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
           "socials": [
             {
               "icon": "",
@@ -892,53 +901,7 @@
           ],
           "order": 18
         }
-      ],
-      "title": "Organizers & Volunteers"
-    },
-    {
-      "members": [
-        {
-          "name": "TBD",
-          "photo": "",
-          "photoUrl": "",
-          "socials": [],
-          "order": 0,
-          "title": ""
-        },
-        {
-          "name": "TBD",
-          "photo": "",
-          "photoUrl": "",
-          "socials": [],
-          "order": 0,
-          "title": ""
-        },
-        {
-          "name": "TBD",
-          "photo": "",
-          "photoUrl": "",
-          "socials": [],
-          "order": 0,
-          "title": ""
-        },
-        {
-          "name": "TBD",
-          "photo": "",
-          "photoUrl": "",
-          "socials": [],
-          "order": 0,
-          "title": ""
-        },
-        {
-          "name": "TBD",
-          "photo": "",
-          "photoUrl": "",
-          "socials": [],
-          "order": 0,
-          "title": ""
-        }
-      ],
-      "title": "Program Committee"
+      ]
     }
   ],
   "tickets": [
@@ -965,7 +928,7 @@
       "price": 0,
       "regular": false,
       "soldOut": false,
-      "starts":"Oct 6",
+      "starts": "Oct 6",
       "url": "https://forms.gle/ERcWHG3ErNarDja17"
     }
   ],
