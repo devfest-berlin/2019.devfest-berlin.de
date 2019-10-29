@@ -534,7 +534,7 @@
       "order": 3
     },
     "TBD 4": {
-      "featured": true,
+      "featured": false,
       "name": "TBD",
       "order": 4
     },
@@ -901,7 +901,8 @@
           ],
           "order": 18
         }
-      ]
+      ],
+      "title": "Organizers & Volunteers"
     }
   ],
   "tickets": [
