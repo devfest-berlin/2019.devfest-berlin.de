@@ -184,7 +184,9 @@
         </template>
       </div>
 
-      <div class="additional-info">*{$ ticketsBlock.ticketsDetails $}</div>
+      <marked-element class="additional-info" markdown="{$ ticketsBlock.ticketsDetails $}">
+        <div slot="markdown-html"></div>
+      </marked-element>
 
     </div>
 

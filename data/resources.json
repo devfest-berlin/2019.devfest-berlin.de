@@ -153,7 +153,7 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party.",
+    "ticketsDetails": "\\*Tickets grant access to all conference sections, coffee breaks, lunch and party. <br/><br/>\\*Childcare from 09:00 to 18:00 is availble for free. Please specify when purchasing ticket.",
     "soldOut": "You missed it!",
     "notAvailableYet": "Not available yet",
     "save": "Save ${discount}% today"
