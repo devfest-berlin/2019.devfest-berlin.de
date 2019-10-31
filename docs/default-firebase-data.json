@@ -463,18 +463,17 @@
       "company": "Sauce Labs",
       "country": "Berlin",
       "features": false,
-      "photo": "/images/speakers/outputs/daniel_paulus.jpg",
-      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/daniel_paulus.jpg",
+      "photo": "/images/speakers/daniel_paulus.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/daniel_paulus.jpg",
       "order": 0
     },
     "hannes_hapke": {
       "name": "Hannes Hapke",
       "bio": "Hannes Hapke has been a Machine Learning enthusiast for many years. He is the creator of wunderbar.ai, a service to track machine learning predictions and their effects. He is a _Google Developer Expert for Machine Learning_. Hannes has applied deep learning to a variety of computer vision and natural language problems, and his main interest is in automating machine learning pipelines. He is a co-author of two machine learning publications, \"NLP in Action\" by Manning Publishing and \"Building Machine Learning Pipelines\" by O'Reilly Media.",
       "company": "wunderbar.ai",
-      "country": "Unknown",
       "features": false,
-      "photo": "/images/speakers/outputs/hannes_hapke.jpg",
-      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/hannes_hapke.jpg",
+      "photo": "/images/speakers/hannes_hapke.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/hannes_hapke.jpg",
       "order": 1
     },
     "l_korbes": {
@@ -483,28 +482,26 @@
       "company": "Garden",
       "country": "Berlin, Germany",
       "features": false,
-      "photo": "/images/speakers/outputs/l_korbes.jpg",
-      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/l_korbes.jpg",
+      "photo": "/images/speakers/l_korbes.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/l_korbes.jpg",
       "order": 2
     },
     "ashrut_vora": {
       "name": "Ashrut Vora",
       "bio": "Ashrut Vora works at Google enabling enterprises to use Google Cloud's full potential. He comes from Software Engineering background and was privileged to move around few roles from engineering ==> devops ==> SRE infra platform managing public cloud infrastructure ==> Tech marketing at NetApp Inc. He is currently at tail end of his MBA in Entrepreneurship at Babson College. ",
       "company": "Google",
-      "country": "Unknown",
       "features": false,
-      "photo": "/images/speakers/outputs/ashrut_vora.jpg",
-      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/ashrut_vora.jpg",
+      "photo": "/images/speakers/ashrut_vora.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ashrut_vora.jpg",
       "order": 3
     },
     "andrea_falcone": {
       "name": "Andrea Falcone",
       "bio": "Andrea Falcone is a Senior Software Engineer at Google. Currently she is working on Android Jetpack building libraries and tooling for internal and external developers.. She previously built Crashlytics, Fabric and fastlane (first at Crashlytics, then Twitter, then Google!) She is an accomplished mobile/mobile tools developer with experience in building not only iOS and Android apps but also Android Studio Plugins, Android SDKs, Gradle plugins, and CI/CD systems like fastlane.",
       "company": "Google",
-      "country": "Unknown",
       "features": false,
-      "photo": "/images/speakers/outputs/andrea_falcone.jpg",
-      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/andrea_falcone.jpg",
+      "photo": "/images/speakers/andrea_falcone.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/andrea_falcone.jpg",
       "order": 4
     },
     "syamala_umamaheswaran": {
@@ -513,28 +510,26 @@
       "company": "Volkswagen Digital:Lab",
       "country": "Berlin",
       "features": false,
-      "photo": "/images/speakers/outputs/syamala_umamaheswaran.jpg",
-      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/syamala_umamaheswaran.jpg",
+      "photo": "/images/speakers/syamala_umamaheswaran.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/syamala_umamaheswaran.jpg",
       "order": 5
     },
     "ole_bulbuk": {
       "name": "Ole Bulbuk",
       "bio": "Ole is a back-end engineer since the nineties.\r\nHe has been working for many companies big and small and seen many projects fail or succeed.\r\nCurrently he loves to be part of the vibrant startup life in Berlin while working on a Go backend for solarisBank.\r\n\r\nIn his spare time he is co-organising the Berlin chapter of GDG Golang,\r\ndevelops open source software, enjoys time with his family and\r\ntakes part in a broad range of old and new activities from hiking to motor cycling and from meditating to boxing.",
       "company": "solarisBank",
-      "country": "Unknown",
       "features": false,
-      "photo": "/images/speakers/outputs/ole_bulbuk.jpg",
-      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/ole_bulbuk.jpg",
+      "photo": "/images/speakers/ole_bulbuk.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ole_bulbuk.jpg",
       "order": 6
     },
     "lara_martin": {
       "name": "Lara Martín",
       "bio": "Lara is a self-made Android developer based in Berlin and Google Developer Expert for Flutter and Dart. Her passion for Android made her transition from her background in science to software development. Her dream is to make apps more accessible for everyone. When she's not attending a tech meetup, you will find her playing video games.\r\n\r\nMiguel is a Freelance Consultant specialized in mobile development for Android and Flutter, you can find him at https://beltran.work.\r\n",
       "company": "",
-      "country": "Unknown",
       "features": false,
-      "photo": "/images/speakers/outputs/lara_martin.jpg",
-      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/lara_martin.jpg",
+      "photo": "/images/speakers/lara_martin.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/lara_martin.jpg",
       "order": 7
     },
     "miguel_beltran": {
@@ -543,18 +538,17 @@
       "company": "Freelancer",
       "country": "Berlin",
       "features": false,
-      "photo": "/images/speakers/outputs/miguel_beltran.jpg",
-      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/miguel_beltran.jpg",
+      "photo": "/images/speakers/miguel_beltran.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/miguel_beltran.jpg",
       "order": 8
     },
     "moataz_nabil": {
       "name": "Moataz Nabil",
       "bio": "Moataz Nabil\r\nSenior SDET/Test Automation Engineer at Delivery Hero \r\n- 10+ years of IT experience across development and testing roles\r\n- Test Automation Expert and Technical Instructor at Udemy\r\n- Microsoft ALM and Azure DevOps Specialist\r\n- Worked in different business domains like (Agriculture, Telecom, Healthcare, Fashion, and Food Delivery)\r\n- Participate and design a lot of test automation framework for Web and Mobile applications using a different set of tools and languages\r\n- Implementing different CI/CD pipeline using different tools ex: GitLab, Bitbucket, Bitrise, Azure DevOps and Jenkins.\r\n- Taught more than 600 students in many countries how to start in test automation using Selenium WebDriver and Java in Arabic at Udemy\r\n- Hold a number of certificates include MCT, MCSD, MCSD-ALM, MCTS, MCAD, ISTQB, and CSM.",
       "company": "Delivery Hero SE",
-      "country": "Unknown",
       "features": false,
-      "photo": "/images/speakers/outputs/moataz_nabil.jpg",
-      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/moataz_nabil.jpg",
+      "photo": "/images/speakers/moataz_nabil.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/moataz_nabil.jpg",
       "order": 9
     }
   },
