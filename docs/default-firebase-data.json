@@ -48,9 +48,7 @@
           "endTime": "09:45",
           "sessions": [
             {
-              "items": [
-                1000
-              ]
+              "items": [1000]
             }
           ],
           "startTime": "09:00"
@@ -59,9 +57,7 @@
           "endTime": "10:00",
           "sessions": [
             {
-              "items": [
-                1001
-              ]
+              "items": [1001]
             }
           ],
           "startTime": "09:45"
@@ -71,14 +67,10 @@
           "endTime": "10:55",
           "sessions": [
             {
-              "items": [
-                1003
-              ]
+              "items": [1003]
             },
             {
-              "items": [
-                1004
-              ]
+              "items": [1004]
             }
           ]
         },
@@ -87,14 +79,10 @@
           "endTime": "11:25",
           "sessions": [
             {
-              "items": [
-                1005
-              ]
+              "items": [1005]
             },
             {
-              "items": [
-                1006
-              ]
+              "items": [1006]
             }
           ]
         },
@@ -103,14 +91,10 @@
           "endTime": "11:55",
           "sessions": [
             {
-              "items": [
-                1007
-              ]
+              "items": [1007]
             },
             {
-              "items": [
-                1008
-              ]
+              "items": [1008]
             }
           ]
         },
@@ -119,14 +103,10 @@
           "endTime": "12:25",
           "sessions": [
             {
-              "items": [
-                1009
-              ]
+              "items": [1009]
             },
             {
-              "items": [
-                1010
-              ]
+              "items": [1010]
             }
           ]
         },
@@ -135,9 +115,7 @@
           "endTime": "13:30",
           "sessions": [
             {
-              "items": [
-                1011
-              ]
+              "items": [1011]
             }
           ]
         },
@@ -146,14 +124,10 @@
           "endTime": "13:55",
           "sessions": [
             {
-              "items": [
-                1012
-              ]
+              "items": [1012]
             },
             {
-              "items": [
-                1013
-              ]
+              "items": [1013]
             }
           ]
         },
@@ -162,14 +136,10 @@
           "endTime": "14:25",
           "sessions": [
             {
-              "items": [
-                1014
-              ]
+              "items": [1014]
             },
             {
-              "items": [
-                1015
-              ]
+              "items": [1015]
             }
           ]
         },
@@ -178,14 +148,10 @@
           "endTime": "14:55",
           "sessions": [
             {
-              "items": [
-                1016
-              ]
+              "items": [1016]
             },
             {
-              "items": [
-                1017
-              ]
+              "items": [1017]
             }
           ]
         },
@@ -194,14 +160,10 @@
           "endTime": "15:25",
           "sessions": [
             {
-              "items": [
-                1018
-              ]
+              "items": [1018]
             },
             {
-              "items": [
-                1019
-              ]
+              "items": [1019]
             }
           ]
         },
@@ -210,14 +172,10 @@
           "endTime": "15:55",
           "sessions": [
             {
-              "items": [
-                1020
-              ]
+              "items": [1020]
             },
             {
-              "items": [
-                1021
-              ]
+              "items": [1021]
             }
           ]
         },
@@ -226,9 +184,7 @@
           "endTime": "16:30",
           "sessions": [
             {
-              "items": [
-                1022
-              ]
+              "items": [1022]
             }
           ]
         },
@@ -237,14 +193,10 @@
           "endTime": "16:55",
           "sessions": [
             {
-              "items": [
-                1023
-              ]
+              "items": [1023]
             },
             {
-              "items": [
-                1024
-              ]
+              "items": [1024]
             }
           ]
         },
@@ -253,14 +205,10 @@
           "endTime": "17:25",
           "sessions": [
             {
-              "items": [
-                1025
-              ]
+              "items": [1025]
             },
             {
-              "items": [
-                1026
-              ]
+              "items": [1026]
             }
           ]
         },
@@ -269,14 +217,10 @@
           "endTime": "17:55",
           "sessions": [
             {
-              "items": [
-                1027
-              ]
+              "items": [1027]
             },
             {
-              "items": [
-                1028
-              ]
+              "items": [1028]
             }
           ]
         },
@@ -285,9 +229,7 @@
           "endTime": "18:30",
           "sessions": [
             {
-              "items": [
-                1031
-              ]
+              "items": [1031]
             }
           ]
         },
@@ -296,9 +238,7 @@
           "endTime": "18:40",
           "sessions": [
             {
-              "items": [
-                1032
-              ]
+              "items": [1032]
             }
           ]
         },
@@ -307,9 +247,7 @@
           "endTime": "18:45",
           "sessions": [
             {
-              "items": [
-                1033
-              ]
+              "items": [1033]
             }
           ]
         },
@@ -318,9 +256,7 @@
           "endTime": "20:30",
           "sessions": [
             {
-              "items": [
-                1034
-              ]
+              "items": [1034]
             }
           ]
         }
@@ -347,9 +283,7 @@
     "1002": {
       "title": "Keynote",
       "description": "",
-      "speakers": [
-        "dave_cheney"
-      ]
+      "speakers": ["dave_cheney"]
     },
     "1003": {
       "title": "?",
@@ -523,77 +457,105 @@
       "order": 1,
       "title": ""
     },
-    "TBD 2": {
-      "featured": true,
-      "name": "TBD",
-      "order": 2,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
+    "daniel_paulus": {
+      "name": "Daniel Paulus",
+      "bio": "Daniel Paulus is the Lead Software Engineer at the Sauce Labs’ Real Device Cloud Core Team in Berlin. For delivering Sauce Labs’ market-leading performance with every new mobile OS version he and his team are responsible for low level USB programming and reverse engineering iOS and Android internal APIs to build stable new features on inherently unstable consumer devices.  \r\nDaniel previously held roles as developer, team leader, IT manager and project manager during his 13 year career as an officer in the German Military. \r\n",
+      "company": "Sauce Labs",
+      "country": "Berlin",
+      "features": false,
+      "photo": "/images/speakers/outputs/daniel_paulus.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/daniel_paulus.jpg",
+      "order": 0
     },
-    "TBD 3": {
-      "featured": true,
-      "name": "TBD",
-      "order": 3,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
+    "hannes_hapke": {
+      "name": "Hannes Hapke",
+      "bio": "Hannes Hapke has been a Machine Learning enthusiast for many years. He is the creator of wunderbar.ai, a service to track machine learning predictions and their effects. He is a _Google Developer Expert for Machine Learning_. Hannes has applied deep learning to a variety of computer vision and natural language problems, and his main interest is in automating machine learning pipelines. He is a co-author of two machine learning publications, \"NLP in Action\" by Manning Publishing and \"Building Machine Learning Pipelines\" by O'Reilly Media.",
+      "company": "wunderbar.ai",
+      "country": "Unknown",
+      "features": false,
+      "photo": "/images/speakers/outputs/hannes_hapke.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/hannes_hapke.jpg",
+      "order": 1
     },
-    "TBD 4": {
-      "featured": false,
-      "name": "TBD",
-      "order": 4,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
+    "l_korbes": {
+      "name": "L Körbes",
+      "bio": "L is a developer advocate at Garden and an avid gopher, passionate about development tooling and making developers' workflows better. They've spoken at world-famous events, and countless local meet-ups. L is a proud recipient of a 'Best Hair' award.",
+      "company": "Garden",
+      "country": "Berlin, Germany",
+      "features": false,
+      "photo": "/images/speakers/outputs/l_korbes.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/l_korbes.jpg",
+      "order": 2
     },
-    "TBD 5": {
-      "featured": false,
-      "name": "TBD",
-      "order": 5,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
+    "ashrut_vora": {
+      "name": "Ashrut Vora",
+      "bio": "Ashrut Vora works at Google enabling enterprises to use Google Cloud's full potential. He comes from Software Engineering background and was privileged to move around few roles from engineering ==> devops ==> SRE infra platform managing public cloud infrastructure ==> Tech marketing at NetApp Inc. He is currently at tail end of his MBA in Entrepreneurship at Babson College. ",
+      "company": "Google",
+      "country": "Unknown",
+      "features": false,
+      "photo": "/images/speakers/outputs/ashrut_vora.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/ashrut_vora.jpg",
+      "order": 3
     },
-    "TBD 6": {
-      "featured": false,
-      "name": "TBD",
-      "order": 6,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
+    "andrea_falcone": {
+      "name": "Andrea Falcone",
+      "bio": "Andrea Falcone is a Senior Software Engineer at Google. Currently she is working on Android Jetpack building libraries and tooling for internal and external developers.. She previously built Crashlytics, Fabric and fastlane (first at Crashlytics, then Twitter, then Google!) She is an accomplished mobile/mobile tools developer with experience in building not only iOS and Android apps but also Android Studio Plugins, Android SDKs, Gradle plugins, and CI/CD systems like fastlane.",
+      "company": "Google",
+      "country": "Unknown",
+      "features": false,
+      "photo": "/images/speakers/outputs/andrea_falcone.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/andrea_falcone.jpg",
+      "order": 4
     },
-    "TBD 7": {
-      "featured": false,
-      "name": "TBD",
-      "order": 7,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
+    "syamala_umamaheswaran": {
+      "name": "Syamala Umamaheswaran",
+      "bio": "",
+      "company": "Volkswagen Digital:Lab",
+      "country": "Berlin",
+      "features": false,
+      "photo": "/images/speakers/outputs/syamala_umamaheswaran.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/syamala_umamaheswaran.jpg",
+      "order": 5
     },
-    "TBD 8": {
-      "featured": false,
-      "name": "TBD",
-      "order": 8,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
+    "ole_bulbuk": {
+      "name": "Ole Bulbuk",
+      "bio": "Ole is a back-end engineer since the nineties.\r\nHe has been working for many companies big and small and seen many projects fail or succeed.\r\nCurrently he loves to be part of the vibrant startup life in Berlin while working on a Go backend for solarisBank.\r\n\r\nIn his spare time he is co-organising the Berlin chapter of GDG Golang,\r\ndevelops open source software, enjoys time with his family and\r\ntakes part in a broad range of old and new activities from hiking to motor cycling and from meditating to boxing.",
+      "company": "solarisBank",
+      "country": "Unknown",
+      "features": false,
+      "photo": "/images/speakers/outputs/ole_bulbuk.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/ole_bulbuk.jpg",
+      "order": 6
     },
-    "TBD 9": {
-      "featured": false,
-      "name": "TBD",
-      "order": 9,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
+    "lara_martin": {
+      "name": "Lara Martín",
+      "bio": "Lara is a self-made Android developer based in Berlin and Google Developer Expert for Flutter and Dart. Her passion for Android made her transition from her background in science to software development. Her dream is to make apps more accessible for everyone. When she's not attending a tech meetup, you will find her playing video games.\r\n\r\nMiguel is a Freelance Consultant specialized in mobile development for Android and Flutter, you can find him at https://beltran.work.\r\n",
+      "company": "",
+      "country": "Unknown",
+      "features": false,
+      "photo": "/images/speakers/outputs/lara_martin.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/lara_martin.jpg",
+      "order": 7
     },
-    "TBD 10": {
-      "featured": false,
-      "name": "TBD",
-      "order": 10,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
+    "miguel_beltran": {
+      "name": "Miguel Beltran",
+      "bio": "Miguel Beltran is a Freelance Consultant specialized in mobile development for Android and Flutter. He has been working in tech for more than a decade developing products for remote international teams, he’s public speaker since 2016, and has published online courses for Android development on Pluralsight. You can know more about him at https://beltran.work.\r\n",
+      "company": "Freelancer",
+      "country": "Berlin",
+      "features": false,
+      "photo": "/images/speakers/outputs/miguel_beltran.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/miguel_beltran.jpg",
+      "order": 8
     },
-    "TBD 11": {
-      "featured": false,
-      "name": "TBD",
-      "order": 11,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
-    },
-    "TBD 12": {
-      "featured": false,
-      "name": "TBD",
-      "order": 12,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
-    },
-    "TBD 13": {
-      "featured": false,
-      "name": "TBD",
-      "order": 13,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg"
+    "moataz_nabil": {
+      "name": "Moataz Nabil",
+      "bio": "Moataz Nabil\r\nSenior SDET/Test Automation Engineer at Delivery Hero \r\n- 10+ years of IT experience across development and testing roles\r\n- Test Automation Expert and Technical Instructor at Udemy\r\n- Microsoft ALM and Azure DevOps Specialist\r\n- Worked in different business domains like (Agriculture, Telecom, Healthcare, Fashion, and Food Delivery)\r\n- Participate and design a lot of test automation framework for Web and Mobile applications using a different set of tools and languages\r\n- Implementing different CI/CD pipeline using different tools ex: GitLab, Bitbucket, Bitrise, Azure DevOps and Jenkins.\r\n- Taught more than 600 students in many countries how to start in test automation using Selenium WebDriver and Java in Arabic at Udemy\r\n- Hold a number of certificates include MCT, MCSD, MCSD-ALM, MCTS, MCAD, ISTQB, and CSM.",
+      "company": "Delivery Hero SE",
+      "country": "Unknown",
+      "features": false,
+      "photo": "/images/speakers/outputs/moataz_nabil.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/outputs/moataz_nabil.jpg",
+      "order": 9
     }
   },
   "team": [
