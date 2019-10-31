@@ -420,7 +420,7 @@
   },
   "speakers": {
     "dave_cheney": {
-      "bio": "",
+      "bio": "David is an open source contributor and project member for the Go programming language. David is a well-respected voice within the tech community, speaking on a variety of topics such as software design, performance, and the Go programming language.<br>In 2009, while idly perusing Google Reader (we’ll never forget!) he ran across the announcement of a new open source language, Go. It was love at first sight. From that point David’s passion has taken him around the world writing, teaching, and speaking about Go.<br>David is currently a member of the technical staff at VMware. Prior to their acquisition he served as a Staff Engineer at Heptio, a Seattle based company, focused on building tools to help developers become more productive with Kubernetes.",
       "company": "",
       "companyLogo": "",
       "copanyLogoUrl": "",
@@ -429,7 +429,7 @@
       "name": "Dave Cheney",
       "photo": "/images/speakers/dave_cheney.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/dave_cheney.jpg",
-      "pronouns": "",
+      "pronouns": "he",
       "shortBio": "",
       "socials": [
         {
@@ -451,7 +451,7 @@
       "name": "Ela Krief",
       "photo": "/images/speakers/ela_krief.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ela_krief.jpg",
-      "pronouns": "",
+      "pronouns": "she",
       "shortBio": "",
       "socials": [],
       "order": 1,
