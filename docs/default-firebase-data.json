@@ -1,5 +1,4 @@
 {
-  "blog": {},
   "gallery": [
     "https://2019.devfest-berlin.de/images/gallery/1.jpg",
     "https://2019.devfest-berlin.de/images/gallery/2.jpg",
@@ -45,6 +44,7 @@
       "dateReadable": "November 9",
       "timeslots": [
         {
+          "startTime": "09:00",
           "endTime": "09:45",
           "sessions": [
             {
@@ -52,10 +52,10 @@
                 1000
               ]
             }
-          ],
-          "startTime": "09:00"
+          ]
         },
         {
+          "startTime": "09:45",
           "endTime": "10:00",
           "sessions": [
             {
@@ -63,8 +63,18 @@
                 1001
               ]
             }
-          ],
-          "startTime": "09:45"
+          ]
+        },
+        {
+          "startTime": "10:00",
+          "endTime": "10:30",
+          "sessions": [
+            {
+              "items": [
+                1002
+              ]
+            }
+          ]
         },
         {
           "startTime": "10:30",
@@ -207,22 +217,6 @@
         },
         {
           "startTime": "15:30",
-          "endTime": "15:55",
-          "sessions": [
-            {
-              "items": [
-                1020
-              ]
-            },
-            {
-              "items": [
-                1021
-              ]
-            }
-          ]
-        },
-        {
-          "startTime": "16:00",
           "endTime": "16:30",
           "sessions": [
             {
@@ -336,95 +330,31 @@
     }
   },
   "sessions": {
-    "100": {
+    "1000": {
+      "title": "Breakfast & Registration"
+    },
+    "1001": {
+      "title": "Opening words"
+    },
+    "1002": {
+      "title": "SOLID Go Design",
+      "description": "",
+      "speakers": [
+        "dave_cheney"
+      ]
+    },
+    "1003": {
+      "title": "Bridging the Gap Between Technology and Marketing Teams"
+    },
+    "1004": {
       "complexity": "Beginner",
-      "description": "I’ll go through RDBMS and NoSQL basic concepts to remark the differences. I will show some of the challenges that big companies like Netflix face when it comes to store and manage their data.\r\nBy the end of this talk, the attendees will understand what the best options are for different scenarios.\r\n",
+      "description": "Mobile DevOps is a practice of bringing the different disciplines involved in developing, testing, releasing, and operating software into being functional inside organizations or by a team that works closely together. The team is able to continuously deliver their product based on continuous feedback and iteration. There are different practices, habits and different flavors of adopted company cultures that set the behavior for an actual process and daily doing.\r\nIn this talk, we'll take a look at the most common and widely accepted Mobile DevOps and building our own Android/iOS CI/CD pipeline from scratch in a few steps",
       "speakers": [
-        "victoria_perez_mola"
+        "moataz_nabil"
       ],
-      "title": "To SQL or NoSQL?: A tale of two paradigms. "
+      "title": "Continuous Testing and Mobile DevOps"
     },
-    "101": {
-      "complexity": "Beginner",
-      "description": "This talk will introduce the Analysis API in the [analysis](https://godoc.org/golang.org/x/tools/go/analysis) package and how to use it to write your own Analysis tools. “Analyses” are tools that inspect programs and report errors, warnings or just useful info . I’ll show that even if many people haven’t heard of it, they are inadvertently using it when running popular tools like *staticcheck*. I’ll talk about why our team wants to write our own Analyses to help us automate parts of our code reviews.\r\n\r\nI’ll demo writing and running an analysis function by implementing one of the rules from the recently released [Uber Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md).",
-      "speakers": [
-        "rael_schmulian"
-      ],
-      "title": "Catching Low Hanging Fruit with Go Analysis"
-    },
-    "102": {
-      "complexity": "Beginner",
-      "description": "The Android eco-system is changing rapidly and is not afraid to pivot. Most applications are built with monolithic architectures - forcing the engineers to agree on a certain tech stack - due to the dependency chain. Designing features to be independent allows teams to work independently. This can of course be seen as both an advantage and disadvantage. On the one hand it doesn't force engineers to use the (maybe deprecated) tech stacks of their predecessors, on the other hand it can lead to very different engineering approaches being used.\r\n\r\nIn this talk we are going to take a look at the development cycle of modularized applications: Inception and the concept of modules, development and feature discoverability up until deployment and dynamic features. In addition to these it will give an overview of modularization approaches with common pitfalls and compare these approaches with a decoupled architecture.",
-      "speakers": [
-        "damian_burke"
-      ],
-      "title": "Inverting the Dependency — Independent Features in Android Applications"
-    },
-    "103": {
-      "complexity": "Beginner",
-      "description": "  In my speech, I want to open the topic of getting education with the field of IT not by professionals, people without specialized education.  Describe the challenges and opportunities that are encountered along the way.  Using the example of my path to IT, I want to show that you can always change something in your career.  I would also like to raise the topic of fears and doubts of other specialists regarding mentoring.  Encourage experienced programmers, project managers, agile coaches to share their knowledge with beginners through meetings, lectures, and conferences.\r\n",
-      "speakers": [
-        "olena_boiko"
-      ],
-      "title": "How to motivate yourself to change your career into tech, and how to motivate others to share their knowledge in this area."
-    },
-    "104": {
-      "complexity": "Beginner",
-      "description": "Nim is a statically typed, multi-paradigm programming language that provides safe runtime efficiency without compromising on expressiveness and elegance. It is extensible, concise and extremely efficient. During this talk, I'll show you how to utilise Nim's meta-programming, concurrency, seamless portability and customisable Garbage Collector for your system programming, as well as your web development, tasks. By the end of this talk you'll be familiar with the language basics and, more importantly, you'll know how to leverage Nim to gain a competitive advantage in your application development life-cycle.",
-      "speakers": [
-        "fred_heath"
-      ],
-      "title": "The Nim programming language"
-    },
-    "105": {
-      "complexity": "Beginner",
-      "description": "The QuickTime application gives you the possibility to stream and record live audio and video from iOS devices connected to a MacOSX host. \r\nI was interested in seeing how this feature works and how it can be implemented in Go to enable all operating systems to support it. \r\nAs usual, Apple did not publish any documentation on how this feature works. Therefore, the only way to get there was to reverse engineer it from scratch. I managed to get a working implementation for Linux and would like to share and discuss my approach to reverse engineering this protocol. I find reverse engineering these features very rewarding because as you go, you get the chance to really understand how things like h264, pcm audio, synchronization or USB data transfers work on a low level. \r\nIn my talk I will show you:\r\n- how to debug and analyze USB traffic on a Mac with Wireshark\r\n- easy ways of how to make sense of network/usb protocols just by looking at hex dump representations\r\n- how to implement a USB device codec with golang and libusb\r\n- and how to stream h264 video data over the network or save it to a file\r\n\r\nThe whole project is MIT licensed and well documented,\r\nso that anyone can go ahead and implement it in their favorite language.\r\n\r\n[github](https://github.com/danielpaulus/quicktime_video_hack)",
-      "speakers": [
-        "daniel_paulus"
-      ],
-      "title": "Reverse Engineering iOS Screen Mirroring with Golang"
-    },
-    "106": {
-      "complexity": "Beginner",
-      "description": "We all love programming. But programming is not an end in itself. And how do we actually know, what we should program? For that we need a tool to learn about the domain.\r\n\r\nDomain Storytelling is a collaborative modeling method. It brings together domain experts and development teams. It means that we let our users tell us stories about their work. While listening, we record the stories using a pictographic language.\r\n\r\nThe experts can see immediately if we understand their story. After very few stories, we understand the language of our users and can build a domain model from it and implement this in the programming language of our choice.",
-      "speakers": [
-        "henning_schwentner"
-      ],
-      "title": "Domain Storytelling"
-    },
-    "107": {
-      "complexity": "Beginner",
-      "description": "In this talk, Hannes, Google Developer Expert, will share his experience with deploying TensorFlow Serving in a variety of setups and deep learning models. He starts off the talk with a 90s deployment of a TensorFlow model and then walks the audience through common use cases (e.g., model A/B testing, deployment scaling, efficient deployments). His talk is a summary of his model deployment experience at various companies ranging from small startups to major corporations. He will also provide a preview of the upcoming O'Reilly book \"Building Machine Learning Pipelines\".",
-      "speakers": [
-        "hannes_hapke"
-      ],
-      "title": "Deploy Deep Learning Models with Ease"
-    },
-    "108": {
-      "complexity": "Intermediate",
-      "description": "Developing Go applications for Kubernetes commonly involves way too many distractions: re-compiling, and waiting, and building, and waiting, and pushing,and waiting, and... did it work?\r\n\r\nThe rise of \"development orchestration\" tools—e.g. Draft, Garden, Skaffold, Tilt—has automated a lot of that work, but they are generic tools that don't necessarily cater to Go's specific case.\r\n\r\nIn this talk, L will use Garden as a starting point and hack away until we arrive at the snappiest possible workflow for containerized Go services running on Kubernetes.\r\n\r\nWe'll discuss GOCACHE, whether to remove debugging info from binaries, dealing with container sizes, ideas for vendoring, and lots more.",
-      "speakers": [
-        "l_korbes"
-      ],
-      "title": "The Quest For The Snappiest Go & Kubernetes Workflow"
-    },
-    "109": {
-      "complexity": "Beginner",
-      "description": "Machine learning is many things starting from data collection , data cleansing, training, pipelines to production but in all these technical process we sometimes forget that essentially it is humans who are writing the model and cleaning the data. This talk will go through why ML fairness is important and how we can go about achieving it.",
-      "speakers": [
-        "ashrut_vora"
-      ],
-      "title": "Machine Learning fairness"
-    },
-    "110": {
-      "complexity": "Beginner",
-      "description": "Have you ever wanted to fix a bug in AOSP but found it daunting? Have you wanted to search the code in AOSP but found it difficult? We'll dig into the tools like Repo and Gerrit that the Android team uses everyday. Get ready to be a contributor to the Android Open Source Project!",
-      "speakers": [
-        "andrea_falcone"
-      ],
-      "title": "Your first AOSP Contribution"
-    },
-    "111": {
+    "1005": {
       "complexity": "Beginner",
       "description": "There is ample evidence available that shows **working in pairs produces better result** and \r\nbuilds great team morale **than working alone**. Still many think pair programming slows them down or they need to be a natural at pair programming.  \r\n\r\nThis talk aims at **breaking the taboo** around pair programming by **addressing problems that presents themselves during pairing**. By the end of \r\nthis talk the audience will have a **comprehensive guide** with tools and techniques that will help them to **learn pair programming**\r\n\r\nAre you a programmer who has never paired?\r\nAre you a programmer who thinks pair programming is not for you?\r\nDoes your team wants to pair program but you are not sure how? \r\n\r\n**Come and learn to be an effective pair.**",
       "speakers": [
@@ -432,7 +362,7 @@
       ],
       "title": "Pair Programming is a skill you can learn!!"
     },
-    "112": {
+    "1006": {
       "complexity": "Beginner",
       "description": "Junior developers often struggle to gain the experience necessary to land their first job.\r\nCompanies, on the other hand, desperately look for senior developers, but are often afraid to hire juniors.\r\n\r\n*How can we find a middle ground?*\r\n\r\nIn this talk, we'll explore the current market situation, and discuss the types of knowledge that potential employers value.\r\nBy dispelling myths and revealing some oddities, we arrive at an extensive but narrow set of topics, helpful for companies and developers alike.\r\n\r\nDevelopers will know where to focus to land their first job. Companies will have a better set of criteria to sharpen their hiring process.\r\n\r\nEither way, this talk shows you what *really matters* — and how to steer clear of what doesn't.",
       "speakers": [
@@ -440,7 +370,7 @@
       ],
       "title": "How to Land a Good Go Job"
     },
-    "113": {
+    "1007": {
       "complexity": "Intermediate",
       "description": "Flutter is a portable UI toolkit for building beautiful, natively-compiled applications for mobile, web, and desktop from a single codebase. Originally focused for mobile app development, now you can also use it to build websites! \r\n\r\nEarlier this year, the Flutter team presented Flutter for web, a code-compatible implementation of Flutter that is rendered using standards-based web technologies: HTML, CSS and JavaScript. \r\n\r\nIn this talk, we are going to explore the capabilities of Flutter for web, the UI foundations of Flutter, and how all Flutter code is compiled to JavaScript that can run on any modern browser. You will learn how you can use Flutter to build mobile applications and websites with a single codebase. And if you never heard about Flutter before, do not worry, we will do an introduction for you.",
       "speakers": [
@@ -449,60 +379,22 @@
       ],
       "title": "Flutter for Web: Beautiful Apps and Websites with a Single Codebase"
     },
-    "114": {
-      "complexity": "Beginner",
-      "description": "Mobile DevOps is a practice of bringing the different disciplines involved in developing, testing, releasing, and operating software into being functional inside organizations or by a team that works closely together. The team is able to continuously deliver their product based on continuous feedback and iteration. There are different practices, habits and different flavors of adopted company cultures that set the behavior for an actual process and daily doing.\r\nIn this talk, we'll take a look at the most common and widely accepted Mobile DevOps and building our own Android/iOS CI/CD pipeline from scratch in a few steps",
-      "speakers": [
-        "moataz_nabil"
-      ],
-      "title": "Continuous Testing and Mobile DevOps"
-    },
-    "1000": {
-      "title": "Breakfast & Registration",
-      "description": ""
-    },
-    "1001": {
-      "title": "Opening words",
-      "description": ""
-    },
-    "1002": {
-      "title": "Keynote",
-      "description": "",
-      "speakers": [
-        "dave_cheney"
-      ]
-    },
-    "1003": {
-      "title": "?",
-      "description": ""
-    },
-    "1004": {
-      "title": "?",
-      "description": ""
-    },
-    "1005": {
-      "title": "?",
-      "description": ""
-    },
-    "1006": {
-      "title": "?",
-      "description": ""
-    },
-    "1007": {
-      "title": "?",
-      "description": ""
-    },
     "1008": {
-      "title": "?",
-      "description": ""
+      "complexity": "Beginner",
+      "description": "I’ll go through RDBMS and NoSQL basic concepts to remark the differences. I will show some of the challenges that big companies like Netflix face when it comes to store and manage their data.\r\nBy the end of this talk, the attendees will understand what the best options are for different scenarios.\r\n",
+      "speakers": [
+        "victoria_perez_mola"
+      ],
+      "title": "To SQL or NoSQL?: A tale of two paradigms. "
     },
     "1009": {
-      "title": "?",
-      "description": ""
+      "title": "?"
     },
     "1010": {
-      "title": "?",
-      "description": ""
+      "complexity": "Beginner",
+      "description": "We all love programming. But programming is not an end in itself. And how do we actually know, what we should program? For that we need a tool to learn about the domain.\r\n\r\nDomain Storytelling is a collaborative modeling method. It brings together domain experts and development teams. It means that we let our users tell us stories about their work. While listening, we record the stories using a pictographic language.\r\n\r\nThe experts can see immediately if we understand their story. After very few stories, we understand the language of our users and can build a domain model from it and implement this in the programming language of our choice.",
+      "speakers": [],
+      "title": "Domain Storytelling"
     },
     "1011": {
       "title": "Lunch",
@@ -511,44 +403,58 @@
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225"
     },
     "1012": {
-      "title": "?",
-      "description": ""
+      "complexity": "Beginner",
+      "description": "Have you ever wanted to fix a bug in AOSP but found it daunting? Have you wanted to search the code in AOSP but found it difficult? We'll dig into the tools like Repo and Gerrit that the Android team uses everyday. Get ready to be a contributor to the Android Open Source Project!",
+      "speakers": [
+        "andrea_falcone"
+      ],
+      "title": "Your first AOSP Contribution"
     },
     "1013": {
-      "title": "?",
-      "description": ""
+      "complexity": "Beginner",
+      "description": "Nim is a statically typed, multi-paradigm programming language that provides safe runtime efficiency without compromising on expressiveness and elegance. It is extensible, concise and extremely efficient. During this talk, I'll show you how to utilise Nim's meta-programming, concurrency, seamless portability and customisable Garbage Collector for your system programming, as well as your web development, tasks. By the end of this talk you'll be familiar with the language basics and, more importantly, you'll know how to leverage Nim to gain a competitive advantage in your application development life-cycle.",
+      "speakers": [
+        "fred_heath"
+      ],
+      "title": "The Nim programming language"
     },
     "1014": {
-      "title": "?",
-      "description": ""
+      "title": "Hiring Panel",
+      "description": "",
+      "speakers": [
+        "ela_krief",
+        "lucia_hegenbartova",
+        "kate_castellano"
+      ]
     },
     "1015": {
-      "title": "?",
-      "description": ""
+      "title": "Boost your JavaScript: How to increase the performance of your JavaScript App with the help of WebAssembly",
+      "speakers": [
+        "martina_kraus"
+      ]
     },
     "1016": {
       "title": "?",
       "description": ""
     },
     "1017": {
-      "title": "?",
-      "description": ""
+      "title": "?"
     },
     "1018": {
-      "title": "?",
-      "description": ""
+      "complexity": "Beginner",
+      "description": "This talk will introduce the Analysis API in the [analysis](https://godoc.org/golang.org/x/tools/go/analysis) package and how to use it to write your own Analysis tools. “Analyses” are tools that inspect programs and report errors, warnings or just useful info . I’ll show that even if many people haven’t heard of it, they are inadvertently using it when running popular tools like *staticcheck*. I’ll talk about why our team wants to write our own Analyses to help us automate parts of our code reviews.\r\n\r\nI’ll demo writing and running an analysis function by implementing one of the rules from the recently released [Uber Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md).",
+      "speakers": [
+        "rael_schmulian"
+      ],
+      "title": "Catching Low Hanging Fruit with Go Analysis"
     },
     "1019": {
-      "title": "?",
-      "description": ""
-    },
-    "1020": {
-      "title": "?",
-      "description": ""
-    },
-    "1021": {
-      "title": "?",
-      "description": ""
+      "complexity": "Beginner",
+      "description": "The QuickTime application gives you the possibility to stream and record live audio and video from iOS devices connected to a MacOSX host. \r\nI was interested in seeing how this feature works and how it can be implemented in Go to enable all operating systems to support it. \r\nAs usual, Apple did not publish any documentation on how this feature works. Therefore, the only way to get there was to reverse engineer it from scratch. I managed to get a working implementation for Linux and would like to share and discuss my approach to reverse engineering this protocol. I find reverse engineering these features very rewarding because as you go, you get the chance to really understand how things like h264, pcm audio, synchronization or USB data transfers work on a low level. \r\nIn my talk I will show you:\r\n- how to debug and analyze USB traffic on a Mac with Wireshark\r\n- easy ways of how to make sense of network/usb protocols just by looking at hex dump representations\r\n- how to implement a USB device codec with golang and libusb\r\n- and how to stream h264 video data over the network or save it to a file\r\n\r\nThe whole project is MIT licensed and well documented,\r\nso that anyone can go ahead and implement it in their favorite language.\r\n\r\n[github](https://github.com/danielpaulus/quicktime_video_hack)",
+      "speakers": [
+        "daniel_paulus"
+      ],
+      "title": "Reverse Engineering iOS Screen Mirroring with Golang"
     },
     "1022": {
       "title": "Coffee & Cake Break",
@@ -557,24 +463,42 @@
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7"
     },
     "1023": {
-      "title": "?",
-      "description": ""
+      "complexity": "Beginner",
+      "description": "Machine learning is many things starting from data collection , data cleansing, training, pipelines to production but in all these technical process we sometimes forget that essentially it is humans who are writing the model and cleaning the data. This talk will go through why ML fairness is important and how we can go about achieving it.",
+      "speakers": [
+        "ashrut_vora"
+      ],
+      "title": "Machine Learning fairness"
     },
     "1024": {
-      "title": "?",
-      "description": ""
+      "complexity": "Intermediate",
+      "description": "Developing Go applications for Kubernetes commonly involves way too many distractions: re-compiling, and waiting, and building, and waiting, and pushing,and waiting, and... did it work?\r\n\r\nThe rise of \"development orchestration\" tools—e.g. Draft, Garden, Skaffold, Tilt—has automated a lot of that work, but they are generic tools that don't necessarily cater to Go's specific case.\r\n\r\nIn this talk, L will use Garden as a starting point and hack away until we arrive at the snappiest possible workflow for containerized Go services running on Kubernetes.\r\n\r\nWe'll discuss GOCACHE, whether to remove debugging info from binaries, dealing with container sizes, ideas for vendoring, and lots more.",
+      "speakers": [
+        "l_korbes"
+      ],
+      "title": "The Quest For The Snappiest Go & Kubernetes Workflow"
     },
     "1025": {
-      "title": "?",
-      "description": ""
+      "title": "Deploy Deep Learning Models with Ease",
+      "speakers": [
+        "hannes_hapke"
+      ]
     },
     "1026": {
-      "title": "?",
-      "description": ""
+      "complexity": "Beginner",
+      "description": "The Android eco-system is changing rapidly and is not afraid to pivot. Most applications are built with monolithic architectures - forcing the engineers to agree on a certain tech stack - due to the dependency chain. Designing features to be independent allows teams to work independently. This can of course be seen as both an advantage and disadvantage. On the one hand it doesn't force engineers to use the (maybe deprecated) tech stacks of their predecessors, on the other hand it can lead to very different engineering approaches being used.\r\n\r\nIn this talk we are going to take a look at the development cycle of modularized applications: Inception and the concept of modules, development and feature discoverability up until deployment and dynamic features. In addition to these it will give an overview of modularization approaches with common pitfalls and compare these approaches with a decoupled architecture.",
+      "speakers": [
+        "damian_burke"
+      ],
+      "title": "Inverting the Dependency — Independent Features in Android Applications"
     },
     "1027": {
-      "title": "?",
-      "description": ""
+      "complexity": "Beginner",
+      "description": "  In my speech, I want to open the topic of getting education with the field of IT not by professionals, people without specialized education.  Describe the challenges and opportunities that are encountered along the way.  Using the example of my path to IT, I want to show that you can always change something in your career.  I would also like to raise the topic of fears and doubts of other specialists regarding mentoring.  Encourage experienced programmers, project managers, agile coaches to share their knowledge with beginners through meetings, lectures, and conferences.\r\n",
+      "speakers": [
+        "olena_boiko"
+      ],
+      "title": "How to motivate yourself to change your career into tech, and how to motivate others to share their knowledge in this area."
     },
     "1028": {
       "title": "?",
@@ -589,8 +513,12 @@
       "description": ""
     },
     "1031": {
-      "title": "Closing Keynote",
-      "description": ""
+      "complexity": "Beginner",
+      "description": "Coming from the point of view of having chronic illnesses myself, I see many things that others might not. In the talk, I will first delve into my background and explain which path has led me to be an advocate for diversity and inclusion and a spokesperson for inclusivity of persons with handicaps and chronic illnesses. I will then delve into suggestions and success factors.",
+      "speakers": [
+        "franziska_hauck_👩🏻‍💻_🥑"
+      ],
+      "title": "How to Ally: Including People with Disabilities and Chronic Illnesses"
     },
     "1032": {
       "title": "Closing words",
@@ -602,7 +530,10 @@
     },
     "1034": {
       "title": "Social event",
-      "description": ""
+      "description": "",
+      "track": {
+        "title": "c-base"
+      }
     }
   },
   "speakers": {
@@ -805,7 +736,7 @@
     },
     "syamala_umamaheswaran": {
       "name": "Syamala Umamaheswaran",
-      "bio": "",
+      "bio": "Syamala is a Software Engineer at Volkswagen Digital:Lab Berlin. She is passionate about software development and working in tech for a decade now.\nShe is a public speaker and blogs at https://dev.to/shyamala_u. Thrilled by the tech scene in Berlin, she loves to host meetups after work at Digital:Lab.\nRecently she co founded the Indian Women in Tech group (http://iwiit.eu) to help women who moves to Germany from India to improve their skills and help them to find jobs here.",
       "company": "Volkswagen Digital:Lab",
       "country": "Berlin",
       "featured": false,
