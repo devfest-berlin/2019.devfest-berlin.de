@@ -649,7 +649,7 @@
       "bio": "Born in Argentina, graduated in Systems Engineering, currently working as a SQL Developer. I have more than 5 years of experience working with ERP systems, reporting and databases.\r\nI’m passionate about using technology to help people make their daily tasks easier. Yet, I don't know how to use a blow dryer. \r\n",
       "company": "",
       "country": "",
-      "features": false,
+      "features": true,
       "photo": "/images/speakers/victoria_perez_mola.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/victoria_perez_mola.jpg",
       "order": 2
@@ -659,7 +659,7 @@
       "bio": "Rael Schmulian is a software engineer at Zalando Lounge where he works in an awesome team writing microservices in Go to automate campaign creation.",
       "company": "Zalando Lounge",
       "country": "",
-      "features": false,
+      "features": true,
       "photo": "/images/speakers/rael_schmulian.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/rael_schmulian.jpg",
       "order": 3
@@ -686,7 +686,7 @@
       "bio": "I am 28 years old, I have 2 children.  I am a lawyer by profession.  And I decided to change my life, and get a new profession in IT.  Among the many programming languages, I chose Javascript, and I am creating a project that will help Berlin parents find a free spot in kindergarten and with registering their children in there.\r\n",
       "company": "WTM ",
       "country": "",
-      "features": false,
+      "features": true,
       "photo": "/images/speakers/olena_boiko.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/olena_boiko.jpg",
       "order": 5
@@ -718,6 +718,23 @@
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/daniel_paulus.jpg",
       "order": 7
     },
+    "giulliano_bueno": {
+      "name": "Giulliano Bueno",
+      "bio": "Originally from Rio de Janeiro, Brazil now living in Europe.\r\n\r\nI am a software engineer with over 10 years of experience, more specifically in e-commerce, mainly using Java, JavaScript, C#, Ruby, Elixir, Groovy, Go and Python.",
+      "company": "Blacklane",
+      "country": "Germany",
+      "features": false,
+      "photo": "/images/speakers/giulliano_bueno.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/giulliano_bueno.jpg",
+      "order": 8,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/giulliano",
+          "name": "Twitter"
+        }
+      ]
+    },
     "hannes_hapke": {
       "name": "Hannes Hapke",
       "bio": "Hannes Hapke has been a Machine Learning enthusiast for many years. He is the creator of wunderbar.ai, a service to track machine learning predictions and their effects. He is a _Google Developer Expert for Machine Learning_. Hannes has applied deep learning to a variety of computer vision and natural language problems, and his main interest is in automating machine learning pipelines. He is a co-author of two machine learning publications, \"NLP in Action\" by Manning Publishing and \"Building Machine Learning Pipelines\" by O'Reilly Media.",
@@ -726,7 +743,7 @@
       "features": false,
       "photo": "/images/speakers/hannes_hapke.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/hannes_hapke.jpg",
-      "order": 9,
+      "order": 10,
       "socials": [
         {
           "icon": "twitter",
@@ -740,10 +757,10 @@
       "bio": "L is a developer advocate at Garden and an avid gopher, passionate about development tooling and making developers' workflows better. They've spoken at world-famous events, and countless local meet-ups. L is a proud recipient of a 'Best Hair' award.",
       "company": "Garden",
       "country": "Berlin, Germany",
-      "features": false,
+      "features": true,
       "photo": "/images/speakers/l_korbes.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/l_korbes.jpg",
-      "order": 10,
+      "order": 11,
       "socials": [
         {
           "icon": "twitter",
@@ -757,10 +774,10 @@
       "bio": "Ashrut Vora works at Google enabling enterprises to use Google Cloud's full potential. He comes from Software Engineering background and was privileged to move around few roles from engineering ==> devops ==> SRE infra platform managing public cloud infrastructure ==> Tech marketing at NetApp Inc. He is currently at tail end of his MBA in Entrepreneurship at Babson College. ",
       "company": "Google",
       "country": "",
-      "features": false,
+      "features": true,
       "photo": "/images/speakers/ashrut_vora.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ashrut_vora.jpg",
-      "order": 11,
+      "order": 12,
       "socials": [
         {
           "icon": "twitter",
@@ -774,10 +791,10 @@
       "bio": "Andrea Falcone is a Senior Software Engineer at Google. Currently she is working on Android Jetpack building libraries and tooling for internal and external developers.. She previously built Crashlytics, Fabric and fastlane (first at Crashlytics, then Twitter, then Google!) She is an accomplished mobile/mobile tools developer with experience in building not only iOS and Android apps but also Android Studio Plugins, Android SDKs, Gradle plugins, and CI/CD systems like fastlane.",
       "company": "Google",
       "country": "",
-      "features": false,
+      "features": true,
       "photo": "/images/speakers/andrea_falcone.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/andrea_falcone.jpg",
-      "order": 12,
+      "order": 13,
       "socials": [
         {
           "icon": "twitter",
@@ -794,11 +811,28 @@
       "features": false,
       "photo": "/images/speakers/syamala_umamaheswaran.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/syamala_umamaheswaran.jpg",
-      "order": 13,
+      "order": 14,
       "socials": [
         {
           "icon": "twitter",
           "link": "https://twitter.com/shyamala_u",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "franziska_hauck_👩🏻‍💻_🥑": {
+      "name": "Franziska Hauck 👩🏻‍💻🥑",
+      "bio": "Franziska Hauck is a community and relationship specialist with a focus on developer communities.\r\n\r\nHer path led her via degrees in Cultural and Business Studies and Heritage Management to a career in community management. Starting at InterNations, the international expat network, she has grown communities at gutefrage.net, the number one German consumer portal Finanztip and Google. Moreover, Franziska has worked as project manager, product manager and editor.",
+      "company": "",
+      "country": "",
+      "features": true,
+      "photo": "/images/speakers/franziska_hauck_👩🏻‍💻_🥑.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/franziska_hauck_👩🏻‍💻_🥑.jpg",
+      "order": 15,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/_francied",
           "name": "Twitter"
         }
       ]
@@ -811,7 +845,7 @@
       "features": false,
       "photo": "/images/speakers/ole_bulbuk.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ole_bulbuk.jpg",
-      "order": 14,
+      "order": 16,
       "socials": [
         {
           "icon": "twitter",
@@ -828,7 +862,7 @@
       "features": false,
       "photo": "/images/speakers/lara_martin.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/lara_martin.jpg",
-      "order": 15,
+      "order": 17,
       "socials": [
         {
           "icon": "twitter",
@@ -845,7 +879,7 @@
       "features": false,
       "photo": "/images/speakers/miguel_beltran.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/miguel_beltran.jpg",
-      "order": 16,
+      "order": 18,
       "socials": [
         {
           "icon": "twitter",
@@ -862,7 +896,7 @@
       "features": false,
       "photo": "/images/speakers/moataz_nabil.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/moataz_nabil.jpg",
-      "order": 17,
+      "order": 19,
       "socials": [
         {
           "icon": "twitter",

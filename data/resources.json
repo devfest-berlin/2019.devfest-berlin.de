@@ -158,9 +158,8 @@
     "notAvailableYet": "Not available yet",
     "save": "Save ${discount}% today"
   },
-  "blog": {
-    "published": "Published",
-    "suggested": "Up next"
+  "partnersBlock": {
+    "title": "Partners"
   },
   "speakers": {
     "skills": "Skills",

@@ -94,9 +94,11 @@ const importPartners = () => {
 
   Object.keys(partners).forEach((docId) => {
     batch.set(
-        firestore.collection('partners').doc(docId),
-        { title: partners[docId].title,
-          order: partners[docId].order },
+      firestore.collection('partners').doc(docId),
+      {
+        title: partners[docId].title,
+        order: partners[docId].order
+      },
     );
 
     partners[docId].logos.forEach((item, id) => {
@@ -228,8 +230,8 @@ const importSchedule = () => {
     batch.set(
       firestore.collection('schedule').doc(docId),
       {
-          ...docs[docId],
-          date: docId,
+        ...docs[docId],
+        date: docId,
       },
     );
   });
@@ -262,11 +264,11 @@ const importNotificationsConfig = async () => {
 initializeFirebase()
   // .then(() => importGallery())
   // .then(() => importNotificationsConfig())
-  // .then(() => importPartners())
+  .then(() => importPartners())
   // .then(() => importPreviousSpeakers())
   // .then(() => importSchedule())
   // .then(() => importSessions())
-  .then(() => importSpeakers())
+  // .then(() => importSpeakers())
   // .then(() => importTeam())
   // .then(() => importTickets())
   // .then(() => importVideos())
