@@ -48,7 +48,9 @@
           "endTime": "09:45",
           "sessions": [
             {
-              "items": [1000]
+              "items": [
+                1000
+              ]
             }
           ],
           "startTime": "09:00"
@@ -57,7 +59,9 @@
           "endTime": "10:00",
           "sessions": [
             {
-              "items": [1001]
+              "items": [
+                1001
+              ]
             }
           ],
           "startTime": "09:45"
@@ -67,10 +71,14 @@
           "endTime": "10:55",
           "sessions": [
             {
-              "items": [1003]
+              "items": [
+                1003
+              ]
             },
             {
-              "items": [1004]
+              "items": [
+                1004
+              ]
             }
           ]
         },
@@ -79,10 +87,14 @@
           "endTime": "11:25",
           "sessions": [
             {
-              "items": [1005]
+              "items": [
+                1005
+              ]
             },
             {
-              "items": [1006]
+              "items": [
+                1006
+              ]
             }
           ]
         },
@@ -91,10 +103,14 @@
           "endTime": "11:55",
           "sessions": [
             {
-              "items": [1007]
+              "items": [
+                1007
+              ]
             },
             {
-              "items": [1008]
+              "items": [
+                1008
+              ]
             }
           ]
         },
@@ -103,10 +119,14 @@
           "endTime": "12:25",
           "sessions": [
             {
-              "items": [1009]
+              "items": [
+                1009
+              ]
             },
             {
-              "items": [1010]
+              "items": [
+                1010
+              ]
             }
           ]
         },
@@ -115,7 +135,9 @@
           "endTime": "13:30",
           "sessions": [
             {
-              "items": [1011]
+              "items": [
+                1011
+              ]
             }
           ]
         },
@@ -124,10 +146,14 @@
           "endTime": "13:55",
           "sessions": [
             {
-              "items": [1012]
+              "items": [
+                1012
+              ]
             },
             {
-              "items": [1013]
+              "items": [
+                1013
+              ]
             }
           ]
         },
@@ -136,10 +162,14 @@
           "endTime": "14:25",
           "sessions": [
             {
-              "items": [1014]
+              "items": [
+                1014
+              ]
             },
             {
-              "items": [1015]
+              "items": [
+                1015
+              ]
             }
           ]
         },
@@ -148,10 +178,14 @@
           "endTime": "14:55",
           "sessions": [
             {
-              "items": [1016]
+              "items": [
+                1016
+              ]
             },
             {
-              "items": [1017]
+              "items": [
+                1017
+              ]
             }
           ]
         },
@@ -160,10 +194,14 @@
           "endTime": "15:25",
           "sessions": [
             {
-              "items": [1018]
+              "items": [
+                1018
+              ]
             },
             {
-              "items": [1019]
+              "items": [
+                1019
+              ]
             }
           ]
         },
@@ -172,10 +210,14 @@
           "endTime": "15:55",
           "sessions": [
             {
-              "items": [1020]
+              "items": [
+                1020
+              ]
             },
             {
-              "items": [1021]
+              "items": [
+                1021
+              ]
             }
           ]
         },
@@ -184,7 +226,9 @@
           "endTime": "16:30",
           "sessions": [
             {
-              "items": [1022]
+              "items": [
+                1022
+              ]
             }
           ]
         },
@@ -193,10 +237,14 @@
           "endTime": "16:55",
           "sessions": [
             {
-              "items": [1023]
+              "items": [
+                1023
+              ]
             },
             {
-              "items": [1024]
+              "items": [
+                1024
+              ]
             }
           ]
         },
@@ -205,10 +253,14 @@
           "endTime": "17:25",
           "sessions": [
             {
-              "items": [1025]
+              "items": [
+                1025
+              ]
             },
             {
-              "items": [1026]
+              "items": [
+                1026
+              ]
             }
           ]
         },
@@ -217,10 +269,14 @@
           "endTime": "17:55",
           "sessions": [
             {
-              "items": [1027]
+              "items": [
+                1027
+              ]
             },
             {
-              "items": [1028]
+              "items": [
+                1028
+              ]
             }
           ]
         },
@@ -229,7 +285,9 @@
           "endTime": "18:30",
           "sessions": [
             {
-              "items": [1031]
+              "items": [
+                1031
+              ]
             }
           ]
         },
@@ -238,7 +296,9 @@
           "endTime": "18:40",
           "sessions": [
             {
-              "items": [1032]
+              "items": [
+                1032
+              ]
             }
           ]
         },
@@ -247,7 +307,9 @@
           "endTime": "18:45",
           "sessions": [
             {
-              "items": [1033]
+              "items": [
+                1033
+              ]
             }
           ]
         },
@@ -256,7 +318,9 @@
           "endTime": "20:30",
           "sessions": [
             {
-              "items": [1034]
+              "items": [
+                1034
+              ]
             }
           ]
         }
@@ -272,6 +336,127 @@
     }
   },
   "sessions": {
+    "100": {
+      "complexity": "Beginner",
+      "description": "I’ll go through RDBMS and NoSQL basic concepts to remark the differences. I will show some of the challenges that big companies like Netflix face when it comes to store and manage their data.\r\nBy the end of this talk, the attendees will understand what the best options are for different scenarios.\r\n",
+      "speakers": [
+        "victoria_perez_mola"
+      ],
+      "title": "To SQL or NoSQL?: A tale of two paradigms. "
+    },
+    "101": {
+      "complexity": "Beginner",
+      "description": "This talk will introduce the Analysis API in the [analysis](https://godoc.org/golang.org/x/tools/go/analysis) package and how to use it to write your own Analysis tools. “Analyses” are tools that inspect programs and report errors, warnings or just useful info . I’ll show that even if many people haven’t heard of it, they are inadvertently using it when running popular tools like *staticcheck*. I’ll talk about why our team wants to write our own Analyses to help us automate parts of our code reviews.\r\n\r\nI’ll demo writing and running an analysis function by implementing one of the rules from the recently released [Uber Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md).",
+      "speakers": [
+        "rael_schmulian"
+      ],
+      "title": "Catching Low Hanging Fruit with Go Analysis"
+    },
+    "102": {
+      "complexity": "Beginner",
+      "description": "The Android eco-system is changing rapidly and is not afraid to pivot. Most applications are built with monolithic architectures - forcing the engineers to agree on a certain tech stack - due to the dependency chain. Designing features to be independent allows teams to work independently. This can of course be seen as both an advantage and disadvantage. On the one hand it doesn't force engineers to use the (maybe deprecated) tech stacks of their predecessors, on the other hand it can lead to very different engineering approaches being used.\r\n\r\nIn this talk we are going to take a look at the development cycle of modularized applications: Inception and the concept of modules, development and feature discoverability up until deployment and dynamic features. In addition to these it will give an overview of modularization approaches with common pitfalls and compare these approaches with a decoupled architecture.",
+      "speakers": [
+        "damian_burke"
+      ],
+      "title": "Inverting the Dependency — Independent Features in Android Applications"
+    },
+    "103": {
+      "complexity": "Beginner",
+      "description": "  In my speech, I want to open the topic of getting education with the field of IT not by professionals, people without specialized education.  Describe the challenges and opportunities that are encountered along the way.  Using the example of my path to IT, I want to show that you can always change something in your career.  I would also like to raise the topic of fears and doubts of other specialists regarding mentoring.  Encourage experienced programmers, project managers, agile coaches to share their knowledge with beginners through meetings, lectures, and conferences.\r\n",
+      "speakers": [
+        "olena_boiko"
+      ],
+      "title": "How to motivate yourself to change your career into tech, and how to motivate others to share their knowledge in this area."
+    },
+    "104": {
+      "complexity": "Beginner",
+      "description": "Nim is a statically typed, multi-paradigm programming language that provides safe runtime efficiency without compromising on expressiveness and elegance. It is extensible, concise and extremely efficient. During this talk, I'll show you how to utilise Nim's meta-programming, concurrency, seamless portability and customisable Garbage Collector for your system programming, as well as your web development, tasks. By the end of this talk you'll be familiar with the language basics and, more importantly, you'll know how to leverage Nim to gain a competitive advantage in your application development life-cycle.",
+      "speakers": [
+        "fred_heath"
+      ],
+      "title": "The Nim programming language"
+    },
+    "105": {
+      "complexity": "Beginner",
+      "description": "The QuickTime application gives you the possibility to stream and record live audio and video from iOS devices connected to a MacOSX host. \r\nI was interested in seeing how this feature works and how it can be implemented in Go to enable all operating systems to support it. \r\nAs usual, Apple did not publish any documentation on how this feature works. Therefore, the only way to get there was to reverse engineer it from scratch. I managed to get a working implementation for Linux and would like to share and discuss my approach to reverse engineering this protocol. I find reverse engineering these features very rewarding because as you go, you get the chance to really understand how things like h264, pcm audio, synchronization or USB data transfers work on a low level. \r\nIn my talk I will show you:\r\n- how to debug and analyze USB traffic on a Mac with Wireshark\r\n- easy ways of how to make sense of network/usb protocols just by looking at hex dump representations\r\n- how to implement a USB device codec with golang and libusb\r\n- and how to stream h264 video data over the network or save it to a file\r\n\r\nThe whole project is MIT licensed and well documented,\r\nso that anyone can go ahead and implement it in their favorite language.\r\n\r\n[github](https://github.com/danielpaulus/quicktime_video_hack)",
+      "speakers": [
+        "daniel_paulus"
+      ],
+      "title": "Reverse Engineering iOS Screen Mirroring with Golang"
+    },
+    "106": {
+      "complexity": "Beginner",
+      "description": "We all love programming. But programming is not an end in itself. And how do we actually know, what we should program? For that we need a tool to learn about the domain.\r\n\r\nDomain Storytelling is a collaborative modeling method. It brings together domain experts and development teams. It means that we let our users tell us stories about their work. While listening, we record the stories using a pictographic language.\r\n\r\nThe experts can see immediately if we understand their story. After very few stories, we understand the language of our users and can build a domain model from it and implement this in the programming language of our choice.",
+      "speakers": [
+        "henning_schwentner"
+      ],
+      "title": "Domain Storytelling"
+    },
+    "107": {
+      "complexity": "Beginner",
+      "description": "In this talk, Hannes, Google Developer Expert, will share his experience with deploying TensorFlow Serving in a variety of setups and deep learning models. He starts off the talk with a 90s deployment of a TensorFlow model and then walks the audience through common use cases (e.g., model A/B testing, deployment scaling, efficient deployments). His talk is a summary of his model deployment experience at various companies ranging from small startups to major corporations. He will also provide a preview of the upcoming O'Reilly book \"Building Machine Learning Pipelines\".",
+      "speakers": [
+        "hannes_hapke"
+      ],
+      "title": "Deploy Deep Learning Models with Ease"
+    },
+    "108": {
+      "complexity": "Intermediate",
+      "description": "Developing Go applications for Kubernetes commonly involves way too many distractions: re-compiling, and waiting, and building, and waiting, and pushing,and waiting, and... did it work?\r\n\r\nThe rise of \"development orchestration\" tools—e.g. Draft, Garden, Skaffold, Tilt—has automated a lot of that work, but they are generic tools that don't necessarily cater to Go's specific case.\r\n\r\nIn this talk, L will use Garden as a starting point and hack away until we arrive at the snappiest possible workflow for containerized Go services running on Kubernetes.\r\n\r\nWe'll discuss GOCACHE, whether to remove debugging info from binaries, dealing with container sizes, ideas for vendoring, and lots more.",
+      "speakers": [
+        "l_korbes"
+      ],
+      "title": "The Quest For The Snappiest Go & Kubernetes Workflow"
+    },
+    "109": {
+      "complexity": "Beginner",
+      "description": "Machine learning is many things starting from data collection , data cleansing, training, pipelines to production but in all these technical process we sometimes forget that essentially it is humans who are writing the model and cleaning the data. This talk will go through why ML fairness is important and how we can go about achieving it.",
+      "speakers": [
+        "ashrut_vora"
+      ],
+      "title": "Machine Learning fairness"
+    },
+    "110": {
+      "complexity": "Beginner",
+      "description": "Have you ever wanted to fix a bug in AOSP but found it daunting? Have you wanted to search the code in AOSP but found it difficult? We'll dig into the tools like Repo and Gerrit that the Android team uses everyday. Get ready to be a contributor to the Android Open Source Project!",
+      "speakers": [
+        "andrea_falcone"
+      ],
+      "title": "Your first AOSP Contribution"
+    },
+    "111": {
+      "complexity": "Beginner",
+      "description": "There is ample evidence available that shows **working in pairs produces better result** and \r\nbuilds great team morale **than working alone**. Still many think pair programming slows them down or they need to be a natural at pair programming.  \r\n\r\nThis talk aims at **breaking the taboo** around pair programming by **addressing problems that presents themselves during pairing**. By the end of \r\nthis talk the audience will have a **comprehensive guide** with tools and techniques that will help them to **learn pair programming**\r\n\r\nAre you a programmer who has never paired?\r\nAre you a programmer who thinks pair programming is not for you?\r\nDoes your team wants to pair program but you are not sure how? \r\n\r\n**Come and learn to be an effective pair.**",
+      "speakers": [
+        "syamala_umamaheswaran"
+      ],
+      "title": "Pair Programming is a skill you can learn!!"
+    },
+    "112": {
+      "complexity": "Beginner",
+      "description": "Junior developers often struggle to gain the experience necessary to land their first job.\r\nCompanies, on the other hand, desperately look for senior developers, but are often afraid to hire juniors.\r\n\r\n*How can we find a middle ground?*\r\n\r\nIn this talk, we'll explore the current market situation, and discuss the types of knowledge that potential employers value.\r\nBy dispelling myths and revealing some oddities, we arrive at an extensive but narrow set of topics, helpful for companies and developers alike.\r\n\r\nDevelopers will know where to focus to land their first job. Companies will have a better set of criteria to sharpen their hiring process.\r\n\r\nEither way, this talk shows you what *really matters* — and how to steer clear of what doesn't.",
+      "speakers": [
+        "ole_bulbuk"
+      ],
+      "title": "How to Land a Good Go Job"
+    },
+    "113": {
+      "complexity": "Intermediate",
+      "description": "Flutter is a portable UI toolkit for building beautiful, natively-compiled applications for mobile, web, and desktop from a single codebase. Originally focused for mobile app development, now you can also use it to build websites! \r\n\r\nEarlier this year, the Flutter team presented Flutter for web, a code-compatible implementation of Flutter that is rendered using standards-based web technologies: HTML, CSS and JavaScript. \r\n\r\nIn this talk, we are going to explore the capabilities of Flutter for web, the UI foundations of Flutter, and how all Flutter code is compiled to JavaScript that can run on any modern browser. You will learn how you can use Flutter to build mobile applications and websites with a single codebase. And if you never heard about Flutter before, do not worry, we will do an introduction for you.",
+      "speakers": [
+        "lara_martin",
+        "miguel_beltran"
+      ],
+      "title": "Flutter for Web: Beautiful Apps and Websites with a Single Codebase"
+    },
+    "114": {
+      "complexity": "Beginner",
+      "description": "Mobile DevOps is a practice of bringing the different disciplines involved in developing, testing, releasing, and operating software into being functional inside organizations or by a team that works closely together. The team is able to continuously deliver their product based on continuous feedback and iteration. There are different practices, habits and different flavors of adopted company cultures that set the behavior for an actual process and daily doing.\r\nIn this talk, we'll take a look at the most common and widely accepted Mobile DevOps and building our own Android/iOS CI/CD pipeline from scratch in a few steps",
+      "speakers": [
+        "moataz_nabil"
+      ],
+      "title": "Continuous Testing and Mobile DevOps"
+    },
     "1000": {
       "title": "Breakfast & Registration",
       "description": ""
@@ -283,7 +468,9 @@
     "1002": {
       "title": "Keynote",
       "description": "",
-      "speakers": ["dave_cheney"]
+      "speakers": [
+        "dave_cheney"
+      ]
     },
     "1003": {
       "title": "?",
@@ -457,6 +644,56 @@
       "order": 1,
       "title": ""
     },
+    "victoria_perez_mola": {
+      "name": "Victoria Perez Mola",
+      "bio": "Born in Argentina, graduated in Systems Engineering, currently working as a SQL Developer. I have more than 5 years of experience working with ERP systems, reporting and databases.\r\nI’m passionate about using technology to help people make their daily tasks easier. Yet, I don't know how to use a blow dryer. \r\n",
+      "company": "",
+      "country": "",
+      "features": false,
+      "photo": "/images/speakers/victoria_perez_mola.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/victoria_perez_mola.jpg",
+      "order": 2
+    },
+    "rael_schmulian": {
+      "name": "Rael Schmulian",
+      "bio": "Rael Schmulian is a software engineer at Zalando Lounge where he works in an awesome team writing microservices in Go to automate campaign creation.",
+      "company": "Zalando Lounge",
+      "country": "",
+      "features": false,
+      "photo": "/images/speakers/rael_schmulian.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/rael_schmulian.jpg",
+      "order": 3
+    },
+    "damian_burke": {
+      "name": "Damian Burke",
+      "bio": "Principal Android Engineer living in Berlin. Working with Android since Gingerbread.",
+      "company": "Onefootball",
+      "country": "",
+      "features": false,
+      "photo": "/images/speakers/damian_burke.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/damian_burke.jpg",
+      "order": 4
+    },
+    "olena_boiko": {
+      "name": "Olena Boiko",
+      "bio": "I am 28 years old, I have 2 children.  I am a lawyer by profession.  And I decided to change my life, and get a new profession in IT.  Among the many programming languages, I chose Javascript, and I am creating a project that will help Berlin parents find a free spot in kindergarten and with registering their children in there.\r\n",
+      "company": "WTM ",
+      "country": "",
+      "features": false,
+      "photo": "/images/speakers/olena_boiko.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/olena_boiko.jpg",
+      "order": 5
+    },
+    "fred_heath": {
+      "name": "Fred Heath",
+      "bio": "Fred is a software jack of all trades based in Cardiff, Wales. Over the last 20 years, he's worked at every stage of the software development life-cycle using a plethora of languages and platforms. He loves solving tricky problems, Ruby, Nim & Elixir, meta-programming, Behaviour-Driven Development. When not coding, listening to music or eating Welsh cakes, Fred enjoys writing and speaking about software development and best practices",
+      "company": "",
+      "country": "UK",
+      "features": false,
+      "photo": "/images/speakers/fred_heath.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/fred_heath.jpg",
+      "order": 6
+    },
     "daniel_paulus": {
       "name": "Daniel Paulus",
       "bio": "Daniel Paulus is the Lead Software Engineer at the Sauce Labs’ Real Device Cloud Core Team in Berlin. For delivering Sauce Labs’ market-leading performance with every new mobile OS version he and his team are responsible for low level USB programming and reverse engineering iOS and Android internal APIs to build stable new features on inherently unstable consumer devices.  \r\nDaniel previously held roles as developer, team leader, IT manager and project manager during his 13 year career as an officer in the German Military. \r\n",
@@ -465,16 +702,17 @@
       "features": false,
       "photo": "/images/speakers/daniel_paulus.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/daniel_paulus.jpg",
-      "order": 0
+      "order": 7
     },
     "hannes_hapke": {
       "name": "Hannes Hapke",
       "bio": "Hannes Hapke has been a Machine Learning enthusiast for many years. He is the creator of wunderbar.ai, a service to track machine learning predictions and their effects. He is a _Google Developer Expert for Machine Learning_. Hannes has applied deep learning to a variety of computer vision and natural language problems, and his main interest is in automating machine learning pipelines. He is a co-author of two machine learning publications, \"NLP in Action\" by Manning Publishing and \"Building Machine Learning Pipelines\" by O'Reilly Media.",
       "company": "wunderbar.ai",
+      "country": "",
       "features": false,
       "photo": "/images/speakers/hannes_hapke.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/hannes_hapke.jpg",
-      "order": 1
+      "order": 9
     },
     "l_korbes": {
       "name": "L Körbes",
@@ -484,25 +722,27 @@
       "features": false,
       "photo": "/images/speakers/l_korbes.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/l_korbes.jpg",
-      "order": 2
+      "order": 10
     },
     "ashrut_vora": {
       "name": "Ashrut Vora",
       "bio": "Ashrut Vora works at Google enabling enterprises to use Google Cloud's full potential. He comes from Software Engineering background and was privileged to move around few roles from engineering ==> devops ==> SRE infra platform managing public cloud infrastructure ==> Tech marketing at NetApp Inc. He is currently at tail end of his MBA in Entrepreneurship at Babson College. ",
       "company": "Google",
+      "country": "",
       "features": false,
       "photo": "/images/speakers/ashrut_vora.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ashrut_vora.jpg",
-      "order": 3
+      "order": 11
     },
     "andrea_falcone": {
       "name": "Andrea Falcone",
       "bio": "Andrea Falcone is a Senior Software Engineer at Google. Currently she is working on Android Jetpack building libraries and tooling for internal and external developers.. She previously built Crashlytics, Fabric and fastlane (first at Crashlytics, then Twitter, then Google!) She is an accomplished mobile/mobile tools developer with experience in building not only iOS and Android apps but also Android Studio Plugins, Android SDKs, Gradle plugins, and CI/CD systems like fastlane.",
       "company": "Google",
+      "country": "",
       "features": false,
       "photo": "/images/speakers/andrea_falcone.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/andrea_falcone.jpg",
-      "order": 4
+      "order": 12
     },
     "syamala_umamaheswaran": {
       "name": "Syamala Umamaheswaran",
@@ -512,25 +752,27 @@
       "features": false,
       "photo": "/images/speakers/syamala_umamaheswaran.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/syamala_umamaheswaran.jpg",
-      "order": 5
+      "order": 13
     },
     "ole_bulbuk": {
       "name": "Ole Bulbuk",
       "bio": "Ole is a back-end engineer since the nineties.\r\nHe has been working for many companies big and small and seen many projects fail or succeed.\r\nCurrently he loves to be part of the vibrant startup life in Berlin while working on a Go backend for solarisBank.\r\n\r\nIn his spare time he is co-organising the Berlin chapter of GDG Golang,\r\ndevelops open source software, enjoys time with his family and\r\ntakes part in a broad range of old and new activities from hiking to motor cycling and from meditating to boxing.",
       "company": "solarisBank",
+      "country": "",
       "features": false,
       "photo": "/images/speakers/ole_bulbuk.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ole_bulbuk.jpg",
-      "order": 6
+      "order": 14
     },
     "lara_martin": {
       "name": "Lara Martín",
       "bio": "Lara is a self-made Android developer based in Berlin and Google Developer Expert for Flutter and Dart. Her passion for Android made her transition from her background in science to software development. Her dream is to make apps more accessible for everyone. When she's not attending a tech meetup, you will find her playing video games.\r\n\r\nMiguel is a Freelance Consultant specialized in mobile development for Android and Flutter, you can find him at https://beltran.work.\r\n",
       "company": "",
+      "country": "",
       "features": false,
       "photo": "/images/speakers/lara_martin.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/lara_martin.jpg",
-      "order": 7
+      "order": 15
     },
     "miguel_beltran": {
       "name": "Miguel Beltran",
@@ -540,16 +782,17 @@
       "features": false,
       "photo": "/images/speakers/miguel_beltran.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/miguel_beltran.jpg",
-      "order": 8
+      "order": 16
     },
     "moataz_nabil": {
       "name": "Moataz Nabil",
       "bio": "Moataz Nabil\r\nSenior SDET/Test Automation Engineer at Delivery Hero \r\n- 10+ years of IT experience across development and testing roles\r\n- Test Automation Expert and Technical Instructor at Udemy\r\n- Microsoft ALM and Azure DevOps Specialist\r\n- Worked in different business domains like (Agriculture, Telecom, Healthcare, Fashion, and Food Delivery)\r\n- Participate and design a lot of test automation framework for Web and Mobile applications using a different set of tools and languages\r\n- Implementing different CI/CD pipeline using different tools ex: GitLab, Bitbucket, Bitrise, Azure DevOps and Jenkins.\r\n- Taught more than 600 students in many countries how to start in test automation using Selenium WebDriver and Java in Arabic at Udemy\r\n- Hold a number of certificates include MCT, MCSD, MCSD-ALM, MCTS, MCAD, ISTQB, and CSM.",
       "company": "Delivery Hero SE",
+      "country": "",
       "features": false,
       "photo": "/images/speakers/moataz_nabil.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/moataz_nabil.jpg",
-      "order": 9
+      "order": 17
     }
   },
   "team": [
