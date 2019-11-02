@@ -672,7 +672,14 @@
       "features": false,
       "photo": "/images/speakers/damian_burke.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/damian_burke.jpg",
-      "order": 4
+      "order": 4,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/damian2048",
+          "name": "Twitter"
+        }
+      ]
     },
     "olena_boiko": {
       "name": "Olena Boiko",
@@ -692,7 +699,14 @@
       "features": false,
       "photo": "/images/speakers/fred_heath.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/fred_heath.jpg",
-      "order": 6
+      "order": 6,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/FredAtBootstrap",
+          "name": "Twitter"
+        }
+      ]
     },
     "daniel_paulus": {
       "name": "Daniel Paulus",
@@ -712,7 +726,14 @@
       "features": false,
       "photo": "/images/speakers/hannes_hapke.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/hannes_hapke.jpg",
-      "order": 9
+      "order": 9,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/hanneshapke",
+          "name": "Twitter"
+        }
+      ]
     },
     "l_korbes": {
       "name": "L Körbes",
@@ -722,7 +743,14 @@
       "features": false,
       "photo": "/images/speakers/l_korbes.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/l_korbes.jpg",
-      "order": 10
+      "order": 10,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/ellenkorbes",
+          "name": "Twitter"
+        }
+      ]
     },
     "ashrut_vora": {
       "name": "Ashrut Vora",
@@ -732,7 +760,14 @@
       "features": false,
       "photo": "/images/speakers/ashrut_vora.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ashrut_vora.jpg",
-      "order": 11
+      "order": 11,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/ashrut_goog",
+          "name": "Twitter"
+        }
+      ]
     },
     "andrea_falcone": {
       "name": "Andrea Falcone",
@@ -742,7 +777,14 @@
       "features": false,
       "photo": "/images/speakers/andrea_falcone.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/andrea_falcone.jpg",
-      "order": 12
+      "order": 12,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/asfalcone",
+          "name": "Twitter"
+        }
+      ]
     },
     "syamala_umamaheswaran": {
       "name": "Syamala Umamaheswaran",
@@ -752,7 +794,14 @@
       "features": false,
       "photo": "/images/speakers/syamala_umamaheswaran.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/syamala_umamaheswaran.jpg",
-      "order": 13
+      "order": 13,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/shyamala_u",
+          "name": "Twitter"
+        }
+      ]
     },
     "ole_bulbuk": {
       "name": "Ole Bulbuk",
@@ -762,7 +811,14 @@
       "features": false,
       "photo": "/images/speakers/ole_bulbuk.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ole_bulbuk.jpg",
-      "order": 14
+      "order": 14,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/ole108",
+          "name": "Twitter"
+        }
+      ]
     },
     "lara_martin": {
       "name": "Lara Martín",
@@ -772,7 +828,14 @@
       "features": false,
       "photo": "/images/speakers/lara_martin.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/lara_martin.jpg",
-      "order": 15
+      "order": 15,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/lariki",
+          "name": "Twitter"
+        }
+      ]
     },
     "miguel_beltran": {
       "name": "Miguel Beltran",
@@ -782,7 +845,14 @@
       "features": false,
       "photo": "/images/speakers/miguel_beltran.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/miguel_beltran.jpg",
-      "order": 16
+      "order": 16,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/miblt",
+          "name": "Twitter"
+        }
+      ]
     },
     "moataz_nabil": {
       "name": "Moataz Nabil",
@@ -792,7 +862,14 @@
       "features": false,
       "photo": "/images/speakers/moataz_nabil.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/moataz_nabil.jpg",
-      "order": 17
+      "order": 17,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/moatazeldebsy",
+          "name": "Twitter"
+        }
+      ]
     }
   },
   "team": [
