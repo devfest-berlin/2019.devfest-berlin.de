@@ -974,8 +974,8 @@
         },
         {
           "name": "Eden",
-          "photo": "",
-          "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+          "photo": "/images/empty.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
           "socials": [
             {
               "icon": "",
@@ -1063,8 +1063,8 @@
         },
         {
           "name": "Antonia Pietrus",
-          "photo": "",
-          "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+          "photo": "/images/empty.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
           "socials": [
             {
               "icon": "",
@@ -1076,8 +1076,8 @@
         },
         {
           "name": "Christine Ip",
-          "photo": "",
-          "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+          "photo": "/images/empty.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
           "socials": [
             {
               "icon": "",
@@ -1089,8 +1089,8 @@
         },
         {
           "name": "Fatma Fadhli",
-          "photo": "",
-          "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+          "photo": "/images/empty.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
           "socials": [
             {
               "icon": "",
@@ -1131,7 +1131,7 @@
         {
           "name": "Jatinder Pal Singh",
           "photo": "",
-          "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
           "socials": [
             {
               "icon": "",
@@ -1143,8 +1143,8 @@
         },
         {
           "name": "Marina",
-          "photo": "",
-          "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+          "photo": "/images/empty.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
           "socials": [
             {
               "icon": "",
@@ -1218,8 +1218,8 @@
         },
         {
           "name": "Sara",
-          "photo": "",
-          "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+          "photo": "/images/empty.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
           "socials": [
             {
               "icon": "",
@@ -1231,8 +1231,8 @@
         },
         {
           "name": "Steph",
-          "photo": "",
-          "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+          "photo": "/images/empty.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
           "socials": [
             {
               "icon": "",
@@ -1434,7 +1434,7 @@
       "id": "stefan_brosteanu",
       "name": "Stefan Brosteanu",
       "order": 6,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
       "sessions": {
         "2017": [
           {
@@ -1466,7 +1466,7 @@
       "id": "miquel_beltran",
       "name": "Miquel Beltran",
       "order": 7,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
       "sessions": {
         "2017": [
           {
@@ -1588,7 +1588,7 @@
       "id": "ignacio_coloma",
       "name": "Ignacio Coloma",
       "order": 11,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
       "sessions": {
         "2017": [
           {
@@ -1615,7 +1615,7 @@
       "id": "jerome_mouton",
       "name": "Jerome Mouton",
       "order": 12,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
       "sessions": {
         "2017": [
           {
@@ -1636,7 +1636,7 @@
       "id": "tomek_polanski",
       "name": "Tomek Polanski",
       "order": 13,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
       "sessions": {
         "2017": [
           {
@@ -1690,7 +1690,7 @@
       "id": "anna_lena_konig",
       "name": "Anna-Lena König",
       "order": 15,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
       "sessions": {
         "2017": [
           {
@@ -1798,7 +1798,7 @@
       "id": "simon_joecks",
       "name": "Simon Joecks",
       "order": 19,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
       "sessions": {
         "2017": [
           {
@@ -1825,7 +1825,7 @@
       "id": "jean_baptiste_clion",
       "name": "Jean-Baptiste Clion",
       "order": 20,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
       "sessions": {
         "2017": [
           {
@@ -1879,7 +1879,7 @@
       "id": "kingsley_adio",
       "name": "Kingsley Adio",
       "order": 22,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
       "sessions": {
         "2017": [
           {
@@ -1981,7 +1981,7 @@
       "id": "jenn_strater",
       "name": "Jenn Strater",
       "order": 26,
-      "photoUrl": "https://avatars.dicebear.com/v2/identicon/2019.devfest-berlin.svg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
       "sessions": {
         "2017": [
           {
