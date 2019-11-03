@@ -352,6 +352,14 @@
       "speakers": [
         "moataz_nabil"
       ],
+      "tags": [
+        "devops",
+        "mobile",
+        "CICD",
+        "pipeline",
+        "android",
+        "iOS"
+      ],
       "title": "Continuous Testing and Mobile DevOps"
     },
     "1005": {
@@ -360,6 +368,11 @@
       "speakers": [
         "syamala_umamaheswaran"
       ],
+      "tags": [
+        "pair-programming",
+        "XP",
+        "pairing"
+      ],
       "title": "Pair Programming is a skill you can learn!!"
     },
     "1006": {
@@ -367,6 +380,11 @@
       "description": "Junior developers often struggle to gain the experience necessary to land their first job.\r\nCompanies, on the other hand, desperately look for senior developers, but are often afraid to hire juniors.\r\n\r\n*How can we find a middle ground?*\r\n\r\nIn this talk, we'll explore the current market situation, and discuss the types of knowledge that potential employers value.\r\nBy dispelling myths and revealing some oddities, we arrive at an extensive but narrow set of topics, helpful for companies and developers alike.\r\n\r\nDevelopers will know where to focus to land their first job. Companies will have a better set of criteria to sharpen their hiring process.\r\n\r\nEither way, this talk shows you what *really matters* — and how to steer clear of what doesn't.",
       "speakers": [
         "ole_bulbuk"
+      ],
+      "tags": [
+        "recruting",
+        "Golang",
+        "back-end"
       ],
       "title": "How to Land a Good Go Job"
     },
@@ -377,6 +395,12 @@
         "lara_martin",
         "miguel_beltran"
       ],
+      "tags": [
+        "Flutter",
+        "Web",
+        "Mobile",
+        "Crossplatform"
+      ],
       "title": "Flutter for Web: Beautiful Apps and Websites with a Single Codebase"
     },
     "1008": {
@@ -384,6 +408,12 @@
       "description": "I’ll go through RDBMS and NoSQL basic concepts to remark the differences. I will show some of the challenges that big companies like Netflix face when it comes to store and manage their data.\r\nBy the end of this talk, the attendees will understand what the best options are for different scenarios.\r\n",
       "speakers": [
         "victoria_perez_mola"
+      ],
+      "tags": [
+        "RDBMS",
+        "SQL",
+        "NoSQL",
+        "DATABASES"
       ],
       "title": "To SQL or NoSQL?: A tale of two paradigms. "
     },
@@ -394,6 +424,11 @@
       "complexity": "Beginner",
       "description": "We all love programming. But programming is not an end in itself. And how do we actually know, what we should program? For that we need a tool to learn about the domain.\r\n\r\nDomain Storytelling is a collaborative modeling method. It brings together domain experts and development teams. It means that we let our users tell us stories about their work. While listening, we record the stories using a pictographic language.\r\n\r\nThe experts can see immediately if we understand their story. After very few stories, we understand the language of our users and can build a domain model from it and implement this in the programming language of our choice.",
       "speakers": [],
+      "tags": [
+        "Knowledge Crunching",
+        "Collaborative Modelling",
+        "DDD"
+      ],
       "title": "Domain Storytelling"
     },
     "1011": {
@@ -408,6 +443,10 @@
       "speakers": [
         "andrea_falcone"
       ],
+      "tags": [
+        "Android",
+        "Open Source"
+      ],
       "title": "Your first AOSP Contribution"
     },
     "1013": {
@@ -415,6 +454,10 @@
       "description": "Nim is a statically typed, multi-paradigm programming language that provides safe runtime efficiency without compromising on expressiveness and elegance. It is extensible, concise and extremely efficient. During this talk, I'll show you how to utilise Nim's meta-programming, concurrency, seamless portability and customisable Garbage Collector for your system programming, as well as your web development, tasks. By the end of this talk you'll be familiar with the language basics and, more importantly, you'll know how to leverage Nim to gain a competitive advantage in your application development life-cycle.",
       "speakers": [
         "fred_heath"
+      ],
+      "tags": [
+        "nim",
+        "programminglanguages"
       ],
       "title": "The Nim programming language"
     },
@@ -446,6 +489,10 @@
       "speakers": [
         "rael_schmulian"
       ],
+      "tags": [
+        "Go",
+        "Static Analysis"
+      ],
       "title": "Catching Low Hanging Fruit with Go Analysis"
     },
     "1019": {
@@ -453,6 +500,12 @@
       "description": "The QuickTime application gives you the possibility to stream and record live audio and video from iOS devices connected to a MacOSX host. \r\nI was interested in seeing how this feature works and how it can be implemented in Go to enable all operating systems to support it. \r\nAs usual, Apple did not publish any documentation on how this feature works. Therefore, the only way to get there was to reverse engineer it from scratch. I managed to get a working implementation for Linux and would like to share and discuss my approach to reverse engineering this protocol. I find reverse engineering these features very rewarding because as you go, you get the chance to really understand how things like h264, pcm audio, synchronization or USB data transfers work on a low level. \r\nIn my talk I will show you:\r\n- how to debug and analyze USB traffic on a Mac with Wireshark\r\n- easy ways of how to make sense of network/usb protocols just by looking at hex dump representations\r\n- how to implement a USB device codec with golang and libusb\r\n- and how to stream h264 video data over the network or save it to a file\r\n\r\nThe whole project is MIT licensed and well documented,\r\nso that anyone can go ahead and implement it in their favorite language.\r\n\r\n[github](https://github.com/danielpaulus/quicktime_video_hack)",
       "speakers": [
         "daniel_paulus"
+      ],
+      "tags": [
+        "golang",
+        "go",
+        "reverse engineering",
+        "ios"
       ],
       "title": "Reverse Engineering iOS Screen Mirroring with Golang"
     },
@@ -468,6 +521,12 @@
       "speakers": [
         "ashrut_vora"
       ],
+      "tags": [
+        "ml",
+        "ml-fairness",
+        "fairness",
+        "machine-learning"
+      ],
       "title": "Machine Learning fairness"
     },
     "1024": {
@@ -476,12 +535,26 @@
       "speakers": [
         "l_korbes"
       ],
+      "tags": [
+        "go",
+        "kubernetes",
+        "containers",
+        "microservices"
+      ],
       "title": "The Quest For The Snappiest Go & Kubernetes Workflow"
     },
     "1025": {
       "title": "Deploy Deep Learning Models with Ease",
       "speakers": [
         "hannes_hapke"
+      ],
+      "tags": [
+        "DevOps",
+        "TensorFlow",
+        "Machine Learning",
+        "Deep Learning",
+        "Docker",
+        "Kubernetes"
       ]
     },
     "1026": {
@@ -490,12 +563,17 @@
       "speakers": [
         "damian_burke"
       ],
+      "tags": [
+        "android",
+        "modularization",
+        "architecture",
+        "micro-services"
+      ],
       "title": "Inverting the Dependency — Independent Features in Android Applications"
     },
     "1027": {
       "complexity": "Beginner",
-      "description": "  In this talk, Olena will open the topic of getting education in the field of IT not by professionals, but rather by people without specialized education. Using her experience of her path to IT, she will show that you can always change something in your career, describe the challenges and opportunities that are encountered along the way, raise the topic of fears and doubts of other specialists regarding mentoring and encourage experienced programmers, project managers, agile coaches to share their knowledge with beginners through meetings, lectures, and conferences.
-      \r\n",
+      "description": "  In this talk, Olena will open the topic of getting education in the field of IT not by professionals, but rather by people without specialized education. Using her experience of her path to IT, she will show that you can always change something in your career, describe the challenges and opportunities that are encountered along the way, raise the topic of fears and doubts of other specialists regarding mentoring and encourage experienced programmers, project managers, agile coaches to share their knowledge with beginners through meetings, lectures, and conferences.\r\n",
       "speakers": [
         "olena_boiko"
       ],
@@ -518,6 +596,13 @@
       "description": "Coming from the point of view of having chronic illnesses myself, I see many things that others might not. In the talk, I will first delve into my background and explain which path has led me to be an advocate for diversity and inclusion and a spokesperson for inclusivity of persons with handicaps and chronic illnesses. I will then delve into suggestions and success factors.",
       "speakers": [
         "franziska_hauck_👩🏻‍💻_🥑"
+      ],
+      "tags": [
+        "accessibility",
+        "diversity",
+        "inclusion",
+        "disability",
+        "chronic illness"
       ],
       "title": "How to Ally: Including People with Disabilities and Chronic Illnesses"
     },
@@ -543,7 +628,6 @@
       "company": "",
       "companyLogo": "",
       "copanyLogoUrl": "",
-      "country": "",
       "featured": true,
       "name": "Dave Cheney",
       "photo": "/images/speakers/dave_cheney.jpg",
@@ -562,25 +646,16 @@
     },
     "ela_krief": {
       "bio": "Ela Krief is an independent Business consultant. She facilitated the rapid growth of teams, interviewed hundreds and hired dozens. She led client-facing teams in several tech companies. Her focus is on whitespace planning, customer success and retention, operational excellence, change management and implementing an unbiased hiring scheme. One of her passions is to support women in their career path and story as career growth consultant, and mentor. ",
-      "company": "",
-      "companyLogo": "",
-      "copanyLogoUrl": "",
-      "country": "",
       "featured": true,
       "name": "Ela Krief",
       "photo": "/images/speakers/ela_krief.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ela_krief.jpg",
       "pronouns": "she",
-      "shortBio": "",
-      "socials": [],
-      "order": 1,
-      "title": ""
+      "order": 1
     },
     "victoria_perez_mola": {
       "name": "Victoria Perez Mola",
       "bio": "Born in Argentina, graduated in Systems Engineering, currently working as a SQL Developer, with over 5 years of experience working with ERP systems, reporting and databases.\r\nVictoria is passionate about using technology to help people make their daily tasks easier. Yet, she doesn't know how to use a blow dryer. \r\n",
-      "company": "",
-      "country": "",
       "featured": true,
       "photo": "/images/speakers/victoria_perez_mola.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/victoria_perez_mola.jpg",
@@ -590,7 +665,6 @@
       "name": "Rael Schmulian",
       "bio": "Rael Schmulian is a software engineer at Zalando Lounge where he works in an awesome team writing microservices in Go to automate campaign creation.",
       "company": "Zalando Lounge",
-      "country": "",
       "featured": true,
       "photo": "/images/speakers/rael_schmulian.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/rael_schmulian.jpg",
@@ -600,7 +674,6 @@
       "name": "Damian Burke",
       "bio": "Damian is a Principal Android Engineer living in Berlin. Working with Android since Gingerbread.",
       "company": "Onefootball",
-      "country": "",
       "featured": false,
       "photo": "/images/speakers/damian_burke.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/damian_burke.jpg",
@@ -617,7 +690,6 @@
       "name": "Olena Boiko",
       "bio": "Olena is 28, with 2 kids and a lawyer by trade. Then Olena decided to change her life, and get a new profession in IT. Among the many programming languages, she chose JavaScript, and she's creating a project that will help Berlin parents find a free spot in kindergarten and register.\r\n",
       "company": "WTM ",
-      "country": "",
       "featured": true,
       "photo": "/images/speakers/olena_boiko.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/olena_boiko.jpg",
@@ -671,7 +743,6 @@
       "name": "Hannes Hapke",
       "bio": "Hannes Hapke has been a Machine Learning enthusiast for many years. He is the creator of wunderbar.ai, a service to track machine learning predictions and their effects. He is a _Google Developer Expert for Machine Learning_. Hannes has applied deep learning to a variety of computer vision and natural language problems, and his main interest is in automating machine learning pipelines. He is a co-author of two machine learning publications, \"NLP in Action\" by Manning Publishing and \"Building Machine Learning Pipelines\" by O'Reilly Media.",
       "company": "wunderbar.ai",
-      "country": "",
       "featured": false,
       "photo": "/images/speakers/hannes_hapke.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/hannes_hapke.jpg",
@@ -705,7 +776,6 @@
       "name": "Ashrut Vora",
       "bio": "Ashrut Vora works at Google enabling enterprises to use Google Cloud's full potential. He comes from Software Engineering background and was privileged to move around few roles from engineering ==> devops ==> SRE infra platform managing public cloud infrastructure ==> Tech marketing at NetApp Inc. He is currently at tail end of his MBA in Entrepreneurship at Babson College. ",
       "company": "Google",
-      "country": "",
       "featured": true,
       "photo": "/images/speakers/ashrut_vora.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ashrut_vora.jpg",
@@ -722,7 +792,6 @@
       "name": "Andrea Falcone",
       "bio": "Andrea Falcone is a Senior Software Engineer at Google. Currently she is working on Android Jetpack building libraries and tooling for internal and external developers.. She previously built Crashlytics, Fabric and fastlane (first at Crashlytics, then Twitter, then Google!) She is an accomplished mobile/mobile tools developer with experience in building not only iOS and Android apps but also Android Studio Plugins, Android SDKs, Gradle plugins, and CI/CD systems like fastlane.",
       "company": "Google",
-      "country": "",
       "featured": true,
       "photo": "/images/speakers/andrea_falcone.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/andrea_falcone.jpg",
@@ -756,7 +825,6 @@
       "name": "Franziska Hauck 👩🏻‍💻🥑",
       "bio": "Franziska Hauck is a community and relationship specialist with a focus on developer communities.\r\n\r\nHer path led her via degrees in Cultural and Business Studies and Heritage Management to a career in community management. Starting at InterNations, the international expat network, she has grown communities at gutefrage.net, the number one German consumer portal Finanztip and Google. Moreover, Franziska has worked as project manager, product manager and editor.",
       "company": "",
-      "country": "",
       "featured": true,
       "photo": "/images/speakers/franziska_hauck.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/franziska_hauck.jpg",
@@ -773,7 +841,6 @@
       "name": "Ole Bulbuk",
       "bio": "Ole is a Backend Engineer since the nineties.\r\nHe has been working for many companies, big and small, and seen many projects fail and succeed.\r\nCurrently he loves to be part of the vibrant startup life in Berlin while working on a Go backend for SolarisBank.\r\n\r\nIn his spare time he is co-organising the Berlin chapter of GDG Golang,\r\ndevelops open source software, enjoys time with his family and\r\ntakes part in a broad range of old and new activities from hiking to motor cycling and from meditating to boxing.",
       "company": "solarisBank",
-      "country": "",
       "featured": false,
       "photo": "/images/speakers/ole_bulbuk.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ole_bulbuk.jpg",
@@ -824,7 +891,6 @@
       "name": "Moataz Nabil",
       "bio": "Moataz Nabil\r\nSenior SDET/Test Automation Engineer at Delivery Hero \r\n- 10+ years of IT experience across development and testing roles\r\n- Test Automation Expert and Technical Instructor at Udemy\r\n- Microsoft ALM and Azure DevOps Specialist\r\n- Worked in different business domains like (Agriculture, Telecom, Healthcare, Fashion, and Food Delivery)\r\n- Participate and design a lot of test automation framework for Web and Mobile applications using a different set of tools and languages\r\n- Implementing different CI/CD pipeline using different tools ex: GitLab, Bitbucket, Bitrise, Azure DevOps and Jenkins.\r\n- Taught more than 600 students in many countries how to start in test automation using Selenium WebDriver and Java in Arabic at Udemy\r\n- Hold a number of certificates include MCT, MCSD, MCSD-ALM, MCTS, MCAD, ISTQB, and CSM.",
       "company": "Delivery Hero SE",
-      "country": "",
       "featured": false,
       "photo": "/images/speakers/moataz_nabil.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/moataz_nabil.jpg",
@@ -1194,7 +1260,6 @@
     "jessica_ulyate": {
       "bio": "South African in Berlin, platform product manager  @hellofreshdev, documentarian, cat lady, food lover, yoga enthusiast, crossfit convert, relaxed runner",
       "company": "HelloFresh",
-      "country": "",
       "id": "jessica_ulyate",
       "name": "Jessica Ulyate",
       "order": 1,
@@ -1226,7 +1291,6 @@
     "armagan_amcalar": {
       "bio": "Software architect, leader, lecturer, public speaker, mentor, entrepreneur, JS evangelist, electronics engineer, guitarist, singer, radio host.",
       "company": "Wayfair",
-      "country": "",
       "id": "armagan_amcalar",
       "name": "Armagan Amcalar",
       "order": 2,
@@ -1258,7 +1322,6 @@
     "bjorn_rabenstein": {
       "bio": "Björn is a Software Engineer at Grafana Labs and a Prometheus developer. Previously, he was a Production Engineer at SoundCloud and a number cruncher for science.",
       "company": "Grafana Labs",
-      "country": "",
       "id": "bjorn_rabenstein",
       "name": "Björn Rabenstein",
       "order": 3,
@@ -1285,7 +1348,6 @@
     "hasan_hosgel": {
       "bio": "Lead Android Engineer @ MHP - A Porsche Company & co-lead GDG Berlin Android. Interested in innovation, mobile and IT.",
       "company": "MHP – A Porsche Company",
-      "country": "",
       "id": "hasan_hosgel",
       "name": "Hasan Hoşgel",
       "order": 4,
@@ -1317,7 +1379,6 @@
     "ole_bulbuk": {
       "bio": "Ole is a back end engineer since the nineties. He has been working for many companies big and small and seen many projects fail or succeed. Currently he loves to be part of the vibrant startup life in Berlin while working on a Go back end for OptioPay. In his spare time he is co-leading the Berlin chapter of GDG Golang, enjoys time with his family including two cats and takes part in a broad range of old and new activities from hiking to motor cycling and from meditating to boxing.",
       "company": "OptioPay Group",
-      "country": "",
       "id": "ole_bulbuk",
       "name": "Ole Bulbuk",
       "order": 5,
@@ -1349,7 +1410,6 @@
     "stefan_brosteanu": {
       "bio": "Stefan has been developing with passion for the Android platform for the past 5 years. Avid tinkerer and tech enthusiast, in his spare time, he loves learning new things, experimenting, and jumps at the occasion to teach others the secrets of the Android ecosystem.",
       "company": "Lateral Inc.",
-      "country": "",
       "id": "stefan_brosteanu",
       "name": "Stefan Brosteanu",
       "order": 6,
@@ -1382,7 +1442,6 @@
       "bio": "Miquel Beltran is an Android developer based in Berlin, Germany. He worked as a developer for more than ten years in different sectors, and got in Android in 2012 when he started building video player SDKs for streaming apps. Currently he is building native mobile applications for Android (Kotlin) and Flutter, with experience in iOS native app development and cloud serverless solutions with Firebase.",
       "company": "BELTRAN.WORK",
       "companyLogo": "",
-      "country": "",
       "id": "miquel_beltran",
       "name": "Miquel Beltran",
       "order": 7,
@@ -1414,7 +1473,6 @@
     "rene_groschke": {
       "bio": "",
       "company": "Gradle Inc.",
-      "country": "",
       "id": "rene_groschke",
       "name": "René Gröschke",
       "order": 8,
@@ -1447,7 +1505,6 @@
       "bio": "CEO and Founder of 01soft, teaching Yoga since more than 7 Years, practicing Yoga since more than 30 Years.",
       "company": "01soft",
       "companyLogo": "",
-      "country": "",
       "id": "jatinder_singh",
       "name": "Jatinder Singh",
       "order": 9,
@@ -1475,7 +1532,6 @@
       "bio": "Software engineer with a huge passion for Android and Kotlin. Enjoying organizing communities for Android and Nintendo Switch 😉 Find me and let's talk.",
       "company": "Mobimeo, GDG Berlin Android",
       "companyLogo": "",
-      "country": "",
       "id": "mario_bodemann",
       "name": "Mario Bodemann",
       "order": 10,
@@ -1508,7 +1564,6 @@
       "bio": "Nacho Coloma is Customer Engineer at Google, where he helps companies of all sizes to migrate their systems to Google Cloud Platform. He holds a M.Sc in Computer Science and has more than 15 years of experience designing applications. Nacho is passionate about containers, storage and web technologies.",
       "company": "Google",
       "companyLogo": "",
-      "country": "",
       "id": "ignacio_coloma",
       "name": "Ignacio Coloma",
       "order": 11,
@@ -1536,7 +1591,6 @@
       "bio": "Jerome is the co-founder and CTO at SnapEngage, a customer engagement and live chat solution. He is also a lead for GDG Berlin and a Google Developer Expert for the Google Cloud Platform. He has been using the Google AppEngine Python since 2008, and AppEngine Java from early 2009.",
       "company": "SnapEngage",
       "companyLogo": "",
-      "country": "",
       "id": "jerome_mouton",
       "name": "Jerome Mouton",
       "order": 12,
@@ -1558,7 +1612,6 @@
       "bio": "I’ve been a mobile software developer for over nine years and I’ve enjoyed every second of it. I am passionate about learning new things every single day and I am not afraid to have an open mind for any new idea.",
       "company": "Groupon",
       "companyLogo": "",
-      "country": "",
       "id": "tomek_polanski",
       "name": "Tomek Polanski",
       "order": 13,
@@ -1586,7 +1639,6 @@
       "bio": "Android developer and a life hacker intrigued by both hardware and software.",
       "company": "Fanmiles GmbH",
       "companyLogo": "",
-      "country": "",
       "id": "sowmya_guru",
       "name": "Sowmya Guru",
       "order": 14,
@@ -1614,7 +1666,6 @@
       "bio": "Product manager for apps, co-organizer of Ladies That UX Berlin, tech enthusiast.",
       "company": "Evenly",
       "companyLogo": "",
-      "country": "",
       "id": "anna_lena_konig",
       "name": "Anna-Lena König",
       "order": 15,
@@ -1642,7 +1693,6 @@
       "bio": "Daniel Meyer is VP Engineering at Camunda. He is active in the open source space since 2010 and is leading the development of Camunda BPM since 2013. Recently he has been driving the development of Zeebe.io Camunda's new distributed workflow engine.",
       "company": "Camunda",
       "companyLogo": "",
-      "country": "",
       "id": "daniel_meyer",
       "name": "Daniel Meyer",
       "order": 16,
@@ -1670,7 +1720,6 @@
       "bio": "In the Berlin startup world for over 5 years, built mobile Apps for half a dozen startups, specialised on Android. As a freelancer, worked for small companies and large corporate clients, always trying to innovate the mobile scene. Currently working for a company builder with a taste of consulting and interested in efficient team processes and motivating people.",
       "company": "BCG Digital Ventures",
       "companyLogo": "",
-      "country": "",
       "id": "stefan_anca",
       "name": "Stefan Anca",
       "order": 17,
@@ -1698,7 +1747,6 @@
       "bio": "I've been coding since I was 8. Now, I get paid to do it. :D Part of my fun job at the coolest tech company in Berlin involves solving complex problems related to performance and usability, all while staying trendy in the ever-changing front-end world.",
       "company": "Contiamo",
       "companyLogo": "",
-      "country": "",
       "id": "tejas_kumar",
       "name": "Tejas Kumar",
       "order": 18,
@@ -1726,7 +1774,6 @@
       "bio": "Simon is a software engineer developing on Android from the first hour, and currently working on consumer Apps for HERE Technologies.",
       "company": "HERE Technology",
       "companyLogo": "",
-      "country": "",
       "id": "simon_joecks",
       "name": "Simon Joecks",
       "order": 19,
@@ -1754,7 +1801,6 @@
       "bio": "Jean-Baptiste Clion (AKA JB) is a senior cloud engineer working with Google Technologies since 2008. Focused on Google Cloud Platform, he is a real GCP enthusiast with couples of years experience on the solution. He was the founder and co-organizer of GDG Basel, Switzerland. Jean-Baptiste worked in various industries such as Defense & Aeronautics, Finance & Consulting. He will be glad to talk to with you about GCP and Google cloud solutions.",
       "company": "Google Developer Experts",
       "companyLogo": "",
-      "country": "",
       "id": "jean_baptiste_clion",
       "name": "Jean-Baptiste Clion",
       "order": 20,
@@ -1782,7 +1828,6 @@
       "bio": "I change diapers for a living and work on IoT and Android Development on my free time.",
       "company": "Sensorberg GmbH",
       "companyLogo": "",
-      "country": "",
       "id": "ronaldo_pace",
       "name": "Ronaldo Pace",
       "order": 21,
@@ -1810,7 +1855,6 @@
       "bio": "Eats droids for a living. About 7 years working with the Android platform. Big Kotlin enthusiast. Almost 4 years shipping apps with Kotlin",
       "company": "HelloFresh SE",
       "companyLogo": "",
-      "country": "",
       "id": "kingsley_adio",
       "name": "Kingsley Adio",
       "order": 22,
@@ -1838,7 +1882,6 @@
       "bio": "Carolyn Stransky is an American journalist and JavaScript developer based in Berlin. She’s currently working as a technical writer at Contentful and teaching front end development in the evenings at the ReDI School of Digital Integration.",
       "company": "Contentful",
       "companyLogo": "",
-      "country": "",
       "id": "carolyn_stransky",
       "name": "Carolyn Stransky",
       "order": 23,
@@ -1866,7 +1909,6 @@
       "bio": "Maria attended the University of British Columbia, where she studied physics and computer science. In 2013 she joined Google as a software engineer and spent 4 years on the Search Ads Serving Infrastructure team in Mountain View. She recently transitioned to the Shopping Spam Detection team in Google's Switzerland office.",
       "company": "Google Switzerland",
       "companyLogo": "",
-      "country": "",
       "id": "maria_markov",
       "name": "Maria Markov",
       "order": 24,
@@ -1888,7 +1930,6 @@
       "bio": "Software engineer with a huge passion for technology. Practicing programming for more than 12 years and fighting Android since version 1.5 (Donut).",
       "company": "GDG Berlin Android",
       "companyLogo": "",
-      "country": "",
       "id": "nebojsa_bozic",
       "name": "Nebojša Božić",
       "order": 25,
@@ -1916,7 +1957,6 @@
       "bio": "Jenn is an experienced software engineer with a passion for developing and designing applications using new and innovative technologies. She spent the 2016-2017 academic year as a Fulbright Scholar taking graduate level classes and focusing on a research project involving static analysis for the Groovy programming language before joining Zenjob as a senior engineer in June 2017. Her greatest strength is building RESTful APIs, but she has also worked on small teams where she has had roles involving DevOps, NoSQL data stores, front-end, production support, and mobile work.",
       "company": "Zenjob",
       "companyLogo": "",
-      "country": "",
       "id": "jenn_strater",
       "name": "Jenn Strater",
       "order": 26,
