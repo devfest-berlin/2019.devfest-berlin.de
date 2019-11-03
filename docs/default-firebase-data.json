@@ -494,11 +494,12 @@
     },
     "1027": {
       "complexity": "Beginner",
-      "description": "  In my speech, I want to open the topic of getting education with the field of IT not by professionals, people without specialized education.  Describe the challenges and opportunities that are encountered along the way.  Using the example of my path to IT, I want to show that you can always change something in your career.  I would also like to raise the topic of fears and doubts of other specialists regarding mentoring.  Encourage experienced programmers, project managers, agile coaches to share their knowledge with beginners through meetings, lectures, and conferences.\r\n",
+      "description": "  In this talk, Olena will open the topic of getting education in the field of IT not by professionals, but rather by people without specialized education. Using her experience of her path to IT, she will show that you can always change something in your career, describe the challenges and opportunities that are encountered along the way, raise the topic of fears and doubts of other specialists regarding mentoring and encourage experienced programmers, project managers, agile coaches to share their knowledge with beginners through meetings, lectures, and conferences.
+      \r\n",
       "speakers": [
         "olena_boiko"
       ],
-      "title": "How to motivate yourself to change your career into tech, and how to motivate others to share their knowledge in this area."
+      "title": "How to Motivate Yourself to Change Your Career Into Tech, and How to Motivate Others to Share Their Knowledge in This Area."
     },
     "1028": {
       "title": "?",
@@ -577,7 +578,7 @@
     },
     "victoria_perez_mola": {
       "name": "Victoria Perez Mola",
-      "bio": "Born in Argentina, graduated in Systems Engineering, currently working as a SQL Developer. I have more than 5 years of experience working with ERP systems, reporting and databases.\r\nI’m passionate about using technology to help people make their daily tasks easier. Yet, I don't know how to use a blow dryer. \r\n",
+      "bio": "Born in Argentina, graduated in Systems Engineering, currently working as a SQL Developer, with over 5 years of experience working with ERP systems, reporting and databases.\r\nVictoria is passionate about using technology to help people make their daily tasks easier. Yet, she doesn't know how to use a blow dryer. \r\n",
       "company": "",
       "country": "",
       "featured": true,
@@ -597,7 +598,7 @@
     },
     "damian_burke": {
       "name": "Damian Burke",
-      "bio": "Principal Android Engineer living in Berlin. Working with Android since Gingerbread.",
+      "bio": "Damian is a Principal Android Engineer living in Berlin. Working with Android since Gingerbread.",
       "company": "Onefootball",
       "country": "",
       "featured": false,
@@ -614,7 +615,7 @@
     },
     "olena_boiko": {
       "name": "Olena Boiko",
-      "bio": "I am 28 years old, I have 2 children.  I am a lawyer by profession.  And I decided to change my life, and get a new profession in IT.  Among the many programming languages, I chose Javascript, and I am creating a project that will help Berlin parents find a free spot in kindergarten and with registering their children in there.\r\n",
+      "bio": "Olena is 28, with 2 kids and a lawyer by trade. Then Olena decided to change her life, and get a new profession in IT. Among the many programming languages, she chose JavaScript, and she's creating a project that will help Berlin parents find a free spot in kindergarten and register.\r\n",
       "company": "WTM ",
       "country": "",
       "featured": true,
@@ -770,7 +771,7 @@
     },
     "ole_bulbuk": {
       "name": "Ole Bulbuk",
-      "bio": "Ole is a back-end engineer since the nineties.\r\nHe has been working for many companies big and small and seen many projects fail or succeed.\r\nCurrently he loves to be part of the vibrant startup life in Berlin while working on a Go backend for solarisBank.\r\n\r\nIn his spare time he is co-organising the Berlin chapter of GDG Golang,\r\ndevelops open source software, enjoys time with his family and\r\ntakes part in a broad range of old and new activities from hiking to motor cycling and from meditating to boxing.",
+      "bio": "Ole is a Backend Engineer since the nineties.\r\nHe has been working for many companies, big and small, and seen many projects fail and succeed.\r\nCurrently he loves to be part of the vibrant startup life in Berlin while working on a Go backend for SolarisBank.\r\n\r\nIn his spare time he is co-organising the Berlin chapter of GDG Golang,\r\ndevelops open source software, enjoys time with his family and\r\ntakes part in a broad range of old and new activities from hiking to motor cycling and from meditating to boxing.",
       "company": "solarisBank",
       "country": "",
       "featured": false,
