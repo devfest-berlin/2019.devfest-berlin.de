@@ -787,9 +787,9 @@
     },
     "lara_martin": {
       "name": "Lara Martín",
-      "bio": "Lara is a self-made Android developer based in Berlin and Google Developer Expert for Flutter and Dart. Her passion for Android made her transition from her background in science to software development. Her dream is to make apps more accessible for everyone. When she's not attending a tech meetup, you will find her playing video games.\r\n\r\nMiguel is a Freelance Consultant specialized in mobile development for Android and Flutter, you can find him at https://beltran.work.\r\n",
-      "company": "",
-      "country": "",
+      "bio": "Lara is a Flutter GDE and Android developer based in Berlin.\r\nLara has been involved with the community since she started programming: sharing knowledge online, organizing study groups and finally becoming a GDE. Her dream is to make apps more accessible for everyone. When she's not attending a tech meetup, you will find her playing video games or with her dog Lily.",
+      "company": "https://laramartin.dev/",
+      "country": "Berlin",
       "featured": false,
       "photo": "/images/speakers/lara_martin.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/lara_martin.jpg",
