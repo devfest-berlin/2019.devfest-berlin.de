@@ -905,7 +905,17 @@
     },
     "lucia_hegenbartova": {
       "name": "Lucia Hegenbartova",
-      "order": 20
+      "order": 20,
+      "bio": "Lucia is Managing Director at Contiamo, a Berlin-based vendor providing data catalog technology with a built-in data virtualization capability. Lucia loves building things on a green field, the creative chaos of the early startup days and being surrounded by exceptional people she can learn from. Before Contiamo, Lucia has helped build companies in the e-commerce tech and MarTech space.",
+      "photo": "/images/speakers/lucia_hegenbartova.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/lucia_hegenbartova.jpg",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/lucia-hegenbartova",
+          "name": "LinkedIn"
+        }
+      ]
     },
     "kate_castellano": {
       "name": "Kate Castellano",
