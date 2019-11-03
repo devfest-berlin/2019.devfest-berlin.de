@@ -902,7 +902,18 @@
           "name": "Twitter"
         }
       ]
-    }
+    },
+    "lucia_hegenbartova": {
+      "name": "Lucia Hegenbartova",
+      "order": 20
+    },
+    "kate_castellano": {
+      "name": "Kate Castellano",
+      "order": 21,
+      "bio": "Kate Castellano is a Engineering Manager for Client at Clue. She has expertise in Swift and enjoys playing with Raspberry Pi’s and ARKit. When she is not coding, you can find her working towards the inclusion of more women in technology as a Director at Women Who Code Berlin Chapter.",
+      "photo": "/images/speakers/kate_castellano.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/kate_castellano.jpg"
+    },
   },
   "team": [
     {
