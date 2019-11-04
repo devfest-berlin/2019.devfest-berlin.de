@@ -475,9 +475,15 @@
       ]
     },
     "1015": {
+      "complexity": "Intermediate",
       "title": "Boost your JavaScript: How to increase the performance of your JavaScript App with the help of WebAssembly",
+      "description": "That's possible with web assembly. Running native embedded Code inside the browser enables the developer to create compute heavy tasks like video and image rendering. After small examples, aiming to show the compiler toolchain, will deep dive into: How to boost my Web Application with WebAssembly.",
       "speakers": [
         "martina_kraus"
+      ],
+      "tags": [
+        "JavaScript",
+        "WebAssembly"
       ]
     },
     "1016": {
@@ -548,7 +554,9 @@
       "title": "The Quest For The Snappiest Go & Kubernetes Workflow"
     },
     "1025": {
+      "complexity": "Beginner",
       "title": "Deploy Deep Learning Models with Ease",
+      "description": "There is ample evidence available that shows **working in pairs produces better result** and \r\nbuilds great team morale **than working alone**. Still many think pair programming slows them down or they need to be a natural at pair programming.  \r\n\r\nThis talk aims at **breaking the taboo** around pair programming by **addressing problems that presents themselves during pairing**. By the end of \r\nthis talk the audience will have a **comprehensive guide** with tools and techniques that will help them to **learn pair programming**\r\n\r\nAre you a programmer who has never paired?\r\nAre you a programmer who thinks pair programming is not for you?\r\nDoes your team wants to pair program but you are not sure how? \r\n\r\n**Come and learn to be an effective pair.**",
       "speakers": [
         "hannes_hapke"
       ],
@@ -577,9 +585,15 @@
     },
     "1027": {
       "complexity": "Beginner",
-      "description": "  In this talk, Olena will open the topic of getting education in the field of IT not by professionals, but rather by people without specialized education. Using her experience of her path to IT, she will show that you can always change something in your career, describe the challenges and opportunities that are encountered along the way, raise the topic of fears and doubts of other specialists regarding mentoring and encourage experienced programmers, project managers, agile coaches to share their knowledge with beginners through meetings, lectures, and conferences.\r\n",
+      "description": "In this talk, Olena will open the topic of getting education in the field of IT not by professionals, but rather by people without specialized education. Using her experience of her path to IT, she will show that you can always change something in your career, describe the challenges and opportunities that are encountered along the way, raise the topic of fears and doubts of other specialists regarding mentoring and encourage experienced programmers, project managers, agile coaches to share their knowledge with beginners through meetings, lectures, and conferences.\r\n",
       "speakers": [
         "olena_boiko"
+      ],
+      "tags": [
+        "Career goals",
+        "mentoring",
+        "beginners",
+        "switch career into tech"
       ],
       "title": "How to Motivate Yourself to Change Your Career Into Tech, and How to Motivate Others to Share Their Knowledge in This Area."
     },
