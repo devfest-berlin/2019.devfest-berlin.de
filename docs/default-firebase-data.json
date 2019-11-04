@@ -584,8 +584,11 @@
       "title": "How to Motivate Yourself to Change Your Career Into Tech, and How to Motivate Others to Share Their Knowledge in This Area."
     },
     "1028": {
-      "title": "?",
-      "description": ""
+      "title": "Mindfulness from an Engineering Perspective",
+      "description": "From incense and crystals to mindfulness based stress reduction therapy - meditation can mean almost anything. Let's strip away the more esoteric parts and identify concepts and techniques that are usful in understanding the complex machinery of our mind.\nWe will look at meditation through the lens of neuroscience, behavioural science and evolutionary biology and will take an analytical look into how our brain creates our conscious experience and how observing and modifying these processes within the context of mindfulness can help us become better engineers.",
+      "speakers": [
+        "daniel_mahlow"
+      ]
     },
     "1029": {
       "title": "??",
@@ -936,7 +939,7 @@
       "featured": false,
       "photo": "/images/speakers/eveline_sliwowska.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/eveline_sliwowska.jpg",
-      "order": 3,
+      "order": 22,
       "socials": [
         {
           "icon": "twitter",
@@ -952,7 +955,7 @@
       "featured": false,
       "photo": "/images/speakers/martina_kraus.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/martina_kraus.jpg",
-      "order": 2,
+      "order": 23,
       "socials": [
         {
           "icon": "twitter",
@@ -960,6 +963,13 @@
           "name": "Twitter"
         }
       ]
+    },
+    "daniel_mahlow": {
+      "name": "Daniel Mahlow",
+      "bio": "Daniel is a Systems Engineer & Co-founder, Contiamo. He loves solving complex problems and wearing multiple hats. After his CS studies he worked as a systems engineer in a variety of environments, from large corporates to small incubators and co-founded the data science platform startup Contiamo in Berlin, where he leads technical operations. Avid runner and VR/AR enthusiast.",
+      "photo": "/images/speakers/daniel_mahlow.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/daniel_mahlow.jpg",
+      "order": 24
     }
   },
   "team": [
