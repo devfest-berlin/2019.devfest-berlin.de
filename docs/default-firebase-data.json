@@ -463,7 +463,7 @@
     },
     "1014": {
       "title": "Hiring Panel",
-      "description": "",
+      "description": "In this panel, we will hear from the industry leaders, three senior managers from across the Berlin tech industry, about their experience: from the first job, through learning experiences, to their current roles where they develop and lead medium-large teams. A special focus subject will be parents returning to tech after parental leave.",
       "speakers": [
         "ela_krief",
         "lucia_hegenbartova",
@@ -632,7 +632,7 @@
       "name": "Dave Cheney",
       "photo": "/images/speakers/dave_cheney.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/dave_cheney.jpg",
-      "pronouns": "he",
+      "pronouns": "",
       "shortBio": "",
       "socials": [
         {
@@ -650,7 +650,7 @@
       "name": "Ela Krief",
       "photo": "/images/speakers/ela_krief.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ela_krief.jpg",
-      "pronouns": "she",
+      "pronouns": "",
       "order": 1
     },
     "victoria_perez_mola": {
