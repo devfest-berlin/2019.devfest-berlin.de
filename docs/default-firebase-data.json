@@ -344,7 +344,11 @@
       ]
     },
     "1003": {
-      "title": "Bridging the Gap Between Technology and Marketing Teams"
+      "title": "Bridging the Gap Between Technology and Marketing Teams",
+      "description": "",
+      "speakers": [
+        "eveline_sliwowska"
+      ]
     },
     "1004": {
       "complexity": "Beginner",
@@ -891,6 +895,7 @@
       "name": "Moataz Nabil",
       "bio": "Moataz Nabil\r\nSenior SDET/Test Automation Engineer at Delivery Hero \r\n- 10+ years of IT experience across development and testing roles\r\n- Test Automation Expert and Technical Instructor at Udemy\r\n- Microsoft ALM and Azure DevOps Specialist\r\n- Worked in different business domains like (Agriculture, Telecom, Healthcare, Fashion, and Food Delivery)\r\n- Participate and design a lot of test automation framework for Web and Mobile applications using a different set of tools and languages\r\n- Implementing different CI/CD pipeline using different tools ex: GitLab, Bitbucket, Bitrise, Azure DevOps and Jenkins.\r\n- Taught more than 600 students in many countries how to start in test automation using Selenium WebDriver and Java in Arabic at Udemy\r\n- Hold a number of certificates include MCT, MCSD, MCSD-ALM, MCTS, MCAD, ISTQB, and CSM.",
       "company": "Delivery Hero SE",
+      "country": "Berlin, Germany",
       "featured": false,
       "photo": "/images/speakers/moataz_nabil.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/moataz_nabil.jpg",
@@ -923,6 +928,38 @@
       "bio": "Kate Castellano is a Engineering Manager for Client at Clue. She has expertise in Swift and enjoys playing with Raspberry Pi’s and ARKit. When she is not coding, you can find her working towards the inclusion of more women in technology as a Director at Women Who Code Berlin Chapter.",
       "photo": "/images/speakers/kate_castellano.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/kate_castellano.jpg"
+    },
+    "eveline_sliwowska": {
+      "name": "Eveline Sliwowska",
+      "bio": "Eveline Sliwowska oversees product marketing at Retresco, a Berlin-based technology company that specialises in Natural Language Processing (NLP). She works with news publishers, e-commerce companies, and corporate enterprises to think creatively about how automation can be used to enhance customer engagement and increase operational efficiencies. Before joining Retresco she was the B2B marketing manager for the Financial Times, where she applied strategic use of customer data and research to drive group subscriptions revenues. She has considerable experience in B2B marketing and commercial analysis, and can be reach via Twitter at @evelineip.",
+      "company": "Retresco GmbH",
+      "featured": false,
+      "photo": "/images/speakers/eveline_sliwowska.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/eveline_sliwowska.jpg",
+      "order": 3,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/evelineip",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "martina_kraus": {
+      "name": "Martina Kraus",
+      "bio": "Martina is a Google Developer Expert in Angular and Web Technologies, as a Senior Frontend developer, she focuses on implementing highly scalable software-solution with Node.Js and Angular. Besides giving workshops as an Angular Trainer,\r\nshe founded the JavaScript User group, is a core member of the ngGirls Team and Co-organizes the local Angular Heidelberg Usergroup.",
+      "company": "Google Developer Expert | Senior Software Engineer",
+      "featured": false,
+      "photo": "/images/speakers/martina_kraus.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/martina_kraus.jpg",
+      "order": 2,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/MartinaKraus11",
+          "name": "Twitter"
+        }
+      ]
     }
   },
   "team": [
