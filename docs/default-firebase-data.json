@@ -1321,9 +1321,9 @@
       "url": "https://www.eventbrite.co.uk/e/devfest-berlin-2019-tickets-74971390447"
     },
     {
-      "available": true,
+      "available": false,
       "currency": "€",
-      "ends": "Nov 9",
+      "ends": "Oct 31",
       "inDemand": false,
       "info": "Assist underrepresented groups in the GDG community to attend the conference",
       "name": "Diversity Ticket",
