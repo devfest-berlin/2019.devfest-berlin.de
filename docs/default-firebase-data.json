@@ -341,13 +341,20 @@
       "description": "",
       "speakers": [
         "dave_cheney"
+      ],
+      "tags": [
+        "Go"
       ]
     },
     "1003": {
+      "complexity": "Beginner",
       "title": "Bridging the Gap Between Technology and Marketing Teams",
-      "description": "",
+      "description": "Motivated, adaptable, and responsible are the three adjectives I would use to describe myself. As a senior marketing professional I have proven experience of developing and implementing process to drive internal efficiencies, support key tender activities, and generate sales opportunities. I am also able to build relationships at all levels, a skill I credit my mentor who treated every employee fairly with respect, regardless of their work experience or job title.\r\n\r\nHaving recently returned to work full time after maternity leave for 13 months, I am in the process of putting to work my skills and knowledge again. With my employer, I renegotiated my role and responsibilities to match critical business needs, and also what I saw was important to further my career development. These are insights I would like to share with the delegates too.",
       "speakers": [
         "eveline_sliwowska"
+      ],
+      "tags": [
+        "Marketing"
       ]
     },
     "1004": {
@@ -357,11 +364,9 @@
         "moataz_nabil"
       ],
       "tags": [
-        "devops",
-        "mobile",
-        "CICD",
-        "pipeline",
-        "android",
+        "DevOps",
+        "Mobile",
+        "Android",
         "iOS"
       ],
       "title": "Continuous Testing and Mobile DevOps"
@@ -373,9 +378,7 @@
         "syamala_umamaheswaran"
       ],
       "tags": [
-        "pair-programming",
-        "XP",
-        "pairing"
+        "Programming"
       ],
       "title": "Pair Programming is a skill you can learn!!"
     },
@@ -386,9 +389,8 @@
         "ole_bulbuk"
       ],
       "tags": [
-        "recruting",
-        "Golang",
-        "back-end"
+        "Go",
+        "Career"
       ],
       "title": "How to Land a Good Go Job"
     },
@@ -400,10 +402,8 @@
         "miguel_beltran"
       ],
       "tags": [
-        "Flutter",
         "Web",
-        "Mobile",
-        "Crossplatform"
+        "Mobile"
       ],
       "title": "Flutter for Web: Beautiful Apps and Websites with a Single Codebase"
     },
@@ -414,10 +414,7 @@
         "victoria_perez_mola"
       ],
       "tags": [
-        "RDBMS",
-        "SQL",
-        "NoSQL",
-        "DATABASES"
+        "Database"
       ],
       "title": "To SQL or NoSQL?: A tale of two paradigms. "
     },
@@ -427,17 +424,15 @@
       "speakers": [
         "ronna_steinberg"
       ],
-      "title": "Riding into the sunset with Go"
+      "title": "Riding into the Sunset with Go",
+      "tags": [
+        "Go"
+      ]
     },
     "1010": {
       "complexity": "Beginner",
       "description": "We all love programming. But programming is not an end in itself. And how do we actually know, what we should program? For that we need a tool to learn about the domain.\r\n\r\nDomain Storytelling is a collaborative modeling method. It brings together domain experts and development teams. It means that we let our users tell us stories about their work. While listening, we record the stories using a pictographic language.\r\n\r\nThe experts can see immediately if we understand their story. After very few stories, we understand the language of our users and can build a domain model from it and implement this in the programming language of our choice.",
       "speakers": [],
-      "tags": [
-        "Knowledge Crunching",
-        "Collaborative Modelling",
-        "DDD"
-      ],
       "title": "Domain Storytelling"
     },
     "1011": {
@@ -453,8 +448,7 @@
         "andrea_falcone"
       ],
       "tags": [
-        "Android",
-        "Open Source"
+        "Android"
       ],
       "title": "Your first AOSP Contribution"
     },
@@ -465,8 +459,7 @@
         "fred_heath"
       ],
       "tags": [
-        "nim",
-        "programminglanguages"
+        "Programming"
       ],
       "title": "The Nim programming language"
     },
@@ -477,6 +470,9 @@
         "ela_krief",
         "lucia_hegenbartova",
         "kate_castellano"
+      ],
+      "tags": [
+        "Career"
       ]
     },
     "1015": {
@@ -487,15 +483,23 @@
         "martina_kraus"
       ],
       "tags": [
-        "JavaScript",
-        "WebAssembly"
+        "Web"
       ]
     },
     "1016": {
       "title": "To be announce"
     },
     "1017": {
-      "title": "To be announce"
+      "complexity": "Beginner",
+      "description": "In this talk we will describe how to use AWS Lambda function, Go and GraphQL to decouple your architecture by breaking your domain into groups of lambda functions.\r\n\r\nAgenda\r\n- Introduction to DDD.\r\n- BFFs\r\n- Introduction to GraphQL\r\n- How to write and test your AWS Lambda functions in Go.\r\n- How to deploy your functions using the Serverless tool.\r\n- How to use DynamoDB in your functions.\r\n- Other options to deploy your functions.\r\n- Lessons learned",
+      "speakers": [
+        "giulliano_bueno"
+      ],
+      "tags": [
+        "Go",
+        "Web"
+      ],
+      "title": "How to Use Go and Lambda Functions to Decouple Your Architecture"
     },
     "1018": {
       "complexity": "Beginner",
@@ -504,8 +508,7 @@
         "rael_schmulian"
       ],
       "tags": [
-        "Go",
-        "Static Analysis"
+        "Go"
       ],
       "title": "Catching Low Hanging Fruit with Go Analysis"
     },
@@ -516,10 +519,8 @@
         "daniel_paulus"
       ],
       "tags": [
-        "golang",
-        "go",
-        "reverse engineering",
-        "ios"
+        "Go",
+        "iOS"
       ],
       "title": "Reverse Engineering iOS Screen Mirroring with Golang"
     },
@@ -536,10 +537,7 @@
         "ashrut_vora"
       ],
       "tags": [
-        "ml",
-        "ml-fairness",
-        "fairness",
-        "machine-learning"
+        "Machine Learning"
       ],
       "title": "Machine Learning fairness"
     },
@@ -550,10 +548,8 @@
         "l_korbes"
       ],
       "tags": [
-        "go",
-        "kubernetes",
-        "containers",
-        "microservices"
+        "Go",
+        "Kubernetes"
       ],
       "title": "The Quest For The Snappiest Go & Kubernetes Workflow"
     },
@@ -566,10 +562,7 @@
       ],
       "tags": [
         "DevOps",
-        "TensorFlow",
         "Machine Learning",
-        "Deep Learning",
-        "Docker",
         "Kubernetes"
       ]
     },
@@ -580,10 +573,7 @@
         "damian_burke"
       ],
       "tags": [
-        "android",
-        "modularization",
-        "architecture",
-        "micro-services"
+        "Android"
       ],
       "title": "Inverting the Dependency — Independent Features in Android Applications"
     },
@@ -594,10 +584,7 @@
         "olena_boiko"
       ],
       "tags": [
-        "Career goals",
-        "mentoring",
-        "beginners",
-        "switch career into tech"
+        "Career"
       ],
       "title": "How to Motivate Yourself to Change Your Career Into Tech, and How to Motivate Others to Share Their Knowledge in This Area."
     },
@@ -608,14 +595,6 @@
         "daniel_mahlow"
       ]
     },
-    "1029": {
-      "title": "??",
-      "description": ""
-    },
-    "1030": {
-      "title": "??",
-      "description": ""
-    },
     "1031": {
       "complexity": "Beginner",
       "description": "Coming from the point of view of having chronic illnesses myself, I see many things that others might not. In the talk, I will first delve into my background and explain which path has led me to be an advocate for diversity and inclusion and a spokesperson for inclusivity of persons with handicaps and chronic illnesses. I will then delve into suggestions and success factors.",
@@ -623,21 +602,15 @@
         "franziska_hauck"
       ],
       "tags": [
-        "accessibility",
-        "diversity",
-        "inclusion",
-        "disability",
-        "chronic illness"
+        "diversity"
       ],
       "title": "How to Ally: Including People with Disabilities and Chronic Illnesses"
     },
     "1032": {
-      "title": "Closing words",
-      "description": ""
+      "title": "Closing words"
     },
     "1033": {
-      "title": "Group Photos",
-      "description": ""
+      "title": "Group Photos"
     },
     "1034": {
       "title": "Social event",
@@ -650,32 +623,30 @@
   "speakers": {
     "dave_cheney": {
       "bio": "David is an open source contributor and project member for the Go programming language. David is a well-respected voice within the tech community, speaking on a variety of topics such as software design, performance, and the Go programming language.<br>In 2009, while idly perusing Google Reader (we’ll never forget!) he ran across the announcement of a new open source language, Go. It was love at first sight. From that point David’s passion has taken him around the world writing, teaching, and speaking about Go.<br>David is currently a member of the technical staff at VMware. Prior to their acquisition he served as a Staff Engineer at Heptio, a Seattle based company, focused on building tools to help developers become more productive with Kubernetes.",
-      "company": "",
-      "companyLogo": "",
-      "copanyLogoUrl": "",
       "featured": true,
       "name": "Dave Cheney",
       "photo": "/images/speakers/dave_cheney.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/dave_cheney.jpg",
-      "pronouns": "",
-      "shortBio": "",
       "socials": [
         {
           "icon": "twitter",
           "link": "https://twitter.com/davecheney",
           "name": "Twitter"
+        },
+        {
+          "icon": "website",
+          "link": "https://dave.cheney.net/",
+          "name": "Website"
         }
       ],
-      "order": 0,
-      "title": ""
+      "order": 0
     },
     "ela_krief": {
-      "bio": "Ela Krief is an independent Business consultant. She facilitated the rapid growth of teams, interviewed hundreds and hired dozens. She led client-facing teams in several tech companies. Her focus is on whitespace planning, customer success and retention, operational excellence, change management and implementing an unbiased hiring scheme. One of her passions is to support women in their career path and story as career growth consultant, and mentor. ",
+      "bio": "Ela Krief is an independent Business consultant. She facilitated the rapid growth of teams, interviewed hundreds and hired dozens. She led client-facing teams in several tech companies. Her focus is on whitespace planning, customer success and retention, operational excellence, change management and implementing an unbiased hiring scheme. One of her passions is to support women in their career path and story as career growth consultant, and mentor.",
       "featured": true,
       "name": "Ela Krief",
       "photo": "/images/speakers/ela_krief.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ela_krief.jpg",
-      "pronouns": "",
       "order": 1
     },
     "victoria_perez_mola": {
@@ -714,7 +685,7 @@
     "olena_boiko": {
       "name": "Olena Boiko",
       "bio": "Olena is 28, with 2 kids and a lawyer by trade. Then Olena decided to change her life, and get a new profession in IT. Among the many programming languages, she chose JavaScript, and she's creating a project that will help Berlin parents find a free spot in kindergarten and register.\r\n",
-      "company": "WTM ",
+      "company": "WTM",
       "featured": true,
       "photo": "/images/speakers/olena_boiko.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/olena_boiko.jpg",
@@ -723,7 +694,6 @@
     "fred_heath": {
       "name": "Fred Heath",
       "bio": "Fred is a software jack of all trades based in Cardiff, Wales. Over the last 20 years, he's worked at every stage of the software development life-cycle using a plethora of languages and platforms. He loves solving tricky problems, Ruby, Nim & Elixir, meta-programming, Behaviour-Driven Development. When not coding, listening to music or eating Welsh cakes, Fred enjoys writing and speaking about software development and best practices",
-      "company": "",
       "country": "UK",
       "featured": false,
       "photo": "/images/speakers/fred_heath.jpg",
@@ -741,7 +711,7 @@
       "name": "Daniel Paulus",
       "bio": "Daniel Paulus is the Lead Software Engineer at the Sauce Labs’ Real Device Cloud Core Team in Berlin. For delivering Sauce Labs’ market-leading performance with every new mobile OS version he and his team are responsible for low level USB programming and reverse engineering iOS and Android internal APIs to build stable new features on inherently unstable consumer devices.  \r\nDaniel previously held roles as developer, team leader, IT manager and project manager during his 13 year career as an officer in the German Military. \r\n",
       "company": "Sauce Labs",
-      "country": "Berlin",
+      "country": "Berlin, Germany",
       "featured": false,
       "photo": "/images/speakers/daniel_paulus.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/daniel_paulus.jpg",
@@ -833,7 +803,7 @@
       "name": "Syamala Umamaheswaran",
       "bio": "Syamala is a Software Engineer at Volkswagen Digital:Lab Berlin. She is passionate about software development and working in tech for a decade now.\nShe is a public speaker and blogs at https://dev.to/shyamala_u. Thrilled by the tech scene in Berlin, she loves to host meetups after work at Digital:Lab.\nRecently she co founded the Indian Women in Tech group (http://iwiit.eu) to help women who moves to Germany from India to improve their skills and help them to find jobs here.",
       "company": "Volkswagen Digital:Lab",
-      "country": "Berlin",
+      "country": "Berlin, Germany",
       "featured": false,
       "photo": "/images/speakers/syamala_umamaheswaran.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/syamala_umamaheswaran.jpg",
@@ -882,7 +852,7 @@
       "name": "Lara Martín",
       "bio": "Lara is a Flutter GDE and Android developer based in Berlin.\r\nLara has been involved with the community since she started programming: sharing knowledge online, organizing study groups and finally becoming a GDE. Her dream is to make apps more accessible for everyone. When she's not attending a tech meetup, you will find her playing video games or with her dog Lily.",
       "company": "https://laramartin.dev/",
-      "country": "Berlin",
+      "country": "Berlin, Germany",
       "featured": false,
       "photo": "/images/speakers/lara_martin.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/lara_martin.jpg",
@@ -899,7 +869,7 @@
       "name": "Miguel Beltran",
       "bio": "Miguel Beltran is a Freelance Consultant specialized in mobile development for Android and Flutter. He has been working in tech for more than a decade developing products for remote international teams, he’s public speaker since 2016, and has published online courses for Android development on Pluralsight. You can know more about him at https://beltran.work.\r\n",
       "company": "Freelancer",
-      "country": "Berlin",
+      "country": "Berlin, Germany",
       "featured": false,
       "photo": "/images/speakers/miguel_beltran.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/miguel_beltran.jpg",

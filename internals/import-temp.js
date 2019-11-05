@@ -270,7 +270,7 @@ initializeFirebase()
   .then(() => importSessions())
   .then(() => importSpeakers())
   // .then(() => importTeam())
-  .then(() => importTickets())
+  // .then(() => importTickets())
   // .then(() => importVideos())
 
   .then(() => {
