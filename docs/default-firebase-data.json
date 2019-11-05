@@ -422,7 +422,12 @@
       "title": "To SQL or NoSQL?: A tale of two paradigms. "
     },
     "1009": {
-      "title": "To be announce"
+      "complexity": "Beginner",
+      "description": "Have you heard about Go? Do you need help pitching it to your boss? Do you need a concrete and clear migration plan first? In this talk Ronna will share some of the quick benefits you can gain from transitioning to Go, run some side by side comparison with other languages to help you get up on the Go horse and ride into the sunset.",
+      "speakers": [
+        "ronna_steinberg"
+      ],
+      "title": "Riding into the sunset with Go"
     },
     "1010": {
       "complexity": "Beginner",
@@ -983,6 +988,23 @@
       "photo": "/images/speakers/daniel_mahlow.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/daniel_mahlow.jpg",
       "order": 24
+    },
+    "ronna_steinberg": {
+      "name": "Ronna Steinberg",
+      "bio": "Architect, speaker, mentor, and a software engineer, Ronna organizes the activities of Women Who Go Berlin for whom she crafts unique workshops inspired by the industry’s hottest topics. Advocating that coding is for everyone, Ronna runs her own mentoring program for women in tech. Ronna also managed the scholarship programs for GopherCon Europe 2018 & 2019.",
+      "company": "Women Who Go Berlin",
+      "country": "Berlin, Germany",
+      "featured": true,
+      "photo": "/images/speakers/ronna_steinberg.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ronna_steinberg.jpg",
+      "order": 25,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/ronnax",
+          "name": "Twitter"
+        }
+      ]
     }
   },
   "team": [
