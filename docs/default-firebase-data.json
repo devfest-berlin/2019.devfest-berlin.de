@@ -432,7 +432,9 @@
     "1010": {
       "complexity": "Beginner",
       "description": "We all love programming. But programming is not an end in itself. And how do we actually know, what we should program? For that we need a tool to learn about the domain.\r\n\r\nDomain Storytelling is a collaborative modeling method. It brings together domain experts and development teams. It means that we let our users tell us stories about their work. While listening, we record the stories using a pictographic language.\r\n\r\nThe experts can see immediately if we understand their story. After very few stories, we understand the language of our users and can build a domain model from it and implement this in the programming language of our choice.",
-      "speakers": [],
+      "speakers": [
+        "stefan_hofer"
+      ],
       "title": "Domain Storytelling"
     },
     "1011": {
@@ -997,6 +999,21 @@
         {
           "icon": "twitter",
           "link": "https://twitter.com/nisrulz",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "stefan_hofer": {
+      "name": "Dr. Stefan Hofer",
+      "bio": "Stefan is bad at drawing. However, he thinks he can build up domain knowledge by drawing Domain Stories. Stefan studied Software Engineering in Austria and has a PhD in computer science. Since 2005, he has been working for WPS – Workplace Solutions Ltd. in Hamburg. Stefan hops from one domain to the next, helping people to figure out how software can make their lives easier.",
+      "featured": false,
+      "photo": "/images/speakers/stefan_hofer.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/stefan_hofer.jpg",
+      "order": 27,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/hofstef",
           "name": "Twitter"
         }
       ]
