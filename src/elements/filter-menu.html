@@ -46,7 +46,6 @@
         font-size: 15px;
         cursor: pointer;
         color: var(--color);
-        text-transform: capitalize;
       }
 
       .tag iron-icon {
@@ -76,7 +75,7 @@
           padding: 16px 32px;
         }
       }
-
+      
     </style>
 
     <iron-location query="{{queryParams}}"></iron-location>
@@ -90,9 +89,9 @@
         </div>
 
         <div class="actions" layout horizontal center>
-        <span class="reset-filters" role="button" on-tap="_resetFilters" hidden$="[[!_selectedArray.length]]">
-          {$ filters.clear $}
-        </span>
+          <span class="reset-filters" role="button" on-tap="_resetFilters" hidden$="[[!_selectedArray.length]]">
+            {$ filters.clear $}
+          </span>
           <paper-button class="icon-right" on-tap="_toggleBoard">
             {$ filters.title $}
             <iron-icon icon="hoverboard:[[_getFilterIcon(_openedBoard)]]"></iron-icon>
@@ -194,11 +193,11 @@
         if (!selected || !filters) return;
         const targetFilters = filters.map((filter) => filter.key);
         return Object.keys(selected)
-            .filter((key) => targetFilters.includes(key))
-            .reduce((aggr, key) =>
-              aggr.concat(selected[key].map((value) =>
-                ({ key, value })))
-                , []);
+          .filter((key) => targetFilters.includes(key))
+          .reduce((aggr, key) =>
+            aggr.concat(selected[key].map((value) =>
+              ({ key, value })))
+            , []);
       }
 
       _toggleBoard() {
