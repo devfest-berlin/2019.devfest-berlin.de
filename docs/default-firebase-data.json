@@ -990,7 +990,7 @@
       "name": "Nishant Srivastava",
       "bio": "Nishant is a Sr.Android Engineer at Soundbrenner in Berlin, Germany and an open source enthusiast who spends his time doodling when not hacking on Android. He is a caffeine-dependent life-form and can be found either talking about android libraries or advocating that coffee is the elixir of life at community gatherings.\r\n\r\nHe has been part of 2 startups in the past (Founding Team Member at\r\nOmniLabs, Inc. and one of the first employees at Silverpush) with experience in Android SDK Engineering and Audio Digital Signal Processing(DSP) on Android.\r\nWhile working at his past company (Silverpush), he developed the company’s patented UAB (Unique Audio Beacon) Technology.",
       "company": "Soundbrenner",
-      "country": "India",
+      "country": "Berlin, Germany",
       "featured": false,
       "photo": "/images/speakers/nishant_srivastava.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/nishant_srivastava.jpg",
@@ -1272,14 +1272,19 @@
           "order": 19
         },
         {
-          "name": "Nebojsa",
+          "name": "Nebojša Božić",
           "photo": "/images/team/nebojsa_bozic_nebo.jpg",
           "photoUrl": "https://2019.devfest-berlin.de/images/team/nebojsa_bozic_nebo.jpg",
           "socials": [
             {
-              "icon": "",
-              "link": "",
-              "name": ""
+              "icon": "twitter",
+              "link": "https://twitter.com/Kursulla",
+              "name": "Twitter"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/nebojsabozic/",
+              "name": "LinkedIn"
             }
           ],
           "order": 14
