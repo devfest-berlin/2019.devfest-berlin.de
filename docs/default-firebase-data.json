@@ -420,11 +420,11 @@
     },
     "1009": {
       "complexity": "Beginner",
-      "description": "Have you heard about Go? Do you need help pitching it to your boss? Do you need a concrete and clear migration plan first? In this talk Ronna will share some of the quick benefits you can gain from transitioning to Go, run some side by side comparison with other languages to help you get up on the Go horse and ride into the sunset.",
+      "description": "A little over five years ago I started programming in Go and it completely changed how I program and solve problems. Let's compare Go to other common languages and discuss the lessons those languages teach us vs. the lessons Go teaches us.",
       "speakers": [
         "ronna_steinberg"
       ],
-      "title": "Riding into the Sunset with Go",
+      "title": "Migrating to Go, How and Why",
       "tags": [
         "Go"
       ]
