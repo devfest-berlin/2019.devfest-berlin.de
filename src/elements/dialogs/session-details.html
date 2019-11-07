@@ -179,7 +179,13 @@
 
       _close() {
         dialogsActions.closeDialog(DIALOGS.SESSION);
-        history.back();
+        console.log(`before: ${JSON.stringify(history.state)}`);
+        if (history.state !== null) {
+          history.back();
+        } else {
+          history.pushState({}, null, '/schedule')
+        }
+        console.log(`after: ${JSON.stringify(history.state)}`);
       }
 
       _openSpeaker(e) {
