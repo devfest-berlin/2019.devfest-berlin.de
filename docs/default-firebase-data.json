@@ -420,7 +420,7 @@
     },
     "1009": {
       "complexity": "Beginner",
-      "description": "A little over five years ago I started programming in Go and it completely changed how I program and solve problems. Let's compare Go to a other common languages and discuss the lessons those languages teach us vs. the lessons Go teaches us.",
+      "description": "A little over five years ago I started programming in Go and it completely changed how I program and solve problems. Let's compare Go to other common languages and discuss the lessons those languages teach us vs. the lessons Go teaches us.",
       "speakers": [
         "ronna_steinberg"
       ],
