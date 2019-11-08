@@ -501,15 +501,14 @@
     },
     "1017": {
       "complexity": "Beginner",
-      "description": "In this talk we will describe how to use AWS Lambda function, Go and GraphQL to decouple your architecture by breaking your domain into groups of lambda functions.\r\n\r\nAgenda\r\n- Introduction to DDD.\r\n- BFFs\r\n- Introduction to GraphQL\r\n- How to write and test your AWS Lambda functions in Go.\r\n- How to deploy your functions using the Serverless tool.\r\n- How to use DynamoDB in your functions.\r\n- Other options to deploy your functions.\r\n- Lessons learned",
+      "description": "While decoupling monolith into scalable and easily maintainable microservices, many teams find themselves growing multiple smaller monoliths instead.\r\nOften, even though engineers understand the patterns, they struggle to start using it together with stakeholders, PMs and other cross-functional team members. \r\n\r\nDDD helps stakeholders and cross-functional teams to build Ubiquitous Language and use it to share business knowledge. \r\nFor engineers, DDD is a swiss knife of patterns that help to clarify the business domain they're working in, shape microservices and define their responsibilities. The patterns are also very useful to reveal dataflow between microservices and optimize the usage of event streams, like Apache Kafka.\r\n\r\nThis presentation starts with DDD and Event Storming intro and suported by use-cases from our experience using DDD while decoupling monolith. \r\nThe content is a sum up of the presentations, meetups, and workshops I'm doing in the company.",
       "speakers": [
-        "giulliano_bueno"
+        "magomed_chatuev"
       ],
       "tags": [
-        "Go",
-        "Web"
+        "Programming"
       ],
-      "title": "How to Use Go and Lambda Functions to Decouple Your Architecture"
+      "title": "Using DDD(Domain Driven Design) for decoupling monoliths"
     },
     "1018": {
       "complexity": "Beginner",
@@ -727,22 +726,16 @@
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/daniel_paulus.jpg",
       "order": 7
     },
-    "giulliano_bueno": {
-      "name": "Giulliano Bueno",
-      "bio": "Originally from Rio de Janeiro, Brazil now living in Europe.\r\n\r\nI am a software engineer with over 10 years of experience, more specifically in e-commerce, mainly using Java, JavaScript, C#, Ruby, Elixir, Groovy, Go and Python.",
+    "magomed_chatuev": {
+      "name": "Magomed Chatuev",
+      "bio": "I'm a Software Engineer with 14 years of experience, mostly in startups with Agile development processes and short release cycles. In a development process, I highly value teamwork, people and collaboration, built on ambitious mutual purposes and domain-reach solution design.\r\n\r\nAlso, I have entrepreneurial/startup experience in Software development and Digital Health on CTO position, which included product design, strategy planning, writing articles and documentation, etc.\r\n\r\nPersonal growth and study is an important part of my life. In last year I read 10 books, mostly technical and self-improvement as well. Also, I'm constantly studying on MOOC platforms, and time to time prototyping with new technologies and tools.\r\n\r\nRight now I'm working in Blacklane GmbH, rebuilding our system with microservices, serverless and data streams.",
       "company": "Blacklane",
-      "country": "Germany",
+      "country": "",
       "featured": false,
-      "photo": "/images/speakers/giulliano_bueno.jpg",
-      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/giulliano_bueno.jpg",
+      "photo": "/images/speakers/magomed_chatuev.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/magomed_chatuev.jpg",
       "order": 8,
-      "socials": [
-        {
-          "icon": "twitter",
-          "link": "https://twitter.com/giulliano",
-          "name": "Twitter"
-        }
-      ]
+      "socials": []
     },
     "hannes_hapke": {
       "name": "Hannes Hapke",
