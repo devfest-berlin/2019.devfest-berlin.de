@@ -343,7 +343,8 @@
         "dave_cheney"
       ],
       "tags": [
-        "Go"
+        "Go",
+        "Software Design"
       ]
     },
     "1003": {
@@ -506,7 +507,8 @@
         "magomed_chatuev"
       ],
       "tags": [
-        "Programming"
+        "Microservice",
+        "Software Design"
       ],
       "title": "Using DDD(Domain Driven Design) for decoupling monoliths"
     },
@@ -558,7 +560,8 @@
       ],
       "tags": [
         "Go",
-        "Kubernetes"
+        "Kubernetes",
+        "Microservice"
       ],
       "title": "The Quest For The Snappiest Go & Kubernetes Workflow"
     },
