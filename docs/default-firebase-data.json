@@ -737,8 +737,7 @@
       "featured": false,
       "photo": "/images/speakers/magomed_chatuev.jpg",
       "photoUrl": "https://2019.devfest-berlin.de/images/speakers/magomed_chatuev.jpg",
-      "order": 8,
-      "socials": []
+      "order": 8
     },
     "hannes_hapke": {
       "name": "Hannes Hapke",
