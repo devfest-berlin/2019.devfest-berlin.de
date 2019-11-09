@@ -350,7 +350,7 @@
     "1003": {
       "complexity": "Beginner",
       "title": "Bridging the Gap Between Technology and Marketing Teams",
-      "description": "Motivated, adaptable, and responsible are the three adjectives I would use to describe myself. As a senior marketing professional I have proven experience of developing and implementing process to drive internal efficiencies, support key tender activities, and generate sales opportunities. I am also able to build relationships at all levels, a skill I credit my mentor who treated every employee fairly with respect, regardless of their work experience or job title.\r\n\r\nHaving recently returned to work full time after maternity leave for 13 months, I am in the process of putting to work my skills and knowledge again. With my employer, I renegotiated my role and responsibilities to match critical business needs, and also what I saw was important to further my career development. These are insights I would like to share with the delegates too.",
+      "description": "The use of technology is part of the job description for employees these days, not just the technology team. In particular, the work of marketing teams is becoming more technology centered e.g. CRM, MarTech, AdTech. It is vital that marketing colleagues not only work with developers to keep the equipment and programs we use running smoothly, but also to brainstorm client-facing new use cases. \nWhen we work together, technology and marketing teams can revolutionise our company’s operations and maximise the bottom line. In this session, I will share what I have learnt from working with developers, and how this has made me better at my job in marketing.",
       "speakers": [
         "eveline_sliwowska"
       ],
@@ -731,7 +731,7 @@
     },
     "magomed_chatuev": {
       "name": "Magomed Chatuev",
-      "bio": "I'm a Software Engineer with 14 years of experience, mostly in startups with Agile development processes and short release cycles. In a development process, I highly value teamwork, people and collaboration, built on ambitious mutual purposes and domain-reach solution design.\r\n\r\nAlso, I have entrepreneurial/startup experience in Software development and Digital Health on CTO position, which included product design, strategy planning, writing articles and documentation, etc.\r\n\r\nPersonal growth and study is an important part of my life. In last year I read 10 books, mostly technical and self-improvement as well. Also, I'm constantly studying on MOOC platforms, and time to time prototyping with new technologies and tools.\r\n\r\nRight now I'm working in Blacklane GmbH, rebuilding our system with microservices, serverless and data streams.",
+      "bio": "And could you please replace my BIO with the one I sent by e-mail? Duplicating it here\nI’m a Software Engineer with experience in multiple startups from three to three hundred people. After 15 years in the industry, I’m mostly curious about how to build efficient collaboration and knowledge sharing in tech companies among team players with different skill sets and specialties.\nCurrently, I’m working in Blacklane, where we’re building a distributed scalable architecture using Go, serverless and GraphQl. In the company, I’m also running workshops on DDD and how to use it to build microservices.\nIn my spare time I’m enjoying vibrant Berlin life with my family, attending meetups and jogging.",
       "company": "Blacklane",
       "country": "",
       "featured": false,
