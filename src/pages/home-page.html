@@ -35,6 +35,11 @@
         font-size: 22px;
       }
 
+      .info-items-bigger {
+        margin: 24px 24px 12px 24px;
+        font-size: 32px;
+      }
+
       .info-items>*:not(:first-of-type) {
         margin-top: 4px;
       }
@@ -122,7 +127,13 @@
 
         .info-items {
           margin: 48px auto;
-          font-size: 28px;
+          font-size: 24px;
+          line-height: 1.1;
+        }
+
+        .info-items-bigger {
+          margin: 48px 48px 12px 48px;
+          font-size: 40px;
           line-height: 1.1;
         }
       }
@@ -135,11 +146,13 @@
       active="[[active]]" hide-logo>
       <div class="home-content" layout vertical center>
         <plastic-image class="hero-logo" srcset="/images/logo.svg" alt="{$ title $}"></plastic-image>
+        <div class="info-items-bigger highlight-font">
+          <div class="info-item">{$ heroSettings.home.description1 $}</div>
+        </div>
         <div class="info-items highlight-font">
           <div class="info-item">{$ location.city $}. {$ dates $}</div>
-          <div class="info-item">{$ heroSettings.home.description $}</div>
+          <div class="info-item">{$ heroSettings.home.description2 $}</div>
         </div>
-
 
         <div class="action-buttons" layout horizontal center-justified wrap>
           <paper-button on-tap="_scrollToTickets" primary invert>

@@ -40,7 +40,8 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "Join the commuity, learn new things, child care included!",
+      "description1": "Thank you everyone for participating!",
+      "description2": "Join the commuity, learn new things, child care included!",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"

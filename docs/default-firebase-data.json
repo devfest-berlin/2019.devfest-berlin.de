@@ -848,8 +848,13 @@
       "socials": [
         {
           "icon": "twitter",
-          "link": "https://twitter.com/ole108",
+          "link": "https://twitter.com/ole1081",
           "name": "Twitter"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/flowdev_org",
+          "name": "Also Twitter"
         }
       ]
     },
@@ -1037,8 +1042,13 @@
           "socials": [
             {
               "icon": "twitter",
-              "link": "https://twitter.com/ole108",
+              "link": "https://twitter.com/ole1081",
               "name": "Twitter"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/flowdev_org",
+              "name": "Also Twitter"
             },
             {
               "icon": "github",
@@ -1342,7 +1352,7 @@
   ],
   "tickets": [
     {
-      "available": true,
+      "available": false,
       "currency": "€",
       "ends": "Nov 9",
       "inDemand": true,
@@ -1363,7 +1373,7 @@
       "name": "Diversity Ticket",
       "price": 0,
       "regular": false,
-      "soldOut": false,
+      "soldOut": true,
       "starts": "Oct 6",
       "url": "https://forms.gle/ERcWHG3ErNarDja17"
     }
