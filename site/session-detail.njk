@@ -1,0 +1,85 @@
+---
+layout: base
+currentTab: schedule
+pagination:
+  data: conference.sessionsList
+  size: 1
+  alias: session
+permalink: "/schedule/{{ session.id }}/index.html"
+eleventyComputed:
+  title: "{{ session.title }}"
+---
+
+<div class="container" style="max-width: 720px; padding-top: 32px; padding-bottom: 64px;">
+  <div style="margin-bottom: 16px;">
+    <a href="{{ '/schedule/' | url }}" style="display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 500; color: var(--secondary-text-color);">
+      <svg width="18" height="18" fill="currentColor"><use href="#icon-arrow-left"/></svg>
+      <span>Back to full schedule</span>
+    </a>
+  </div>
+
+  <div class="card" style="overflow: hidden;">
+    <div class="dialog-header">
+      <div class="dialog-container">
+        <h1 class="name highlight-font" style="font-size: 26px; font-weight: 500; margin: 0 0 12px; padding: 0;">{{ session.title }}</h1>
+        {% if session.tags and session.tags.length %}
+        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+          {% for tag in session.tags %}
+          <span class="tag" style="height: 24px; padding: 0 10px; font-size: 11px; color: {{ tag | tagColor }}; border-color: {{ tag | tagColor }};">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="dialog-content dialog-container">
+      <div style="font-size: 14px; color: var(--secondary-text-color); margin-bottom: 4px;">
+        {{ session.dateReadable }}, {{ session.startTime }} - {{ session.endTime }}
+      </div>
+      <div style="font-size: 14px; color: var(--secondary-text-color); margin-bottom: 4px;">
+        {{ session.track.title }}
+      </div>
+      {% if session.complexity %}
+      <div style="font-size: 14px; color: var(--secondary-text-color); margin-bottom: 16px;">
+        {{ resources.sessionDetails.contentLevel }}: {{ session.complexity }}
+      </div>
+      {% endif %}
+
+      {% if session.description %}
+      <div class="description" style="line-height: 1.8; white-space: pre-line;">{{ session.description }}</div>
+      {% endif %}
+
+      <div class="actions" style="display: flex; gap: 16px; margin: 20px 0;">
+        {% if session.videoId %}
+        <a href="https://www.youtube.com/watch?v={{ session.videoId }}" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; font-size: 14px; color: var(--secondary-text-color); font-weight: 500;">
+          <svg width="20" height="20" fill="currentColor"><use href="#icon-video"/></svg>
+          <span>{{ resources.sessionDetails.viewVideo }}</span>
+        </a>
+        {% endif %}
+        {% if session.presentation %}
+        <a href="{{ session.presentation }}" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; font-size: 14px; color: var(--secondary-text-color); font-weight: 500;">
+          <svg width="20" height="20" fill="currentColor"><use href="#icon-presentation"/></svg>
+          <span>{{ resources.sessionDetails.viewPresentation }}</span>
+        </a>
+        {% endif %}
+      </div>
+
+      {% if session.speakers and session.speakers.length %}
+      <div style="margin-top: 32px; border-top: 1px solid var(--border-light-color); padding-top: 24px;">
+        <h2 class="highlight-font" style="font-size: 20px; margin-bottom: 16px; padding: 0;">{{ resources.sessionDetails.speakers }}</h2>
+        {% for sp in session.speakers %}
+        <a href="{{ ('/speakers/' + sp.id + '/') | url }}" style="display: flex; align-items: center; gap: 16px; margin-bottom: 16px; text-decoration: none; color: inherit;">
+          <img src="{{ sp.photoUrl | url }}" alt="{{ sp.name }}" style="width: 48px; height: 48px; border-radius: 50%; object-fit: cover; background: #eee;">
+          <div>
+            <div style="font-size: 16px; font-weight: 500; color: var(--primary-text-color);">{{ sp.name }}</div>
+            <div style="font-size: 13px; color: var(--secondary-text-color);">
+              {{ sp.company }}{% if sp.country %} / {{ sp.country }}{% endif %}
+            </div>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

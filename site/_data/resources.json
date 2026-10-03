@@ -1,0 +1,294 @@
+{
+  "title": "GDG DevFest Berlin 2019",
+  "description": "Join the commuity, learn new things!",
+  "image": "images/social-share.png",
+  "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
+  "dates": "November 9, 2019",
+  "share": "Share",
+  "followUs": "Follow us",
+  "eventResources": "Event Resources",
+  "buyTicket": "Buy ticket",
+  "applyTicket": "Apply",
+  "signIn": "Sign in",
+  "signOut": "Sign out",
+  "viewHighlights": "View Highlights",
+  "offlineMessage": "You can still work offline.",
+  "cachingComplete": "Caching complete! Future visits will work offline.",
+  "newVersionAvailable": "A new version of this app is available.",
+  "refresh": "Refresh",
+  "position": "Position",
+  "country": "Country",
+  "time": "Time",
+  "faq": "/data/faq.md",
+  "coc": "/data/coc.md",
+  "footer": {
+    "blog": "Blog"
+  },
+  "mySchedule": {
+    "title": "My Schedule",
+    "browseSession": "Browse sessions"
+  },
+  "footerRelBlock": [
+    {
+      "title": "About",
+      "links": [
+        {
+          "name": "GDG Berlin",
+          "url": "https://www.meetup.com/gdg-berlin/",
+          "newTab": true
+        },
+        {
+          "name": "GDG Berlin Android",
+          "url": "https://www.meetup.com/berlindroid/",
+          "newTab": true
+        },
+        {
+          "name": "GDG Berlin Golang",
+          "url": "https://www.meetup.com/golang-users-berlin/",
+          "newTab": true
+        },
+        {
+          "name": "GDG Berlin Cloud",
+          "url": "https://www.meetup.com/Cloud-GDG-Berlin/",
+          "newTab": true
+        },
+        {
+          "name": "Women Techmakers Berlin",
+          "url": "https://www.meetup.com/Women-Techmakers-Berlin/",
+          "newTab": true
+        },
+        {
+          "name": "GDG",
+          "url": "https://developers.google.com/groups/",
+          "newTab": true
+        },
+        {
+          "name": "DevFest",
+          "url": "https://devfest.withgoogle.com/",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "title": "Explore Past DevFests",
+      "links": [
+        {
+          "name": "2017",
+          "url": "https://2017.devfest-berlin.de/",
+          "newTab": true
+        },
+        {
+          "name": "2016",
+          "url": "https://2016.devfest-berlin.de/",
+          "newTab": true
+        },
+        {
+          "name": "2015",
+          "url": "https://2015.devfest-berlin.de/",
+          "newTab": true
+        },
+        {
+          "name": "2014",
+          "url": "https://2014.devfest-berlin.de/",
+          "newTab": true
+        },
+        {
+          "name": "2013",
+          "url": "https://2013.devfest-berlin.de/",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "title": "Event Resources",
+      "links": [
+        {
+          "name": "FAQs",
+          "url": "/faq/",
+          "newTab": false
+        },
+        {
+          "name": "Source code",
+          "url": "https://github.com/devfest-berlin/2019.devfest-berlin.de",
+          "newTab": true
+        }
+      ]
+    }
+  ],
+  "codeOfConduct": "Code of Conduct",
+  "codeOfConductBlock": {
+    "organization": "DevFest",
+    "form": "https://bit.ly/2RstTJ8",
+    "contacts": [
+      "Organizer Natalie Pistunovich, [+??????????](tel:+??????????), ?@?.?"
+    ]
+  },
+  "aboutBlock": {
+    "title": "About",
+    "callToAction": {
+      "featuredSessions": {
+        "description": "DevFest is back to Berlin for the 8th year! Join us for the annual celebration of tech in Berlin",
+        "label": "Explore featured session",
+        "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+      },
+      "howItWas": {
+        "description": "After a year of hiatus, DevFest is back to Berlin, stronger than ever! 2 years ago we had so much fun, connecting with people, and learning together!",
+        "label": "See how it was in 2017",
+        "galleryLink": "https://photos.google.com/share/AF1QipPt3NfVu8CRRZdk_Uw19at0lVDUYZcItDwFqootKvmV1ayqpaQOFoLK-jVCTZPMMw?key=VVBGd2xkWkM0ZjY5cEtvb3p2Z0xKSXQwa2xTS0Vn"
+      }
+    },
+    "statisticsBlock": {
+      "attendees": {
+        "label": "Attendees",
+        "number": "250+‍"
+      },
+      "days": {
+        "label": "Days",
+        "number": "1"
+      },
+      "sessions": {
+        "label": "Sessions",
+        "number": "24"
+      },
+      "tracks": {
+        "label": "Tracks",
+        "number": "2"
+      }
+    }
+  },
+  "ticketsBlock": {
+    "title": "Tickets",
+    "ticketsDetails": "*Tickets grant access to all conference sections, coffee breaks, lunch and party. <br/><br/>*Childcare from 09:00 to 18:00 is availble for free. Please specify when purchasing ticket.",
+    "soldOut": "You missed it!",
+    "notAvailableYet": "Not available yet",
+    "save": "Save ${discount}% today"
+  },
+  "partnersBlock": {
+    "title": "Partners"
+  },
+  "speakers": {
+    "skills": "Skills",
+    "previousYears": "Years",
+    "previousYear": "Year"
+  },
+  "speakersBlock": {
+    "title": "Speakers",
+    "callToAction": {
+      "label": "View all speakers",
+      "link": "/speakers/"
+    }
+  },
+  "previousSpeakersBlock": {
+    "title": "Previous speakers",
+    "callToAction": {
+      "label": "View all",
+      "link": "/previous-speakers/"
+    }
+  },
+  "galleryBlock": {
+    "title": "#devFest19 #devFestBerlin highlights",
+    "description": "We have so much fun this year, if you don't believe me, just check out all the pictures!",
+    "callToAction": {
+      "label": "See all photos",
+      "link": "https://photos.google.com/share/AF1QipMgAW7KQKZhdJ0MA3DqIOYEiOh0WGirTTiy_r4p987vU_MP0tbjv54SmuospUsH9A?key=R1BoMTZoU3hsVGVOODZ6NXZDQ0dZWlZwelEzRUF3"
+    }
+  },
+  "mapBlock": {
+    "title": "Location"
+  },
+  "subscribeBlock": {
+    "callToAction": {
+      "description": "Get notified about the important conference updates",
+      "label": "Subscribe"
+    },
+    "yourEmail": "Your email",
+    "emailAddress": "Email Address",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "formTitle": "Get the latest updates, insights and news about GDG DevFest Ukraine sent to your inbox.",
+    "emailRequired": "Please enter a valid email address.",
+    "subscribe": "Subscribe",
+    "subscribed": "Subscribed",
+    "close": "Close",
+    "generalError": "An error has occurred. Please, try again later.",
+    "toast": "Successfully subscribed!"
+  },
+  "team": {
+    "description": "A lot of people spend their evenings and weekends to make this event possible, and they are probably next to you! Please be nice to them!"
+  },
+  "schedule": {
+    "saveSessionsSignedOut": "Sign in to save sessions"
+  },
+  "sessionDetails": {
+    "contentLevel": "Content level",
+    "viewPresentation": "View presentation",
+    "viewVideo": "View video",
+    "speakers": "Speakers"
+  },
+  "speakerDetails": {
+    "sessions": "Sessions"
+  },
+  "notifications": {
+    "default": "Enable notifications",
+    "enabled": "We will miss you but you can unsubscribe anytime",
+    "blocked": "We can't send you notifications right now. Please enable notifications in your browser",
+    "subscribe": "Subscribe",
+    "unsubscribe": "Unsubscribe",
+    "enable": {
+      "label": "Enable",
+      "link": "https://pushassist.com/knowledgebase/how-to-enable-or-disable-push-notifications-on-chrome-firefox-safari-b/"
+    },
+    "toast": {
+      "title": "Open"
+    }
+  },
+  "aboutOrganizerBlock": {
+    "image": "/images/team.jpg",
+    "blocks": [
+      {
+        "title": "Organizer",
+        "description": "5 GDGs from Berlin, along with support from our partners, join forces and make this year's DevFest possible!",
+        "callToAction": {
+          "label": "Open team page",
+          "link": "/team"
+        }
+      },
+      {
+        "title": "What is a GDG?",
+        "description": "A Google Developer Group is a community of volunteers who create exciting projects and share experiences about Google technologies.",
+        "callToAction": {
+          "label": "Read more",
+          "link": "https://developers.google.com/groups/",
+          "newTab": true
+        }
+      },
+      {
+        "title": "What is DevFest?",
+        "description": "DevFests are community-led developer events hosted by Google Developer Groups around the globe.",
+        "callToAction": {
+          "label": "Read more",
+          "link": "https://devfest.withgoogle.com/",
+          "newTab": true
+        }
+      }
+    ]
+  },
+  "signInDialog": {
+    "alreadyHaveAccount": "You already have an account",
+    "alreadyUsed": "You've already used",
+    "signInToContinue": {
+      "part1": "Sign in with",
+      "part2": "to continue."
+    }
+  },
+  "filters": {
+    "title": "Filters",
+    "results": "Results",
+    "tags": "Tags",
+    "complexity": "Complexity",
+    "clear": "Clear all"
+  },
+  "addToHomeScreen": {
+    "cta": "Add to Home Screen"
+  }
+}

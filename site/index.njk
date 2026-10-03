@@ -1,0 +1,234 @@
+---
+layout: base
+isHome: true
+currentTab: home
+---
+
+<!-- Hero Section (matches original hero-block.html & home-page.html) -->
+<div class="hero-block hero-home" style="color: #FFF;">
+  <div class="hero-image" style="background-image: url('{{ '/images/backgrounds/home.jpg' | url }}'); background-color: #673ab7;"></div>
+  <div class="hero-overlay" style="opacity: 1;"></div>
+
+  <div class="home-content">
+    <img class="hero-logo" src="{{ '/images/logo.svg' | url }}" alt="{{ resources.title }}">
+    
+    <div class="info-items-bigger highlight-font">
+      <div class="info-item">{{ settings.heroSettings.home.description1 }}</div>
+    </div>
+    
+    <div class="info-items highlight-font">
+      <div class="info-item">{{ settings.location.city }}. {{ resources.dates }}</div>
+      <div class="info-item">{{ settings.heroSettings.home.description2 }}</div>
+    </div>
+
+    <div class="action-buttons">
+      <a href="#tickets" class="paper-button primary invert">
+        <svg style="width: 20px; height: 20px; margin-right: 8px; fill: currentColor;"><use href="#icon-ticket"/></svg>
+        {{ resources.buyTicket }}
+      </a>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-down" aria-label="Scroll down">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.166666 37.8704414">
+      <path class="stroke" fill="none" stroke="#c7c4b8" stroke-width="2.5" stroke-miterlimit="10"
+        d="M12.5833445 36.6204414h-0.0000229C6.3499947 36.6204414 1.25 31.5204487 1.25 25.2871208V12.5833216C1.25 6.3499947 6.3499951 1.25 12.5833216 1.25h0.0000229c6.2333269 0 11.3333216 5.0999947 11.3333216 11.3333216v12.7037992C23.916666 31.5204487 18.8166714 36.6204414 12.5833445 36.6204414z"/>
+      <path class="scroller" fill="#c7c4b8"
+        d="M13.0833359 19.2157116h-0.9192753c-1.0999985 0-1.9999971-0.8999996-1.9999971-1.9999981v-5.428606c0-1.0999994 0.8999987-1.9999981 1.9999971-1.9999981h0.9192753c1.0999985 0 1.9999981 0.8999987 1.9999981 1.9999981v5.428606C15.083334 18.315712 14.1833344 19.2157116 13.0833359 19.2157116z"/>
+    </svg>
+  </a>
+</div>
+
+<!-- About Block (matches original about-block.html) -->
+<section id="about">
+  <div class="container" style="padding-top: 64px;">
+    <div class="about-block-content">
+      <div>
+        <h1 class="container-title highlight-font">{{ resources.aboutBlock.title }}</h1>
+        <p style="margin-bottom: 16px;">{{ resources.aboutBlock.callToAction.featuredSessions.description }}</p>
+        <p style="margin-bottom: 24px;">{{ resources.aboutBlock.callToAction.howItWas.description }}</p>
+        <a href="{{ resources.aboutBlock.callToAction.howItWas.galleryLink }}" target="_blank" rel="noopener noreferrer">
+          <button class="paper-button animated icon-right" style="padding-left: 0;">
+            <span>{{ resources.aboutBlock.callToAction.howItWas.label }}</span>
+            <svg style="width: 20px; height: 20px; fill: currentColor;"><use href="#icon-arrow-right-circle"/></svg>
+          </button>
+        </a>
+      </div>
+
+      <div class="statistics-block">
+        <div class="item">
+          <div class="numbers highlight-font">{{ resources.aboutBlock.statisticsBlock.attendees.number }}</div>
+          <div class="label">{{ resources.aboutBlock.statisticsBlock.attendees.label }}</div>
+        </div>
+        <div class="item">
+          <div class="numbers highlight-font">{{ resources.aboutBlock.statisticsBlock.days.number }}</div>
+          <div class="label">{{ resources.aboutBlock.statisticsBlock.days.label }}</div>
+        </div>
+        <div class="item">
+          <div class="numbers highlight-font">{{ resources.aboutBlock.statisticsBlock.sessions.number }}</div>
+          <div class="label">{{ resources.aboutBlock.statisticsBlock.sessions.label }}</div>
+        </div>
+        <div class="item">
+          <div class="numbers highlight-font">{{ resources.aboutBlock.statisticsBlock.tracks.number }}</div>
+          <div class="label">{{ resources.aboutBlock.statisticsBlock.tracks.label }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Speakers Block (matches original speakers-block.html) -->
+<section>
+  <div class="container" style="padding-top: 64px;">
+    <h1 class="container-title highlight-font">{{ resources.speakersBlock.title }}</h1>
+
+    <div class="speakers-wrapper speakers-home-grid">
+      {% for speaker in conference.featuredSpeakers %}
+      <a class="speaker" href="{{ ('/speakers/#' + speaker.id) | url }}">
+        <div class="photo-wrap">
+          <img class="photo" src="{{ speaker.photoUrl | url }}" alt="{{ speaker.name }}" loading="lazy">
+          {% if speaker.badges and speaker.badges.length %}
+          <div class="speaker-badges">
+            {% for badge in speaker.badges %}
+            <span class="badge {{ badge.name }}-b" title="{{ badge.description }}">
+              <svg class="badge-icon"><use href="#icon-{{ badge.name }}"/></svg>
+            </span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+        <div class="name highlight-font">{{ speaker.name }}</div>
+        {% if speaker.country %}
+        <div class="origin">{{ speaker.country }}</div>
+        {% endif %}
+        <div class="description">{{ speaker.title }}{% if speaker.company %}, {{ speaker.company }}{% endif %}</div>
+      </a>
+      {% endfor %}
+    </div>
+
+    <a href="{{ resources.speakersBlock.callToAction.link | url }}" style="display: inline-block; margin-top: 16px;">
+      <button class="paper-button animated icon-right" style="padding-left: 0;">
+        <span>{{ resources.speakersBlock.callToAction.label }}</span>
+        <svg style="width: 20px; height: 20px; fill: currentColor;"><use href="#icon-arrow-right-circle"/></svg>
+      </button>
+    </a>
+  </div>
+</section>
+
+<!-- Tickets Block (matches original tickets-block.html) -->
+<section id="tickets" style="padding: 48px 0;">
+  <div class="tickets-wrapper container">
+    <h1 class="container-title highlight-font">{{ resources.ticketsBlock.title }}</h1>
+
+    <div class="tickets">
+      {% for ticket in conference.tickets %}
+      <div class="ticket-item card" {% if ticket.soldOut %}sold-out{% endif %} {% if ticket.inDemand %}in-demand{% endif %}>
+        <div class="header">
+          <h4 class="highlight-font">{{ ticket.name }}</h4>
+        </div>
+        <div class="content">
+          <div class="ticket-price-wrapper">
+            <div class="price highlight-font">{{ ticket.currency }}{{ ticket.price }}</div>
+          </div>
+          <div class="type-description">
+            {% if ticket.starts %}<div style="font-size: 11px; margin-bottom: 4px;">{{ ticket.starts }} - {{ ticket.ends }}</div>{% endif %}
+            <div>{{ ticket.info }}</div>
+          </div>
+        </div>
+        <div class="actions">
+          <div class="sold-out-text">
+            {{ resources.ticketsBlock.soldOut }}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="additional-info">
+      {{ resources.ticketsBlock.ticketsDetails | safe }}
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Block (matches original gallery-block.html mosaic) -->
+<section>
+  <div class="photos-grid">
+    {% for photo in conference.gallery %}
+    <img class="grid-item" src="{{ photo | url }}" alt="DevFest Berlin 2019 Highlight" loading="lazy">
+    {% endfor %}
+    <div class="gallery-info">
+      <div>
+        <h2 class="highlight-font">{{ resources.galleryBlock.title }}</h2>
+        <p>{{ resources.galleryBlock.description }}</p>
+      </div>
+      <a href="{{ resources.galleryBlock.callToAction.link }}" target="_blank" rel="noopener noreferrer">
+        <button class="paper-button" style="color: #fff; margin-top: 16px; padding: 0.7em 0; text-transform: uppercase;">
+          <span>{{ resources.galleryBlock.callToAction.label }}</span>
+        </button>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- About Organizer Block (matches original about-organizer-block.html) -->
+<section style="margin: 64px auto;">
+  <div class="container about-organizer-container">
+    <div class="about-organizer-photo-side">
+      <a href="{{ '/team/' | url }}" class="about-organizer-image-link">
+        <img class="organizers-photo" src="{{ '/images/team.jpg' | url }}" alt="DevFest Berlin Organizers" loading="lazy">
+      </a>
+    </div>
+    <div class="about-organizer-text-side">
+      {% for block in resources.aboutOrganizerBlock.blocks %}
+      <div class="about-organizer-block-item">
+        <h2 class="highlight-font">{{ block.title }}</h2>
+        <p class="description">{{ block.description }}</p>
+        <a href="{{ block.callToAction.link | url }}" {% if block.callToAction.newTab %}target="_blank" rel="noopener noreferrer"{% endif %}>
+          <button class="paper-button animated icon-right" style="padding-left: 0;">
+            <span>{{ block.callToAction.label }}</span>
+            <svg style="width: 20px; height: 20px; fill: currentColor;"><use href="#icon-arrow-right-circle"/></svg>
+          </button>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Location / Map Block (matches original map-block.html) -->
+<section class="map-block">
+  <div class="map-container">
+    <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.694602931139!2d13.43765191580665!3d52.50608057981144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e31379db67d%3A0x6b8764032d847fa4!2sValeska-Gert-Stra%C3%9Fe%205%2C%2010243%20Berlin!5e0!3m2!1sen!2sde!4v1600000000000!5m2!1sen!2sde" allowfullscreen="" loading="lazy"></iframe>
+    <div class="map-overlay-container">
+      <div class="container map-card-container">
+        <div class="description-card">
+          <h2 class="highlight-font">{{ resources.mapBlock.title }}</h2>
+          <p>{{ settings.location.description }}</p>
+          <div class="bottom-info">
+            <span class="address">{{ settings.location.address }}</span>
+            <a href="https://www.google.com/maps/dir/?api=1&destination={{ settings.location.address | urlencode }}" target="_blank" rel="noopener noreferrer" class="directions-btn" title="Get Directions" aria-label="Get Directions">
+              <svg style="width: 24px; height: 24px; fill: currentColor;"><use href="#icon-directions"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Partners Block (matches original partners-block.html) -->
+<section style="margin: 48px auto 96px;">
+  <div class="container">
+    <h1 class="container-title highlight-font">{{ resources.partnersBlock.title }}</h1>
+    {% for group in conference.partners %}
+    <h4 class="block-title highlight-font" style="margin: 24px 0 8px; font-size: 16px; color: var(--secondary-text-color);">{{ group.title }}</h4>
+    <div class="logos-wrapper">
+      {% for logo in group.logos %}
+      <a class="logo-item" href="{{ logo.url }}" title="{{ logo.name }}" target="_blank" rel="noopener noreferrer">
+        <img class="logo-img" src="{{ logo.logoUrl | url }}" alt="{{ logo.name }}" loading="lazy">
+      </a>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</section>

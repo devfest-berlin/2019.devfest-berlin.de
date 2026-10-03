@@ -1,0 +1,135 @@
+---
+layout: base
+title: Previous Speakers
+currentTab: speakers
+permalink: /previous-speakers/index.html
+---
+
+<div class="hero-block" style="background-color: #fff; color: #424242;">
+  <div class="container hero-content" style="text-align: left;">
+    <div class="hero-title highlight-font">{{ settings.heroSettings.previousSpeakers.title }}</div>
+    <p class="hero-description">{{ settings.heroSettings.previousSpeakers.metaDescription }}</p>
+  </div>
+</div>
+
+<div class="container" style="padding-top: 32px; padding-bottom: 64px;">
+  <div class="previous-speakers-grid">
+    {% for speaker in conference.previousSpeakers %}
+    <a href="#{{ speaker.id }}" class="previous-speaker" id="card-{{ speaker.id }}">
+      <img class="photo" src="{{ speaker.photoUrl | url }}" alt="{{ speaker.name }}" loading="lazy">
+      <div class="details">
+        <h2 class="name highlight-font">{{ speaker.name }}</h2>
+        {% if speaker.country %}
+        <div class="origin">{{ speaker.country }}</div>
+        {% endif %}
+        {% if speaker.companyLogo %}
+        <img class="company-logo" src="{{ speaker.companyLogo | url }}" alt="{{ speaker.company }}">
+        {% endif %}
+        {% if speaker.yearsFormatted %}
+        <div class="sessions">
+          <h5>{{ resources.speakers.previousYears }}:</h5>
+          <span>{{ speaker.yearsFormatted }}</span>
+        </div>
+        {% endif %}
+      </div>
+    </a>
+
+    <!-- Pure No-JS Modal (matches previous-speaker-details.html) -->
+    <div id="{{ speaker.id }}" class="modal-overlay">
+      <div class="modal-dialog">
+        <a href="#card-{{ speaker.id }}" class="dialog-close-btn" aria-label="Close">&times;</a>
+
+        <div class="dialog-header">
+          <div class="dialog-container" style="display: flex; align-items: center; gap: 20px;">
+            <img src="{{ speaker.photoUrl | url }}" alt="{{ speaker.name }}" style="width: 88px; height: 88px; border-radius: 50%; object-fit: cover; background: #eee;">
+            <div>
+              <h2 class="name highlight-font" style="font-size: 26px; font-weight: 500;">{{ speaker.name }}</h2>
+              <div style="font-size: 15px; color: var(--secondary-text-color); margin-top: 4px;">
+                {{ speaker.title }}{% if speaker.company %}, {{ speaker.company }}{% endif %}
+              </div>
+              {% if speaker.country %}
+              <div style="font-size: 13px; color: var(--secondary-text-color); margin-top: 2px;">
+                {{ speaker.country }}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
+        <div class="dialog-content dialog-container">
+          {% if speaker.bio %}
+          <div class="description" style="line-height: 1.8; white-space: pre-line;">{{ speaker.bio }}</div>
+          {% endif %}
+
+          {% if speaker.socials and speaker.socials.length %}
+          <div style="display: flex; gap: 12px; margin-top: 20px;">
+            {% for s in speaker.socials %}
+              {% if s.link %}
+              <a href="{{ s.link }}" target="_blank" rel="noopener noreferrer" style="color: var(--secondary-text-color);" title="{{ s.name or s.icon }}" aria-label="{{ s.name or s.icon }}">
+                {% if s.icon == 'twitter' %}
+                <svg width="22" height="22" fill="currentColor"><use href="#icon-twitter"/></svg>
+                {% elseif s.icon == 'github' %}
+                <svg width="22" height="22" fill="currentColor"><use href="#icon-github"/></svg>
+                {% elseif s.icon == 'linkedin' %}
+                <svg width="22" height="22" fill="currentColor"><use href="#icon-linkedin"/></svg>
+                {% elseif s.icon == 'instagram' %}
+                <svg width="22" height="22" fill="currentColor"><use href="#icon-instagram"/></svg>
+                {% elseif s.icon == 'medium' %}
+                <svg width="22" height="22" fill="currentColor"><use href="#icon-medium"/></svg>
+                {% elseif s.icon == 'website' %}
+                <svg width="22" height="22" fill="currentColor"><use href="#icon-website"/></svg>
+                {% elseif s.icon == 'meetup' %}
+                <svg width="22" height="22" fill="currentColor"><use href="#icon-meetup"/></svg>
+                {% elseif s.icon == 'youtube' %}
+                <svg width="22" height="22" fill="currentColor"><use href="#icon-youtube"/></svg>
+                {% else %}
+                <svg width="22" height="22" fill="currentColor"><use href="#icon-arrow-right"/></svg>
+                {% endif %}
+              </a>
+              {% endif %}
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          {% if speaker.flatSessions and speaker.flatSessions.length %}
+          <div style="margin-top: 32px; border-top: 1px solid var(--border-light-color); padding-top: 24px;">
+            <h3 class="highlight-font" style="font-size: 20px; margin-bottom: 16px;">Sessions</h3>
+            {% for sess in speaker.flatSessions %}
+            <div style="background: var(--additional-background-color); padding: 16px; border-radius: var(--border-radius); margin-bottom: 12px;">
+              <div style="font-size: 16px; font-weight: 500; color: var(--primary-text-color);">
+                {{ sess.title }}
+              </div>
+              <div style="font-size: 13px; color: var(--secondary-text-color); margin-top: 4px;">
+                {{ resources.speakers.previousYear }}: {{ sess.year }}
+              </div>
+              {% if sess.tags and sess.tags.length %}
+              <div style="margin-top: 8px;">
+                {% for tag in sess.tags %}
+                <span class="tag" style="height: 22px; padding: 0 8px; font-size: 10px; color: {{ tag | tagColor }}; border-color: {{ tag | tagColor }}; margin-right: 4px;">{{ tag }}</span>
+                {% endfor %}
+              </div>
+              {% endif %}
+              <div style="display: flex; gap: 16px; margin-top: 12px;">
+                {% if sess.videoId %}
+                <a href="https://www.youtube.com/watch?v={{ sess.videoId }}" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--secondary-text-color); font-weight: 500;">
+                  <svg width="18" height="18" fill="currentColor"><use href="#icon-video"/></svg>
+                  <span>{{ resources.sessionDetails.viewVideo }}</span>
+                </a>
+                {% endif %}
+                {% if sess.presentation %}
+                <a href="{{ sess.presentation }}" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--secondary-text-color); font-weight: 500;">
+                  <svg width="18" height="18" fill="currentColor"><use href="#icon-presentation"/></svg>
+                  <span>{{ resources.sessionDetails.viewPresentation }}</span>
+                </a>
+                {% endif %}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title %}{{ title }} | {% endif %}{{ resources.title }}</title>
+  <meta name="description" content="{% if description %}{{ description }}{% else %}{{ resources.description }}{% endif %}">
+  
+  <link rel="icon" href="{{ '/images/favicon.ico' | url }}">
+  <meta name="theme-color" content="{{ settings.webapp.themeColor }}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ resources.title }}">
+  <meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ resources.description }}{% endif %}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ '/images/social-share.png' | url }}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@{{ settings.organizer.twitter }}">
+  <meta name="twitter:title" content="{% if title %}{{ title }} | {% endif %}{{ resources.title }}">
+  <meta name="twitter:description" content="{% if description %}{{ description }}{% else %}{{ resources.description }}{% endif %}">
+  <meta name="twitter:image" content="{{ '/images/social-share.png' | url }}">
+
+  <!-- Google Fonts: Google Sans Flex & Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@400;500;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap">
+
+  <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
+</head>
+<body class="{% if isHome %}page-home{% endif %}">
+  {% include "components/icons.njk" %}
+  {% include "components/header.njk" %}
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  {% include "components/footer.njk" %}
+
+  <script>
+    (function() {
+      var header = document.querySelector('.header-toolbar');
+      if (header && document.body.classList.contains('page-home')) {
+        function checkScroll() {
+          if (window.pageYOffset > 40) {
+            header.classList.remove('transparent');
+          } else {
+            header.classList.add('transparent');
+          }
+        }
+        window.addEventListener('scroll', checkScroll, { passive: true });
+        checkScroll();
+
+        // Randomly shuffle featured speakers on home page load (matching original Hoverboard behavior)
+        var grid = document.querySelector('.speakers-home-grid');
+        if (grid && grid.children.length > 4) {
+          for (var i = grid.children.length; i >= 0; i--) {
+            grid.appendChild(grid.children[Math.random() * i | 0]);
+          }
+        }
+      }
+    })();
+  </script>
+</body>
+</html>

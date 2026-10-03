@@ -1,0 +1,155 @@
+---
+layout: base
+title: Schedule
+currentTab: schedule
+permalink: /schedule/index.html
+---
+
+<div class="hero-block" style="background-color: #fff; color: #424242;">
+  <div class="container hero-content" style="text-align: left;">
+    <div class="hero-title highlight-font">{{ settings.heroSettings.schedule.title }}</div>
+    <p class="hero-description">{{ settings.heroSettings.schedule.description }}</p>
+  </div>
+</div>
+
+<!-- Header Bottom Toolbar (matches original header-bottom-toolbar.html) -->
+<div class="schedule-subtoolbar">
+  <div class="container" style="padding: 0;">
+    <div class="schedule-day-tab highlight-font">November 9</div>
+  </div>
+</div>
+
+<div class="container" style="padding-top: 32px; padding-bottom: 64px;">
+  <!-- Tracks Header on Desktop -->
+  <div class="schedule-tracks-header">
+    {% for track in conference.tracks %}
+    <div class="track-header-item highlight-font">{{ track.title }}</div>
+    {% endfor %}
+  </div>
+
+  <!-- Schedule Grid (matches original schedule-day.html) -->
+  <div class="schedule-day-grid">
+    {% for slot in conference.daySchedule.timeslots %}
+    <div class="timeslot-entry">
+      <div class="start-time-label highlight-font">
+        <span class="hours">{{ slot.startTime.split(':')[0] }}</span><span class="minutes">:{{ slot.startTime.split(':')[1] }}</span>
+      </div>
+
+      <div class="sessions-row-grid {% if slot.sessions.length > 1 %}two-cols{% endif %}">
+        {% for sessGroup in slot.sessions %}
+          {% for session in sessGroup.items %}
+          <a class="session-element-card" href="#{{ session.id }}" id="card-{{ session.id }}">
+            <div class="session-header">
+              <span class="tag" style="height: 24px; padding: 2px 8px; font-size: 11px; color: var(--default-primary-color); border-color: rgba(103,58,183,0.3);">
+                {{ session.track.title }}
+              </span>
+              {% if session.complexity %}
+              <span style="font-size: 11px; color: var(--secondary-text-color);">{{ session.complexity }}</span>
+              {% endif %}
+            </div>
+
+            <div class="session-content">
+              <div class="session-title highlight-font">{{ session.title }}</div>
+              
+              {% if session.tags and session.tags.length %}
+              <div style="margin-top: 8px;">
+                {% for tag in session.tags %}
+                <span class="tag" style="height: 22px; padding: 0 8px; font-size: 10px; color: {{ tag | tagColor }}; border-color: {{ tag | tagColor }}; margin: 2px 4px 2px 0;">
+                  {{ tag }}
+                </span>
+                {% endfor %}
+              </div>
+              {% endif %}
+
+              {% if session.speakers and session.speakers.length %}
+              <div class="session-speakers-list">
+                {% for sp in session.speakers %}
+                <div class="session-speaker-item">
+                  <img class="session-speaker-photo" src="{{ sp.photoUrl | url }}" alt="{{ sp.name }}" loading="lazy">
+                  <div>
+                    <div class="session-speaker-name highlight-font">{{ sp.name }}</div>
+                    {% if sp.company %}
+                    <div class="session-speaker-title">{{ sp.company }}</div>
+                    {% endif %}
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+          </a>
+
+          <!-- Pure No-JS Modal (matches dialog-styles.html & session-details.html) -->
+          <div id="{{ session.id }}" class="modal-overlay">
+            <div class="modal-dialog">
+              <a href="#card-{{ session.id }}" class="dialog-close-btn" aria-label="Close">&times;</a>
+              
+              <div class="dialog-header">
+                <div class="dialog-container">
+                  <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px;">
+                    <span class="tag" style="height: 24px; padding: 2px 8px; font-size: 11px; color: var(--default-primary-color); border-color: rgba(103,58,183,0.3);">
+                      {{ session.track.title }}
+                    </span>
+                    <span class="tag" style="height: 24px; padding: 2px 8px; font-size: 11px; color: var(--secondary-text-color); border-color: var(--border-light-color);">
+                      {{ session.startTime }} - {{ session.endTime }}
+                    </span>
+                    {% if session.complexity %}
+                    <span class="tag" style="height: 24px; padding: 2px 8px; font-size: 11px; color: var(--secondary-text-color); border-color: var(--border-light-color);">
+                      {{ session.complexity }}
+                    </span>
+                    {% endif %}
+                  </div>
+
+                  <h2 class="name highlight-font" style="font-size: 24px; font-weight: 500;">{{ session.title }}</h2>
+
+                  {% if session.tags and session.tags.length %}
+                  <div style="margin-top: 10px;">
+                    {% for tag in session.tags %}
+                    <span class="tag" style="height: 22px; padding: 0 8px; font-size: 10px; color: {{ tag | tagColor }}; border-color: {{ tag | tagColor }}; margin: 2px 4px 2px 0;">
+                      {{ tag }}
+                    </span>
+                    {% endfor %}
+                  </div>
+                  {% endif %}
+                </div>
+              </div>
+
+              <div class="dialog-content dialog-container">
+                {% if session.description %}
+                <div class="description" style="line-height: 1.8; white-space: pre-line;">{{ session.description }}</div>
+                {% endif %}
+
+                {% if session.presentation %}
+                <div style="margin: 20px 0;">
+                  <a href="{{ session.presentation }}" target="_blank" rel="noopener noreferrer">
+                    <button class="paper-button primary">View Presentation Slides</button>
+                  </a>
+                </div>
+                {% endif %}
+
+                {% if session.speakers and session.speakers.length %}
+                <div style="margin-top: 32px; border-top: 1px solid var(--border-light-color); padding-top: 24px;">
+                  <h3 class="highlight-font" style="font-size: 18px; margin-bottom: 16px;">Speakers</h3>
+                  {% for sp in session.speakers %}
+                  <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 12px;">
+                    <img src="{{ sp.photoUrl | url }}" alt="{{ sp.name }}" style="width: 56px; height: 56px; border-radius: 50%; object-fit: cover; background: #eee;">
+                    <div>
+                      <div class="highlight-font" style="font-size: 16px; font-weight: 500;">{{ sp.name }}</div>
+                      {% if sp.company %}
+                      <div style="font-size: 13px; color: var(--secondary-text-color);">{{ sp.company }}</div>
+                      {% endif %}
+                    </div>
+                  </div>
+                  {% endfor %}
+                </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
