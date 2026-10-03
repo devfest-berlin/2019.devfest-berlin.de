@@ -1,0 +1,73 @@
+<footer class="footer-block">
+  <div class="container">
+    <div class="fab">
+      <a href="#" class="back-to-top" aria-label="Back to top">
+        <svg width="24" height="24" fill="currentColor"><use href="#icon-up"/></svg>
+      </a>
+    </div>
+
+    <div class="footer-social">
+      <div class="social-group share-block">
+        <div class="title">{{ resources.share }}</div>
+        <div class="nav-inline">
+          <div class="share">
+            <a class="share-facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2F2019.devfest-berlin.de" target="_blank" rel="noopener noreferrer" title="Share on Facebook" aria-label="Share on Facebook">
+              <svg width="20" height="20" fill="currentColor"><use href="#icon-facebook"/></svg>
+            </a>
+          </div>
+          <div class="share">
+            <a class="share-twitter" href="https://twitter.com/intent/tweet?text=GDG%20DevFest%20Berlin%202019%20https%3A%2F%2F2019.devfest-berlin.de" target="_blank" rel="noopener noreferrer" title="Share on Twitter" aria-label="Share on Twitter">
+              <svg width="20" height="20" fill="currentColor"><use href="#icon-twitter"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="social-group social-networks">
+        <div class="title">{{ resources.followUs }}</div>
+        <ul class="nav-inline">
+          {% for socFollow in settings.socialNetwork.follow %}
+          <li>
+            <a href="{{ socFollow.url }}" target="_blank" rel="noopener noreferrer" title="{{ socFollow.name }}" aria-label="{{ socFollow.name }}">
+              {% if socFollow.name == 'twitter' %}
+              <svg width="20" height="20" fill="currentColor"><use href="#icon-twitter"/></svg>
+              {% elseif socFollow.name == 'meetup' %}
+              <svg width="20" height="20" fill="currentColor"><use href="#icon-meetup"/></svg>
+              {% elseif socFollow.name == 'facebook' %}
+              <svg width="20" height="20" fill="currentColor"><use href="#icon-facebook"/></svg>
+              {% else %}
+              <svg width="20" height="20" fill="currentColor"><use href="#icon-arrow-right"/></svg>
+              {% endif %}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-rel">
+      {% for footerRel in resources.footerRelBlock %}
+      <div class="col">
+        <div class="col-heading">{{ footerRel.title }}</div>
+        <ul class="nav">
+          {% for link in footerRel.links %}
+          <li><a href="{{ link.url }}" {% if link.newTab %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="footer-nav">
+      <div class="nav-inline">
+        <a href="{{ settings.organizer.url }}" target="_blank" rel="noopener noreferrer">
+          <img class="footer-logo" src="{{ '/images/organizer-logo.svg' | url }}" alt="{{ settings.organizer.name }}">
+        </a>
+
+        <div class="copyright">
+          &copy; 2019 Based on <a href="https://github.com/gdg-x/hoverboard" target="_blank" rel="noopener noreferrer">Project Hoverboard</a> &middot; <a class="coc" href="{{ '/coc/' | url }}">{{ resources.codeOfConduct }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
