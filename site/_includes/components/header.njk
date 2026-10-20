@@ -1,0 +1,43 @@
+<header class="header-toolbar {% if isHome %}transparent{% endif %}">
+  <input type="checkbox" id="nav-toggle" aria-label="Toggle navigation">
+  <label for="nav-toggle" class="drawer-overlay"></label>
+  
+  <div class="app-toolbar">
+    <div style="display: flex; align-items: center;">
+      <label for="nav-toggle" class="menu-btn" aria-label="Open menu">
+        <svg width="24" height="24" fill="currentColor"><use href="#icon-menu"/></svg>
+      </label>
+      <a href="{{ '/' | url }}" title="{{ resources.title }}" style="display: block;">
+        <span class="toolbar-logo"></span>
+      </a>
+    </div>
+
+    <ul class="nav-items">
+      <li class="nav-item"><a href="{{ '/' | url }}" class="{% if currentTab == 'home' %}active{% endif %}">Home</a></li>
+      <li class="nav-item"><a href="{{ '/speakers/' | url }}" class="{% if currentTab == 'speakers' %}active{% endif %}">Speakers</a></li>
+      <li class="nav-item"><a href="{{ '/schedule/' | url }}" class="{% if currentTab == 'schedule' %}active{% endif %}">Schedule</a></li>
+      <li class="nav-item"><a href="{{ '/team/' | url }}" class="{% if currentTab == 'team' %}active{% endif %}">Team</a></li>
+      <li class="nav-item nav-buy-ticket">
+        <a href="#tickets" class="buy-button">Buy Ticket</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="mobile-drawer">
+    <div class="drawer-header">
+      <span class="drawer-logo"></span>
+      <div style="font-size: 13px; opacity: 0.9; margin-top: 4px;">{{ resources.dates }} &bull; Berlin</div>
+    </div>
+    <ul class="drawer-links">
+      <li><a href="{{ '/' | url }}" class="{% if currentTab == 'home' %}active{% endif %}">Home</a></li>
+      <li><a href="{{ '/speakers/' | url }}" class="{% if currentTab == 'speakers' %}active{% endif %}">Speakers</a></li>
+      <li><a href="{{ '/schedule/' | url }}" class="{% if currentTab == 'schedule' %}active{% endif %}">Schedule</a></li>
+      <li><a href="{{ '/team/' | url }}" class="{% if currentTab == 'team' %}active{% endif %}">Team</a></li>
+      <li><a href="{{ '/coc/' | url }}" class="{% if currentTab == 'coc' %}active{% endif %}">Code of Conduct</a></li>
+      <li><a href="{{ '/faq/' | url }}" class="{% if currentTab == 'faq' %}active{% endif %}">FAQs</a></li>
+      <li style="border-top: 1px solid var(--divider-color); margin-top: 8px; padding-top: 8px;">
+        <a href="#tickets" style="color: var(--default-primary-color); font-weight: 500;">Buy Ticket</a>
+      </li>
+    </ul>
+  </div>
+</header>

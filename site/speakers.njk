@@ -1,0 +1,124 @@
+---
+layout: base
+title: Speakers
+currentTab: speakers
+permalink: /speakers/index.html
+---
+
+<div class="hero-block" style="background-color: #fff; color: #424242;">
+  <div class="container hero-content" style="text-align: left;">
+    <div class="hero-title highlight-font">{{ settings.heroSettings.speakers.title }}</div>
+    <p class="hero-description">{{ settings.heroSettings.speakers.description }}</p>
+  </div>
+</div>
+
+<div class="container" style="padding-top: 32px; padding-bottom: 64px;">
+  <div class="speakers-page-grid">
+    {% for speaker in conference.speakersList %}
+    <a href="#{{ speaker.id }}" class="speaker-card-full card" id="card-{{ speaker.id }}">
+      <div style="position: relative; display: inline-block;">
+        <img class="photo" src="{{ speaker.photoUrl | url }}" alt="{{ speaker.name }}" loading="lazy">
+        {% if speaker.badges and speaker.badges.length %}
+        <div class="speaker-badges">
+          {% for badge in speaker.badges %}
+          <a class="badge {{ badge.name }}-b" href="{{ badge.link }}" target="_blank" rel="noopener noreferrer" title="{{ badge.description }}">
+            <svg class="badge-icon"><use href="#icon-{{ badge.name }}"/></svg>
+          </a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      <div class="name highlight-font">{{ speaker.name }}</div>
+      {% if speaker.country %}
+      <div class="origin">{{ speaker.country }}</div>
+      {% endif %}
+      <div class="description">{{ speaker.title }}{% if speaker.company %}, {{ speaker.company }}{% endif %}</div>
+    </a>
+
+    <!-- Pure No-JS Modal (matches dialog-styles.html) -->
+    <div id="{{ speaker.id }}" class="modal-overlay">
+      <div class="modal-dialog">
+        <a href="#card-{{ speaker.id }}" class="dialog-close-btn" aria-label="Close">&times;</a>
+        
+        <div class="dialog-header">
+          <div class="dialog-container" style="display: flex; align-items: center; gap: 20px;">
+            <img src="{{ speaker.photoUrl | url }}" alt="{{ speaker.name }}" style="width: 88px; height: 88px; border-radius: 50%; object-fit: cover; background: #eee;">
+            <div>
+              <h2 class="name highlight-font" style="font-size: 26px; font-weight: 500;">{{ speaker.name }}</h2>
+              <div style="font-size: 15px; color: var(--secondary-text-color); margin-top: 4px;">
+                {{ speaker.title }}{% if speaker.company %}, {{ speaker.company }}{% endif %}
+              </div>
+              {% if speaker.country %}
+              <div style="font-size: 13px; color: var(--secondary-text-color); margin-top: 2px;">
+                {{ speaker.country }}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
+        <div class="dialog-content dialog-container">
+          {% if speaker.badges and speaker.badges.length %}
+          <div style="margin-bottom: 16px;">
+            {% for badge in speaker.badges %}
+            <span class="tag" style="height: 26px; padding: 2px 10px; font-size: 11px; margin-right: 6px;">{{ badge.name or badge.description }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          {% if speaker.bio %}
+          <div class="description" style="line-height: 1.8; white-space: pre-line;">{{ speaker.bio }}</div>
+          {% endif %}
+
+          {% if speaker.socials and speaker.socials.length %}
+          <div style="display: flex; gap: 12px; margin-top: 20px;">
+            {% for s in speaker.socials %}
+              {% if s.link %}
+              <a href="{{ s.link }}" target="_blank" rel="noopener noreferrer" style="color: var(--secondary-text-color);" title="{{ s.name }}" aria-label="{{ s.name }}">
+                {% if s.icon == 'twitter' %}
+                <svg width="22" height="22" fill="currentColor"><use href="#icon-twitter"/></svg>
+                {% elseif s.icon == 'github' %}
+                <svg width="22" height="22" fill="currentColor"><use href="#icon-github"/></svg>
+                {% elseif s.icon == 'linkedin' %}
+                <svg width="22" height="22" fill="currentColor"><use href="#icon-linkedin"/></svg>
+                {% else %}
+                <svg width="22" height="22" fill="currentColor"><use href="#icon-arrow-right"/></svg>
+                {% endif %}
+              </a>
+              {% endif %}
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          {% if speaker.sessions and speaker.sessions.length %}
+          <div style="margin-top: 32px; border-top: 1px solid var(--border-light-color); padding-top: 24px;">
+            <h3 class="highlight-font" style="font-size: 20px; margin-bottom: 16px;">Sessions</h3>
+            {% for sess in speaker.sessions %}
+            <div style="background: var(--additional-background-color); padding: 16px; border-radius: var(--border-radius); margin-bottom: 12px;">
+              <div style="font-size: 12px; font-weight: 600; text-transform: uppercase; color: var(--default-primary-color); margin-bottom: 4px;">
+                {{ sess.startTime }} - {{ sess.endTime }} &bull; {{ sess.track.title }}
+              </div>
+              <a href="{{ ('/schedule/#' + sess.id) | url }}" style="font-size: 16px; font-weight: 500; color: var(--primary-text-color);">
+                {{ sess.title }}
+              </a>
+            </div>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- Previous Speakers Section (matches original previous-speakers-block.html) -->
+  <div style="margin-top: 80px; text-align: center; background: var(--secondary-background-color); padding: 48px 24px; border-radius: var(--border-radius);">
+    <h2 class="container-title highlight-font">{{ resources.previousSpeakersBlock.title }}</h2>
+    <p style="color: var(--secondary-text-color); max-width: 500px; margin: 0 auto 24px;">{{ settings.heroSettings.previousSpeakers.metaDescription }}</p>
+    <a href="{{ '/previous-speakers/' | url }}">
+      <button class="paper-button primary">
+        <span>{{ resources.previousSpeakersBlock.callToAction.label }}</span>
+      </button>
+    </a>
+  </div>
+</div>
