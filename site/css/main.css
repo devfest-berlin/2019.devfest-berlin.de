@@ -318,7 +318,7 @@ body:not(.page-home) main {
 }
 
 .header-toolbar.transparent .nav-item a.active::after {
-  background-color: #fff;
+  background-color: var(--default-primary-color);
 }
 
 .nav-buy-ticket {
@@ -1090,7 +1090,7 @@ body:not(.page-home) main {
 
 @media (min-width: 640px) {
   .map-block {
-    margin: 64px auto 96px;
+    margin: 64px auto 72px;
   }
 
   .map-container {

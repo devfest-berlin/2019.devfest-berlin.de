@@ -1,0 +1,2109 @@
+{
+  "gallery": [
+    "https://2019.devfest-berlin.de/images/gallery/2019-1.jpg",
+    "https://2019.devfest-berlin.de/images/gallery/2019-2.jpg",
+    "https://2019.devfest-berlin.de/images/gallery/2019-3.jpg",
+    "https://2019.devfest-berlin.de/images/gallery/2019-4.jpg",
+    "https://2019.devfest-berlin.de/images/gallery/2019-5.jpg",
+    "https://2019.devfest-berlin.de/images/gallery/2019-6.jpg",
+    "https://2019.devfest-berlin.de/images/gallery/2019-7.jpg",
+    "https://2019.devfest-berlin.de/images/gallery/2019-8.jpg"
+  ],
+  "notifications": {
+    "config": {
+      "icon": "",
+      "timezone": "+01:00"
+    },
+    "messages": {},
+    "subscribers": {},
+    "test": {},
+    "users": {}
+  },
+  "partners": [
+    {
+      "logos": [
+        {
+          "order": 0,
+          "logoUrl": "../images/logos/zalando.svg",
+          "name": "Zalando",
+          "url": "https://www.zalando.de/"
+        },
+        {
+          "order": 1,
+          "logoUrl": "../images/logos/google.svg",
+          "name": "Google",
+          "url": "https://www.google.de/"
+        }
+      ],
+      "order": 1,
+      "title": "Partner"
+    }
+  ],
+  "schedule": {
+    "2019-11-09": {
+      "dateReadable": "November 9",
+      "timeslots": [
+        {
+          "startTime": "09:00",
+          "endTime": "09:45",
+          "sessions": [
+            {
+              "items": [
+                1000
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "09:45",
+          "endTime": "10:00",
+          "sessions": [
+            {
+              "items": [
+                1001
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "10:00",
+          "endTime": "10:30",
+          "sessions": [
+            {
+              "items": [
+                1002
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "10:30",
+          "endTime": "10:55",
+          "sessions": [
+            {
+              "items": [
+                1003
+              ]
+            },
+            {
+              "items": [
+                1004
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "11:00",
+          "endTime": "11:25",
+          "sessions": [
+            {
+              "items": [
+                1005
+              ]
+            },
+            {
+              "items": [
+                1006
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "11:30",
+          "endTime": "11:55",
+          "sessions": [
+            {
+              "items": [
+                1007
+              ]
+            },
+            {
+              "items": [
+                1008
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "12:00",
+          "endTime": "12:25",
+          "sessions": [
+            {
+              "items": [
+                1009
+              ]
+            },
+            {
+              "items": [
+                1010
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "12:30",
+          "endTime": "13:30",
+          "sessions": [
+            {
+              "items": [
+                1011
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "13:30",
+          "endTime": "13:55",
+          "sessions": [
+            {
+              "items": [
+                1012
+              ]
+            },
+            {
+              "items": [
+                1013
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "14:00",
+          "endTime": "14:25",
+          "sessions": [
+            {
+              "items": [
+                1014
+              ]
+            },
+            {
+              "items": [
+                1015
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "14:30",
+          "endTime": "14:55",
+          "sessions": [
+            {
+              "items": [
+                1016
+              ]
+            },
+            {
+              "items": [
+                1017
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "15:00",
+          "endTime": "15:25",
+          "sessions": [
+            {
+              "items": [
+                1018
+              ]
+            },
+            {
+              "items": [
+                1019
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "15:30",
+          "endTime": "16:30",
+          "sessions": [
+            {
+              "items": [
+                1022
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "16:30",
+          "endTime": "16:55",
+          "sessions": [
+            {
+              "items": [
+                1023
+              ]
+            },
+            {
+              "items": [
+                1024
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "17:00",
+          "endTime": "17:25",
+          "sessions": [
+            {
+              "items": [
+                1025
+              ]
+            },
+            {
+              "items": [
+                1026
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "17:30",
+          "endTime": "17:55",
+          "sessions": [
+            {
+              "items": [
+                1027
+              ]
+            },
+            {
+              "items": [
+                1028
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "18:00",
+          "endTime": "18:30",
+          "sessions": [
+            {
+              "items": [
+                1031
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "18:30",
+          "endTime": "18:40",
+          "sessions": [
+            {
+              "items": [
+                1032
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "18:40",
+          "endTime": "18:45",
+          "sessions": [
+            {
+              "items": [
+                1033
+              ]
+            }
+          ]
+        },
+        {
+          "startTime": "18:45",
+          "endTime": "20:30",
+          "sessions": [
+            {
+              "items": [
+                1034
+              ]
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Auditorium"
+        },
+        {
+          "title": "Glass Hall"
+        }
+      ]
+    }
+  },
+  "sessions": {
+    "1000": {
+      "title": "Breakfast & Registration"
+    },
+    "1001": {
+      "title": "Opening words"
+    },
+    "1002": {
+      "title": "SOLID Go Design",
+      "description": "",
+      "speakers": [
+        "dave_cheney"
+      ],
+      "tags": [
+        "Go",
+        "Software Design"
+      ]
+    },
+    "1003": {
+      "complexity": "Beginner",
+      "title": "Bridging the Gap Between Technology and Marketing Teams",
+      "description": "The use of technology is part of the job description for employees these days, not just the technology team. In particular, the work of marketing teams is becoming more technology centered e.g. CRM, MarTech, AdTech. It is vital that marketing colleagues not only work with developers to keep the equipment and programs we use running smoothly, but also to brainstorm client-facing new use cases. \n\nWhen we work together, technology and marketing teams can revolutionise our company’s operations and maximise the bottom line. In this session, I will share what I have learnt from working with developers, and how this has made me better at my job in marketing.",
+      "speakers": [
+        "eveline_sliwowska"
+      ],
+      "tags": [
+        "Marketing"
+      ]
+    },
+    "1004": {
+      "complexity": "Beginner",
+      "description": "Mobile DevOps is a practice of bringing the different disciplines involved in developing, testing, releasing, and operating software into being functional inside organizations or by a team that works closely together. The team is able to continuously deliver their product based on continuous feedback and iteration. There are different practices, habits and different flavors of adopted company cultures that set the behavior for an actual process and daily doing.\r\nIn this talk, we'll take a look at the most common and widely accepted Mobile DevOps and building our own Android/iOS CI/CD pipeline from scratch in a few steps",
+      "speakers": [
+        "moataz_nabil"
+      ],
+      "tags": [
+        "DevOps",
+        "Mobile",
+        "Android",
+        "iOS"
+      ],
+      "title": "Continuous Testing and Mobile DevOps"
+    },
+    "1005": {
+      "complexity": "Beginner",
+      "description": "There is ample evidence available that shows **working in pairs produces better result** and \r\nbuilds great team morale **than working alone**. Still many think pair programming slows them down or they need to be a natural at pair programming.  \r\n\r\nThis talk aims at **breaking the taboo** around pair programming by **addressing problems that presents themselves during pairing**. By the end of \r\nthis talk the audience will have a **comprehensive guide** with tools and techniques that will help them to **learn pair programming**\r\n\r\nAre you a programmer who has never paired?\r\nAre you a programmer who thinks pair programming is not for you?\r\nDoes your team wants to pair program but you are not sure how? \r\n\r\n**Come and learn to be an effective pair.**",
+      "speakers": [
+        "syamala_umamaheswaran"
+      ],
+      "tags": [
+        "Programming"
+      ],
+      "title": "Pair Programming is a skill you can learn!!"
+    },
+    "1006": {
+      "complexity": "Beginner",
+      "description": "Junior developers often struggle to gain the experience necessary to land their first job.\r\nCompanies, on the other hand, desperately look for senior developers, but are often afraid to hire juniors.\r\n\r\n*How can we find a middle ground?*\r\n\r\nIn this talk, we'll explore the current market situation, and discuss the types of knowledge that potential employers value.\r\nBy dispelling myths and revealing some oddities, we arrive at an extensive but narrow set of topics, helpful for companies and developers alike.\r\n\r\nDevelopers will know where to focus to land their first job. Companies will have a better set of criteria to sharpen their hiring process.\r\n\r\nEither way, this talk shows you what *really matters* — and how to steer clear of what doesn't.",
+      "speakers": [
+        "ole_bulbuk"
+      ],
+      "tags": [
+        "Go",
+        "Career"
+      ],
+      "title": "How to Land a Good Go Job"
+    },
+    "1007": {
+      "complexity": "Intermediate",
+      "description": "Flutter is a portable UI toolkit for building beautiful, natively-compiled applications for mobile, web, and desktop from a single codebase. Originally focused for mobile app development, now you can also use it to build websites! \r\n\r\nEarlier this year, the Flutter team presented Flutter for web, a code-compatible implementation of Flutter that is rendered using standards-based web technologies: HTML, CSS and JavaScript. \r\n\r\nIn this talk, we are going to explore the capabilities of Flutter for web, the UI foundations of Flutter, and how all Flutter code is compiled to JavaScript that can run on any modern browser. You will learn how you can use Flutter to build mobile applications and websites with a single codebase. And if you never heard about Flutter before, do not worry, we will do an introduction for you.",
+      "speakers": [
+        "lara_martin",
+        "miguel_beltran"
+      ],
+      "tags": [
+        "Web",
+        "Mobile"
+      ],
+      "title": "Flutter for Web: Beautiful Apps and Websites with a Single Codebase"
+    },
+    "1008": {
+      "complexity": "Beginner",
+      "description": "I’ll go through RDBMS and NoSQL basic concepts to remark the differences. I will show some of the challenges that big companies like Netflix face when it comes to store and manage their data.\r\nBy the end of this talk, the attendees will understand what the best options are for different scenarios.\r\n",
+      "speakers": [
+        "victoria_perez_mola"
+      ],
+      "tags": [
+        "Database"
+      ],
+      "title": "To SQL or NoSQL?: A tale of two paradigms. "
+    },
+    "1009": {
+      "complexity": "Beginner",
+      "description": "A little over five years ago I started programming in Go and it completely changed how I program and solve problems. Let's compare Go to other common languages and discuss the lessons those languages teach us vs. the lessons Go teaches us.",
+      "speakers": [
+        "ronna_steinberg"
+      ],
+      "title": "Migrating to Go, How and Why",
+      "tags": [
+        "Go"
+      ]
+    },
+    "1010": {
+      "complexity": "Beginner",
+      "description": "We all love programming. But programming is not an end in itself. And how do we actually know, what we should program? For that we need a tool to learn about the domain.\r\n\r\nDomain Storytelling is a collaborative modeling method. It brings together domain experts and development teams. It means that we let our users tell us stories about their work. While listening, we record the stories using a pictographic language.\r\n\r\nThe experts can see immediately if we understand their story. After very few stories, we understand the language of our users and can build a domain model from it and implement this in the programming language of our choice.",
+      "speakers": [
+        "stefan_hofer"
+      ],
+      "title": "Domain Storytelling"
+    },
+    "1011": {
+      "title": "Lunch",
+      "description": "",
+      "icon": "lunch",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225"
+    },
+    "1012": {
+      "complexity": "Beginner",
+      "description": "Have you ever wanted to fix a bug in AOSP but found it daunting? Have you wanted to search the code in AOSP but found it difficult? We'll dig into the tools like Repo and Gerrit that the Android team uses everyday. Get ready to be a contributor to the Android Open Source Project!",
+      "speakers": [
+        "andrea_falcone"
+      ],
+      "tags": [
+        "Android"
+      ],
+      "title": "Your first AOSP Contribution"
+    },
+    "1013": {
+      "complexity": "Beginner",
+      "description": "Nim is a statically typed, multi-paradigm programming language that provides safe runtime efficiency without compromising on expressiveness and elegance. It is extensible, concise and extremely efficient. During this talk, I'll show you how to utilise Nim's meta-programming, concurrency, seamless portability and customisable Garbage Collector for your system programming, as well as your web development, tasks. By the end of this talk you'll be familiar with the language basics and, more importantly, you'll know how to leverage Nim to gain a competitive advantage in your application development life-cycle.",
+      "speakers": [
+        "fred_heath"
+      ],
+      "tags": [
+        "Programming"
+      ],
+      "title": "The Nim programming language"
+    },
+    "1014": {
+      "title": "Hiring Panel",
+      "description": "In this panel, we will hear from the industry leaders, three senior managers from across the Berlin tech industry, about their experience: from the first job, through learning experiences, to their current roles where they develop and lead medium-large teams. A special focus subject will be parents returning to tech after parental leave.",
+      "speakers": [
+        "ela_krief",
+        "lucia_hegenbartova",
+        "kate_castellano"
+      ],
+      "tags": [
+        "Career"
+      ]
+    },
+    "1015": {
+      "complexity": "Intermediate",
+      "title": "Boost your JavaScript: How to increase the performance of your JavaScript App with the help of WebAssembly",
+      "description": "That's possible with web assembly. Running native embedded Code inside the browser enables the developer to create compute heavy tasks like video and image rendering. After small examples, aiming to show the compiler toolchain, will deep dive into: How to boost my Web Application with WebAssembly.",
+      "speakers": [
+        "martina_kraus"
+      ],
+      "tags": [
+        "Web"
+      ]
+    },
+    "1016": {
+      "complexity": "Beginner",
+      "description": "Android Studio is the tool of the trade hands down. When it comes to Android (app/library/IOT) development, the first thing that comes to mind is to install Android Studio and get going from there. However, it has not been a smooth road as expected for me. In my own experience, I talk about my love-hate relationship with Android Studio. I try to cover what Android Studio gets right and what it doesn't. The talk focuses on how to be embrace performance when Android Studio is the bottleneck in the workflow (slow build times and reduced productivity), how switching to a terminal and various tools that exist in the ecosystem can give Android developers the much-needed speed boost and in-depth view in their development workflow.  By the end of this talk, you would have embraces a workflow that allows for increased productivity and faster development.",
+      "speakers": [
+        "nishant_srivastava"
+      ],
+      "tags": [
+        "Android"
+      ],
+      "title": "My love-hate relationship with Android Studio"
+    },
+    "1017": {
+      "complexity": "Beginner",
+      "description": "While decoupling monolith into scalable and easily maintainable microservices, many teams find themselves growing multiple smaller monoliths instead.\r\nOften, even though engineers understand the patterns, they struggle to start using it together with stakeholders, PMs and other cross-functional team members. \r\n\r\nDDD helps stakeholders and cross-functional teams to build Ubiquitous Language and use it to share business knowledge. \r\nFor engineers, DDD is a swiss knife of patterns that help to clarify the business domain they're working in, shape microservices and define their responsibilities. The patterns are also very useful to reveal dataflow between microservices and optimize the usage of event streams, like Apache Kafka.\r\n\r\nThis presentation starts with DDD and Event Storming intro and suported by use-cases from our experience using DDD while decoupling monolith. \r\nThe content is a sum up of the presentations, meetups, and workshops I'm doing in the company.",
+      "speakers": [
+        "magomed_chatuev"
+      ],
+      "tags": [
+        "Microservice",
+        "Software Design"
+      ],
+      "title": "Using DDD(Domain Driven Design) for decoupling monoliths"
+    },
+    "1018": {
+      "complexity": "Beginner",
+      "description": "This talk will introduce the Analysis API in the [analysis](https://godoc.org/golang.org/x/tools/go/analysis) package and how to use it to write your own Analysis tools. “Analyses” are tools that inspect programs and report errors, warnings or just useful info . I’ll show that even if many people haven’t heard of it, they are inadvertently using it when running popular tools like *staticcheck*. I’ll talk about why our team wants to write our own Analyses to help us automate parts of our code reviews.\r\n\r\nI’ll demo writing and running an analysis function by implementing one of the rules from the recently released [Uber Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md).",
+      "speakers": [
+        "rael_schmulian"
+      ],
+      "tags": [
+        "Go"
+      ],
+      "title": "Catching Low Hanging Fruit with Go Analysis"
+    },
+    "1019": {
+      "complexity": "Beginner",
+      "description": "The QuickTime application gives you the possibility to stream and record live audio and video from iOS devices connected to a MacOSX host. \r\nI was interested in seeing how this feature works and how it can be implemented in Go to enable all operating systems to support it. \r\nAs usual, Apple did not publish any documentation on how this feature works. Therefore, the only way to get there was to reverse engineer it from scratch. I managed to get a working implementation for Linux and would like to share and discuss my approach to reverse engineering this protocol. I find reverse engineering these features very rewarding because as you go, you get the chance to really understand how things like h264, pcm audio, synchronization or USB data transfers work on a low level. \r\nIn my talk I will show you:\r\n- how to debug and analyze USB traffic on a Mac with Wireshark\r\n- easy ways of how to make sense of network/usb protocols just by looking at hex dump representations\r\n- how to implement a USB device codec with golang and libusb\r\n- and how to stream h264 video data over the network or save it to a file\r\n\r\nThe whole project is MIT licensed and well documented,\r\nso that anyone can go ahead and implement it in their favorite language.\r\n\r\n[github](https://github.com/danielpaulus/quicktime_video_hack)",
+      "speakers": [
+        "daniel_paulus"
+      ],
+      "tags": [
+        "Go",
+        "iOS"
+      ],
+      "title": "Reverse Engineering iOS Screen Mirroring with Golang"
+    },
+    "1022": {
+      "title": "Coffee & Cake Break",
+      "description": "",
+      "icon": "coffee-break",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7"
+    },
+    "1023": {
+      "complexity": "Beginner",
+      "description": "Machine learning is many things starting from data collection , data cleansing, training, pipelines to production but in all these technical process we sometimes forget that essentially it is humans who are writing the model and cleaning the data. This talk will go through why ML fairness is important and how we can go about achieving it.",
+      "speakers": [
+        "ashrut_vora"
+      ],
+      "tags": [
+        "Machine Learning"
+      ],
+      "title": "Machine Learning fairness"
+    },
+    "1024": {
+      "complexity": "Intermediate",
+      "description": "Developing Go applications for Kubernetes commonly involves way too many distractions: re-compiling, and waiting, and building, and waiting, and pushing,and waiting, and... did it work?\r\n\r\nThe rise of \"development orchestration\" tools—e.g. Draft, Garden, Skaffold, Tilt—has automated a lot of that work, but they are generic tools that don't necessarily cater to Go's specific case.\r\n\r\nIn this talk, L will use Garden as a starting point and hack away until we arrive at the snappiest possible workflow for containerized Go services running on Kubernetes.\r\n\r\nWe'll discuss GOCACHE, whether to remove debugging info from binaries, dealing with container sizes, ideas for vendoring, and lots more.",
+      "speakers": [
+        "l_korbes"
+      ],
+      "tags": [
+        "Go",
+        "Kubernetes",
+        "Microservice"
+      ],
+      "title": "The Quest For The Snappiest Go & Kubernetes Workflow"
+    },
+    "1025": {
+      "complexity": "Beginner",
+      "title": "Deploy Deep Learning Models with Ease",
+      "description": "In this talk, Hannes, Google Developer Expert, will share his experience with deploying deep learning models with TensorFlow Serving in a variety of setups and deep learning models. He starts off the talk with a 90s deployment of a TensorFlow model and then walks the audience through common use cases (e.g., model A/B testing, efficient deployments, mini-batching). His talk is a summary of his model deployment experience at various companies ranging from small startups to major corporations. He will also provide a preview of the upcoming O’Reilly book “Building Machine Learning Pipelines”.",
+      "speakers": [
+        "hannes_hapke"
+      ],
+      "tags": [
+        "DevOps",
+        "Machine Learning",
+        "Kubernetes"
+      ]
+    },
+    "1026": {
+      "complexity": "Beginner",
+      "description": "The Android eco-system is changing rapidly and is not afraid to pivot. Most applications are built with monolithic architectures - forcing the engineers to agree on a certain tech stack - due to the dependency chain. Designing features to be independent allows teams to work independently. This can of course be seen as both an advantage and disadvantage. On the one hand it doesn't force engineers to use the (maybe deprecated) tech stacks of their predecessors, on the other hand it can lead to very different engineering approaches being used.\r\n\r\nIn this talk we are going to take a look at the development cycle of modularized applications: Inception and the concept of modules, development and feature discoverability up until deployment and dynamic features. In addition to these it will give an overview of modularization approaches with common pitfalls and compare these approaches with a decoupled architecture.",
+      "speakers": [
+        "damian_burke"
+      ],
+      "tags": [
+        "Android"
+      ],
+      "title": "Inverting the Dependency — Independent Features in Android Applications"
+    },
+    "1027": {
+      "complexity": "Beginner",
+      "description": "In this talk, Olena will open the topic of getting education in the field of IT not by professionals, but rather by people without specialized education. Using her experience of her path to IT, she will show that you can always change something in your career, describe the challenges and opportunities that are encountered along the way, raise the topic of fears and doubts of other specialists regarding mentoring and encourage experienced programmers, project managers, agile coaches to share their knowledge with beginners through meetings, lectures, and conferences.\r\n",
+      "speakers": [
+        "olena_boiko"
+      ],
+      "tags": [
+        "Career"
+      ],
+      "title": "How to Motivate Yourself to Change Your Career Into Tech, and How to Motivate Others to Share Their Knowledge in This Area."
+    },
+    "1028": {
+      "title": "Mindfulness from an Engineering Perspective",
+      "description": "From incense and crystals to mindfulness based stress reduction therapy - meditation can mean almost anything. Let's strip away the more esoteric parts and identify concepts and techniques that are usful in understanding the complex machinery of our mind.\nWe will look at meditation through the lens of neuroscience, behavioural science and evolutionary biology and will take an analytical look into how our brain creates our conscious experience and how observing and modifying these processes within the context of mindfulness can help us become better engineers.",
+      "speakers": [
+        "daniel_mahlow"
+      ]
+    },
+    "1031": {
+      "complexity": "Beginner",
+      "description": "Coming from the point of view of having chronic illnesses myself, I see many things that others might not. In the talk, I will first delve into my background and explain which path has led me to be an advocate for diversity and inclusion and a spokesperson for inclusivity of persons with handicaps and chronic illnesses. I will then delve into suggestions and success factors.",
+      "speakers": [
+        "franziska_hauck"
+      ],
+      "tags": [
+        "Diversity"
+      ],
+      "title": "How to Ally: Including People with Disabilities and Chronic Illnesses"
+    },
+    "1032": {
+      "title": "Closing words"
+    },
+    "1033": {
+      "title": "Group Photos"
+    },
+    "1034": {
+      "title": "Social event",
+      "description": "",
+      "track": {
+        "title": "c-base"
+      }
+    }
+  },
+  "speakers": {
+    "dave_cheney": {
+      "bio": "David is an open source contributor and project member for the Go programming language. David is a well-respected voice within the tech community, speaking on a variety of topics such as software design, performance, and the Go programming language.<br>In 2009, while idly perusing Google Reader (we’ll never forget!) he ran across the announcement of a new open source language, Go. It was love at first sight. From that point David’s passion has taken him around the world writing, teaching, and speaking about Go.<br>David is currently a member of the technical staff at VMware. Prior to their acquisition he served as a Staff Engineer at Heptio, a Seattle based company, focused on building tools to help developers become more productive with Kubernetes.",
+      "featured": true,
+      "name": "Dave Cheney",
+      "photo": "/images/speakers/dave_cheney.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/dave_cheney.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/davecheney",
+          "name": "Twitter"
+        },
+        {
+          "icon": "website",
+          "link": "https://dave.cheney.net/",
+          "name": "Website"
+        }
+      ],
+      "order": 0
+    },
+    "ela_krief": {
+      "bio": "Ela Krief is an independent Business consultant. She facilitated the rapid growth of teams, interviewed hundreds and hired dozens. She led client-facing teams in several tech companies. Her focus is on whitespace planning, customer success and retention, operational excellence, change management and implementing an unbiased hiring scheme. One of her passions is to support women in their career path and story as career growth consultant, and mentor.",
+      "featured": true,
+      "name": "Ela Krief",
+      "photo": "/images/speakers/ela_krief.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ela_krief.jpg",
+      "order": 1
+    },
+    "victoria_perez_mola": {
+      "name": "Victoria Perez Mola",
+      "bio": "Born in Argentina, graduated in Systems Engineering, currently working as a SQL Developer, with over 5 years of experience working with ERP systems, reporting and databases.\r\nVictoria is passionate about using technology to help people make their daily tasks easier. Yet, she doesn't know how to use a blow dryer. \r\n",
+      "featured": true,
+      "photo": "/images/speakers/victoria_perez_mola.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/victoria_perez_mola.jpg",
+      "order": 2
+    },
+    "rael_schmulian": {
+      "name": "Rael Schmulian",
+      "bio": "Rael Schmulian is a software engineer at Zalando Lounge where he works in an awesome team writing microservices in Go to automate campaign creation.",
+      "company": "Zalando Lounge",
+      "featured": true,
+      "photo": "/images/speakers/rael_schmulian.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/rael_schmulian.jpg",
+      "order": 3
+    },
+    "damian_burke": {
+      "name": "Damian Burke",
+      "bio": "Damian is a Principal Android Engineer living in Berlin. Working with Android since Gingerbread.",
+      "company": "Onefootball",
+      "featured": false,
+      "photo": "/images/speakers/damian_burke.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/damian_burke.jpg",
+      "order": 4,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/damian2048",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "olena_boiko": {
+      "name": "Olena Boiko",
+      "bio": "Olena is 28, with 2 kids and a lawyer by trade. Then Olena decided to change her life, and get a new profession in IT. Among the many programming languages, she chose JavaScript, and she's creating a project that will help Berlin parents find a free spot in kindergarten and register.\r\n",
+      "company": "WTM",
+      "featured": true,
+      "photo": "/images/speakers/olena_boiko.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/olena_boiko.jpg",
+      "order": 5
+    },
+    "fred_heath": {
+      "name": "Fred Heath",
+      "bio": "Fred is a software jack of all trades based in Cardiff, Wales. Over the last 20 years, he's worked at every stage of the software development life-cycle using a plethora of languages and platforms. He loves solving tricky problems, Ruby, Nim & Elixir, meta-programming, Behaviour-Driven Development. When not coding, listening to music or eating Welsh cakes, Fred enjoys writing and speaking about software development and best practices",
+      "country": "UK",
+      "featured": false,
+      "photo": "/images/speakers/fred_heath.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/fred_heath.jpg",
+      "order": 6,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/FredAtBootstrap",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "daniel_paulus": {
+      "name": "Daniel Paulus",
+      "bio": "Daniel Paulus is the Lead Software Engineer at the Sauce Labs’ Real Device Cloud Core Team in Berlin. For delivering Sauce Labs’ market-leading performance with every new mobile OS version he and his team are responsible for low level USB programming and reverse engineering iOS and Android internal APIs to build stable new features on inherently unstable consumer devices.  \r\nDaniel previously held roles as developer, team leader, IT manager and project manager during his 13 year career as an officer in the German Military. \r\n",
+      "company": "Sauce Labs",
+      "country": "Berlin, Germany",
+      "featured": false,
+      "photo": "/images/speakers/daniel_paulus.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/daniel_paulus.jpg",
+      "order": 7
+    },
+    "magomed_chatuev": {
+      "name": "Magomed Chatuev",
+      "bio": "I’m a Software Engineer with experience in multiple startups from three to three hundred people. After 15 years in the industry, I’m mostly curious about how to build efficient collaboration and knowledge sharing in tech companies among team players with different skill sets and specialties.\nCurrently, I’m working in Blacklane, where we’re building a distributed scalable architecture using Go, serverless and GraphQl. In the company, I’m also running workshops on DDD and how to use it to build microservices.\nIn my spare time I’m enjoying vibrant Berlin life with my family, attending meetups and jogging.",
+      "company": "Blacklane",
+      "country": "",
+      "featured": false,
+      "photo": "/images/speakers/magomed_chatuev.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/magomed_chatuev.jpg",
+      "order": 8
+    },
+    "hannes_hapke": {
+      "name": "Hannes Hapke",
+      "bio": "Hannes Hapke has been a Machine Learning enthusiast for many years. He is the creator of wunderbar.ai, a service to track machine learning predictions and their effects. He is a _Google Developer Expert for Machine Learning_. Hannes has applied deep learning to a variety of computer vision and natural language problems, and his main interest is in automating machine learning pipelines. He is a co-author of two machine learning publications, \"NLP in Action\" by Manning Publishing and \"Building Machine Learning Pipelines\" by O'Reilly Media.",
+      "company": "wunderbar.ai",
+      "featured": false,
+      "photo": "/images/speakers/hannes_hapke.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/hannes_hapke.jpg",
+      "order": 10,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/hanneshapke",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "l_korbes": {
+      "name": "L Körbes",
+      "bio": "L is a developer advocate at Garden and an avid gopher, passionate about development tooling and making developers' workflows better. They've spoken at world-famous events, and countless local meet-ups. L is a proud recipient of a 'Best Hair' award.",
+      "company": "Garden",
+      "country": "Berlin, Germany",
+      "featured": true,
+      "photo": "/images/speakers/l_korbes.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/l_korbes.jpg",
+      "order": 11,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/ellenkorbes",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "ashrut_vora": {
+      "name": "Ashrut Vora",
+      "bio": "Ashrut Vora works at Google enabling enterprises to use Google Cloud's full potential. He comes from Software Engineering background and was privileged to move around few roles from engineering ==> devops ==> SRE infra platform managing public cloud infrastructure ==> Tech marketing at NetApp Inc. He is currently at tail end of his MBA in Entrepreneurship at Babson College. ",
+      "company": "Google",
+      "featured": true,
+      "photo": "/images/speakers/ashrut_vora.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ashrut_vora.jpg",
+      "order": 12,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/ashrut_goog",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "andrea_falcone": {
+      "name": "Andrea Falcone",
+      "bio": "Andrea Falcone is a Senior Software Engineer at Google. Currently she is working on Android Jetpack building libraries and tooling for internal and external developers.. She previously built Crashlytics, Fabric and fastlane (first at Crashlytics, then Twitter, then Google!) She is an accomplished mobile/mobile tools developer with experience in building not only iOS and Android apps but also Android Studio Plugins, Android SDKs, Gradle plugins, and CI/CD systems like fastlane.",
+      "company": "Google",
+      "featured": true,
+      "photo": "/images/speakers/andrea_falcone.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/andrea_falcone.jpg",
+      "order": 13,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/asfalcone",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "syamala_umamaheswaran": {
+      "name": "Syamala Umamaheswaran",
+      "bio": "Syamala is a Software Engineer at Volkswagen Digital:Lab Berlin. She is passionate about software development and working in tech for a decade now.\nShe is a public speaker and blogs at https://dev.to/shyamala_u. Thrilled by the tech scene in Berlin, she loves to host meetups after work at Digital:Lab.\nRecently she co founded the Indian Women in Tech group (http://iwiit.eu) to help women who moves to Germany from India to improve their skills and help them to find jobs here.",
+      "company": "Volkswagen Digital:Lab",
+      "country": "Berlin, Germany",
+      "featured": false,
+      "photo": "/images/speakers/syamala_umamaheswaran.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/syamala_umamaheswaran.jpg",
+      "order": 14,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/shyamala_u",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "franziska_hauck": {
+      "name": "Franziska Hauck 👩🏻‍💻🥑",
+      "bio": "Franziska Hauck is a community and relationship specialist with a focus on developer communities.\r\n\r\nHer path led her via degrees in Cultural and Business Studies and Heritage Management to a career in community management. Starting at InterNations, the international expat network, she has grown communities at gutefrage.net, the number one German consumer portal Finanztip and Google. Moreover, Franziska has worked as project manager, product manager and editor.",
+      "company": "",
+      "featured": true,
+      "photo": "/images/speakers/franziska_hauck.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/franziska_hauck.jpg",
+      "order": 15,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/_francied",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "ole_bulbuk": {
+      "name": "Ole Bulbuk",
+      "bio": "Ole is a Backend Engineer since the nineties.\r\nHe has been working for many companies, big and small, and seen many projects fail and succeed.\r\nCurrently he loves to be part of the vibrant startup life in Berlin while working on a Go backend for SolarisBank.\r\n\r\nIn his spare time he is co-organising the Berlin chapter of GDG Golang,\r\ndevelops open source software, enjoys time with his family and\r\ntakes part in a broad range of old and new activities from hiking to motor cycling and from meditating to boxing.",
+      "company": "solarisBank",
+      "featured": false,
+      "photo": "/images/speakers/ole_bulbuk.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ole_bulbuk.jpg",
+      "order": 16,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/ole1081",
+          "name": "Twitter"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/flowdev_org",
+          "name": "Also Twitter"
+        }
+      ]
+    },
+    "lara_martin": {
+      "name": "Lara Martín",
+      "bio": "Lara is a Flutter GDE and Android developer based in Berlin.\r\nLara has been involved with the community since she started programming: sharing knowledge online, organizing study groups and finally becoming a GDE. Her dream is to make apps more accessible for everyone. When she's not attending a tech meetup, you will find her playing video games or with her dog Lily.",
+      "company": "https://laramartin.dev/",
+      "country": "Berlin, Germany",
+      "featured": false,
+      "photo": "/images/speakers/lara_martin.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/lara_martin.jpg",
+      "order": 17,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/lariki",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "miguel_beltran": {
+      "name": "Miguel Beltran",
+      "bio": "Miguel Beltran is a Freelance Consultant specialized in mobile development for Android and Flutter. He has been working in tech for more than a decade developing products for remote international teams, he’s public speaker since 2016, and has published online courses for Android development on Pluralsight. You can know more about him at https://beltran.work.\r\n",
+      "company": "Freelancer",
+      "country": "Berlin, Germany",
+      "featured": false,
+      "photo": "/images/speakers/miguel_beltran.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/miguel_beltran.jpg",
+      "order": 18,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/miblt",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "moataz_nabil": {
+      "name": "Moataz Nabil",
+      "bio": "Moataz Nabil\r\nSenior SDET/Test Automation Engineer at Delivery Hero \r\n- 10+ years of IT experience across development and testing roles\r\n- Test Automation Expert and Technical Instructor at Udemy\r\n- Microsoft ALM and Azure DevOps Specialist\r\n- Worked in different business domains like (Agriculture, Telecom, Healthcare, Fashion, and Food Delivery)\r\n- Participate and design a lot of test automation framework for Web and Mobile applications using a different set of tools and languages\r\n- Implementing different CI/CD pipeline using different tools ex: GitLab, Bitbucket, Bitrise, Azure DevOps and Jenkins.\r\n- Taught more than 600 students in many countries how to start in test automation using Selenium WebDriver and Java in Arabic at Udemy\r\n- Hold a number of certificates include MCT, MCSD, MCSD-ALM, MCTS, MCAD, ISTQB, and CSM.",
+      "company": "Delivery Hero SE",
+      "country": "Berlin, Germany",
+      "featured": false,
+      "photo": "/images/speakers/moataz_nabil.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/moataz_nabil.jpg",
+      "order": 19,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/moatazeldebsy",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "lucia_hegenbartova": {
+      "name": "Lucia Hegenbartova",
+      "order": 20,
+      "bio": "Lucia is Managing Director at Contiamo, a Berlin-based vendor providing data catalog technology with a built-in data virtualization capability. Lucia loves building things on a green field, the creative chaos of the early startup days and being surrounded by exceptional people she can learn from. Before Contiamo, Lucia has helped build companies in the e-commerce tech and MarTech space.",
+      "photo": "/images/speakers/lucia_hegenbartova.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/lucia_hegenbartova.jpg",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/lucia-hegenbartova",
+          "name": "LinkedIn"
+        }
+      ]
+    },
+    "kate_castellano": {
+      "name": "Kate Castellano",
+      "order": 21,
+      "bio": "Kate Castellano is a Engineering Manager for Client at Clue. She has expertise in Swift and enjoys playing with Raspberry Pi’s and ARKit. When she is not coding, you can find her working towards the inclusion of more women in technology as a Director at Women Who Code Berlin Chapter.",
+      "photo": "/images/speakers/kate_castellano.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/kate_castellano.jpg"
+    },
+    "eveline_sliwowska": {
+      "name": "Eveline Sliwowska",
+      "bio": "Eveline Sliwowska oversees product marketing at Retresco, a Berlin-based technology company that specialises in Natural Language Processing (NLP). She works with news publishers, e-commerce companies, and corporate enterprises to think creatively about how automation can be used to enhance customer engagement and increase operational efficiencies. Before joining Retresco she was the B2B marketing manager for the Financial Times, where she applied strategic use of customer data and research to drive group subscriptions revenues. She has considerable experience in B2B marketing and commercial analysis, and can be reach via Twitter at @evelineip.",
+      "company": "Retresco GmbH",
+      "featured": false,
+      "photo": "/images/speakers/eveline_sliwowska.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/eveline_sliwowska.jpg",
+      "order": 22,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/evelineip",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "martina_kraus": {
+      "name": "Martina Kraus",
+      "bio": "Martina is a Google Developer Expert in Angular and Web Technologies, as a Senior Frontend developer, she focuses on implementing highly scalable software-solution with Node.Js and Angular. Besides giving workshops as an Angular Trainer,\r\nshe founded the JavaScript User group, is a core member of the ngGirls Team and Co-organizes the local Angular Heidelberg Usergroup.",
+      "company": "Google Developer Expert | Senior Software Engineer",
+      "featured": false,
+      "photo": "/images/speakers/martina_kraus.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/martina_kraus.jpg",
+      "order": 23,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/MartinaKraus11",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "daniel_mahlow": {
+      "name": "Daniel Mahlow",
+      "bio": "Daniel is a Systems Engineer & Co-founder, Contiamo. He loves solving complex problems and wearing multiple hats. After his CS studies he worked as a systems engineer in a variety of environments, from large corporates to small incubators and co-founded the data science platform startup Contiamo in Berlin, where he leads technical operations. Avid runner and VR/AR enthusiast.",
+      "photo": "/images/speakers/daniel_mahlow.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/daniel_mahlow.jpg",
+      "order": 24
+    },
+    "ronna_steinberg": {
+      "name": "Ronna Steinberg",
+      "bio": "Architect, speaker, mentor, and a software engineer, Ronna organizes the activities of Women Who Go Berlin for whom she crafts unique workshops inspired by the industry’s hottest topics. Advocating that coding is for everyone, Ronna runs her own mentoring program for women in tech. Ronna also managed the scholarship programs for GopherCon Europe 2018 & 2019.",
+      "company": "Women Who Go Berlin",
+      "country": "Berlin, Germany",
+      "featured": true,
+      "photo": "/images/speakers/ronna_steinberg.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/ronna_steinberg.jpg",
+      "order": 25,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/ronnax",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "nishant_srivastava": {
+      "name": "Nishant Srivastava",
+      "bio": "Nishant is a Sr.Android Engineer at Soundbrenner in Berlin, Germany and an open source enthusiast who spends his time doodling when not hacking on Android. He is a caffeine-dependent life-form and can be found either talking about android libraries or advocating that coffee is the elixir of life at community gatherings.\r\n\r\nHe has been part of 2 startups in the past (Founding Team Member at\r\nOmniLabs, Inc. and one of the first employees at Silverpush) with experience in Android SDK Engineering and Audio Digital Signal Processing(DSP) on Android.\r\nWhile working at his past company (Silverpush), he developed the company’s patented UAB (Unique Audio Beacon) Technology.",
+      "company": "Soundbrenner",
+      "country": "Berlin, Germany",
+      "featured": false,
+      "photo": "/images/speakers/nishant_srivastava.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/nishant_srivastava.jpg",
+      "order": 26,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/nisrulz",
+          "name": "Twitter"
+        }
+      ]
+    },
+    "stefan_hofer": {
+      "name": "Dr. Stefan Hofer",
+      "bio": "Stefan is bad at drawing. However, he thinks he can build up domain knowledge by drawing Domain Stories. Stefan studied Software Engineering in Austria and has a PhD in computer science. Since 2005, he has been working for WPS – Workplace Solutions Ltd. in Hamburg. Stefan hops from one domain to the next, helping people to figure out how software can make their lives easier.",
+      "featured": false,
+      "photo": "/images/speakers/stefan_hofer.jpg",
+      "photoUrl": "https://2019.devfest-berlin.de/images/speakers/stefan_hofer.jpg",
+      "order": 27,
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/hofstef",
+          "name": "Twitter"
+        }
+      ]
+    }
+  },
+  "team": [
+    {
+      "members": [
+        {
+          "name": "Natalie Pistunovich",
+          "photo": "/images/team/natalie.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/team/natalie.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/NataliePis",
+              "name": "Twitter"
+            }
+          ],
+          "order": 0
+        },
+        {
+          "name": "Ole Bulbuk",
+          "photo": "/images/team/ole_bulbuk.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/team/ole_bulbuk.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/ole1081",
+              "name": "Twitter"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/flowdev_org",
+              "name": "Also Twitter"
+            },
+            {
+              "icon": "github",
+              "link": "https://github.com/ole108",
+              "name": "GitHub"
+            }
+          ],
+          "order": 1
+        },
+        {
+          "name": "Anderson Queiroz",
+          "photo": "/images/team/anderson_queiroz.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/team/anderson_queiroz.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/AinSoph",
+              "name": "Twitter"
+            }
+          ],
+          "order": 2
+        },
+        {
+          "name": "Eden",
+          "photo": "/images/empty.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 3
+        },
+        {
+          "name": "Dhia Abbassi",
+          "photo": "/images/team/dhia_abbassi.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/team/dhia_abbassi.jpg",
+          "socials": [
+            {
+              "icon": "github",
+              "link": "https://github.com/dhiatn",
+              "name": "GitHub"
+            },
+            {
+              "icon": "instagram",
+              "link": "https://www.instagram.com/dhiatn/",
+              "name": "Instagram"
+            },
+            {
+              "icon": "website",
+              "link": "https://dhia.io/",
+              "name": "Website"
+            }
+          ],
+          "order": 4
+        },
+        {
+          "name": "Mario Bodeman",
+          "photo": "/images/team/mario_bodemann.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/team/mario_bodemann.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/mariobodemann",
+              "name": "Twitter"
+            }
+          ],
+          "order": 5
+        },
+        {
+          "name": "Louis Tsai",
+          "photo": "/images/team/louis_tsai.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/team/louis_tsai.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/louis993546",
+              "name": "Twitter"
+            },
+            {
+              "icon": "medium",
+              "link": "https://medium.com/@louis993546",
+              "name": "Medium"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/tsaitszho/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 6
+        },
+        {
+          "name": "Alişen Erdoğan",
+          "photo": "/images/team/alisen_erdogan.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/team/alisen_erdogan.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/alisene",
+              "name": "Twitter"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://linkedin.com/in/alisen"
+            }
+          ],
+          "order": 7
+        },
+        {
+          "name": "Antonia Pietrus",
+          "photo": "/images/empty.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 8
+        },
+        {
+          "name": "Christine Ip",
+          "photo": "/images/empty.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 9
+        },
+        {
+          "name": "Fatma Fadhli",
+          "photo": "/images/empty.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 10
+        },
+        {
+          "name": "Jaime Flores",
+          "photo": "/images/team/jamie_flores.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/team/jaime_flores.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/flejz",
+              "name": "Twitter"
+            },
+            {
+              "icon": "github",
+              "link": "https://github.com/flejz",
+              "name": "GitHub"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/flejz",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "meetup",
+              "link": "http://meetup.com/gdgsjc",
+              "name": "GDG São José dos Campos"
+            }
+          ],
+          "order": 11
+        },
+        {
+          "name": "Jatinder Pal Singh",
+          "photo": "",
+          "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 12
+        },
+        {
+          "name": "Marina",
+          "photo": "/images/empty.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 13
+        },
+        {
+          "name": "Meredith Avery",
+          "photo": "/images/team/meredith_avery.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/team/meredith_avery.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/meredithkavery",
+              "name": "Twitter"
+            },
+            {
+              "icon": "github",
+              "link": "https://github.com/quassibly",
+              "name": "GitHub"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/meredithavery/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 19
+        },
+        {
+          "name": "Nebojša Božić",
+          "photo": "/images/team/nebojsa_bozic_nebo.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/team/nebojsa_bozic_nebo.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/Kursulla",
+              "name": "Twitter"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/nebojsabozic/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 14
+        },
+        {
+          "name": "Omer Davutoglu",
+          "photo": "/images/team/omer_davutoglu.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/team/omer_davutoglu.jpg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/_3mard",
+              "name": "Twitter"
+            }
+          ],
+          "order": 15
+        },
+        {
+          "name": "Ramy Rais",
+          "photo": "/images/team/ramy_rais.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/team/ramy_rais.jpg",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/ramyrais/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 16
+        },
+        {
+          "name": "Sara",
+          "photo": "/images/empty.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 17
+        },
+        {
+          "name": "Steph",
+          "photo": "/images/empty.jpg",
+          "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+          "socials": [
+            {
+              "icon": "",
+              "link": "",
+              "name": ""
+            }
+          ],
+          "order": 18
+        }
+      ],
+      "title": "Organizers & Volunteers"
+    }
+  ],
+  "tickets": [
+    {
+      "available": false,
+      "currency": "€",
+      "ends": "Nov 9",
+      "inDemand": true,
+      "info": "All profits from this event will go to \"Plant for the Planet\"",
+      "name": "General Admission",
+      "price": 15,
+      "regular": true,
+      "soldOut": false,
+      "starts": "Oct 6",
+      "url": "https://www.eventbrite.co.uk/e/devfest-berlin-2019-tickets-74971390447"
+    },
+    {
+      "available": false,
+      "currency": "€",
+      "ends": "Oct 31",
+      "inDemand": false,
+      "info": "Assist underrepresented groups in the GDG community to attend the conference",
+      "name": "Diversity Ticket",
+      "price": 0,
+      "regular": false,
+      "soldOut": true,
+      "starts": "Oct 6",
+      "url": "https://forms.gle/ERcWHG3ErNarDja17"
+    }
+  ],
+  "triggers": {
+    "images": false
+  },
+  "previousSpeakers": {
+    "jessica_ulyate": {
+      "bio": "South African in Berlin, platform product manager  @hellofreshdev, documentarian, cat lady, food lover, yoga enthusiast, crossfit convert, relaxed runner",
+      "company": "HelloFresh",
+      "id": "jessica_ulyate",
+      "name": "Jessica Ulyate",
+      "order": 1,
+      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/jessica_ulyate.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "Community High-5s",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/JulyAte",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/jessica-ulyate-10750932",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Product Lead, Platform"
+    },
+    "armagan_amcalar": {
+      "bio": "Software architect, leader, lecturer, public speaker, mentor, entrepreneur, JS evangelist, electronics engineer, guitarist, singer, radio host.",
+      "company": "Wayfair",
+      "id": "armagan_amcalar",
+      "name": "Armagan Amcalar",
+      "order": 2,
+      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/armagan_amcalar.png",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "https://slides.com/armaganamcalar/jsconfis?source=post_page-----7cf5b0ebf9b4----------------------#/",
+            "tags": [],
+            "title": "Code, Play & Rock'n'Roll: A WebAudio Experiment",
+            "videoId": "_J-zwPE-8W4"
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/dashersw",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/armaganamcalar",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Senior Engineering Manager"
+    },
+    "bjorn_rabenstein": {
+      "bio": "Björn is a Software Engineer at Grafana Labs and a Prometheus developer. Previously, he was a Production Engineer at SoundCloud and a number cruncher for science.",
+      "company": "Grafana Labs",
+      "id": "bjorn_rabenstein",
+      "name": "Björn Rabenstein",
+      "order": 3,
+      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/bjorn_rabenstein.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "https://docs.google.com/presentation/d/1LYH4epujIfOIkiyS7AA2EzSY9tNeDcGdiAOfVKH-qRo/edit#slide=id.p",
+            "tags": [],
+            "title": "What Does Go Tell Us About Google?",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/björn-rabenstein-75367b57",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Software Engineer"
+    },
+    "hasan_hosgel": {
+      "bio": "Lead Android Engineer @ MHP - A Porsche Company & co-lead GDG Berlin Android. Interested in innovation, mobile and IT.",
+      "company": "MHP – A Porsche Company",
+      "id": "hasan_hosgel",
+      "name": "Hasan Hoşgel",
+      "order": 4,
+      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/hasan.png",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "Actions on Google",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/alosdev",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/hosgel",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Lead Android Engineer"
+    },
+    "ole_bulbuk": {
+      "bio": "Ole is a back end engineer since the nineties. He has been working for many companies big and small and seen many projects fail or succeed. Currently he loves to be part of the vibrant startup life in Berlin while working on a Go back end for OptioPay. In his spare time he is co-leading the Berlin chapter of GDG Golang, enjoys time with his family including two cats and takes part in a broad range of old and new activities from hiking to motor cycling and from meditating to boxing.",
+      "company": "OptioPay Group",
+      "id": "ole_bulbuk",
+      "name": "Ole Bulbuk",
+      "order": 5,
+      "photoUrl": "https://2019.devfest-berlin.de/images/team/ole_bulbuk.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "https://gitpitch.com/flowdev/present-go-boxes-lego",
+            "tags": [],
+            "title": "Boxes Versus Lego Bricks in Go Programming",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/flowdev_org",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/ole-bulbuk-96794170/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Senior Software Engineer"
+    },
+    "stefan_brosteanu": {
+      "bio": "Stefan has been developing with passion for the Android platform for the past 5 years. Avid tinkerer and tech enthusiast, in his spare time, he loves learning new things, experimenting, and jumps at the occasion to teach others the secrets of the Android ecosystem.",
+      "company": "Lateral Inc.",
+      "id": "stefan_brosteanu",
+      "name": "Stefan Brosteanu",
+      "order": 6,
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/stefbrosteanu",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/stefan-brosteanu/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Mobile Developer"
+    },
+    "miquel_beltran": {
+      "bio": "Miquel Beltran is an Android developer based in Berlin, Germany. He worked as a developer for more than ten years in different sectors, and got in Android in 2012 when he started building video player SDKs for streaming apps. Currently he is building native mobile applications for Android (Kotlin) and Flutter, with experience in iOS native app development and cloud serverless solutions with Firebase.",
+      "company": "BELTRAN.WORK",
+      "companyLogo": "",
+      "id": "miquel_beltran",
+      "name": "Miquel Beltran",
+      "order": 7,
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "Mastering Firebase Cloud Messaging",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/miqubel",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/miquelbeltran/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Freelance Software Developer Consultant: Android, Flutter, iOS, Firebase"
+    },
+    "rene_groschke": {
+      "bio": "",
+      "company": "Gradle Inc.",
+      "id": "rene_groschke",
+      "name": "René Gröschke",
+      "order": 8,
+      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/rene_groschke.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "https://jlstrater.github.io/intro-groovy-workshop-devfest-berlin-2017/",
+            "tags": [],
+            "title": "Intro to the Groovy Language and Ecosystem",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/breskeby",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/groeschke/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Senior Software Engineer"
+    },
+    "jatinder_singh": {
+      "bio": "CEO and Founder of 01soft, teaching Yoga since more than 7 Years, practicing Yoga since more than 30 Years.",
+      "company": "01soft",
+      "companyLogo": "",
+      "id": "jatinder_singh",
+      "name": "Jatinder Singh",
+      "order": 9,
+      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/jatinder_singh.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "Yoga Tools @Work",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/jpsberlin",
+          "name": "Twitter"
+        }
+      ],
+      "title": "CEO & Founder"
+    },
+    "mario_bodemann": {
+      "bio": "Software engineer with a huge passion for Android and Kotlin. Enjoying organizing communities for Android and Nintendo Switch 😉 Find me and let's talk.",
+      "company": "Mobimeo, GDG Berlin Android",
+      "companyLogo": "",
+      "id": "mario_bodemann",
+      "name": "Mario Bodemann",
+      "order": 10,
+      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/mario_bodemann.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "https://docs.google.com/presentation/d/1ByepX6zNVZOTJnMEl01rYhaKvN-TzoeO-B-IwhAsoUs",
+            "tags": [],
+            "title": "Android Things 🛠🤖🛠",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/mariobodemann",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/mariobodemann/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Senior Android Developer, GDG co - lead"
+    },
+    "ignacio_coloma": {
+      "bio": "Nacho Coloma is Customer Engineer at Google, where he helps companies of all sizes to migrate their systems to Google Cloud Platform. He holds a M.Sc in Computer Science and has more than 15 years of experience designing applications. Nacho is passionate about containers, storage and web technologies.",
+      "company": "Google",
+      "companyLogo": "",
+      "id": "ignacio_coloma",
+      "name": "Ignacio Coloma",
+      "order": 11,
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "https://docs.google.com/presentation/d/1ByepX6zNVZOTJnMEl01rYhaKvN-TzoeO-B-IwhAsoUs",
+            "tags": [],
+            "title": "Best Practices with Kubernetes",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/nachocoloma",
+          "name": "Twitter"
+        }
+      ],
+      "title": "Customer Engineer"
+    },
+    "jerome_mouton": {
+      "bio": "Jerome is the co-founder and CTO at SnapEngage, a customer engagement and live chat solution. He is also a lead for GDG Berlin and a Google Developer Expert for the Google Cloud Platform. He has been using the Google AppEngine Python since 2008, and AppEngine Java from early 2009.",
+      "company": "SnapEngage",
+      "companyLogo": "",
+      "id": "jerome_mouton",
+      "name": "Jerome Mouton",
+      "order": 12,
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "Google Cloud Platform in a Practical Way",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [],
+      "title": "co-founder and CTO"
+    },
+    "tomek_polanski": {
+      "bio": "I’ve been a mobile software developer for over nine years and I’ve enjoyed every second of it. I am passionate about learning new things every single day and I am not afraid to have an open mind for any new idea.",
+      "company": "Groupon",
+      "companyLogo": "",
+      "id": "tomek_polanski",
+      "name": "Tomek Polanski",
+      "order": 13,
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "From Kotlin to Machine Code",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https: //twitter.com/tpolansk",
+          "name": "Twitter"
+        }
+      ],
+      "title": "Android Developer"
+    },
+    "sowmya_guru": {
+      "bio": "Android developer and a life hacker intrigued by both hardware and software.",
+      "company": "Fanmiles GmbH",
+      "companyLogo": "",
+      "id": "sowmya_guru",
+      "name": "Sowmya Guru",
+      "order": 14,
+      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/sowmya_guru.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "Android Developer Bootcamp",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/sowmyasguru",
+          "name": "Twitter"
+        }
+      ],
+      "title": "Android Developer"
+    },
+    "anna_lena_konig": {
+      "bio": "Product manager for apps, co-organizer of Ladies That UX Berlin, tech enthusiast.",
+      "company": "Evenly",
+      "companyLogo": "",
+      "id": "anna_lena_konig",
+      "name": "Anna-Lena König",
+      "order": 15,
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "7 Aspects That Improve the UX of Your App",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/blog_bleistift",
+          "name": "Twitter"
+        }
+      ],
+      "title": "Product Manager"
+    },
+    "daniel_meyer": {
+      "bio": "Daniel Meyer is VP Engineering at Camunda. He is active in the open source space since 2010 and is leading the development of Camunda BPM since 2013. Recently he has been driving the development of Zeebe.io Camunda's new distributed workflow engine.",
+      "company": "Camunda",
+      "companyLogo": "",
+      "id": "daniel_meyer",
+      "name": "Daniel Meyer",
+      "order": 16,
+      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/daniel_meyer.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "Orchestration of Microservices",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/meyerdan",
+          "name": "Twitter"
+        }
+      ],
+      "title": "VP Engineering"
+    },
+    "stefan_anca": {
+      "bio": "In the Berlin startup world for over 5 years, built mobile Apps for half a dozen startups, specialised on Android. As a freelancer, worked for small companies and large corporate clients, always trying to innovate the mobile scene. Currently working for a company builder with a taste of consulting and interested in efficient team processes and motivating people.",
+      "company": "BCG Digital Ventures",
+      "companyLogo": "",
+      "id": "stefan_anca",
+      "name": "Stefan Anca",
+      "order": 17,
+      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/stefan_anca.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "Challenges of Forming a New Engineering Team",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/StefanAnca",
+          "name": "Twitter"
+        }
+      ],
+      "title": "Senior Software Engineer"
+    },
+    "tejas_kumar": {
+      "bio": "I've been coding since I was 8. Now, I get paid to do it. :D Part of my fun job at the coolest tech company in Berlin involves solving complex problems related to performance and usability, all while staying trendy in the ever-changing front-end world.",
+      "company": "Contiamo",
+      "companyLogo": "",
+      "id": "tejas_kumar",
+      "name": "Tejas Kumar",
+      "order": 18,
+      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/tejas_kumar.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "Streams in the Browser and Why You Should Be Excited About Them",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/tejaskumar_",
+          "name": "Twitter"
+        }
+      ],
+      "title": "Senior Front-End Engineer"
+    },
+    "simon_joecks": {
+      "bio": "Simon is a software engineer developing on Android from the first hour, and currently working on consumer Apps for HERE Technologies.",
+      "company": "HERE Technology",
+      "companyLogo": "",
+      "id": "simon_joecks",
+      "name": "Simon Joecks",
+      "order": 19,
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "Starting From Scratch in 2017",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/s_joecks",
+          "name": "Twitter"
+        }
+      ],
+      "title": "Senior Software Engineer"
+    },
+    "jean_baptiste_clion": {
+      "bio": "Jean-Baptiste Clion (AKA JB) is a senior cloud engineer working with Google Technologies since 2008. Focused on Google Cloud Platform, he is a real GCP enthusiast with couples of years experience on the solution. He was the founder and co-organizer of GDG Basel, Switzerland. Jean-Baptiste worked in various industries such as Defense & Aeronautics, Finance & Consulting. He will be glad to talk to with you about GCP and Google cloud solutions.",
+      "company": "Google Developer Experts",
+      "companyLogo": "",
+      "id": "jean_baptiste_clion",
+      "name": "Jean-Baptiste Clion",
+      "order": 20,
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "VanillaJS ML for Web Developers",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/JBaptisteClion",
+          "name": "Twitter"
+        }
+      ],
+      "title": "Cloud & ML Architect"
+    },
+    "ronaldo_pace": {
+      "bio": "I change diapers for a living and work on IoT and Android Development on my free time.",
+      "company": "Sensorberg GmbH",
+      "companyLogo": "",
+      "id": "ronaldo_pace",
+      "name": "Ronaldo Pace",
+      "order": 21,
+      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/ronaldo_pace.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "Unpacking the Power of LiveData",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/ronaldopace",
+          "name": "Twitter"
+        }
+      ],
+      "title": "Senior Android Developer"
+    },
+    "kingsley_adio": {
+      "bio": "Eats droids for a living. About 7 years working with the Android platform. Big Kotlin enthusiast. Almost 4 years shipping apps with Kotlin",
+      "company": "HelloFresh SE",
+      "companyLogo": "",
+      "id": "kingsley_adio",
+      "name": "Kingsley Adio",
+      "order": 22,
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "Let's Tune This Kotlin",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/kingsleyadio",
+          "name": "Twitter"
+        }
+      ],
+      "title": "Senior Android Developer"
+    },
+    "carolyn_stransky": {
+      "bio": "Carolyn Stransky is an American journalist and JavaScript developer based in Berlin. She’s currently working as a technical writer at Contentful and teaching front end development in the evenings at the ReDI School of Digital Integration.",
+      "company": "Contentful",
+      "companyLogo": "",
+      "id": "carolyn_stransky",
+      "name": "Carolyn Stransky",
+      "order": 23,
+      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/carolyn_stransky.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "Self-care: A Primer on Work-life Balance",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/carolstran",
+          "name": "Twitter"
+        }
+      ],
+      "title": "Senior Android Developer"
+    },
+    "maria_markov": {
+      "bio": "Maria attended the University of British Columbia, where she studied physics and computer science. In 2013 she joined Google as a software engineer and spent 4 years on the Search Ads Serving Infrastructure team in Mountain View. She recently transitioned to the Shopping Spam Detection team in Google's Switzerland office.",
+      "company": "Google Switzerland",
+      "companyLogo": "",
+      "id": "maria_markov",
+      "name": "Maria Markov",
+      "order": 24,
+      "photoUrl": "https://2019.devfest-berlin.de/images/previous-speakers/maria-markov.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "An Insider's View into Software at Scale",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [],
+      "title": "Software Engineer"
+    },
+    "nebojsa_bozic": {
+      "bio": "Software engineer with a huge passion for technology. Practicing programming for more than 12 years and fighting Android since version 1.5 (Donut).",
+      "company": "GDG Berlin Android",
+      "companyLogo": "",
+      "id": "nebojsa_bozic",
+      "name": "Nebojša Božić",
+      "order": 25,
+      "photoUrl": "https://2019.devfest-berlin.de/images/team/nebojsa_bozic_nebo.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "Android Things 🛠🤖🛠",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/Kursulla",
+          "name": "Twitter"
+        }
+      ],
+      "title": "Senior Android Developer"
+    },
+    "jenn_strater": {
+      "bio": "Jenn is an experienced software engineer with a passion for developing and designing applications using new and innovative technologies. She spent the 2016-2017 academic year as a Fulbright Scholar taking graduate level classes and focusing on a research project involving static analysis for the Groovy programming language before joining Zenjob as a senior engineer in June 2017. Her greatest strength is building RESTful APIs, but she has also worked on small teams where she has had roles involving DevOps, NoSQL data stores, front-end, production support, and mobile work.",
+      "company": "Zenjob",
+      "companyLogo": "",
+      "id": "jenn_strater",
+      "name": "Jenn Strater",
+      "order": 26,
+      "photoUrl": "https://2019.devfest-berlin.de/images/empty.jpg",
+      "sessions": {
+        "2017": [
+          {
+            "presentation": "",
+            "tags": [],
+            "title": "Intro to the Groovy Language and Ecosystem",
+            "videoId": ""
+          }
+        ]
+      },
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/codeJENNerator",
+          "name": "Twitter"
+        }
+      ],
+      "title": "Senior Engineer"
+    }
+  }
+}

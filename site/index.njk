@@ -79,7 +79,7 @@ currentTab: home
 
 <!-- Featured Speakers Block (matches original speakers-block.html) -->
 <section>
-  <div class="container" style="padding-top: 64px;">
+  <div class="container">
     <h1 class="container-title highlight-font">{{ resources.speakersBlock.title }}</h1>
 
     <div class="speakers-wrapper speakers-home-grid">
@@ -101,13 +101,12 @@ currentTab: home
         {% if speaker.country %}
         <div class="origin">{{ speaker.country }}</div>
         {% endif %}
-        <div class="description">{{ speaker.title }}{% if speaker.company %}, {{ speaker.company }}{% endif %}</div>
       </a>
       {% endfor %}
     </div>
 
-    <a href="{{ resources.speakersBlock.callToAction.link | url }}" style="display: inline-block; margin-top: 16px;">
-      <button class="paper-button animated icon-right" style="padding-left: 0;">
+    <a href="{{ resources.speakersBlock.callToAction.link | url }}" style="display: inline-block; margin-top: 24px;">
+      <button class="paper-button animated icon-right" style="padding-left: 0; color: var(--default-primary-color);">
         <span>{{ resources.speakersBlock.callToAction.label }}</span>
         <svg style="width: 20px; height: 20px; fill: currentColor;"><use href="#icon-arrow-right-circle"/></svg>
       </button>
@@ -116,7 +115,7 @@ currentTab: home
 </section>
 
 <!-- Tickets Block (matches original tickets-block.html) -->
-<section id="tickets" style="padding: 48px 0;">
+<section id="tickets">
   <div class="tickets-wrapper container">
     <h1 class="container-title highlight-font">{{ resources.ticketsBlock.title }}</h1>
 
@@ -131,14 +130,20 @@ currentTab: home
             <div class="price highlight-font">{{ ticket.currency }}{{ ticket.price }}</div>
           </div>
           <div class="type-description">
-            {% if ticket.starts %}<div style="font-size: 11px; margin-bottom: 4px;">{{ ticket.starts }} - {{ ticket.ends }}</div>{% endif %}
-            <div>{{ ticket.info }}</div>
+            {% if ticket.starts %}<div class="ticket-dates" style="margin-bottom: 4px;">{{ ticket.starts }} - {{ ticket.ends }}</div>{% endif %}
+            <div class="ticket-info">{{ ticket.info }}</div>
           </div>
         </div>
         <div class="actions">
+          {% if ticket.soldOut %}
           <div class="sold-out-text">
             {{ resources.ticketsBlock.soldOut }}
           </div>
+          {% else %}
+          <button class="paper-button primary" disabled style="background-color: var(--primary-color-transparent); font-size: 12px; pointer-events: none; width: 100%;">
+            {{ resources.ticketsBlock.notAvailableYet }}
+          </button>
+          {% endif %}
         </div>
       </div>
       {% endfor %}
@@ -217,7 +222,7 @@ currentTab: home
 </section>
 
 <!-- Partners Block (matches original partners-block.html) -->
-<section style="margin: 48px auto 96px;">
+<section style="margin: 0 auto;">
   <div class="container">
     <h1 class="container-title highlight-font">{{ resources.partnersBlock.title }}</h1>
     {% for group in conference.partners %}
