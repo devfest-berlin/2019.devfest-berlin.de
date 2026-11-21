@@ -1,13 +1,16 @@
 ---
 layout: base
 title: FAQs
+currentTab: faq
 permalink: /faq/index.html
 ---
 
 <div class="hero-block" style="background-color: #fff; color: #424242;">
-  <div class="container hero-content" style="text-align: left;">
+  <div class="container hero-content">
     <div class="hero-title highlight-font">{{ settings.heroSettings.faq.title }}</div>
-    <p class="hero-description">{{ settings.heroSettings.faq.metaDescription }}</p>
+    {% if settings.heroSettings.faq.description %}
+    <p class="hero-description">{{ settings.heroSettings.faq.description }}</p>
+    {% endif %}
   </div>
 </div>
 

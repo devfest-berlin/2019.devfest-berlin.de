@@ -1,13 +1,16 @@
 ---
 layout: base
 title: Code of Conduct
+currentTab: coc
 permalink: /coc/index.html
 ---
 
 <div class="hero-block" style="background-color: #fff; color: #424242;">
-  <div class="container hero-content" style="text-align: left;">
+  <div class="container hero-content">
     <div class="hero-title highlight-font">{{ settings.heroSettings.coc.title }}</div>
-    <p class="hero-description">{{ settings.heroSettings.coc.metaDescription }}</p>
+    {% if settings.heroSettings.coc.description %}
+    <p class="hero-description">{{ settings.heroSettings.coc.description }}</p>
+    {% endif %}
   </div>
 </div>
 

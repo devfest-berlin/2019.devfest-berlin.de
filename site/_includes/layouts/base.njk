@@ -61,6 +61,150 @@
           }
         }
       }
+
+      // Randomly shuffle previous speakers avatars block (matching previous-speakers-block.html)
+      var prevGrid = document.querySelector('.previous-speakers-avatars');
+      if (prevGrid && prevGrid.children.length > 1) {
+        for (var p = prevGrid.children.length; p >= 0; p--) {
+          prevGrid.appendChild(prevGrid.children[Math.random() * p | 0]);
+        }
+      }
+
+      // Close :target modals with Escape key
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && window.location.hash) {
+          var activeModal = document.querySelector('.modal-overlay:target');
+          if (activeModal) {
+            var closeBtn = activeModal.querySelector('.dialog-close-btn');
+            if (closeBtn) closeBtn.click();
+          }
+        }
+      });
+
+      // Filter Menu (matches original filter-menu.html)
+      var filterMenu = document.querySelector('.filter-menu');
+      if (filterMenu) {
+        var toggleBtn = filterMenu.querySelector('.filters-toggle-btn');
+        var board = filterMenu.querySelector('.filters-board');
+        var iconUse = toggleBtn ? toggleBtn.querySelector('use') : null;
+        var selectedWrap = filterMenu.querySelector('.selected-filters');
+        var resetBtn = filterMenu.querySelector('.reset-filters');
+        var resultsEl = filterMenu.querySelector('.filters-results');
+        var filterTarget = filterMenu.getAttribute('data-filter-target');
+        var selected = { tag: [], complexity: [] };
+
+        function setBoardOpen(open) {
+          if (!board) return;
+          board.classList.toggle('open', open);
+          if (iconUse) {
+            iconUse.setAttribute('href', open ? '#icon-close' : '#icon-filter-list');
+          }
+        }
+
+        function applyFilters() {
+          var hasFilters = selected.tag.length > 0 || selected.complexity.length > 0;
+          if (resetBtn) resetBtn.hidden = !hasFilters;
+
+          // Update chip selected states
+          filterMenu.querySelectorAll('.filters-board .tag').forEach(function(chip) {
+            var key = chip.getAttribute('data-filter-key');
+            var val = chip.getAttribute('data-filter-value');
+            if (selected[key] && selected[key].indexOf(val) !== -1) {
+              chip.setAttribute('selected', '');
+            } else {
+              chip.removeAttribute('selected');
+            }
+          });
+
+          // Render selected chips bar
+          if (selectedWrap) {
+            selectedWrap.innerHTML = '';
+            selectedWrap.hidden = !hasFilters;
+            ['tag', 'complexity'].forEach(function(key) {
+              selected[key].forEach(function(val) {
+                var srcChip = filterMenu.querySelector('.filters-board .tag[data-filter-key="' + key + '"][data-filter-value="' + val + '"]');
+                var label = srcChip ? srcChip.textContent.trim() : val;
+                var color = srcChip ? srcChip.style.getPropertyValue('--color') : '';
+                var btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = 'tag';
+                btn.setAttribute('selected', '');
+                if (color) btn.style.setProperty('--color', color);
+                btn.innerHTML = '<span>' + label + '</span><svg><use href="#icon-close"/></svg>';
+                btn.addEventListener('click', function() {
+                  toggleFilter(key, val);
+                });
+                selectedWrap.appendChild(btn);
+              });
+            });
+          }
+
+          var visibleCount = 0;
+          if (filterTarget === 'speakers') {
+            document.querySelectorAll('.speaker-card-full').forEach(function(card) {
+              var tags = (card.getAttribute('data-tags') || '').split(',').filter(Boolean);
+              var match = !selected.tag.length || tags.some(function(t) { return selected.tag.indexOf(t) !== -1; });
+              card.style.display = match ? '' : 'none';
+              if (match) visibleCount++;
+            });
+            if (resultsEl) {
+              resultsEl.hidden = !hasFilters;
+              resultsEl.textContent = visibleCount + ' Results';
+            }
+          } else if (filterTarget === 'schedule') {
+            document.querySelectorAll('.session-element-card').forEach(function(card) {
+              var tags = (card.getAttribute('data-tags') || '').split(',').filter(Boolean);
+              var comp = card.getAttribute('data-complexity') || '';
+              var tagMatch = !selected.tag.length || tags.some(function(t) { return selected.tag.indexOf(t) !== -1; });
+              var compMatch = !selected.complexity.length || (comp && selected.complexity.indexOf(comp) !== -1);
+              var match = tagMatch && compMatch;
+              card.style.display = match ? '' : 'none';
+              if (match) visibleCount++;
+            });
+            document.querySelectorAll('.start-time-label').forEach(function(timeEl) {
+              var row = timeEl.getAttribute('data-slot-row');
+              var cards = document.querySelectorAll('.session-slot[data-slot-row="' + row + '"] .session-element-card');
+              var anyVisible = Array.prototype.some.call(cards, function(c) { return c.style.display !== 'none'; });
+              timeEl.style.display = anyVisible ? '' : 'none';
+            });
+          }
+        }
+
+        function toggleFilter(key, val) {
+          var arr = selected[key] || [];
+          var idx = arr.indexOf(val);
+          if (idx === -1) arr.push(val);
+          else arr.splice(idx, 1);
+          selected[key] = arr;
+          applyFilters();
+        }
+
+        if (toggleBtn) {
+          toggleBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            setBoardOpen(!board.classList.contains('open'));
+          });
+        }
+
+        if (resetBtn) {
+          resetBtn.addEventListener('click', function() {
+            selected = { tag: [], complexity: [] };
+            applyFilters();
+          });
+        }
+
+        filterMenu.querySelectorAll('.filters-board .tag').forEach(function(chip) {
+          chip.addEventListener('click', function() {
+            toggleFilter(chip.getAttribute('data-filter-key'), chip.getAttribute('data-filter-value'));
+          });
+        });
+
+        document.addEventListener('click', function(e) {
+          if (board && board.classList.contains('open') && !filterMenu.contains(e.target)) {
+            setBoardOpen(false);
+          }
+        });
+      }
     })();
   </script>
 </body>

@@ -6,150 +6,206 @@ permalink: /schedule/index.html
 ---
 
 <div class="hero-block" style="background-color: #fff; color: #424242;">
-  <div class="container hero-content" style="text-align: left;">
+  <div class="container hero-content">
     <div class="hero-title highlight-font">{{ settings.heroSettings.schedule.title }}</div>
+    {% if settings.heroSettings.schedule.description %}
     <p class="hero-description">{{ settings.heroSettings.schedule.description }}</p>
+    {% endif %}
+  </div>
+
+  <!-- Header Bottom Toolbar (matches original header-bottom-toolbar.html inside hero-block) -->
+  <div class="schedule-subtoolbar">
+    <div class="schedule-subtoolbar-inner">
+      <div class="schedule-day-tab">{{ conference.daySchedule.dateReadable }}</div>
+    </div>
   </div>
 </div>
 
-<!-- Header Bottom Toolbar (matches original header-bottom-toolbar.html) -->
-<div class="schedule-subtoolbar">
-  <div class="container" style="padding: 0;">
-    <div class="schedule-day-tab highlight-font">November 9</div>
-  </div>
-</div>
-
-<div class="container" style="padding-top: 32px; padding-bottom: 64px;">
-  <!-- Tracks Header on Desktop -->
-  <div class="schedule-tracks-header">
-    {% for track in conference.tracks %}
-    <div class="track-header-item highlight-font">{{ track.title }}</div>
-    {% endfor %}
-  </div>
-
-  <!-- Schedule Grid (matches original schedule-day.html) -->
-  <div class="schedule-day-grid">
-    {% for slot in conference.daySchedule.timeslots %}
-    <div class="timeslot-entry">
-      <div class="start-time-label highlight-font">
-        <span class="hours">{{ slot.startTime.split(':')[0] }}</span><span class="minutes">:{{ slot.startTime.split(':')[1] }}</span>
+<!-- Filter Menu (matches original filter-menu.html) -->
+<div class="filter-menu" data-filter-target="schedule">
+  <div class="filters-toolbar container">
+    <div class="filters-toolbar-row">
+      <div class="filters-results" hidden></div>
+      <div class="filters-actions">
+        <button type="button" class="reset-filters" hidden>{{ resources.filters.clear }}</button>
+        <button type="button" class="paper-button icon-right filters-toggle-btn">
+          <span>{{ resources.filters.title }}</span>
+          <svg width="20" height="20" fill="currentColor"><use href="#icon-filter-list"/></svg>
+        </button>
       </div>
-
-      <div class="sessions-row-grid {% if slot.sessions.length > 1 %}two-cols{% endif %}">
-        {% for sessGroup in slot.sessions %}
-          {% for session in sessGroup.items %}
-          <a class="session-element-card" href="#{{ session.id }}" id="card-{{ session.id }}">
-            <div class="session-header">
-              <span class="tag" style="height: 24px; padding: 2px 8px; font-size: 11px; color: var(--default-primary-color); border-color: rgba(103,58,183,0.3);">
-                {{ session.track.title }}
-              </span>
-              {% if session.complexity %}
-              <span style="font-size: 11px; color: var(--secondary-text-color);">{{ session.complexity }}</span>
-              {% endif %}
-            </div>
-
-            <div class="session-content">
-              <div class="session-title highlight-font">{{ session.title }}</div>
-              
-              {% if session.tags and session.tags.length %}
-              <div style="margin-top: 8px;">
-                {% for tag in session.tags %}
-                <span class="tag" style="height: 22px; padding: 0 8px; font-size: 10px; color: {{ tag | tagColor }}; border-color: {{ tag | tagColor }}; margin: 2px 4px 2px 0;">
-                  {{ tag }}
-                </span>
-                {% endfor %}
-              </div>
-              {% endif %}
-
-              {% if session.speakers and session.speakers.length %}
-              <div class="session-speakers-list">
-                {% for sp in session.speakers %}
-                <div class="session-speaker-item">
-                  <img class="session-speaker-photo" src="{{ sp.photoUrl | url }}" alt="{{ sp.name }}" loading="lazy">
-                  <div>
-                    <div class="session-speaker-name highlight-font">{{ sp.name }}</div>
-                    {% if sp.company %}
-                    <div class="session-speaker-title">{{ sp.company }}</div>
-                    {% endif %}
-                  </div>
-                </div>
-                {% endfor %}
-              </div>
-              {% endif %}
-            </div>
-          </a>
-
-          <!-- Pure No-JS Modal (matches dialog-styles.html & session-details.html) -->
-          <div id="{{ session.id }}" class="modal-overlay">
-            <div class="modal-dialog">
-              <a href="#card-{{ session.id }}" class="dialog-close-btn" aria-label="Close">&times;</a>
-              
-              <div class="dialog-header">
-                <div class="dialog-container">
-                  <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px;">
-                    <span class="tag" style="height: 24px; padding: 2px 8px; font-size: 11px; color: var(--default-primary-color); border-color: rgba(103,58,183,0.3);">
-                      {{ session.track.title }}
-                    </span>
-                    <span class="tag" style="height: 24px; padding: 2px 8px; font-size: 11px; color: var(--secondary-text-color); border-color: var(--border-light-color);">
-                      {{ session.startTime }} - {{ session.endTime }}
-                    </span>
-                    {% if session.complexity %}
-                    <span class="tag" style="height: 24px; padding: 2px 8px; font-size: 11px; color: var(--secondary-text-color); border-color: var(--border-light-color);">
-                      {{ session.complexity }}
-                    </span>
-                    {% endif %}
-                  </div>
-
-                  <h2 class="name highlight-font" style="font-size: 24px; font-weight: 500;">{{ session.title }}</h2>
-
-                  {% if session.tags and session.tags.length %}
-                  <div style="margin-top: 10px;">
-                    {% for tag in session.tags %}
-                    <span class="tag" style="height: 22px; padding: 0 8px; font-size: 10px; color: {{ tag | tagColor }}; border-color: {{ tag | tagColor }}; margin: 2px 4px 2px 0;">
-                      {{ tag }}
-                    </span>
-                    {% endfor %}
-                  </div>
-                  {% endif %}
-                </div>
-              </div>
-
-              <div class="dialog-content dialog-container">
-                {% if session.description %}
-                <div class="description" style="line-height: 1.8; white-space: pre-line;">{{ session.description }}</div>
-                {% endif %}
-
-                {% if session.presentation %}
-                <div style="margin: 20px 0;">
-                  <a href="{{ session.presentation }}" target="_blank" rel="noopener noreferrer">
-                    <button class="paper-button primary">View Presentation Slides</button>
-                  </a>
-                </div>
-                {% endif %}
-
-                {% if session.speakers and session.speakers.length %}
-                <div style="margin-top: 32px; border-top: 1px solid var(--border-light-color); padding-top: 24px;">
-                  <h3 class="highlight-font" style="font-size: 18px; margin-bottom: 16px;">Speakers</h3>
-                  {% for sp in session.speakers %}
-                  <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 12px;">
-                    <img src="{{ sp.photoUrl | url }}" alt="{{ sp.name }}" style="width: 56px; height: 56px; border-radius: 50%; object-fit: cover; background: #eee;">
-                    <div>
-                      <div class="highlight-font" style="font-size: 16px; font-weight: 500;">{{ sp.name }}</div>
-                      {% if sp.company %}
-                      <div style="font-size: 13px; color: var(--secondary-text-color);">{{ sp.company }}</div>
-                      {% endif %}
-                    </div>
-                  </div>
-                  {% endfor %}
-                </div>
-                {% endif %}
-              </div>
-            </div>
-          </div>
-          {% endfor %}
+    </div>
+    <div class="selected-filters" hidden></div>
+  </div>
+  <div class="filters-board">
+    <div class="container">
+      <div class="filter-group">
+        <h3 class="filter-title">{{ resources.filters.tags }}</h3>
+        {% for tag in conference.filters.tags %}
+        <button type="button" class="tag" style="--color: {{ tag | tagColor }};" data-filter-key="tag" data-filter-value="{{ tag | slugClass }}">
+          {{ tag }}
+        </button>
+        {% endfor %}
+      </div>
+      <div class="filter-group">
+        <h3 class="filter-title">{{ resources.filters.complexity }}</h3>
+        {% for level in conference.filters.complexity %}
+        <button type="button" class="tag" style="--color: var(--primary-text-color);" data-filter-key="complexity" data-filter-value="{{ level | slugClass }}">
+          {{ level }}
+        </button>
         {% endfor %}
       </div>
     </div>
+  </div>
+</div>
+
+<div class="container schedule-container">
+  <!-- Schedule Grid (matches original schedule-day.html & session-element.html) -->
+  <div class="schedule-grid" style="--tracks-number: {{ conference.tracks.length }};">
+    {% for slot in conference.daySchedule.timeslots %}
+      {% set slotRow = loop.index %}
+      <div id="time-{{ slot.startTime }}" class="start-time-label" data-slot-row="{{ slotRow }}" style="--time-area: {{ slotRow }} / 1;">
+        <span class="hours">{{ slot.startTime.split(':')[0] }}</span>
+        <span class="minutes">{{ slot.startTime.split(':')[1] }}</span>
+      </div>
+
+      {% for sessGroup in slot.sessions %}
+      <div class="session-slot" data-slot-row="{{ slotRow }}" style="--slot-area: {{ sessGroup.gridArea }};">
+        {% for session in sessGroup.items %}
+        <a class="session-element-card" href="#{{ session.id }}" id="card-{{ session.id }}" data-tags="{% for tag in session.tags %}{{ tag | slugClass }}{% if not loop.last %},{% endif %}{% endfor %}" data-complexity="{{ session.complexity | slugClass }}">
+          {% if session.icon == 'lunch' or session.icon == 'coffee-break' %}
+          <svg class="session-icon" aria-hidden="true"><use href="#icon-{{ session.icon }}"/></svg>
+          {% endif %}
+
+          <div class="session-header">
+            <div style="flex: 1;">
+              <h3 class="session-title">{{ session.title }}</h3>
+              {% if session.summary %}
+              <div class="session-description">{{ session.summary }}</div>
+              {% endif %}
+            </div>
+          </div>
+
+          <div class="session-content">
+            {% if session.complexity %}
+            <div class="session-meta">{{ session.complexity }}</div>
+            {% endif %}
+          </div>
+
+          <div class="session-footer">
+            <div class="session-footer-row">
+              <div class="session-meta">
+                {% if session.durationText %}{{ session.durationText }}{% endif %}
+              </div>
+              {% if session.tags and session.tags.length %}
+              <div class="session-tags">
+                {% for tag in session.tags %}
+                <span class="tag" style="color: {{ tag | tagColor }}; border-color: {{ tag | tagColor }};">{{ tag }}</span>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+
+            {% if session.speakers and session.speakers.length %}
+            <div class="session-speakers-list">
+              {% for sp in session.speakers %}
+              <div class="session-speaker-item">
+                <img class="session-speaker-photo" src="{{ sp.photoUrl | url }}" alt="{{ sp.name }}" loading="lazy">
+                <div>
+                  <div class="session-speaker-name">{{ sp.name }}</div>
+                  {% if sp.subtitle %}
+                  <div class="session-speaker-title">{{ sp.subtitle }}</div>
+                  {% endif %}
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+      {% endfor %}
     {% endfor %}
   </div>
 </div>
+
+<!-- Pure No-JS Modals (matches dialog-styles.html & session-details.html) -->
+{% for session in conference.sessionsList %}
+<div id="{{ session.id }}" class="modal-overlay">
+  <a href="#card-{{ session.id }}" class="modal-backdrop-close" aria-label="Close"></a>
+  <div class="modal-dialog-wrap">
+    <a href="#card-{{ session.id }}" class="dialog-close-btn" aria-label="Close">
+      <svg class="icon-desktop-close"><use href="#icon-close"/></svg>
+      <svg class="icon-mobile-back"><use href="#icon-arrow-left"/></svg>
+    </a>
+    <div class="modal-dialog">
+      <div class="dialog-header">
+        <div class="dialog-container dialog-header-content">
+          <h2 class="name highlight-font">{{ session.title }}</h2>
+          {% if session.tags and session.tags.length %}
+          <div class="tags">
+            {% for tag in session.tags %}
+            <span class="tag" style="color: {{ tag | tagColor }}; border-color: {{ tag | tagColor }};">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="dialog-body">
+        <div class="dialog-content dialog-container">
+          <h3 class="meta-info">
+            {{ session.dateReadable }}, {{ session.startTime }} - {{ session.endTime }}
+          </h3>
+          <h3 class="meta-info">
+            {{ session.track.title }}
+          </h3>
+          {% if session.complexity %}
+          <h3 class="meta-info">
+            {{ resources.sessionDetails.contentLevel }}: {{ session.complexity }}
+          </h3>
+          {% endif %}
+
+          {% if session.description %}
+          <div class="description">{{ session.description | markdown | safe }}</div>
+          {% endif %}
+
+          {% if session.presentation or session.videoId %}
+          <div style="display: flex; gap: 16px; margin: 20px 0;">
+            {% if session.presentation %}
+            <a href="{{ session.presentation }}" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; color: var(--primary-text-color);">
+              <svg width="18" height="18" fill="currentColor"><use href="#icon-presentation"/></svg>
+              <span>{{ resources.sessionDetails.viewPresentation }}</span>
+            </a>
+            {% endif %}
+            {% if session.videoId %}
+            <a href="https://www.youtube.com/watch?v={{ session.videoId }}" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; color: var(--primary-text-color);">
+              <svg width="18" height="18" fill="currentColor"><use href="#icon-video"/></svg>
+              <span>{{ resources.sessionDetails.viewVideo }}</span>
+            </a>
+            {% endif %}
+          </div>
+          {% endif %}
+
+          {% if session.speakers and session.speakers.length %}
+          <div style="margin-top: 32px;">
+            <h3 class="highlight-font" style="font-size: 1.17em; font-weight: normal;">{{ resources.sessionDetails.speakers }}</h3>
+            {% for sp in session.speakers %}
+            <a href="{{ ('/speakers/#' + sp.id) | url }}" style="display: flex; align-items: center; gap: 16px; margin-top: 16px; color: var(--primary-text-color); text-decoration: none;">
+              <img src="{{ sp.photoUrl | url }}" alt="{{ sp.name }}" style="width: 48px; height: 48px; border-radius: 50%; object-fit: cover; background: var(--secondary-background-color); flex-shrink: 0;">
+              <div>
+                <div style="font-size: 15px; margin-bottom: 4px; line-height: 1.2;">{{ sp.name }}</div>
+                {% if sp.subtitle %}
+                <div style="font-size: 12px; line-height: 1; color: var(--primary-text-color);">{{ sp.subtitle }}</div>
+                {% endif %}
+              </div>
+            </a>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

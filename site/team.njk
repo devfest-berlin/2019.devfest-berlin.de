@@ -6,9 +6,11 @@ permalink: /team/index.html
 ---
 
 <div class="hero-block" style="background-color: #fff; color: #424242;">
-  <div class="container hero-content" style="text-align: left;">
+  <div class="container hero-content">
     <div class="hero-title highlight-font">{{ settings.heroSettings.team.title }}</div>
-    <p class="hero-description">{{ settings.heroSettings.team.metaDescription }}</p>
+    {% if settings.heroSettings.team.description %}
+    <p class="hero-description">{{ settings.heroSettings.team.description }}</p>
+    {% endif %}
   </div>
 </div>
 

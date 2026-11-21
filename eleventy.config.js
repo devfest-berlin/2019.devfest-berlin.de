@@ -14,7 +14,7 @@ module.exports = function(eleventyConfig) {
     "ml": "#ff6f00",
     "kubernetes": "#326CE5",
     "database": "#336791",
-    "diversity": "#e91e63",
+    "diversity": "#feb8c6",
     "career": "#dddd00",
     "marketing": "#ff0000",
     "programming": "#424242",
@@ -25,14 +25,33 @@ module.exports = function(eleventyConfig) {
     "cloud": "#00B0ff",
     "gde": "#3d5afe",
     "wtm": "#1de9b6",
-    "gdg": "#00B0ff",
-    "general": "#673AB7"
+    "gdg": "#00B0ff"
   };
 
+  function generateClassName(value) {
+    return value
+      ? String(value).trim().replace(/\W+/g, "-").replace(/([a-z\d])([A-Z])/g, "$1-$2").toLowerCase()
+      : "";
+  }
+
   eleventyConfig.addFilter("tagColor", function(tag) {
-    if (!tag) return "#673AB7";
-    const key = tag.toLowerCase().trim().replace(/\s+/g, "-");
-    return tagColors[key] || tagColors[tag.toLowerCase().trim()] || "#673AB7";
+    if (!tag) return "#424242";
+    const key = generateClassName(tag);
+    return tagColors[key] || tagColors[tag.toLowerCase().trim()] || "#424242";
+  });
+
+  eleventyConfig.addFilter("slugClass", function(value) {
+    return generateClassName(value);
+  });
+
+  let mdInlineRenderer;
+  eleventyConfig.amendLibrary("md", (mdLib) => {
+    mdInlineRenderer = new mdLib.constructor({ html: true, breaks: true, linkify: true });
+  });
+
+  eleventyConfig.addFilter("markdown", function(str) {
+    if (!str) return "";
+    return mdInlineRenderer ? mdInlineRenderer.render(String(str)) : str;
   });
 
   eleventyConfig.addFilter("split", function(str, delim) {

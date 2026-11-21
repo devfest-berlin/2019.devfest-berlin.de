@@ -51,7 +51,7 @@
         <div class="col-heading">{{ footerRel.title }}</div>
         <ul class="nav">
           {% for link in footerRel.links %}
-          <li><a href="{{ link.url }}" {% if link.newTab %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.name }}</a></li>
+          <li><a href="{% if link.url.startsWith('/') %}{{ link.url | url }}{% else %}{{ link.url }}{% endif %}" {% if link.newTab %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.name }}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -65,7 +65,7 @@
         </a>
 
         <div class="copyright">
-          &copy; 2019 Based on <a href="https://github.com/gdg-x/hoverboard" target="_blank" rel="noopener noreferrer">Project Hoverboard</a> &middot; <a class="coc" href="{{ '/coc/' | url }}">{{ resources.codeOfConduct }}</a>
+          &copy; 2019 Static archive originally built with <a href="https://github.com/gdg-x/hoverboard" target="_blank" rel="noopener noreferrer">Project Hoverboard</a>, now powered by <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">Eleventy</a> &middot; <a class="coc" href="{{ '/coc/' | url }}">{{ resources.codeOfConduct }}</a>
         </div>
       </div>
     </div>

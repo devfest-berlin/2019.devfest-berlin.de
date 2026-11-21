@@ -24,9 +24,11 @@ eleventyComputed:
         <img src="{{ speaker.photoUrl | url }}" alt="{{ speaker.name }}" style="width: 88px; height: 88px; border-radius: 50%; object-fit: cover; background: #eee;">
         <div>
           <h1 class="name highlight-font" style="font-size: 26px; font-weight: 500; margin: 0; padding: 0;">{{ speaker.name }}</h1>
+          {% if speaker.companyInfo %}
           <div style="font-size: 15px; color: var(--secondary-text-color); margin-top: 4px;">
-            {{ speaker.title }}{% if speaker.company %}, {{ speaker.company }}{% endif %}
+            {{ speaker.companyInfo }}
           </div>
+          {% endif %}
           {% if speaker.country %}
           <div style="font-size: 13px; color: var(--secondary-text-color); margin-top: 2px;">
             {{ speaker.country }}
@@ -38,7 +40,7 @@ eleventyComputed:
 
     <div class="dialog-content dialog-container">
       {% if speaker.bio %}
-      <div class="description" style="line-height: 1.8; white-space: pre-line;">{{ speaker.bio }}</div>
+      <div class="description">{{ speaker.bio | markdown | safe }}</div>
       {% endif %}
 
       {% if speaker.socials and speaker.socials.length %}

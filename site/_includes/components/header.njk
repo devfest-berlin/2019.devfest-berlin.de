@@ -18,7 +18,7 @@
       <li class="nav-item"><a href="{{ '/schedule/' | url }}" class="{% if currentTab == 'schedule' %}active{% endif %}">Schedule</a></li>
       <li class="nav-item"><a href="{{ '/team/' | url }}" class="{% if currentTab == 'team' %}active{% endif %}">Team</a></li>
       <li class="nav-item nav-buy-ticket">
-        <a href="#tickets" class="buy-button">Buy Ticket</a>
+        <a href="{{ conference.buyTicketUrl }}" target="_blank" rel="noopener noreferrer" class="buy-button">{{ resources.buyTicket }}</a>
       </li>
     </ul>
   </div>
@@ -36,7 +36,7 @@
       <li><a href="{{ '/coc/' | url }}" class="{% if currentTab == 'coc' %}active{% endif %}">Code of Conduct</a></li>
       <li><a href="{{ '/faq/' | url }}" class="{% if currentTab == 'faq' %}active{% endif %}">FAQs</a></li>
       <li style="border-top: 1px solid var(--divider-color); margin-top: 8px; padding-top: 8px;">
-        <a href="#tickets" style="color: var(--default-primary-color); font-weight: 500;">Buy Ticket</a>
+        <a href="{{ conference.buyTicketUrl }}" target="_blank" rel="noopener noreferrer" style="color: var(--default-primary-color); font-weight: 500;">{{ resources.buyTicket }}</a>
       </li>
     </ul>
   </div>

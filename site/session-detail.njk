@@ -46,7 +46,7 @@ eleventyComputed:
       {% endif %}
 
       {% if session.description %}
-      <div class="description" style="line-height: 1.8; white-space: pre-line;">{{ session.description }}</div>
+      <div class="description">{{ session.description | markdown | safe }}</div>
       {% endif %}
 
       <div class="actions" style="display: flex; gap: 16px; margin: 20px 0;">
@@ -72,9 +72,11 @@ eleventyComputed:
           <img src="{{ sp.photoUrl | url }}" alt="{{ sp.name }}" style="width: 48px; height: 48px; border-radius: 50%; object-fit: cover; background: #eee;">
           <div>
             <div style="font-size: 16px; font-weight: 500; color: var(--primary-text-color);">{{ sp.name }}</div>
+            {% if sp.subtitle %}
             <div style="font-size: 13px; color: var(--secondary-text-color);">
-              {{ sp.company }}{% if sp.country %} / {{ sp.country }}{% endif %}
+              {{ sp.subtitle }}
             </div>
+            {% endif %}
           </div>
         </a>
         {% endfor %}

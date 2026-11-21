@@ -6,17 +6,48 @@ permalink: /speakers/index.html
 ---
 
 <div class="hero-block" style="background-color: #fff; color: #424242;">
-  <div class="container hero-content" style="text-align: left;">
+  <div class="container hero-content">
     <div class="hero-title highlight-font">{{ settings.heroSettings.speakers.title }}</div>
     <p class="hero-description">{{ settings.heroSettings.speakers.description }}</p>
   </div>
 </div>
 
-<div class="container" style="padding-top: 32px; padding-bottom: 64px;">
+<!-- Filter Menu (matches original filter-menu.html) -->
+<div class="filter-menu" data-filter-target="speakers">
+  <div class="filters-toolbar container">
+    <div class="filters-toolbar-row">
+      <div class="filters-results" hidden></div>
+      <div class="filters-actions">
+        <button type="button" class="reset-filters" hidden>{{ resources.filters.clear }}</button>
+        <button type="button" class="paper-button icon-right filters-toggle-btn">
+          <span>{{ resources.filters.title }}</span>
+          <svg width="20" height="20" fill="currentColor"><use href="#icon-filter-list"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="selected-filters" hidden></div>
+  </div>
+  <div class="filters-board">
+    <div class="container">
+      <div class="filter-group">
+        <h3 class="filter-title">{{ resources.filters.tags }}</h3>
+        {% for tag in conference.filters.tags %}
+        <button type="button" class="tag" style="--color: {{ tag | tagColor }};" data-filter-key="tag" data-filter-value="{{ tag | slugClass }}">
+          {{ tag }}
+        </button>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
   <div class="speakers-page-grid">
     {% for speaker in conference.speakersList %}
-    <a href="#{{ speaker.id }}" class="speaker-card-full card" id="card-{{ speaker.id }}">
-      <div style="position: relative; display: inline-block;">
+    <div class="speaker-card-full card" id="card-{{ speaker.id }}" data-tags="{% for tag in speaker.tags %}{{ tag | slugClass }}{% if not loop.last %},{% endif %}{% endfor %}">
+      <a href="#{{ speaker.id }}" class="card-overlay-link" aria-label="{{ speaker.name }}"></a>
+
+      <div class="photo-wrap">
         <img class="photo" src="{{ speaker.photoUrl | url }}" alt="{{ speaker.name }}" loading="lazy">
         {% if speaker.badges and speaker.badges.length %}
         <div class="speaker-badges">
@@ -28,61 +59,120 @@ permalink: /speakers/index.html
         </div>
         {% endif %}
       </div>
-      <div class="name highlight-font">{{ speaker.name }}</div>
-      {% if speaker.country %}
-      <div class="origin">{{ speaker.country }}</div>
-      {% endif %}
-      <div class="description">{{ speaker.title }}{% if speaker.company %}, {{ speaker.company }}{% endif %}</div>
-    </a>
 
-    <!-- Pure No-JS Modal (matches dialog-styles.html) -->
-    <div id="{{ speaker.id }}" class="modal-overlay">
-      <div class="modal-dialog">
-        <a href="#card-{{ speaker.id }}" class="dialog-close-btn" aria-label="Close">&times;</a>
-        
-        <div class="dialog-header">
-          <div class="dialog-container" style="display: flex; align-items: center; gap: 20px;">
-            <img src="{{ speaker.photoUrl | url }}" alt="{{ speaker.name }}" style="width: 88px; height: 88px; border-radius: 50%; object-fit: cover; background: #eee;">
-            <div>
-              <h2 class="name highlight-font" style="font-size: 26px; font-weight: 500;">{{ speaker.name }}</h2>
-              <div style="font-size: 15px; color: var(--secondary-text-color); margin-top: 4px;">
-                {{ speaker.title }}{% if speaker.company %}, {{ speaker.company }}{% endif %}
-              </div>
-              {% if speaker.country %}
-              <div style="font-size: 13px; color: var(--secondary-text-color); margin-top: 2px;">
-                {{ speaker.country }}
-              </div>
-              {% endif %}
+      {% if speaker.companyLogoUrl %}
+      <img class="company-logo" src="{{ speaker.companyLogoUrl | url }}" alt="{{ speaker.company }}" loading="lazy">
+      {% endif %}
+
+      <div class="description">
+        <h2 class="name">{{ speaker.name }}</h2>
+        {% if speaker.country %}
+        <div class="origin">{{ speaker.country }}</div>
+        {% endif %}
+        {% if speaker.bio %}
+        <div class="bio">{{ speaker.bio }}</div>
+        {% endif %}
+      </div>
+
+      {% if speaker.socials and speaker.socials.length %}
+      <div class="contacts">
+        {% for social in speaker.socials %}
+          {% if social.link %}
+          <a href="{{ social.link }}" target="_blank" rel="noopener noreferrer" class="social-icon" title="{{ social.name or social.icon }}" aria-label="{{ social.name or social.icon }}">
+            {% if social.icon == 'twitter' %}
+            <svg><use href="#icon-twitter"/></svg>
+            {% elseif social.icon == 'github' %}
+            <svg><use href="#icon-github"/></svg>
+            {% elseif social.icon == 'linkedin' %}
+            <svg><use href="#icon-linkedin"/></svg>
+            {% elseif social.icon == 'instagram' %}
+            <svg><use href="#icon-instagram"/></svg>
+            {% elseif social.icon == 'medium' %}
+            <svg><use href="#icon-medium"/></svg>
+            {% elseif social.icon == 'website' %}
+            <svg><use href="#icon-website"/></svg>
+            {% elseif social.icon == 'meetup' %}
+            <svg><use href="#icon-meetup"/></svg>
+            {% elseif social.icon == 'youtube' %}
+            <svg><use href="#icon-youtube"/></svg>
+            {% else %}
+            <svg><use href="#icon-website"/></svg>
+            {% endif %}
+          </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Pure No-JS Modals (matches dialog-styles.html & speaker-details.html) -->
+{% for speaker in conference.speakersList %}
+<div id="{{ speaker.id }}" class="modal-overlay">
+  <a href="#card-{{ speaker.id }}" class="modal-backdrop-close" aria-label="Close"></a>
+  <div class="modal-dialog-wrap">
+    <a href="#card-{{ speaker.id }}" class="dialog-close-btn" aria-label="Close">
+      <svg class="icon-desktop-close"><use href="#icon-close"/></svg>
+      <svg class="icon-mobile-back"><use href="#icon-arrow-left"/></svg>
+    </a>
+    <div class="modal-dialog">
+      <div class="dialog-header">
+        <div class="dialog-container dialog-header-content header-horizontal">
+          <img src="{{ speaker.photoUrl | url }}" alt="{{ speaker.name }}" style="width: 96px; height: 96px; border-radius: 50%; object-fit: cover; background: var(--contrast-additional-background-color); flex-shrink: 0;">
+          <div>
+            <h2 class="name highlight-font">{{ speaker.name }}</h2>
+            {% if speaker.headerSubtitle %}
+            <div style="font-size: 16px; color: var(--secondary-text-color); margin-top: 4px;">
+              {{ speaker.headerSubtitle }}
             </div>
+            {% endif %}
           </div>
         </div>
+      </div>
 
+      <div class="dialog-body">
         <div class="dialog-content dialog-container">
+          {% if speaker.companyInfo %}
+          <h3 class="meta-info">{{ speaker.companyInfo }}</h3>
+          {% endif %}
+
           {% if speaker.badges and speaker.badges.length %}
-          <div style="margin-bottom: 16px;">
+          <h3 class="meta-info" style="margin-top: 4px;">
             {% for badge in speaker.badges %}
-            <span class="tag" style="height: 26px; padding: 2px 10px; font-size: 11px; margin-right: 6px;">{{ badge.name or badge.description }}</span>
+            <a href="{{ badge.link }}" target="_blank" rel="noopener noreferrer" title="{{ badge.description }}">{{ badge.description }}</a>{% if not loop.last %}, {% endif %}
             {% endfor %}
-          </div>
+          </h3>
           {% endif %}
 
           {% if speaker.bio %}
-          <div class="description" style="line-height: 1.8; white-space: pre-line;">{{ speaker.bio }}</div>
+          <div class="description">{{ speaker.bio | markdown | safe }}</div>
           {% endif %}
 
           {% if speaker.socials and speaker.socials.length %}
-          <div style="display: flex; gap: 12px; margin-top: 20px;">
+          <div style="display: flex; gap: 16px; margin-top: 16px;">
             {% for s in speaker.socials %}
               {% if s.link %}
-              <a href="{{ s.link }}" target="_blank" rel="noopener noreferrer" style="color: var(--secondary-text-color);" title="{{ s.name }}" aria-label="{{ s.name }}">
+              <a href="{{ s.link }}" target="_blank" rel="noopener noreferrer" style="color: var(--secondary-text-color);" title="{{ s.name or s.icon }}" aria-label="{{ s.name or s.icon }}">
                 {% if s.icon == 'twitter' %}
-                <svg width="22" height="22" fill="currentColor"><use href="#icon-twitter"/></svg>
+                <svg width="20" height="20" fill="currentColor"><use href="#icon-twitter"/></svg>
                 {% elseif s.icon == 'github' %}
-                <svg width="22" height="22" fill="currentColor"><use href="#icon-github"/></svg>
+                <svg width="20" height="20" fill="currentColor"><use href="#icon-github"/></svg>
                 {% elseif s.icon == 'linkedin' %}
-                <svg width="22" height="22" fill="currentColor"><use href="#icon-linkedin"/></svg>
+                <svg width="20" height="20" fill="currentColor"><use href="#icon-linkedin"/></svg>
+                {% elseif s.icon == 'instagram' %}
+                <svg width="20" height="20" fill="currentColor"><use href="#icon-instagram"/></svg>
+                {% elseif s.icon == 'medium' %}
+                <svg width="20" height="20" fill="currentColor"><use href="#icon-medium"/></svg>
+                {% elseif s.icon == 'website' %}
+                <svg width="20" height="20" fill="currentColor"><use href="#icon-website"/></svg>
+                {% elseif s.icon == 'meetup' %}
+                <svg width="20" height="20" fill="currentColor"><use href="#icon-meetup"/></svg>
+                {% elseif s.icon == 'youtube' %}
+                <svg width="20" height="20" fill="currentColor"><use href="#icon-youtube"/></svg>
                 {% else %}
-                <svg width="22" height="22" fill="currentColor"><use href="#icon-arrow-right"/></svg>
+                <svg width="20" height="20" fill="currentColor"><use href="#icon-website"/></svg>
                 {% endif %}
               </a>
               {% endif %}
@@ -91,34 +181,53 @@ permalink: /speakers/index.html
           {% endif %}
 
           {% if speaker.sessions and speaker.sessions.length %}
-          <div style="margin-top: 32px; border-top: 1px solid var(--border-light-color); padding-top: 24px;">
-            <h3 class="highlight-font" style="font-size: 20px; margin-bottom: 16px;">Sessions</h3>
+          <div style="margin-top: 32px;">
+            <h3 class="highlight-font" style="font-size: 1.17em; font-weight: normal;">{{ resources.speakerDetails.sessions }}</h3>
             {% for sess in speaker.sessions %}
-            <div style="background: var(--additional-background-color); padding: 16px; border-radius: var(--border-radius); margin-bottom: 12px;">
-              <div style="font-size: 12px; font-weight: 600; text-transform: uppercase; color: var(--default-primary-color); margin-bottom: 4px;">
-                {{ sess.startTime }} - {{ sess.endTime }} &bull; {{ sess.track.title }}
+            <a href="{{ ('/schedule/#' + sess.id) | url }}" style="display: block; margin-top: 16px; color: var(--primary-text-color);">
+              <div style="margin-bottom: 4px; line-height: 1.2; font-size: 15px;">{{ sess.title }}</div>
+              <div style="font-size: 12px; line-height: 1.4; color: var(--secondary-text-color);">
+                {{ sess.dateReadable }}, {{ sess.startTime }} - {{ sess.endTime }}
               </div>
-              <a href="{{ ('/schedule/#' + sess.id) | url }}" style="font-size: 16px; font-weight: 500; color: var(--primary-text-color);">
-                {{ sess.title }}
-              </a>
-            </div>
+              <div style="font-size: 12px; line-height: 1.4; color: var(--secondary-text-color);">
+                {{ sess.track.title }}
+              </div>
+              {% if sess.tags and sess.tags.length %}
+              <div style="margin-top: 8px; display: flex; flex-wrap: wrap; gap: 4px;">
+                {% for tag in sess.tags %}
+                <span class="tag" style="color: {{ tag | tagColor }}; border-color: {{ tag | tagColor }};">{{ tag }}</span>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </a>
             {% endfor %}
           </div>
           {% endif %}
         </div>
       </div>
     </div>
-    {% endfor %}
   </div>
+</div>
+{% endfor %}
 
-  <!-- Previous Speakers Section (matches original previous-speakers-block.html) -->
-  <div style="margin-top: 80px; text-align: center; background: var(--secondary-background-color); padding: 48px 24px; border-radius: var(--border-radius);">
-    <h2 class="container-title highlight-font">{{ resources.previousSpeakersBlock.title }}</h2>
-    <p style="color: var(--secondary-text-color); max-width: 500px; margin: 0 auto 24px;">{{ settings.heroSettings.previousSpeakers.metaDescription }}</p>
-    <a href="{{ '/previous-speakers/' | url }}">
-      <button class="paper-button primary">
+<!-- Previous Speakers Block (matches original previous-speakers-block.html) -->
+<section class="previous-speakers-block">
+  <div class="container">
+    <h1 class="container-title highlight-font">{{ resources.previousSpeakersBlock.title }}</h1>
+
+    <div class="previous-speakers-avatars">
+      {% for prev in conference.previousSpeakers %}
+      <a class="prev-speaker-avatar" href="{{ ('/previous-speakers/#' + prev.id) | url }}" title="{{ prev.name }}">
+        <img class="photo" src="{{ prev.photoUrl | url }}" alt="{{ prev.name }}" loading="lazy">
+      </a>
+      {% endfor %}
+    </div>
+
+    <a href="{{ resources.previousSpeakersBlock.callToAction.link | url }}">
+      <button class="paper-button animated icon-right">
         <span>{{ resources.previousSpeakersBlock.callToAction.label }}</span>
+        <svg style="width: 20px; height: 20px; fill: currentColor;"><use href="#icon-arrow-right-circle"/></svg>
       </button>
     </a>
   </div>
-</div>
+</section>

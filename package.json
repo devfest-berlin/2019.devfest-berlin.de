@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "DevFest Berlin 2019 static website",
   "scripts": {
-    "start": "eleventy --serve",
+    "start": "eleventy --serve --port=2019",
     "build": "eleventy"
   },
   "devDependencies": {
