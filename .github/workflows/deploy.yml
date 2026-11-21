@@ -43,7 +43,7 @@ jobs:
           PATH_PREFIX: ${{ steps.pages.outputs.base_path }}
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: '_site'
 
