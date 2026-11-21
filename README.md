@@ -37,5 +37,18 @@ To enable GitHub Pages in your repository:
 1. Go to **Settings** > **Pages**
 2. Under **Build and deployment** > **Source**, select **GitHub Actions**.
 
+## Maintainer Notes
+
+- **Data sources**: `docs/default-firebase-data.json` is an active build input (not documentation) — `site/_data/conference.js` reads speakers, sessions, schedule, team, previous speakers, partners, tickets, and gallery directly from it. UI copy and site settings live in `site/_data/resources.json` and `site/_data/settings.json`.
+- **Intentional archive quirks**:
+  - **Team ordering** (`site/_data/conference.js`): members are sorted lexicographically by stringified index (`"0", "1", "10", ..., "19", "2", ...`) to match the original Firestore document-ID ordering.
+  - **Typography** (`site/_includes/layouts/base.njk`, `site/css/main.css`): uses `Google Sans Flex` + `Roboto` as a licensed stand-in for the original site's `Product Sans`.
+  - **Original copy**: 2019-era wording/typos (e.g., `/faq/` "Coming soon......") are preserved intentionally.
+- **Implementation gotchas**:
+  - **Markdown filter** (`eleventy.config.js`): keep the `| markdown` filter on its own `markdown-it` instance with `breaks: true` so Eleventy's global `.md` renderer (used by `site/coc.md`) does not turn hard-wrapped lines into `<br>` tags.
+  - **Dialogs** (`site/css/main.css`): `.dialog-close-btn` sits on `.modal-dialog-wrap` outside `.modal-dialog`'s `overflow: hidden` so the desktop close icon is not clipped.
+  - **Mobile drawer** (`site/css/main.css`): `#nav-toggle` is visually hidden (`position: absolute; opacity: 0`) rather than `display: none` to avoid a WebKit/Safari `:checked ~` style-invalidation quirk.
+  - **Subpath deploys**: keep internal template paths wrapped with Eleventy's `| url` filter and CSS `url(...)` paths relative (`../images/...`) so `PATH_PREFIX` builds work on GitHub Pages.
+
 ## Legacy Codebase
-The original 2019 Polymer 2 / Gulp 4 files are preserved in the [`backup/`](backup/) directory.
+The original 2019 Polymer 2 / Gulp 4 codebase is preserved in git history prior to the Eleventy migration.
